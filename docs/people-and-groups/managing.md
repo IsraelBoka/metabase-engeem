@@ -101,7 +101,7 @@ If you're a Metabase admin and have access to the server console, you can get Me
 4.  Start Metabase normally again (_without_ the `reset-password` option).
 5.  Navigate to it in your browser using the path `/auth/reset_password/:token`, where ":token" is the token that was generated from the step above. The full URL should look something like this:
     ```
-    https://metabase.example.com/auth/reset_password/1_7db2b600-d538-4aeb-b4f7-0cf5b1970d89
+    https://data.engeem.com.example.com/auth/reset_password/1_7db2b600-d538-4aeb-b4f7-0cf5b1970d89
     ```
 6.  You should now see a page where you can input a new password for the admin account.
 

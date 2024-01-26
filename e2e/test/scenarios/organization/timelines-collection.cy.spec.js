@@ -511,12 +511,12 @@ describe("scenarios > organization > timelines > collection", () => {
     it("should support markdown in timeline description", () => {
       cy.createTimeline({
         name: "Releases",
-        description: "[Release notes](https://metabase.test)",
+        description: "[Release notes](https://data.engeem.com.test)",
       });
 
       cy.createTimeline({
         name: "Holidays",
-        description: "[Holiday list](https://metabase.test)",
+        description: "[Holiday list](https://data.engeem.com.test)",
       });
 
       cy.visit("/collection/root/timelines");
@@ -534,7 +534,7 @@ describe("scenarios > organization > timelines > collection", () => {
         events: [
           {
             name: "RC1",
-            description: "[Release notes](https://metabase.test)",
+            description: "[Release notes](https://data.engeem.com.test)",
           },
         ],
       });

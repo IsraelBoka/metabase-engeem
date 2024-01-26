@@ -36,7 +36,7 @@ describeEE("database prompt banner", () => {
           .should("have.attr", "href")
           .and(
             "eq",
-            "https://metabase.com/help/connect?email=admin%40metabase.test&site_url=http%3A%2F%2Flocalhost%3A4000",
+            "https://data.engeem.com.com/help/connect?email=admin%40metabase.test&site_url=http%3A%2F%2Flocalhost%3A4000",
           );
 
         cy.findByRole("link", { name: "Connect your database" }).click();

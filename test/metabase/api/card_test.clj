@@ -1604,7 +1604,7 @@
                                         :pulse_channel_id (u/the-id pc)}
            PulseChannelRecipient _     {:user_id          (mt/user->id :rasta)
                                         :pulse_channel_id (u/the-id pc)}]
-          (mt/with-temporary-setting-values [site-url "https://metabase.com"]
+          (mt/with-temporary-setting-values [site-url "https://data.engeem.com.com"]
             (with-cards-in-writeable-collection card
               (mt/with-fake-inbox
                 (when deleted?

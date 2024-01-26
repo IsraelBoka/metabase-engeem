@@ -72,13 +72,13 @@
     (is (= ">quote\n>• footer"    (slack ">quote\n>- footer"))))
 
   (testing "Links use Slack's syntax, tooltips are dropped, link formatting is preserved"
-    (is (= "<https://metabase.com|Metabase>"   (slack "[Metabase](https://metabase.com)")))
-    (is (= "<https://metabase.com|Metabase>"   (slack "[Metabase](https://metabase.com \"tooltip\")")))
-    (is (= "<https://metabase.com|_Metabase_>" (slack "[*Metabase*](https://metabase.com)")))
-    (is (= "<https://metabase.com|_Metabase_>" (slack "[_Metabase_](https://metabase.com)")))
-    (is (= "<https://metabase.com|*Metabase*>" (slack "[**Metabase**](https://metabase.com)")))
-    (is (= "<https://metabase.com|*Metabase*>" (slack "[__Metabase__](https://metabase.com)")))
-    (is (= "<https://metabase.com|`Metabase`>" (slack "[`Metabase`](https://metabase.com)"))))
+    (is (= "<https://data.engeem.com.com|Metabase>"   (slack "[Metabase](https://data.engeem.com.com)")))
+    (is (= "<https://data.engeem.com.com|Metabase>"   (slack "[Metabase](https://data.engeem.com.com \"tooltip\")")))
+    (is (= "<https://data.engeem.com.com|_Metabase_>" (slack "[*Metabase*](https://data.engeem.com.com)")))
+    (is (= "<https://data.engeem.com.com|_Metabase_>" (slack "[_Metabase_](https://data.engeem.com.com)")))
+    (is (= "<https://data.engeem.com.com|*Metabase*>" (slack "[**Metabase**](https://data.engeem.com.com)")))
+    (is (= "<https://data.engeem.com.com|*Metabase*>" (slack "[__Metabase__](https://data.engeem.com.com)")))
+    (is (= "<https://data.engeem.com.com|`Metabase`>" (slack "[`Metabase`](https://data.engeem.com.com)"))))
 
   (testing "Relative links are resolved to the current site URL"
     (tu/with-temporary-setting-values [public-settings/site-url "https://example.com"]
@@ -90,14 +90,14 @@
     (is (= "<mailto:test@metabase.com|test@metabase.com>" (slack "<test@metabase.com>"))))
 
   (testing "Bare URLs and email addresses are parsed as links"
-    (is (= "<https://metabase.com>"                       (slack "https://metabase.com")))
+    (is (= "<https://data.engeem.com.com>"                       (slack "https://data.engeem.com.com")))
     (is (= "<mailto:test@metabase.com|test@metabase.com>" (slack "test@metabase.com"))))
 
   (testing "Link references render as normal links"
-    (is (= "<https://metabase.com|metabase>" (slack "[metabase]: https://metabase.com\n[metabase]")))
-    (is (= "<https://metabase.com|Metabase>" (slack "[Metabase]: https://metabase.com\n[Metabase]")))
-    (is (= "<https://metabase.com|Metabase>" (slack "[METABASE]: https://metabase.com\n[Metabase]")))
-    (is (= "<https://metabase.com|Metabase>" (slack "[Metabase]: https://metabase.com \"tooltip\"\n[Metabase]"))))
+    (is (= "<https://data.engeem.com.com|metabase>" (slack "[metabase]: https://data.engeem.com.com\n[metabase]")))
+    (is (= "<https://data.engeem.com.com|Metabase>" (slack "[Metabase]: https://data.engeem.com.com\n[Metabase]")))
+    (is (= "<https://data.engeem.com.com|Metabase>" (slack "[METABASE]: https://data.engeem.com.com\n[Metabase]")))
+    (is (= "<https://data.engeem.com.com|Metabase>" (slack "[Metabase]: https://data.engeem.com.com \"tooltip\"\n[Metabase]"))))
 
   (testing "Lists are rendered correctly using raw text"
     (is (= "• foo\n• bar"   (slack "* foo\n* bar")))
@@ -156,8 +156,8 @@
     (is (=  "<image.png|[Image]>"           (slack "![][Ref]\n\n[REF]: image.png"))))
 
   (testing "Linked images include link target in parentheses"
-    (is (= "<image.png|[Image]>\n(https://metabase.com)"  (slack "[![](image.png)](https://metabase.com)")))
-    (is (=  "<image.png|[Image]>\n(https://metabase.com)" (slack "[![][ref]](https://metabase.com)\n\n[ref]: image.png"))))
+    (is (= "<image.png|[Image]>\n(https://data.engeem.com.com)"  (slack "[![](image.png)](https://data.engeem.com.com)")))
+    (is (=  "<image.png|[Image]>\n(https://data.engeem.com.com)" (slack "[![][ref]](https://data.engeem.com.com)\n\n[ref]: image.png"))))
 
   (testing "Raw HTML in Markdown is passed through unmodified, aside from angle brackets being
            escaped with zero-width characters"
@@ -193,8 +193,8 @@
            (html "# header")))
     (is (= "<p><strong>bold</strong></p>\n"
            (html "**bold**")))
-    (is (= "<p><a href=\"https://metabase.com\" title=\"tooltip\">Metabase</a></p>\n"
-           (html "[Metabase](https://metabase.com \"tooltip\")")))
+    (is (= "<p><a href=\"https://data.engeem.com.com\" title=\"tooltip\">Metabase</a></p>\n"
+           (html "[Metabase](https://data.engeem.com.com \"tooltip\")")))
     (is (= "<ol>\n<li>foo\n<ol>\n<li>bar</li>\n</ol>\n</li>\n</ol>\n"
            (html "1. foo\n   1. bar")))
     (is (= "<p>/</p>\n"
@@ -209,14 +209,14 @@
                (html "[dashboard 1](/dashboard/1)"))))))
 
   (testing "Bare URLs and email addresses are converted to links"
-    (is (= "<p><a href=\"https://metabase.com\">https://metabase.com</a></p>\n"
-           (html "https://metabase.com")))
+    (is (= "<p><a href=\"https://data.engeem.com.com\">https://data.engeem.com.com</a></p>\n"
+           (html "https://data.engeem.com.com")))
     (is (= "<p><a href=\"mailto:test@metabase.com\">test@metabase.com</a></p>\n"
            (html "test@metabase.com"))))
 
   (testing "Link references render as normal links"
-    (is (= "<p><a href=\"https://metabase.com\">metabase</a></p>\n"
-           (html "[metabase]: https://metabase.com\n[metabase]"))))
+    (is (= "<p><a href=\"https://data.engeem.com.com\">metabase</a></p>\n"
+           (html "[metabase]: https://data.engeem.com.com\n[metabase]"))))
 
   (testing "Lone square brackets are preserved as-is (#20993)"
     (is (= "<p>[]</p>\n"     (html "[]")))

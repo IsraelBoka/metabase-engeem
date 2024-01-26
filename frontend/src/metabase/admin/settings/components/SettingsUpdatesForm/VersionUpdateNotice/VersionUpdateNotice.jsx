@@ -38,7 +38,7 @@ export default function VersionUpdateNotice() {
 function CloudCustomers({ currentVersion }) {
   return (
     <div>
-      {t`Metabase Cloud keeps your instance up-to-date. You're currently on version ${currentVersion}. Thanks for being a customer!`}
+      {t`NgmKase Cloud keeps your instance up-to-date. You're currently on version ${currentVersion}. Thanks for being a customer!`}
     </div>
   );
 }
@@ -73,7 +73,7 @@ function NewVersionAvailable({ currentVersion }) {
     <div>
       <NewVersionContainer className="p2 bordered rounded border-success flex flex-row align-center justify-between">
         <span className="text-white text-bold">
-          {t`Metabase ${formatVersion(latestVersion)} is available.`}{" "}
+          {t`NgmKase ${formatVersion(latestVersion)} is available.`}{" "}
           {t`You're running ${currentVersion}`}
         </span>
         <ExternalLink
@@ -120,7 +120,7 @@ function HostingCTA() {
         </HostingCTAIconContainer>
         <div>
           <Text className="text-brand mb0">{t`Want to have upgrades taken care of for you?`}</Text>
-          <Text className="text-brand text-bold">{t`Migrate to Metabase Cloud.`}</Text>
+          <Text className="text-brand text-bold">{t`Migrate to ngmKase Cloud.`}</Text>
         </div>
       </HostingCTAContent>
       <div className="pr1">

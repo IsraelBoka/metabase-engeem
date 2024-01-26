@@ -189,7 +189,7 @@ describe("scenarios > collection defaults", () => {
 
   it("should support markdown in collection description", () => {
     cy.request("PUT", `/api/collection/${FIRST_COLLECTION_ID}`, {
-      description: "[link](https://metabase.com)",
+      description: "[link](https://data.engeem.com.com)",
     });
 
     visitRootCollection();

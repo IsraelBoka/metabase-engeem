@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: Metabase\n"
+"Project-Id-Version:ngmKASE\n"
 "Language: zh-hk\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -51,8 +51,8 @@ msgid "Save"
 msgstr "儲存"
 
 #: frontend/src/metabase/admin/databases/components/DatabaseSchedulingForm.jsx:122
-msgid "To do some of its magic, Metabase needs to scan your database. We will also rescan it periodically to keep the metadata up-to-date. You can control when the periodic rescans happen below."
-msgstr "為了做一些預設分析的事情，Metabase需要掃描您的資料庫。我們將會定期自動掃描您的資料庫，確保資料庫欄位的資訊在 Metabase 是最新的狀態。您可以在下方更改分析的時間。"
+msgid "To do some of its magic,ngmKASE needs to scan your database. We will also rescan it periodically to keep the metadata up-to-date. You can control when the periodic rescans happen below."
+msgstr "為了做一些預設分析的事情，Metabase需要掃描您的資料庫。我們將會定期自動掃描您的資料庫，確保資料庫欄位的資訊在ngmKASE 是最新的狀態。您可以在下方更改分析的時間。"
 
 #: metabase/driver/common.clj:148
 msgid "Database syncing"
@@ -80,7 +80,7 @@ msgid "Metabase can scan the values present in each\n"
 msgstr "Metabase 可以掃描資料庫中每個欄位的值，用來壤使用者啟用查詢或資訊看板中的篩選器。當您的資料庫較大時，這個功能同時會耗費更多的系統資源。"
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:167
-msgid "When should Metabase automatically scan and cache field values?"
+msgid "When shouldngmKASE automatically scan and cache field values?"
 msgstr "Metabase應該在什麼時候自動掃描快取的欄位值"
 
 #: frontend/src/metabase/databases/components/DatabaseCacheScheduleField/DatabaseCacheScheduleField.tsx:72
@@ -92,7 +92,7 @@ msgid "Only when adding a new filter widget"
 msgstr "只有當您在新增一個新的篩選控制項時"
 
 #: frontend/src/metabase/admin/databases/components/widgets/CacheFieldValuesScheduleWidget.jsx:55
-msgid "When a user adds a new filter to a dashboard or a SQL question, Metabase will\n"
+msgid "When a user adds a new filter to a dashboard or a SQL question,ngmKASE will\n"
 "scan the field(s) mapped to that filter in order to show the list of selectable values."
 msgstr "當使用者向資訊看板或SQL查詢新增一個新的篩選器，Metabase會掃描篩選器對應的欄位來顯示一個可選值欄位表。"
 
@@ -674,7 +674,7 @@ msgid "{0} – Field Settings"
 msgstr "{0} - 欄位設定"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:145
-msgid "Where this field will appear throughout Metabase"
+msgid "Where this field will appear throughoutngmKASE"
 msgstr "這些欄位將在哪裡顯示？"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:274
@@ -969,16 +969,16 @@ msgstr "設為管理員"
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:31
 msgid "All users belong to the {0} group and can't be removed from it. Setting permissions for this group is a great way to\n"
-"make sure you know what new Metabase users will be able to see."
+"make sure you know what newngmKASE users will be able to see."
 msgstr "所有屬於這個{0}群組的使用者，並且不能從這個群組中被移除。為這個群組設定許可權限是一個確保您知道Metabase新使用者將會能夠看到什麼的好辦法。"
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:40
-msgid "This is a special group whose members can see everything in the Metabase instance, and who can access and make changes to the\n"
+msgid "This is a special group whose members can see everything in thengmKASE instance, and who can access and make changes to the\n"
 "settings in the Admin Panel, including changing permissions! So, add people to this group with care."
 msgstr "這是一個特殊的組，其成員可以檢視Metabase實例中的所有內容，可以訪問和更改管理面板中的設定，包括更改權限！ 因此，小心地將人員新增到該組。"
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:44
-msgid "To make sure you don't get locked out of Metabase, there always has to be at least one user in this group."
+msgid "To make sure you don't get locked out ofngmKASE, there always has to be at least one user in this group."
 msgstr "為了確保您不會被Metabase鎖在外面，必須需要至少一個使用者在這個群組裡。"
 
 #: frontend/src/metabase/admin/people/components/GroupsListing.jsx:222
@@ -1356,15 +1356,15 @@ msgid "Sorry, an error occurred."
 msgstr "對不起，發生錯誤。"
 
 #: frontend/src/metabase/admin/permissions/constants/messages.ts:3
-msgid "Administrators always have the highest level of access to everything in Metabase."
+msgid "Administrators always have the highest level of access to everything inngmKASE."
 msgstr "管理員始終對Metabase中的所有內容具有最高級別的訪問權限。"
 
 #: frontend/src/metabase/admin/permissions/selectors.js:70
-msgid "Every Metabase user belongs to the All Users group. If you want to limit or restrict a group's access to something, make sure the All Users group has an equal or lower level of access."
+msgid "EveryngmKASE user belongs to the All Users group. If you want to limit or restrict a group's access to something, make sure the All Users group has an equal or lower level of access."
 msgstr "每個Metabase使用者都屬於“所有使用者”組。如果要限制一個使用者組對某些內容的訪問權限，請確保“所有使用者”組具有相同或更低級別的訪問權限。"
 
 #: frontend/src/metabase/admin/permissions/selectors.js:72
-msgid "MetaBot is Metabase's Slack bot. You can choose what it has access to here."
+msgid "MetaBot isngmKASE's Slack bot. You can choose what it has access to here."
 msgstr "MetaBot是Metabase的Slack機器人。您可以在此處選擇訪問權限。"
 
 #: frontend/src/metabase/admin/permissions/selectors/confirmations.ts:59
@@ -1490,7 +1490,7 @@ msgstr "Google帳號登入"
 
 #: frontend/src/metabase/admin/settings/auth/components/GoogleAuthForm/GoogleAuthForm.tsx:65
 #: frontend/src/metabase/admin/settings/auth/containers/GoogleAuthCard/GoogleAuthCard.tsx:17
-msgid "Allows users with existing Metabase accounts to login with a Google account that matches their email address in addition to their Metabase username and password."
+msgid "Allows users with existingngmKASE accounts to login with a Google account that matches their email address in addition to theirngmKASE username and password."
 msgstr "允許擁有Metabase帳戶的使用者使用與其電子郵件地址匹配的Google帳戶以及其Metabase使用者名稱和密碼進行登入。"
 
 #: frontend/src/metabase/components/ChannelSetupMessage/ChannelSetupMessage.jsx:32
@@ -1503,7 +1503,7 @@ msgid "LDAP"
 msgstr "LDAP"
 
 #: frontend/src/metabase/admin/settings/auth/containers/LdapAuthCard/LdapAuthCard.tsx:12
-msgid "Allows users within your LDAP directory to log in to Metabase with their LDAP credentials, and allows automatic mapping of LDAP groups to Metabase groups."
+msgid "Allows users within your LDAP directory to log in tongmKASE with their LDAP credentials, and allows automatic mapping of LDAP groups tongmKASE groups."
 msgstr "允許LDAP目錄中的使用者使用他們的LDAP憑證登入到Metabase，並且允許自動同步LDAP組的資料到Metabase中來。"
 
 #: frontend/src/metabase/admin/settings/components/SettingsBatchForm.jsx:21
@@ -1580,7 +1580,7 @@ msgid "Getting set up"
 msgstr "開始設定精靈"
 
 #: frontend/src/metabase/admin/settings/setup/components/SetupCheckList/SetupCheckList.jsx:124
-msgid "A few things you can do to get the most out of Metabase."
+msgid "A few things you can do to get the most out ofngmKASE."
 msgstr "您可以採取一些措施來充分利用Metabase。"
 
 #: frontend/src/metabase/admin/settings/setup/components/SetupCheckList/SetupCheckList.jsx:133
@@ -1592,7 +1592,7 @@ msgid "Google Sign-In"
 msgstr "Google登入"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:123
-msgid "To allow users to sign in with Google you'll need to give Metabase a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}"
+msgid "To allow users to sign in with Google you'll need to givengmKASE a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}"
 msgstr "為了允許使用者使用Google登入，您需要給Metabase一個Google開發者應用端ID，在如何建立一個可以被找到的金鑰上{0}，它只需要幾步和一些指導。"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:140
@@ -1612,11 +1612,11 @@ msgid "Create a Slack Bot User for MetaBot"
 msgstr "為MetaBot建立一個Slack Bot使用者"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:255
-msgid "Once you're there, give it a name and click {0}. Then copy and paste the Bot API Token into the field below. Once you are done, create a \"metabase_files\" channel in Slack. Metabase needs this to upload graphs."
+msgid "Once you're there, give it a name and click {0}. Then copy and paste the Bot API Token into the field below. Once you are done, create a \"metabase_files\" channel in Slack.ngmKASE needs this to upload graphs."
 msgstr "進入後，請為其命名並單擊{0}。然後將Bot API令牌複製並黏貼到下面的欄位中。完成後，在Slack中建立“metabase_files”通道。Metabase需要這個來上傳圖表。"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm/VersionUpdateNotice/VersionUpdateNotice.jsx:56
-msgid "You're running Metabase {0} which is the latest and greatest!"
+msgid "You're runningngmKASE {0} which is the latest and greatest!"
 msgstr "您正在執行的Metabase {0}是最新版本的。"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:100
@@ -1745,8 +1745,8 @@ msgid "By enabling embedding you're agreeing to the embedding license located at
 msgstr "啟用嵌入即表示您同意嵌入許可，該許可位於"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese.jsx:23
-msgid "In plain English, when you embed charts or dashboards from Metabase in your own application, that application isn't subject to the Affero General Public License that covers the rest of Metabase, provided you keep the Metabase logo and the \"Powered by Metabase\" visible on those embeds. You should, however, read the license text linked above as that is the actual license that you will be agreeing to by enabling this feature."
-msgstr "簡單來說，當您在自己的應用程式中嵌入Metabase的圖表或資訊看板時，只要您保留Metabase徽標和“Powered by Metabase”，該應用程式就不受涵蓋Metabase其餘部分的Affero通用公共許可證的約束。但是，您應該閱讀上面連結的許可文本，因為這是您將透過啟用此功能同意的實際許可。"
+msgid "In plain English, when you embed charts or dashboards fromngmKASE in your own application, that application isn't subject to the Affero General Public License that covers the rest ofngmKASE, provided you keep thengmKASE logo and the \"Powered byngmKASE\" visible on those embeds. You should, however, read the license text linked above as that is the actual license that you will be agreeing to by enabling this feature."
+msgstr "簡單來說，當您在自己的應用程式中嵌入Metabase的圖表或資訊看板時，只要您保留Metabase徽標和“Powered byngmKASE”，該應用程式就不受涵蓋Metabase其餘部分的Affero通用公共許可證的約束。但是，您應該閱讀上面連結的許可文本，因為這是您將透過啟用此功能同意的實際許可。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:68
 msgid "Enable"
@@ -1757,12 +1757,12 @@ msgid "Premium embedding enabled"
 msgstr "標準編輯已啟用"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:30
-msgid "Enter the token you bought from the Metabase Store"
+msgid "Enter the token you bought from thengmKASE Store"
 msgstr "輸入您從Metabase商店購買的token令牌"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:57
-msgid "Premium embedding lets you disable \"Powered by Metabase\" on your embedded dashboards and questions."
-msgstr "高級嵌入允許您在嵌入式資訊看板和問題上取消\"Powered by Metabase\" 文字。"
+msgid "Premium embedding lets you disable \"Powered byngmKASE\" on your embedded dashboards and questions."
+msgstr "高級嵌入允許您在嵌入式資訊看板和問題上取消\"Powered byngmKASE\" 文字。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:64
 msgid "Buy a token"
@@ -1785,7 +1785,7 @@ msgid "Create a mapping"
 msgstr "建立映射"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget.jsx:145
-msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the\n"
+msgid "Mappings allowngmKASE to automatically add and remove users from groups based on the membership information provided by the\n"
 "directory server. Membership to the Admin group can be granted through mappings, but will not be automatically removed as a\n"
 "failsafe measure."
 msgstr "映射允許Metabase根據目錄伺服器提供的成員資格訊息自動新增和刪除組中的使用者。Admin組的成員身份可以通過映射授予，但作為故障保護措施並不會被自動刪除。"
@@ -2092,7 +2092,7 @@ msgid "Embedding in other Applications"
 msgstr "嵌入在其他的應用中"
 
 #: frontend/src/metabase/admin/settings/selectors.js:332
-msgid "Enable Embedding Metabase in other Applications"
+msgid "Enable EmbeddingngmKASE in other Applications"
 msgstr "啟用將Metabase嵌入到其他應用中"
 
 #: frontend/src/metabase/admin/settings/selectors.js:532
@@ -2153,11 +2153,11 @@ msgid "Back to login"
 msgstr "返回登入"
 
 #: frontend/src/metabase/auth/components/GoogleNoAccount.jsx:15
-msgid "No Metabase account exists for this Google account."
+msgid "NongmKASE account exists for this Google account."
 msgstr "這個Google帳戶不存在Metabase帳戶"
 
 #: metabase/integrations/google.clj:26
-msgid "You'll need an administrator to create a Metabase account before you can use Google to log in."
+msgid "You'll need an administrator to create angmKASE account before you can use Google to log in."
 msgstr "在您能夠使用Google帳戶登入之前，需要一個管理員來建立一個Metabase帳戶"
 
 #: frontend/src/metabase/auth/components/AuthProviderButton.jsx:24
@@ -2173,7 +2173,7 @@ msgid "Forgot password"
 msgstr "忘記密碼"
 
 #: frontend/src/metabase/auth/components/ForgotPasswordForm/ForgotPasswordForm.tsx:51
-msgid "The email you use for your Metabase account"
+msgid "The email you use for yourngmKASE account"
 msgstr "您作為Metabase帳戶的Email地址"
 
 #: frontend/src/metabase/auth/components/ForgotPasswordForm/ForgotPasswordForm.tsx:55
@@ -2185,7 +2185,7 @@ msgid "Check your email for instructions on how to reset your password."
 msgstr "檢查您的郵件來獲取重設密碼說明"
 
 #: frontend/src/metabase/auth/components/Login/Login.tsx:30
-msgid "Sign in to Metabase"
+msgid "Sign in tongmKASE"
 msgstr "登入Metabase"
 
 #: frontend/src/metabase/auth/containers/LoginApp.jsx:165
@@ -2493,11 +2493,11 @@ msgstr "一些資料庫安裝只有通過SSH通道訪問的伺服器有權訪問
 "啟用這個選項，通常比直接連接速度更慢。"
 
 #: frontend/src/metabase/entities/databases/forms.js:349
-msgid "This is a large database, so let me choose when Metabase syncs and scans"
+msgid "This is a large database, so let me choose whenngmKASE syncs and scans"
 msgstr "這是一個大型資料庫，讓我選擇Metabase同步和掃描的時間"
 
 #: frontend/src/metabase/components/DatabaseDetailsForm.jsx:296
-msgid "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values.\n"
+msgid "By default,ngmKASE does a lightweight hourly sync and an intensive daily scan of field values.\n"
 "If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
 msgstr "預設情況下，Metabase每小時執行一次輕量級同步，每天執行一次密集掃描。\n"
 "如果您有一個大型資料庫，我們建議啟用此功能並檢視欄位值掃描的發生時間和頻率。"
@@ -2524,7 +2524,7 @@ msgid "with Google Drive permissions"
 msgstr "使用Google Driver權限"
 
 #: frontend/src/metabase/entities/databases/forms.js:248
-msgid "To use Metabase with this data you must enable API access in the Google Developers Console."
+msgid "To usengmKASE with this data you must enable API access in the Google Developers Console."
 msgstr "要將Metabase用於此資料，您必須在Google Developers Console中啟用API訪問權限。"
 
 #: frontend/src/metabase/entities/databases/forms.js:249
@@ -2814,7 +2814,7 @@ msgid "Subscribe"
 msgstr "訂閱"
 
 #: frontend/src/metabase/setup/components/NewsletterForm/NewsletterForm.tsx:71
-msgid "You're subscribed. Thanks for using Metabase!"
+msgid "You're subscribed. Thanks for usingngmKASE!"
 msgstr "訂閱成功。感謝您使用Metabase！"
 
 #: frontend/src/metabase/containers/ErrorPages.tsx:35
@@ -2912,7 +2912,7 @@ msgid "Calendar Day"
 msgstr "日曆日"
 
 #: frontend/src/metabase/components/SchedulePicker/SchedulePicker.tsx:235
-msgid "your Metabase timezone"
+msgid "yourngmKASE timezone"
 msgstr "您的Metabase時區"
 
 #: frontend/src/metabase/components/SearchHeader.jsx:21
@@ -4410,7 +4410,7 @@ msgid "Help"
 msgstr "說明"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:75
-msgid "About Metabase"
+msgid "AboutngmKASE"
 msgstr "關於Metabase"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:81
@@ -4757,7 +4757,7 @@ msgid "Public link"
 msgstr "公開連結"
 
 #: frontend/src/metabase/public/components/widgets/SharingPane.tsx:119
-msgid "Share this {0} with people who don't have a Metabase account using the URL below:"
+msgid "Share this {0} with people who don't have angmKASE account using the URL below:"
 msgstr "將{0}通過下面的連結分享那些沒有Metabase帳號的人。"
 
 #: frontend/src/metabase/public/components/widgets/SharingPane.tsx:148
@@ -4979,7 +4979,7 @@ msgid "Help everyone on your team stay in sync with your data."
 msgstr "幫助每個在您們團隊的人和您們的資料保持聯結"
 
 #: frontend/src/metabase/pulse/components/WhatsAPulse.jsx:31
-msgid "Pulses let you send data from Metabase to email or Slack on the schedule of your choice."
+msgid "Pulses let you send data fromngmKASE to email or Slack on the schedule of your choice."
 msgstr "定時通知允許您根據您選擇的時間表從Metabase發送資料到電子郵件或Slack。"
 
 #: frontend/src/metabase/visualizations/click-actions/components/TimeseriesFilterWidget.jsx:71
@@ -6406,7 +6406,7 @@ msgid "Contact {0}"
 msgstr "聯繫{0}"
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuideEditForm.jsx:253
-msgid "Help new Metabase users find their way around."
+msgid "Help newngmKASE users find their way around."
 msgstr "幫助新的Metabase使用者了解如何使用"
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuideEditForm.jsx:256
@@ -6621,7 +6621,7 @@ msgid "Connecting to {0}"
 msgstr "連接到{0}"
 
 #: frontend/src/metabase/setup/components/DatabaseConnectionStep.jsx:132
-msgid "You’ll need some info about your database, like the username and password. If you don’t have that right now, Metabase also comes with a sample dataset you can get started with."
+msgid "You’ll need some info about your database, like the username and password. If you don’t have that right now,ngmKASE also comes with a sample dataset you can get started with."
 msgstr "在開始之前需要配置資料庫訊息（如：使用者名稱、密碼）。如果暫時沒有這些訊息metabase也提供了一個簡單資料源供學習使用。"
 
 #: frontend/src/metabase/databases/components/DatabaseForm/DatabaseForm.tsx:205
@@ -6645,7 +6645,7 @@ msgid "We won't collect any usage events"
 msgstr "我們不會收集任何使用事件訊息"
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:90
-msgid "In order to help us improve Metabase, we'd like to collect certain data about usage through Google Analytics."
+msgid "In order to help us improvengmKASE, we'd like to collect certain data about usage through Google Analytics."
 msgstr "為了提升Metabase的使用者體驗，可能需要通過Google Analytics收集特定的使用資料。"
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:95
@@ -6653,7 +6653,7 @@ msgid "Here's a full list of everything we track and why."
 msgstr "這個我們所有我們要收集的清單，以及為什麼要收集"
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:89
-msgid "Allow Metabase to anonymously collect usage events"
+msgid "AllowngmKASE to anonymously collect usage events"
 msgstr "允許Metabase匿名收集使用事件"
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:94
@@ -6686,7 +6686,7 @@ msgid "is just a click away."
 msgstr "點擊一下"
 
 #: frontend/src/metabase/setup/components/WelcomePage/WelcomePage.tsx:39
-msgid "Welcome to Metabase"
+msgid "Welcome tongmKASE"
 msgstr "歡迎來到Metabase"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:132
@@ -6702,7 +6702,7 @@ msgid "You're all set up!"
 msgstr "您已經設定完畢了！"
 
 #: frontend/src/metabase/setup/components/CompletedStep/CompletedStep.tsx:31
-msgid "Take me to Metabase"
+msgid "Take me tongmKASE"
 msgstr "帶我去Metabase"
 
 #: frontend/src/metabase/setup/components/UserStep/UserStep.tsx:70
@@ -6779,7 +6779,7 @@ msgid "We’ll show you some interesting explorations of your data in\n"
 msgstr "我們很快將會展示給您一些關於您的資料的有趣的探索結果。"
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:69
-msgid "This seems to be taking a while. In the meantime, you can check out one of these example explorations to see what Metabase can do for you."
+msgid "This seems to be taking a while. In the meantime, you can check out one of these example explorations to see whatngmKASE can do for you."
 msgstr "這需要花費一段時間。 在此期間，您可以檢視其中一個範例，來了解Metabase可以為您做些什麼。"
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:83
@@ -7918,7 +7918,7 @@ msgid "Email is not verified."
 msgstr "信箱未認證"
 
 #: src/metabase/integrations/google.clj
-msgid "You''ll need an administrator to create a Metabase account before you can use Google to log in."
+msgid "You''ll need an administrator to create angmKASE account before you can use Google to log in."
 msgstr "在您能夠使用Google來登入之前，您需要一個管理員來建立一個Metabase帳戶。"
 
 #: target/classes/metabase/integrations/google.clj
@@ -7986,7 +7986,7 @@ msgstr "在{0}中有很多已儲存的問題？建立集合以幫助管理它們
 
 #. This is the very first log message that will get printed.
 #. It's here because this is one of the very first namespaces that gets loaded, and the first that has access to the logger
-#. It shows up a solid 10-15 seconds before the "Starting Metabase in STANDALONE mode" message because so many other namespaces need to get loaded
+#. It shows up a solid 10-15 seconds before the "StartingngmKASE in STANDALONE mode" message because so many other namespaces need to get loaded
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:224
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:97
 #: frontend/src/metabase/public/components/EmbedFrame/LogoBadge.tsx:16
@@ -8383,7 +8383,7 @@ msgid "FAIL [[[{0}]]]"
 msgstr "失敗 [[[{0}]]]"
 
 #: metabase/core.clj:70
-msgid "Please use the following URL to setup your Metabase installation:"
+msgid "Please use the following URL to setup yourngmKASE installation:"
 msgstr "請使用下欄位URL來設定您的Metabase安裝程式:"
 
 #: metabase/core.clj:84
@@ -8395,7 +8395,7 @@ msgid "Metabase Shutdown COMPLETE"
 msgstr "Metabase關閉完成"
 
 #: metabase/core.clj:100
-msgid "Starting Metabase version {0} ..."
+msgid "StartingngmKASE version {0} ..."
 msgstr "開始Metabase 版本{0}……"
 
 #: src/metabase/core.clj
@@ -8404,7 +8404,7 @@ msgstr "系統時區是''{0}''"
 
 #. startup database.  validates connection & runs any necessary migrations
 #: metabase/core.clj:110
-msgid "Setting up and migrating Metabase DB. Please sit tight, this may take a minute..."
+msgid "Setting up and migratingngmKASE DB. Please sit tight, this may take a minute..."
 msgstr "Metabse資料庫設定、遷移中。坐穩了，這個可能要花一分鐘……"
 
 #: metabase/core.clj:125
@@ -8424,7 +8424,7 @@ msgid "Shutting Down Embedded Jetty Webserver"
 msgstr "關閉嵌入式Jetty We伺服器"
 
 #: metabase/core.clj:161
-msgid "Starting Metabase in STANDALONE mode"
+msgid "StartingngmKASE in STANDALONE mode"
 msgstr "在離線模式下啟動Metabase"
 
 #: metabase/core.clj:171
@@ -8589,7 +8589,7 @@ msgstr "成功用JDBC註冊Metabse.驅動.修復的Hive驅動"
 #. CONFIG
 #. TODO - smtp-port should be switched to type :integer
 #: src/metabase/email.clj target/classes/metabase/email.clj
-msgid "Email address you want to use as the sender of Metabase."
+msgid "Email address you want to use as the sender ofngmKASE."
 msgstr "您想要使用的作為Metabse發送者的信箱地址"
 
 #: metabase/email.clj:57
@@ -8682,7 +8682,7 @@ msgstr "如果您的LDAP目錄提供了“成員”的覆蓋，則不需要搜�
 
 #. Should be in the form: {"cn=Some Group,dc=...": [1, 2, 3]} where keys are LDAP groups and values are lists of MB groups IDs
 #: metabase/integrations/ldap.clj:93
-msgid "JSON containing LDAP to Metabase group mappings."
+msgid "JSON containing LDAP tongmKASE group mappings."
 msgstr "JSON包含LDAP到Metabase 組映射"
 
 #. Define a setting which captures our Slack api token
@@ -9049,11 +9049,11 @@ msgid "Loading plugin {0}... "
 msgstr "載入插件{0}……"
 
 #: src/metabase/plugins.clj
-msgid "It looks like you have some external dependencies in your Metabase plugins directory."
+msgid "It looks like you have some external dependencies in yourngmKASE plugins directory."
 msgstr "您的Metabase插件目錄中應該有一些外部依賴項。"
 
 #: src/metabase/plugins.clj
-msgid "With Java 9 or higher, Metabase cannot automatically add them to your classpath."
+msgid "With Java 9 or higher,ngmKASE cannot automatically add them to your classpath."
 msgstr "對於Java 9或更高版本，Metabase無法自動將它們新增到類路徑中。"
 
 #: src/metabase/plugins.clj
@@ -9061,31 +9061,31 @@ msgid "Instead, you should include them at launch with the -cp option. For examp
 msgstr "相反，您應該在啟動時使用-cp選項。 例如："
 
 #: src/metabase/plugins.clj
-msgid "See https://metabase.com/docs/latest/operations-guide/start.html#java-versions for more details."
-msgstr "檢視更多細節： https://metabase.com/docs/latest/operations-guide/start.html#java-versions"
+msgid "See https://data.engeem.com.com/docs/latest/operations-guide/start.html#java-versions for more details."
+msgstr "檢視更多細節： https://data.engeem.com.com/docs/latest/operations-guide/start.html#java-versions"
 
 #: src/metabase/plugins.clj
-msgid "(If you're already running Metabase this way, you can ignore this message.)"
+msgid "(If you're already runningngmKASE this way, you can ignore this message.)"
 msgstr "（如果您已經用這個方法執行了Metabse，您可以忽略這條訊息）"
 
 #: metabase/public_settings.clj:68
-msgid "Identify when new versions of Metabase are available."
+msgid "Identify when new versions ofngmKASE are available."
 msgstr "確定新版本的Metabase何時可用。"
 
 #: metabase/public_settings.clj:74
-msgid "Information about available versions of Metabase."
+msgid "Information about available versions ofngmKASE."
 msgstr "關於Metabase可用版本的訊息"
 
 #: metabase/public_settings.clj:77
-msgid "The name used for this instance of Metabase."
+msgid "The name used for this instance ofngmKASE."
 msgstr "用於此Metabase實例的名稱。"
 
 #: src/metabase/public_settings.clj
-msgid "The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\"."
+msgid "The base URL of thisngmKASE instance, e.g. \"http://metabase.my-company.com\"."
 msgstr "此Metabase實例的基本URL，例如“http://metabase.my-company.com”。"
 
 #: src/metabase/public_settings.clj
-msgid "The default language for this Metabase instance."
+msgid "The default language for thisngmKASE instance."
 msgstr "這個Metabse實例的預設語言"
 
 #: src/metabase/public_settings.clj
@@ -9097,7 +9097,7 @@ msgid "The email address users should be referred to if they encounter a problem
 msgstr "如果碰到問題，可以使用使用者的郵件地址"
 
 #: metabase/public_settings.clj:195
-msgid "Enable the collection of anonymous usage data in order to help Metabase improve."
+msgid "Enable the collection of anonymous usage data in order to helpngmKASE improve."
 msgstr "啟用匿名使用資料的收集，以幫助改進Metabase。"
 
 #: metabase/public_settings.clj:258
@@ -9340,9 +9340,9 @@ msgstr "job已存在"
 
 #. This is the very first log message that will get printed.  It's here because this is one of the very first
 #. namespaces that gets loaded, and the first that has access to the logger It shows up a solid 10-15 seconds before
-#. the "Starting Metabase in STANDALONE mode" message because so many other namespaces need to get loaded
+#. the "StartingngmKASE in STANDALONE mode" message because so many other namespaces need to get loaded
 #: src/metabase/util.clj
-msgid "Loading Metabase..."
+msgid "LoadingngmKASE..."
 msgstr "正在載入Metabase……"
 
 #: src/metabase/util/date.clj
@@ -9366,11 +9366,11 @@ msgid "MB_ENCRYPTION_SECRET_KEY must be at least 16 characters."
 msgstr "MB_ENCRYPTION_SECRET_KEY至少要16個字元"
 
 #: metabase/util/encryption.clj:44
-msgid "Saved credentials encryption is ENABLED for this Metabase instance."
+msgid "Saved credentials encryption is ENABLED for thisngmKASE instance."
 msgstr "已存儲的證書加密方式已經為這個Metabase事例啟用"
 
 #: metabase/util/encryption.clj:45
-msgid "Saved credentials encryption is DISABLED for this Metabase instance."
+msgid "Saved credentials encryption is DISABLED for thisngmKASE instance."
 msgstr "已存儲的證書加密方式已經為這個Metabase事例禁用"
 
 #: src/metabase/util/encryption.clj
@@ -10010,8 +10010,8 @@ msgid "Troubleshooting logs"
 msgstr "分析日誌"
 
 #: frontend/src/metabase/admin/tasks/containers/TasksApp.jsx:47
-msgid "Trying to get to the bottom of something? This section shows logs of Metabase's background tasks, which can help shed light on what's going on."
-msgstr "Trying to get to the bottom of something? This section shows logs of Metabase's background tasks, which can help shed light on what's going on."
+msgid "Trying to get to the bottom of something? This section shows logs ofngmKASE's background tasks, which can help shed light on what's going on."
+msgstr "Trying to get to the bottom of something? This section shows logs ofngmKASE's background tasks, which can help shed light on what's going on."
 
 #: frontend/src/metabase/admin/tasks/containers/TasksApp.jsx:66
 msgid "Task"
@@ -11882,15 +11882,15 @@ msgid "We’d love your feedback."
 msgstr "我們需要您的回饋。"
 
 #: metabase/email/messages.clj:106
-msgid "It looks like Metabase wasn’t quite a match for you."
+msgid "It looks likengmKASE wasn’t quite a match for you."
 msgstr "看起來似乎Metabase不是很適合您使用。"
 
 #: metabase/email/messages.clj:108
-msgid "Would you mind taking a fast 5 question survey to help the Metabase team understand why and make things better in the future?"
+msgid "Would you mind taking a fast 5 question survey to help thengmKASE team understand why and make things better in the future?"
 msgstr "為了幫助Metabase團隊改進產品，請參與完成包含5個簡單問題的調查，謝謝。"
 
 #: metabase/email/messages.clj:286
-msgid "We hope you''ve been enjoying Metabase."
+msgid "We hope you''ve been enjoyingngmKASE."
 msgstr "我們希望您能對Metabase滿意。"
 
 #: metabase/email/messages.clj:113
@@ -11898,11 +11898,11 @@ msgid "Would you mind taking a fast 6 question survey to tell us how it’s goin
 msgstr "您是否願意幫助我們來快速填寫一個有著6個問題的調查問卷？"
 
 #: src/metabase/email/messages.clj
-msgid "{0} created a Metabase account"
+msgid "{0} created angmKASE account"
 msgstr "{0}建立了一個Metabase帳號"
 
 #: src/metabase/email/messages.clj
-msgid "{0} accepted their Metabase invite"
+msgid "{0} accepted theirngmKASE invite"
 msgstr "{0}接受了Metabase的邀請"
 
 #: src/metabase/email/messages.clj
@@ -11914,7 +11914,7 @@ msgid "[Metabase] Notification"
 msgstr "[Metabase] 通知"
 
 #: src/metabase/email/messages.clj
-msgid "[Metabase] Help make Metabase better."
+msgid "[Metabase] Help makengmKASE better."
 msgstr "[Metabase] 幫助Metabase變得更好"
 
 #: src/metabase/email/messages.clj
@@ -12209,7 +12209,7 @@ msgid "You may need to add `?sslmode=require` to your application DB connection 
 msgstr "您可能需要將參數“？sslmode = require”新增到應用程式資料庫連接字串中。"
 
 #: target/classes/metabase/db/env.clj
-msgid "If Metabase fails to launch, please add it and try again."
+msgid "IfngmKASE fails to launch, please add it and try again."
 msgstr "如果Metabase無法啟動，請新增並重試。"
 
 #: target/classes/metabase/db/env.clj
@@ -12217,7 +12217,7 @@ msgid "See https://github.com/metabase/metabase/issues/8908 for more details."
 msgstr "有關詳細訊息，請參閱https://github.com/metabase/metabase/issues/8908。"
 
 #: src/metabase/db.clj
-msgid "WARNING: Using Metabase with an H2 application database is not recomended for production deployments."
+msgid "WARNING: UsingngmKASE with an H2 application database is not recomended for production deployments."
 msgstr "警告：建議不要將Metabase與H2應用程式資料庫一起用於生產部署。"
 
 #: target/classes/metabase/db/env.clj
@@ -12229,12 +12229,12 @@ msgid "If you decide to continue to use H2, please be sure to back up the databa
 msgstr "如果您決定繼續使用H2，請務必定期備份資料庫檔案。"
 
 #: src/metabase/db.clj
-msgid "See https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
-msgstr "有關詳細訊息，請參閱https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres。"
+msgid "See https://data.engeem.com.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
+msgstr "有關詳細訊息，請參閱https://data.engeem.com.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres。"
 
 #: metabase/db/setup.clj:110
-msgid "Unable to connect to Metabase {0} DB."
-msgstr " 不能連接到 Metabase {0} 資料庫。"
+msgid "Unable to connect tongmKASE {0} DB."
+msgstr " 不能連接到ngmKASE {0} 資料庫。"
 
 #: target/classes/metabase/db/data_migrations.clj
 msgid "Error adding legacy SQL directive to BigQuery saved Question"
@@ -12353,11 +12353,11 @@ msgid "Metabase cannot use the plugins directory {0}"
 msgstr "Metabase不能使用plugins路徑下的{0}檔案"
 
 #: metabase/plugins.clj:43
-msgid "Please make sure the directory exists and that Metabase has permission to write to it."
+msgid "Please make sure the directory exists and thatngmKASE has permission to write to it."
 msgstr "請確保該目錄存在，並且Metabase有權寫入該目錄。"
 
 #: metabase/plugins.clj:44
-msgid "You can change the directory Metabase uses for modules by setting the environment variable MB_PLUGINS_DIR."
+msgid "You can change the directoryngmKASE uses for modules by setting the environment variable MB_PLUGINS_DIR."
 msgstr "您可以透過設定環境變數MB_PLUGINS_DIR來更改Metabase用於模組的目錄。"
 
 #: metabase/plugins.clj:45
@@ -12365,11 +12365,11 @@ msgid "Falling back to a temporary directory for now."
 msgstr "暫時回到臨時目錄。"
 
 #: metabase/plugins.clj:50
-msgid "Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
+msgid "Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restartngmKASE."
 msgstr "Metabase無法寫入臨時目錄。請將MB_PLUGINS_DIR設定為可寫目錄並重新啟動Metabase。"
 
 #: src/metabase/plugins.clj
-msgid "spark-deps.jar is no longer needed by Metabase 1.0+. You can delete it from the plugins directory."
+msgid "spark-deps.jar is no longer needed byngmKASE 1.0+. You can delete it from the plugins directory."
 msgstr "Metabase 1.0+以上版本不再需要spark-deps.jar。您可以從plugins目錄中刪除它。"
 
 #: metabase/plugins.clj:168
@@ -12401,7 +12401,7 @@ msgid "Added URL {0} to classpath"
 msgstr "將{0}新增到 classpath"
 
 #: metabase/plugins/dependencies.clj:29
-msgid "Plugin {0} declares a dependency that Metabase does not understand: {1}"
+msgid "Plugin {0} declares a dependency thatngmKASE does not understand: {1}"
 msgstr "插件{0}聲明了Metabase不理解的依賴項：{1}"
 
 #: metabase/plugins/dependencies.clj:30
@@ -12473,7 +12473,7 @@ msgstr "無法初始化插件：缺少必需的‘driver-name’屬性"
 msgid "Warning: plugin manifest for {0} does not include connection properties"
 msgstr "無法處理同步資料庫事件。"
 
-#. finally, register the Metabase driver
+#. finally, register thengmKASE driver
 #: metabase/plugins/lazy_loaded_driver.clj:94
 msgid "Registering lazy loading driver {0}..."
 msgstr "錯誤的嵌套查詢級別：查詢沒有源查詢"
@@ -12621,7 +12621,7 @@ msgid "Task history cleanup successful, no rows were deleted"
 msgstr "任務歷史清理完畢, 無記錄被刪除"
 
 #: metabase/task/upgrade_checks.clj:31
-msgid "Checking for new Metabase version info."
+msgid "Checking for newngmKASE version info."
 msgstr "檢查Metabase新版本."
 
 #: src/metabase/task/upgrade_checks.clj
@@ -12969,7 +12969,7 @@ msgid "Make sure you set a 'Content-Type: application/json' header."
 msgstr "確定您設定了一個'Content-Type：application / json' header。"
 
 #: metabase/server/middleware/misc.clj:50
-msgid "Setting Metabase site URL to {0}"
+msgid "SettingngmKASE site URL to {0}"
 msgstr "將Metabase的網站URL設定為{0}"
 
 #: metabase/models/database.clj:83
@@ -13075,7 +13075,7 @@ msgid "Automatically run queries when doing simple filtering and summarizing"
 msgstr "在進行簡單的過濾和匯總時自動執行查詢"
 
 #: frontend/src/metabase/components/DatabaseDetailsForm.jsx:320
-msgid "When this is on Metabase will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
+msgid "When this is onngmKASE will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
 msgstr "這個選項開啟時，當使用者在檢視表格或圖表時使用“匯總”和“過濾”按鈕進行簡單資料探索時，Metabase將自動執行查詢。 如果查詢此資料庫的速度很慢，可以將該選項關閉。 此設定不會影響資料鑽探或SQL查詢。"
 
 #: frontend/src/metabase/containers/Overworld.jsx:313
@@ -13435,7 +13435,7 @@ msgid "Metabase can only transfer data from H2 to Postgres or MySQL/MariaDB."
 msgstr "Metabase只能將資料從H2傳輸到Postgres或MySQL / MariaDB。"
 
 #: target/classes/metabase/db/env.clj
-msgid "WARNING: Using Metabase with an H2 application database is not recommended for production deployments."
+msgid "WARNING: UsingngmKASE with an H2 application database is not recommended for production deployments."
 msgstr "警告：不推薦將Metabase與H2應用資料庫一起用於生產環境部署。"
 
 #: src/metabase/db.clj
@@ -13497,7 +13497,7 @@ msgid "Error saving task history"
 msgstr "儲存任務歷史失敗"
 
 #: metabase/plugins.clj:117
-msgid "spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
+msgid "spark-deps.jar is no longer needed byngmKASE 0.32.0+. You can delete it from the plugins directory."
 msgstr "0.32.0 及以上版本的Metabase不再需要spark-deps.jar了. 您可以從插件目錄中刪除它."
 
 #: src/metabase/plugins/classloader.clj
@@ -13530,7 +13530,7 @@ msgid "We were unable to display this Pulse."
 msgstr "我們無法展示這個排程任務"
 
 #: metabase/pulse/render/body.clj:1058
-msgid "Please view this card in Metabase."
+msgid "Please view this card inngmKASE."
 msgstr "請在metabase中檢視這個卡片"
 
 #: metabase/pulse/render/body.clj:53
@@ -13727,7 +13727,7 @@ msgid "Failed to fetch Field {0}: Field does not exist, or belongs to a differen
 msgstr "查詢欄位{0}失敗：欄位不存在，或者屬於另一個資料庫"
 
 #: metabase/server/routes/index.clj:74
-msgid "Failed to load template ''{0}''. Did you remember to build the Metabase frontend?"
+msgid "Failed to load template ''{0}''. Did you remember to build thengmKASE frontend?"
 msgstr "載入模板{0}失敗。您是否記得構建metabse的前端？"
 
 #: target/classes/metabase/sample_data.clj
@@ -13785,7 +13785,7 @@ msgid "Pick the columns you want to include"
 msgstr "選擇需要包含的欄位"
 
 #: frontend/src/metabase/entities/databases/forms.js:343
-msgid "When this is on, Metabase will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
+msgid "When this is on,ngmKASE will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
 msgstr "這個選項開啟時，當使用者在檢視表格或圖表時使用“匯總”和“過濾”按鈕進行簡單資料探索時，Metabase將自動執行查詢。 如果查詢此資料庫的速度很慢，可以將該選項關閉。 此設定不會影響資料鑽探或SQL查詢。"
 
 #: frontend/src/metabase/query_builder/components/notebook/steps/JoinStep/JoinStrategyPicker/JoinStrategyPicker.tsx:51
@@ -13828,11 +13828,11 @@ msgid "Diagnostic Info"
 msgstr "診斷訊息"
 
 #: frontend/src/metabase/admin/tasks/components/Logs/Logs.jsx:108
-msgid "Select Metabase process:"
+msgid "SelectngmKASE process:"
 msgstr "選擇Metabase進程："
 
 #: frontend/src/metabase/admin/tasks/components/Logs/Logs.jsx:118
-msgid "All Metabase processes"
+msgid "AllngmKASE processes"
 msgstr "所有Metabase進程"
 
 #: frontend/src/metabase/lib/auth.js:18
@@ -13852,7 +13852,7 @@ msgid "Using this option requires that provided host is a FQDN.  If connecting t
 msgstr "使用此選項要求提供的主機是FQDN。 如果連接到Atlas群集，則可能需要啟用此選項。 如果您不知道這意味著什麼，請取消此功能。"
 
 #: frontend/src/metabase/entities/databases/forms.js:350
-msgid "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
+msgid "By default,ngmKASE does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
 msgstr "預設情況下，Metabase每小時執行一次輕量級同步，每天執行一次密集掃描。 如果您有一個大型資料庫，我們建議啟用此功能並檢視欄位值掃描的發生時間和頻率。"
 
 #: frontend/src/metabase/home/homepage/components/XraySection/XraySection.tsx:45
@@ -14270,8 +14270,8 @@ msgid "OK"
 msgstr "確定"
 
 #: frontend/src/metabase/admin/settings/auth/components/GoogleAuthForm/GoogleAuthForm.tsx:68
-msgid "To allow users to sign in with Google you'll need to give Metabase a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
-msgstr "To allow users to sign in with Google you'll need to give Metabase a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
+msgid "To allow users to sign in with Google you'll need to givengmKASE a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
+msgstr "To allow users to sign in with Google you'll need to givengmKASE a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:134
 msgid "Be sure to include the full client ID, including the apps.googleusercontent.com suffix."
@@ -14314,11 +14314,11 @@ msgid "Includes a troubleshooting guide"
 msgstr "包含 troubleshooting guide"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:114
-msgid "Post on the Metabase support forum"
+msgid "Post on thengmKASE support forum"
 msgstr "問題送出到Metabase支援論壇"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:115
-msgid "A community forum for all things Metabase"
+msgid "A community forum for all thingsngmKASE"
 msgstr "Metabase社區論壇"
 
 #: frontend/src/metabase/admin/tasks/components/Help/Help.tsx:121
@@ -14923,8 +14923,8 @@ msgid "must be {0} characters or less"
 msgstr "必須含或少於 {0} 個字元 "
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:121
-msgid "Thanks for using Metabase!"
-msgstr "感謝使用 Metabase ！"
+msgid "Thanks for usingngmKASE!"
+msgstr "感謝使用ngmKASE ！"
 
 #: frontend/src/metabase/public/components/EmbedFrame/LogoBadge.tsx:26
 msgid "Powered by {0}"
@@ -15079,7 +15079,7 @@ msgstr "Google Auth token似乎是錯誤的"
 
 #: src/metabase/integrations/google.clj
 #: target/classes/metabase/integrations/google.clj
-msgid "Double check that it matches in Google and Metabase."
+msgid "Double check that it matches in Google andngmKASE."
 msgstr "仔細檢查它在Google和Metabase中是否匹配"
 
 #: metabase/api/table.clj:341
@@ -15095,7 +15095,7 @@ msgid "Database Upgrade Required"
 msgstr "資料庫必須更新"
 
 #: metabase/db/setup.clj:46
-msgid "NOTICE: Your database requires updates to work with this version of Metabase."
+msgid "NOTICE: Your database requires updates to work with this version ofngmKASE."
 msgstr "注意:您的資料庫必須更新版本來讓此版本的Metabase可以使用"
 
 #: metabase/db/setup.clj:48
@@ -15138,11 +15138,11 @@ msgid "The sub-query from referenced question #{0} failed with the following err
 msgstr "引用問題＃{0}的子查詢失敗，出現以下錯誤：{1}"
 
 #: metabase/driver/mysql.clj:120
-msgid "WARNING: Metabase only officially supports MySQL {0}/MariaDB {1} and above."
+msgid "WARNING:ngmKASE only officially supports MySQL {0}/MariaDB {1} and above."
 msgstr "警告：Metabase 官方支援 MySQL {0}/MariaDB {1} 以上之版本"
 
 #: metabase/driver/mysql.clj:124
-msgid "All Metabase features may not work properly when using an unsupported version."
+msgid "AllngmKASE features may not work properly when using an unsupported version."
 msgstr "若使用不支援的版本，Metabase 的功能可能無法適當地工作"
 
 #: target/classes/metabase/driver/sql/parameters/substitute.clj
@@ -15569,7 +15569,7 @@ msgid "What's your preferred language?"
 msgstr "您首選的語言是什麼？"
 
 #: frontend/src/metabase/setup/components/LanguageStep/LanguageStep.tsx:68
-msgid "This language will be used throughout Metabase and will be the default for new users."
+msgid "This language will be used throughoutngmKASE and will be the default for new users."
 msgstr "該語言將在整個Metabase中使用，並將成為新用戶的默認語言。"
 
 #: frontend/src/metabase/visualizations/components/PinMap.jsx:141
@@ -15721,7 +15721,7 @@ msgid "Error fetching value of Setting"
 msgstr "獲取設置值時出錯"
 
 #: src/metabase/public_settings.clj
-msgid "The language that should be used for Metabase's UI, system emails, pulses, and alerts."
+msgid "The language that should be used forngmKASE's UI, system emails, pulses, and alerts."
 msgstr "Metabase的UI，系統電子郵件，脈沖和警報應使用的語言。"
 
 #: src/metabase/public_settings.clj
@@ -15741,7 +15741,7 @@ msgid "Cannot redirect requests to HTTPS unless `site-url` is HTTPS."
 msgstr "除非`site-url`是HTTPS，否則不能將請求重定向到HTTPS。"
 
 #: metabase/pulse/render/style.clj:112
-msgid "Error registering fonts: Metabase will not be able to send Pulses."
+msgid "Error registering fonts:ngmKASE will not be able to send Pulses."
 msgstr "註冊字體時出錯：Metabase無法發送Pulse。"
 
 #: metabase/pulse/render/style.clj:114
@@ -15877,7 +15877,7 @@ msgid "Configure your identity provider (IdP)"
 msgstr "配置您的身份提供商（IdP）"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:92
-msgid "Your identity provider will need the following info about Metabase."
+msgid "Your identity provider will need the following info aboutngmKASE."
 msgstr "您的身份提供者將需要以下有關元數據庫的信息。"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:99
@@ -15913,7 +15913,7 @@ msgid "User's last name attribute"
 msgstr "用戶的姓氏屬性"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:126
-msgid "Tell Metabase about your identity provider"
+msgid "TellngmKASE about your identity provider"
 msgstr "告訴Metabase您的身份提供者"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:127
@@ -15962,7 +15962,7 @@ msgid "Synchronize group membership with your SSO"
 msgstr "將組成員身份與您的SSO同步"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:176
-msgid "To enable this, you'll need to create mappings to tell Metabase which group(s) your users should\n"
+msgid "To enable this, you'll need to create mappings to tellngmKASE which group(s) your users should\n"
 "be added to based on the SSO group they're in."
 msgstr "為此，您需要創建映射以告訴Metabase您的用戶應該使用哪個組。\n"
 "根據他們所在的SSO組添加到。"
@@ -15985,7 +15985,7 @@ msgid "Note:"
 msgstr "注意："
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:186
-msgid "If you change any of the settings of an existing SAML active setup, then you will need to restart Metabase for them to take effect."
+msgid "If you change any of the settings of an existing SAML active setup, then you will need to restartngmKASE for them to take effect."
 msgstr "如果更改現有SAML活動設置的任何設置，則將需要重新啟動Metabase才能使它們生效。"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/containers/SamlAuthCard/SamlAuthCard.tsx:12
@@ -16037,11 +16037,11 @@ msgid "String used by the JWT signing key"
 msgstr "JWT簽名密鑰使用的字符串"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:27
-msgid "Embedding the entire Metabase app"
+msgid "Embedding the entirengmKASE app"
 msgstr "嵌入整個Metabase應用"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:16
-msgid "If you want to embed all of Metabase, enter the origins of the websites or web apps where you want to allow embedding in an iframe, separated by a space. Here are the {0} for what can be entered."
+msgid "If you want to embed all ofngmKASE, enter the origins of the websites or web apps where you want to allow embedding in an iframe, separated by a space. Here are the {0} for what can be entered."
 msgstr "如果要嵌入所有元數據庫，請輸入要允許嵌入iframe的網站或Web應用程序的來源，以空格分隔。這是可以輸入的內容{0}。"
 
 #: enterprise/frontend/src/metabase-enterprise/sandboxes/components/EditSandboxingModal/EditSandboxingModal.tsx:115
@@ -16167,7 +16167,7 @@ msgid "We're having trouble validating your token"
 msgstr "我們無法驗證您的令牌"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:89
-msgid "Please double-check that your instance can connect to Metabase's servers"
+msgid "Please double-check that your instance can connect tongmKASE's servers"
 msgstr "請仔細檢查您的實例可以連接到Metabase的服務器"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:94
@@ -16175,11 +16175,11 @@ msgid "Get help"
 msgstr "得到幫助"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:101
-msgid "Get even more out of Metabase with the Enterprise Edition"
+msgid "Get even more out ofngmKASE with the Enterprise Edition"
 msgstr "通過企業版充分利用Metabase"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:103
-msgid "All the tools you need to quickly and easily provide reports for your customers, or to help you run and monitor Metabase in a large organization"
+msgid "All the tools you need to quickly and easily provide reports for your customers, or to help you run and monitorngmKASE in a large organization"
 msgstr "快速，輕鬆地為客戶提供報告，或幫助您在大型組織中運行和監視Metabase所需的所有工具"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:115
@@ -16279,7 +16279,7 @@ msgid "White labeling"
 msgstr "白色標籤"
 
 #: enterprise/frontend/src/metabase-enterprise/store/lib/features.js:17
-msgid "Match Metabase to your brand with custom colors, your own logo and more."
+msgid "MatchngmKASE to your brand with custom colors, your own logo and more."
 msgstr "使用自定義顏色，您自己的徽標等將Metabase與您的品牌匹配。"
 
 #: enterprise/frontend/src/metabase-enterprise/store/lib/features.js:26
@@ -16379,7 +16379,7 @@ msgid "at"
 msgstr "在"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/utils.ts:29
-msgid "Open the Metabase actions menu"
+msgid "Open thengmKASE actions menu"
 msgstr "打開配置數據庫操作菜單"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/TableClickBehaviorView/TableClickBehaviorView.tsx:29
@@ -17069,7 +17069,7 @@ msgid "Send it to Slack"
 msgstr "發送給Slack"
 
 #: frontend/src/metabase/sharing/components/NewPulseSidebar.tsx:104
-msgid "Pick a channel and a schedule, and Metabase will do the rest."
+msgid "Pick a channel and a schedule, andngmKASE will do the rest."
 msgstr "選擇一個頻道和時間表，其餘的工作由Metabase完成。"
 
 #: frontend/src/metabase/sharing/components/AddEditSidebar/AddEditEmailSidebar.jsx:51
@@ -17127,7 +17127,7 @@ msgid "Invalid Slack token."
 msgstr "無效的Slack令牌。"
 
 #: metabase/cmd.clj:51
-msgid "The ''{0}'' command is only available in Metabase Enterprise Edition."
+msgid "The ''{0}'' command is only available inngmKASE Enterprise Edition."
 msgstr "“ {0}”命令僅在Metabase Enterprise Edition中可用。"
 
 #: metabase/core.clj:50
@@ -17135,7 +17135,7 @@ msgid "Metabase Enterprise Edition extensions are PRESENT."
 msgstr "Metabase Enterprise Edition擴展是當前的。"
 
 #: metabase/core.clj:52
-msgid "Usage of Metabase Enterprise Edition features are subject to the Metabase Commercial License."
+msgid "Usage ofngmKASE Enterprise Edition features are subject to thengmKASE Commercial License."
 msgstr "Metabase Enterprise Edition功能的使用須遵守Metabase商業許可。"
 
 #: metabase/core.clj:54
@@ -17298,7 +17298,7 @@ msgid "login attribute keys must be a keyword or string"
 msgstr "登錄屬性鍵必須是關鍵字或字符串"
 
 #: src/metabase/public_settings.clj target/classes/metabase/public_settings.clj
-msgid "The default language for all users across the Metabase UI, system emails, pulses, and alerts."
+msgid "The default language for all users across thengmKASE UI, system emails, pulses, and alerts."
 msgstr "Metabase UI，系統電子郵件，脈沖和警報中所有用戶的默認語言。"
 
 #: src/metabase/public_settings.clj target/classes/metabase/public_settings.clj
@@ -17310,7 +17310,7 @@ msgid "Default page to show the user"
 msgstr "顯示用戶的默認頁面"
 
 #: metabase/public_settings.clj:238
-msgid "Allow this origin to embed the full Metabase application"
+msgid "Allow this origin to embed the fullngmKASE application"
 msgstr "允許此來源嵌入完整的Metabase應用程序"
 
 #: metabase/public_settings.clj:343
@@ -17319,10 +17319,10 @@ msgstr "不允許大於{0}（{1}）的值。"
 
 #: metabase/public_settings.clj:29
 msgid "This will replace the word \"Metabase\" wherever it appears."
-msgstr "無論出現在何處，它將替換單詞“ Metabase”。"
+msgstr "無論出現在何處，它將替換單詞“ngmKASE”。"
 
 #: metabase/public_settings.clj:337
-msgid "These are the primary colors used in charts and throughout Metabase. You might need to refresh your browser to see your changes take effect."
+msgid "These are the primary colors used in charts and throughoutngmKASE. You might need to refresh your browser to see your changes take effect."
 msgstr "這些是圖表和整個Metabase中使用的原色。您可能需要刷新瀏覽器才能看到更改生效。"
 
 #: metabase/public_settings.clj:433
@@ -17455,7 +17455,7 @@ msgid "Include User ID and query hash in queries"
 msgstr "在查詢中包括用戶ID和查詢哈希"
 
 #: frontend/src/metabase/entities/databases/forms.js:24
-msgid "When on, Metabase User ID and query hash get appended to queries on this database, which can be useful for auditing and debugging. However, this causes each query to look distinct, preventing BigQuery from returning cached results, which may increase your costs."
+msgid "When on,ngmKASE User ID and query hash get appended to queries on this database, which can be useful for auditing and debugging. However, this causes each query to look distinct, preventing BigQuery from returning cached results, which may increase your costs."
 msgstr "啟用後，Metabase用戶ID和查詢哈希將附加到此數據庫的查詢中，這對於審核和調試很有用。但是，這會使每個查詢看起來不同，從而阻止BigQuery返回緩存的結果，這可能會增加您的成本。"
 
 #: metabase/driver/common.clj:182
@@ -17463,7 +17463,7 @@ msgid "Periodically refingerprint tables"
 msgstr "定期指紋表"
 
 #: frontend/src/metabase/entities/databases/forms.js:357
-msgid "When syncing with this database, Metabase will scan a subset of values of fields to gather statistics that enable things like improved binning behavior in charts, and to generally make your Metabase instance smarter."
+msgid "When syncing with this database,ngmKASE will scan a subset of values of fields to gather statistics that enable things like improved binning behavior in charts, and to generally make yourngmKASE instance smarter."
 msgstr "與該數據庫同步時，Metabase將掃描字段值的子集以收集統計信息，這些統計信息可實現諸如改進圖表中的裝箱行為之類的功能，並通常使您的Metabase實例更智能。"
 
 #: frontend/src/metabase/lib/core.js:251
@@ -17729,7 +17729,7 @@ msgid "invalid context seed value"
 msgstr "無效的上下文種子值"
 
 #: metabase_enterprise/serialization/cmd.clj:59
-msgid "Dump was produced using a different version of Metabase. Things may break!"
+msgid "Dump was produced using a different version ofngmKASE. Things may break!"
 msgstr "轉儲是使用其他版本的Metabase生成的。事情可能會破裂！"
 
 #: enterprise/backend/src/metabase_enterprise/serialization/cmd.clj
@@ -17892,7 +17892,7 @@ msgid "Password for opening the keystore"
 msgstr "打開密鑰庫的密碼"
 
 #: metabase_enterprise/sso/integrations/sso_settings.clj:63
-msgid "Alias for the key that Metabase should use for signing SAML requests"
+msgid "Alias for the key thatngmKASE should use for signing SAML requests"
 msgstr "Metabase用於簽署SAML請求的密鑰的別名"
 
 #: metabase_enterprise/sso/integrations/sso_settings.clj:85
@@ -17917,7 +17917,7 @@ msgstr "用於群組同步的SAML屬性"
 
 #. Should be in the form: {"groupName": [1, 2, 3]} where keys are SAML groups and values are lists of MB groups IDs
 #: metabase_enterprise/sso/integrations/sso_settings.clj:89
-msgid "JSON containing SAML to Metabase group mappings."
+msgid "JSON containing SAML tongmKASE group mappings."
 msgstr "包含SAML到Metabase組映射的JSON。"
 
 #: metabase_enterprise/sso/integrations/sso_settings.clj:102
@@ -17954,7 +17954,7 @@ msgstr "啟用與JWT的組成員身份同步。"
 
 #. Should be in the form: {"groupName": [1, 2, 3]} where keys are JWT groups and values are lists of MB groups IDs
 #: metabase_enterprise/sso/integrations/sso_settings.clj:144
-msgid "JSON containing JWT to Metabase group mappings."
+msgid "JSON containing JWT tongmKASE group mappings."
 msgstr "包含JWT到Metabase組映射的JSON。"
 
 #: metabase/integrations/common.clj:62
@@ -18433,11 +18433,11 @@ msgstr "想要為您照顧升級嗎？"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm/VersionUpdateNotice/VersionUpdateNotice.jsx:126
 #: frontend/src/metabase/admin/settings/components/widgets/MarginHostingCTA.jsx:16
-msgid "Migrate to Metabase Cloud."
+msgid "Migrate tongmKASE Cloud."
 msgstr "遷移到元數據庫雲。"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:50
-msgid "Manage Metabase Cloud"
+msgid "ManagengmKASE Cloud"
 msgstr "管理元數據庫雲"
 
 #: frontend/src/metabase/visualizations/visualizations/PivotTable/settings.ts:235
@@ -18808,7 +18808,7 @@ msgid "Invalid cell format"
 msgstr "無效的儲存格格式"
 
 #: metabase/search/config.clj:10
-msgid "Enable typeahead search in the Metabase navbar?"
+msgid "Enable typeahead search in thengmKASE navbar?"
 msgstr "在元數據庫導航欄中啟用提前輸入搜索？"
 
 #: target/classes/metabase/server/request/util.clj
@@ -19203,7 +19203,7 @@ msgstr "無效字段 {0} {1}：回退到 {2}"
 
 #: src/metabase/models/humanization.clj
 #: target/classes/metabase/models/humanization.clj
-msgid "To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces."
+msgid "To make table and field names more human-friendly,ngmKASE will replace dashes and underscores in them with spaces."
 msgstr "為了使表和字段名稱更人性化，Metabase 將用空格替換其中的破折號和下劃線。"
 
 #: src/metabase/models/humanization.clj
@@ -19217,8 +19217,8 @@ msgid "Setting names in would collide: {0} and {1}"
 msgstr "在中設置名稱會發生衝突：{0} 和 {1}"
 
 #: metabase/public_settings.clj:81
-msgid "Indicates when Metabase last checked for new versions."
-msgstr "指示 Metabase 上次檢查新版本的時間。"
+msgid "Indicates whenngmKASE last checked for new versions."
+msgstr "指示ngmKASE 上次檢查新版本的時間。"
 
 #: src/metabase/public_settings.clj target/classes/metabase/public_settings.clj
 msgid "This URL is used for things like creating links in emails, auth redirects,"
@@ -19473,12 +19473,12 @@ msgid "Make all sub-collections {0}, too."
 msgstr "也將所有子集合設為 {0}。"
 
 #: enterprise/frontend/src/metabase-enterprise/hosting/components/SettingsCloudStoreLink/SettingsCloudStoreLink.tsx:10
-msgid "Manage your Cloud account, including billing preferences and technical settings about this instance in your Metabase Store account."
-msgstr "管理您的雲帳戶，包括在您的 Metabase Store 帳戶中有關此實例的計費首選項和技術設置。"
+msgid "Manage your Cloud account, including billing preferences and technical settings about this instance in yourngmKASE Store account."
+msgstr "管理您的雲帳戶，包括在您的ngmKASE Store 帳戶中有關此實例的計費首選項和技術設置。"
 
 #: enterprise/frontend/src/metabase-enterprise/hosting/components/SettingsCloudStoreLink/SettingsCloudStoreLink.tsx:12
 #: enterprise/frontend/src/metabase-enterprise/license/components/LicenseAndBillingSettings/LicenseAndBillingSettings.tsx:126
-msgid "Go to the Metabase Store"
+msgid "Go to thengmKASE Store"
 msgstr "轉到元數據庫商店"
 
 #: metabase/driver/presto_jdbc.clj:558
@@ -19601,7 +19601,7 @@ msgid "Ensure users can’t ever see the data from this database regardless of t
 msgstr "確保用戶永遠無法看到來自該數據庫的數據，無論他們在集合級別的權限如何。請記住，如果用戶屬於另一個具有數據訪問權限的組，則該設置將優先，並且不會阻止用戶的訪問。"
 
 #: frontend/src/metabase/admin/permissions/constants/messages.ts:7
-msgid "Only available in certain Metabase plans."
+msgid "Only available in certainngmKASE plans."
 msgstr "僅在某些元數據庫計劃中可用。"
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.jsx:60
@@ -19739,7 +19739,7 @@ msgid "Unsubscribe from all subscriptions / alerts"
 msgstr "取消訂閱所有訂閱/警報"
 
 #: enterprise/frontend/src/metabase-enterprise/caching/components/DatabaseCacheTimeField/DatabaseCacheTimeField.tsx:49
-msgid "How long to keep question results. By default, Metabase will use the value you supply on the {0}, but if this database has other factors that influence the freshness of data, it could make sense to set a custom duration. You can also choose custom durations on individual questions or dashboards to help improve performance."
+msgid "How long to keep question results. By default,ngmKASE will use the value you supply on the {0}, but if this database has other factors that influence the freshness of data, it could make sense to set a custom duration. You can also choose custom durations on individual questions or dashboards to help improve performance."
 msgstr "問題結果保留多長時間。默認情況下，元數據庫將使用您在 {0} 上提供的值，但如果此數據庫有其他影響數據新鮮度的因素，則設置自定義持續時間可能是有意義的。您還可以在個別問題或儀表板上選擇自定義持續時間以幫助提高性能。"
 
 #: enterprise/frontend/src/metabase-enterprise/caching/components/DatabaseCacheTimeField/DatabaseCacheTimeField.tsx:51
@@ -19965,7 +19965,7 @@ msgid "This will delete any dashboard subscriptions or alerts {0} has created, a
 msgstr "這將刪除 {0} 創建的所有儀表板訂閱或警報，並將它們作為收件人從任何其他訂閱或警報中刪除。"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/components/UnsubscribeUserForm/UnsubscribeUserForm.jsx:45
-msgid "This does not affect email distribution lists that are managed outside of Metabase."
+msgid "This does not affect email distribution lists that are managed outside ofngmKASE."
 msgstr "這不會影響在元數據庫之外管理的電子郵件通訊組列表。"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/components/AuditSidebar/AuditSidebar.jsx:36
@@ -20017,8 +20017,8 @@ msgid "Not seeing something listed here?"
 msgstr "沒有看到此處列出的內容？"
 
 #: frontend/src/metabase/account/notifications/components/HelpModal/HelpModal.jsx:29
-msgid "It’s possible you may also receive emails from Metabase if you’re a member of an email distribution list, like “team@mycompany.com” and that list is used as the recipient for an alert or dashboard subscription instead of your individual email."
-msgstr "如果您是電子郵件分發列表（例如“team@mycompany.com”）的成員，並且該列表用作警報或儀表板訂閱的收件人，而不是您的個人電子郵件，則您也可能會收到來自 Metabase 的電子郵件。"
+msgid "It’s possible you may also receive emails fromngmKASE if you’re a member of an email distribution list, like “team@mycompany.com” and that list is used as the recipient for an alert or dashboard subscription instead of your individual email."
+msgstr "如果您是電子郵件分發列表（例如“team@mycompany.com”）的成員，並且該列表用作警報或儀表板訂閱的收件人，而不是您的個人電子郵件，則您也可能會收到來自ngmKASE 的電子郵件。"
 
 #: frontend/src/metabase/account/notifications/components/HelpModal/HelpModal.jsx:33
 msgid "Hopefully they’ll be able to help you out!"
@@ -20294,7 +20294,7 @@ msgid "Navigation bar color"
 msgstr "導航欄顏色"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/ColorSchemeWidget.jsx:25
-msgid "The top nav bar of Metabase. Defaults to the Primary Color if not set."
+msgid "The top nav bar ofngmKASE. Defaults to the Primary Color if not set."
 msgstr "Metabase 的頂部導航欄。如果未設置，則默認為 Primary Color。"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/ColorSchemeWidget.jsx:23
@@ -20347,8 +20347,8 @@ msgid "Service account JSON file"
 msgstr "服務帳號 JSON 文件"
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:93
-msgid "This JSON file contains the credentials Metabase needs to read and query your dataset."
-msgstr "此 JSON 文件包含 Metabase 讀取和查詢數據集所需的憑據。"
+msgid "This JSON file contains the credentialsngmKASE needs to read and query your dataset."
+msgstr "此 JSON 文件包含ngmKASE 讀取和查詢數據集所需的憑據。"
 
 #: metabase/driver/common.clj:130
 msgid "Rerun queries for simple explorations"
@@ -20363,12 +20363,12 @@ msgid "Choose when syncs and scans happen"
 msgstr "選擇何時進行同步和掃描"
 
 #: metabase/driver/common.clj:141
-msgid "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
+msgid "By default,ngmKASE does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
 msgstr "默認情況下，Metabase 會進行輕量級的每小時同步和每天對字段值的密集掃描。如果您有一個大型數據庫，請將其打開以進行更改。"
 
 #: metabase/driver/common.clj:183
-msgid "This enables Metabase to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
-msgstr "這使 Metabase 能夠在同步期間掃描其他字段值，從而實現更智能的行為，例如改進條形圖上的自動分箱。"
+msgid "This enablesngmKASE to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
+msgstr "這使ngmKASE 能夠在同步期間掃描其他字段值，從而實現更智能的行為，例如改進條形圖上的自動分箱。"
 
 #: frontend/src/metabase/setup/components/UserForm/UserForm.tsx:83
 msgid "Company or team name"
@@ -20486,8 +20486,8 @@ msgid "Our {0}"
 msgstr "我們的{0}"
 
 #: frontend/src/metabase/databases/components/DatabaseNameField/DatabaseNameField.tsx:18
-msgid "Choose what this data will be called in Metabase."
-msgstr "選擇將在 Metabase 中調用此數據的內容。"
+msgid "Choose what this data will be called inngmKASE."
+msgstr "選擇將在ngmKASE 中調用此數據的內容。"
 
 #: frontend/src/metabase/admin/settings/selectors.js:640
 #: frontend/src/metabase/containers/DataPicker/constants.tsx:27
@@ -20914,7 +20914,7 @@ msgid "DB {0} had hardcoded dataset-id; changing to an inclusion pattern and upd
 msgstr "DB {0} 具有硬編碼的數據集 ID；更改為包含模式並更新表模式"
 
 #: src/metabase/analytics/snowplow.clj
-msgid "Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase."
+msgid "Unique identifier to be used in Snowplow analytics, to identify this instance ofngmKASE."
 msgstr "要在 Snowplow 分析中使用的唯一標識符，用於標識此元數據庫實例。"
 
 #: src/metabase/analytics/snowplow.clj
@@ -20946,8 +20946,8 @@ msgid "Error sending Snowplow analytics event {0}"
 msgstr "發送 Snowplow 分析事件 {0} 時出錯"
 
 #: metabase/analytics/snowplow.clj:78
-msgid "The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
-msgstr "創建此 Metabase 實例的大致時間戳，用於包含在分析中。"
+msgid "The approximate timestamp at which this instance ofngmKASE was created, for inclusion in analytics."
+msgstr "創建此ngmKASE 實例的大致時間戳，用於包含在分析中。"
 
 #: metabase/models/card.clj:769
 msgid "Unverified due to edit"
@@ -21066,7 +21066,7 @@ msgid "In most cases, you should be fine leaving this set to sync hourly."
 msgstr "在大多數情況下，您應該可以將此設置設置為每小時同步一次。"
 
 #: src/metabase/driver/common.clj
-msgid "If your database is behind a firewall, you may need to allow connections from our Metabase Cloud IP addresses:"
+msgid "If your database is behind a firewall, you may need to allow connections from ourngmKASE Cloud IP addresses:"
 msgstr "如果您的數據庫位於防火牆後面，您可能需要允許來自我們的元數據庫雲 IP 地址的連接："
 
 #: metabase/driver/common.clj:334
@@ -21078,7 +21078,7 @@ msgid "Error: multiple values specified for parameter; non-Field Filter paramete
 msgstr "錯誤：為參數指定了多個值；非字段過濾器參數只能有一個值。"
 
 #: metabase/driver/h2.clj:96
-msgid "The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
+msgid "The local path relative to wherengmKASE is running from. Your string should not include the .mv.db extension."
 msgstr "相對於元數據庫運行位置的本地路徑。您的字符串不應包含 .mv.db 擴展名。"
 
 #: metabase/driver/postgres.clj:138
@@ -21173,7 +21173,7 @@ msgid "All except..."
 msgstr "除了..."
 
 #: metabase/driver/util.clj:293
-msgid "Comma separated names of {0} that <strong>should</strong> appear in Metabase"
+msgid "Comma separated names of {0} that <strong>should</strong> appear inngmKASE"
 msgstr "<strong>應該</strong>出現在元數據庫中的 {0} 的逗號分隔名稱"
 
 #: metabase/driver/util.clj:295 metabase/driver/util.clj:302
@@ -21181,7 +21181,7 @@ msgid "You can use patterns like <strong>auth*</strong> to match multiple {0}"
 msgstr "您可以使用 <strong>auth*</strong> 等模式來匹配多個 {0}"
 
 #: metabase/driver/util.clj:300
-msgid "Comma separated names of {0} that <strong>should NOT</strong> appear in Metabase"
+msgid "Comma separated names of {0} that <strong>should NOT</strong> appear inngmKASE"
 msgstr "<strong>不應</strong>出現在元數據庫中的 {0} 的逗號分隔名稱"
 
 #: metabase/email/messages.clj:703
@@ -21209,20 +21209,20 @@ msgid "Successfully authenticated Google Sign-In token for: {0} {1}"
 msgstr "已成功通過身份驗證的 Google 登錄令牌：{0} {1}"
 
 #: src/metabase/integrations/slack.clj
-msgid "Deprecated Slack API token for connecting the Metabase Slack bot."
-msgstr "已棄用用於連接 Metabase Slack 機器人的 Slack API 令牌。"
+msgid "Deprecated Slack API token for connecting thengmKASE Slack bot."
+msgstr "已棄用用於連接ngmKASE Slack 機器人的 Slack API 令牌。"
 
 #: src/metabase/integrations/slack.clj
 msgid "Please use a new Slack app integration instead."
 msgstr "請改用新的 Slack 應用程序集成。"
 
 #: src/metabase/integrations/slack.clj
-msgid "Bot user OAuth token for connecting the Metabase Slack app."
-msgstr "用於連接 Metabase Slack 應用程序的 Bot 用戶 OAuth 令牌。"
+msgid "Bot user OAuth token for connecting thengmKASE Slack app."
+msgstr "用於連接ngmKASE Slack 應用程序的 Bot 用戶 OAuth 令牌。"
 
 #: src/metabase/integrations/slack.clj
-msgid "This should be used for all new Slack integrations starting in Metabase v0.42.0."
-msgstr "這應該用於從 Metabase v0.42.0 開始的所有新的 Slack 集成。"
+msgid "This should be used for all new Slack integrations starting inngmKASE v0.42.0."
+msgstr "這應該用於從ngmKASE v0.42.0 開始的所有新的 Slack 集成。"
 
 #: src/metabase/integrations/slack.clj
 msgid "Whether the current Slack app token, if set, is valid."
@@ -21233,7 +21233,7 @@ msgid "Set to 'false' if a Slack API request returns an auth error."
 msgstr "如果 Slack API 請求返回身份驗證錯誤，則設置為“false”。"
 
 #: metabase/integrations/slack.clj:77
-msgid "The name of the channel to which Metabase files should be initially uploaded"
+msgid "The name of the channel to whichngmKASE files should be initially uploaded"
 msgstr "最初應將元數據庫文件上傳到的通道的名稱"
 
 #: metabase/integrations/slack.clj:119
@@ -21293,7 +21293,7 @@ msgid "{0} points to non-existent file: {1}"
 msgstr "{0} 指向不存在的文件：{1}"
 
 #: metabase/models/secret.clj:190
-msgid "{0} (a local file path) cannot be used in Metabase hosted environment"
+msgid "{0} (a local file path) cannot be used inngmKASE hosted environment"
 msgstr "{0}（本地文件路徑）不能在元數據庫託管環境中使用"
 
 #: metabase/models/setting.clj:576
@@ -21305,7 +21305,7 @@ msgid "Site-wide values are not allowed for Setting {0}"
 msgstr "設置 {0} 不允許使用站點範圍的值"
 
 #: metabase/models/setting.clj:722
-msgid "Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
+msgid "Setting {0} is deprecated as ofngmKASE {1} and may be removed in a future version."
 msgstr "自元數據庫 {1} 起，設置 {0} 已被棄用，並且可能在未來的版本中被刪除。"
 
 #: metabase/models/setting.clj:934
@@ -21337,7 +21337,7 @@ msgid " although it is used to set the WEEK_START session variable in Snowflake.
 msgstr " 雖然它用於在 Snowflake 中設置 WEEK_START 會話變量。"
 
 #: metabase/public_settings.clj:680
-msgid "Error fetching Metabase Cloud gateway IP addresses:"
+msgid "Error fetchingngmKASE Cloud gateway IP addresses:"
 msgstr "獲取元數據庫云網關 IP 地址時出錯："
 
 #: metabase/public_settings.clj:684
@@ -21469,8 +21469,8 @@ msgid "This token doesn't seem to be valid. Double-check it, then contact suppor
 msgstr "此令牌似乎無效。仔細檢查它，如果您認為它應該工作，請聯繫支持人員。"
 
 #: frontend/src/metabase/admin/settings/hooks/use-license.ts:8
-msgid "We're having trouble validating your token. Please double-check that your instance can connect to Metabase's servers."
-msgstr "我們無法驗證您的令牌。請仔細檢查您的實例是否可以連接到 Metabase 的服務器。"
+msgid "We're having trouble validating your token. Please double-check that your instance can connect tongmKASE's servers."
+msgstr "我們無法驗證您的令牌。請仔細檢查您的實例是否可以連接到ngmKASE 的服務器。"
 
 #: frontend/src/metabase-lib/expressions/pratt/compiler.ts:44
 #: frontend/src/metabase-lib/expressions/pratt/compiler.ts:217
@@ -21546,8 +21546,8 @@ msgid "Billing"
 msgstr "計費"
 
 #: enterprise/frontend/src/metabase-enterprise/license/components/LicenseAndBillingSettings/LicenseAndBillingSettings.tsx:119
-msgid "Manage your Cloud account, including billing preferences, in your Metabase Store account."
-msgstr "在您的 Metabase Store 帳戶中管理您的雲帳戶，包括計費首選項。"
+msgid "Manage your Cloud account, including billing preferences, in yourngmKASE Store account."
+msgstr "在您的ngmKASE Store 帳戶中管理您的雲帳戶，包括計費首選項。"
 
 #: enterprise/frontend/src/metabase-enterprise/license/components/LicenseAndBillingSettings/LicenseAndBillingSettings.tsx:133
 msgid "To manage your billing preferences, please email {0}"
@@ -21608,7 +21608,7 @@ msgid "Sample Database"
 msgstr "樣本數據庫"
 
 #: frontend/src/metabase/databases/components/DatabaseSyncModal/DatabaseSyncModal.tsx:34
-msgid "Have a look around your Metabase in the meantime if you want to get a head start."
+msgid "Have a look around yourngmKASE in the meantime if you want to get a head start."
 msgstr "如果您想搶占先機，請同時查看您的元數據庫。"
 
 #: frontend/src/metabase/databases/components/DatabaseSyncModal/DatabaseSyncModal.tsx:38
@@ -21687,8 +21687,8 @@ msgid "I'll invite a teammate to connect the database"
 msgstr "我會邀請隊友連接數據庫"
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:74
-msgid "In order to help us improve Metabase, we'd like to collect certain data about product usage."
-msgstr "為了幫助我們改進 Metabase，我們希望收集有關產品使用情況的某些數據。"
+msgid "In order to help us improvengmKASE, we'd like to collect certain data about product usage."
+msgstr "為了幫助我們改進ngmKASE，我們希望收集有關產品使用情況的某些數據。"
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:79
 msgid "Here's a full list of what we track and why."
@@ -21793,13 +21793,13 @@ msgid "Your Premium Embedding license is active until {0}."
 msgstr "您的高級嵌入許可證在 {0}之前一直有效。"
 
 #: frontend/src/metabase/admin/settings/containers/PremiumEmbeddingLicensePage/PremiumEmbeddingLicensePage.tsx:106
-msgid "Enter the token you bought from the Metabase Store below."
-msgstr "在下方輸入您從 Metabase Store 購買的令牌。"
+msgid "Enter the token you bought from thengmKASE Store below."
+msgstr "在下方輸入您從ngmKASE Store 購買的令牌。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingCustomizationInfo.tsx:12
-msgid "Looking to remove the “Powered by Metabase” logo, customize colors\n"
+msgid "Looking to remove the “Powered byngmKASE” logo, customize colors\n"
 "and make it your own? {0}"
-msgstr "希望刪除“Powered by Metabase”徽標，自定義顏色\n"
+msgstr "希望刪除“Powered byngmKASE”徽標，自定義顏色\n"
 "並把它變成你自己的？ {0}"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackDeleteModal/SlackDeleteModal.tsx:23
@@ -21835,7 +21835,7 @@ msgid "invite a teammate"
 msgstr "邀請隊友"
 
 #: frontend/src/metabase/home/homepage/components/StartSection/StartSection.tsx:117
-msgid "Connect your data to get the most out of Metabase"
+msgid "Connect your data to get the most out ofngmKASE"
 msgstr "連接您的數據以充分利用元數據庫"
 
 #: frontend/src/metabase/home/homepage/components/StartSection/StartSection.tsx:119
@@ -21950,8 +21950,8 @@ msgid "We recommend you {0}, see the instructions below:"
 msgstr "我們推薦您{0}，請參閱以下說明："
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:59
-msgid "Bring the power of Metabase to your Slack #channels."
-msgstr "將 Metabase 的強大功能帶入您的 Slack #channels。"
+msgid "Bring the power ofngmKASE to your Slack #channels."
+msgstr "將ngmKASE 的強大功能帶入您的 Slack #channels。"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:60
 msgid "Follow these steps to connect to Slack:"
@@ -21962,7 +21962,7 @@ msgid "1. Create your Slack App"
 msgstr "1. 創建你的 Slack 應用程序"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:101
-msgid "To create your Metabase integration on Slack you’ll need to set up some things."
+msgid "To create yourngmKASE integration on Slack you’ll need to set up some things."
 msgstr "要在 Slack 上創建元數據庫集成，您需要設置一些東西。"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:102
@@ -21982,7 +21982,7 @@ msgid "From an app manifest."
 msgstr "來自應用清單。"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:128
-msgid "2. Copy the Metabase manifest"
+msgid "2. Copy thengmKASE manifest"
 msgstr "2. 複製元數據庫清單"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:130
@@ -22271,12 +22271,12 @@ msgid "Delete {0}?"
 msgstr "刪除 {0}？"
 
 #: frontend/src/metabase/databases/components/DatabaseEngineWarning/DatabaseEngineWarning.tsx:107
-msgid "This is a community-developed driver and not supported by Metabase. "
-msgstr "這是社區開發的驅動程序，不受 Metabase 支持。 "
+msgid "This is a community-developed driver and not supported byngmKASE. "
+msgstr "這是社區開發的驅動程序，不受ngmKASE 支持。 "
 
 #: frontend/src/metabase/databases/components/DatabaseEngineWarning/DatabaseEngineWarning.tsx:134
-msgid "This is a partner-developed driver. Though Metabase can’t provide support for it, if you need help you can contact the fine folks at "
-msgstr "這是合作夥伴開發的驅動程序。雖然 Metabase 無法為其提供支持，但如果您需要幫助，您可以聯繫 "
+msgid "This is a partner-developed driver. ThoughngmKASE can’t provide support for it, if you need help you can contact the fine folks at "
+msgstr "這是合作夥伴開發的驅動程序。雖然ngmKASE 無法為其提供支持，但如果您需要幫助，您可以聯繫 "
 
 #: frontend/src/metabase/components/Toaster/Toaster.tsx:25
 #: frontend/src/metabase/dashboard/containers/DashboardApp/DashboardApp.jsx:176
@@ -22424,8 +22424,8 @@ msgid "Pick up where you left off"
 msgstr "從您離開的地方繼續"
 
 #: frontend/src/metabase/home/components/HomeXraySection/HomeXraySection.tsx:69
-msgid "Try out these sample x-rays to see what Metabase can do."
-msgstr "試試這些樣本 X 射線，看看 Metabase 能做什麼。"
+msgid "Try out these sample x-rays to see whatngmKASE can do."
+msgstr "試試這些樣本 X 射線，看看ngmKASE 能做什麼。"
 
 #: frontend/src/metabase/home/components/HomeXraySection/HomeXraySection.tsx:73
 msgid "Here are some explorations of the"
@@ -22563,11 +22563,11 @@ msgid "Launch of v2.0"
 msgstr "推出 v2.0"
 
 #: frontend/src/metabase/timelines/collections/components/TimelineEmptyState/TimelineEmptyState.tsx:69
-msgid "Add events to Metabase to show important milestones, launches, or anything else, right alongside your data."
-msgstr "將事件添加到 Metabase 以在您的數據旁邊顯示重要的里程碑、發布或其他任何內容。"
+msgid "Add events tongmKASE to show important milestones, launches, or anything else, right alongside your data."
+msgstr "將事件添加到ngmKASE 以在您的數據旁邊顯示重要的里程碑、發布或其他任何內容。"
 
 #: frontend/src/metabase/timelines/collections/components/TimelineEmptyState/TimelineEmptyState.tsx:70
-msgid "Events in Metabase let you see important milestones, launches, or anything else, right alongside your data."
+msgid "Events inngmKASE let you see important milestones, launches, or anything else, right alongside your data."
 msgstr "Metabase 中的事件讓您可以在數據旁邊看到重要的里程碑、發布或其他任何內容。"
 
 #: frontend/src/metabase/timelines/collections/components/TimelineCard/TimelineCard.tsx:50
@@ -22594,11 +22594,11 @@ msgid "Move {0}"
 msgstr "移動{0}"
 
 #: frontend/src/metabase/timelines/questions/components/TimelineEmptyState/TimelineEmptyState.tsx:30
-msgid "Add events to Metabase to show helpful context alongside your data."
+msgid "Add events tongmKASE to show helpful context alongside your data."
 msgstr "將事件添加到元數據庫以在您的數據旁邊顯示有用的上下文。"
 
 #: frontend/src/metabase/timelines/questions/components/TimelineEmptyState/TimelineEmptyState.tsx:31
-msgid "Events in Metabase let you see helpful context alongside your data."
+msgid "Events inngmKASE let you see helpful context alongside your data."
 msgstr "Metabase 中的事件可讓您在數據旁邊看到有用的上下文。"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/MetadataTable/MetadataTable.tsx:33
@@ -22606,7 +22606,7 @@ msgid "Original schema"
 msgstr "原始架構"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:98
-msgid "Click the button below to begin creating your Slack App using the Metabase configuration."
+msgid "Click the button below to begin creating your Slack App using thengmKASE configuration."
 msgstr "單擊下面的按鈕開始使用元數據庫配置創建您的 Slack 應用程序。"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:99
@@ -22870,9 +22870,9 @@ msgid "Switch to visualization"
 msgstr "切換到可視化"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget.jsx:139
-msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the\n"
+msgid "Mappings allowngmKASE to automatically add and remove users from groups based on the membership information provided by the\n"
 "directory server. Users are only ever added to or removed from mapped groups."
-msgstr "映射允許 Metabase 根據提供的成員信息自動從組中添加和刪除用戶\n"
+msgstr "映射允許ngmKASE 根據提供的成員信息自動從組中添加和刪除用戶\n"
 "目錄服務器。用戶只會被添加到映射組或從映射組中刪除。"
 
 #: metabase_enterprise/advanced_config/models/pulse_channel.clj:10
@@ -23239,7 +23239,7 @@ msgid "Saved questions"
 msgstr "已保存的問題"
 
 #: frontend/src/metabase/admin/settings/selectors.js:641
-msgid "Enabling cache will create tables for your models in a dedicated schema and Metabase will refresh them on a schedule. Questions based on your models will query these tables. {0}."
+msgid "Enabling cache will create tables for your models in a dedicated schema andngmKASE will refresh them on a schedule. Questions based on your models will query these tables. {0}."
 msgstr "啟用緩存將為您的模型在專用模式中創建表，並且元數據庫將按計劃刷新它們。基於您的模型的問題將查詢這些表。 {0}。"
 
 #: frontend/src/metabase/admin/settings/selectors.js:439
@@ -23523,8 +23523,8 @@ msgid "Move, archive, and more..."
 msgstr "移動、存檔等..."
 
 #: frontend/src/metabase/sharing/components/SlackChannelField/SlackChannelField.tsx:71
-msgid "In order to send subscriptions and alerts to private Slack channels, you must first add the Metabase bot to them."
-msgstr "為了向私人 Slack 頻道發送訂閱和警報，您必須首先將 Metabase 機器人添加到它們。"
+msgid "In order to send subscriptions and alerts to private Slack channels, you must first add thengmKASE bot to them."
+msgstr "為了向私人 Slack 頻道發送訂閱和警報，您必須首先將ngmKASE 機器人添加到它們。"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/ColorResetModal/ColorResetModal.tsx:22
 msgid "Are you sure you want to reset to default colors?"
@@ -23634,8 +23634,8 @@ msgid "Display our little friend on the homepage"
 msgstr "在首頁顯示我們的小伙伴"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingCustomizationWidget/EmbeddingCustomizationWidget.tsx:13
-msgid "In order to remove the Metabase logo from embeds, you can always upgrade to {0}"
-msgstr "為了從嵌入中刪除 Metabase 徽標，您可以隨時升級到 {0}"
+msgid "In order to remove thengmKASE logo from embeds, you can always upgrade to {0}"
+msgstr "為了從嵌入中刪除ngmKASE 徽標，您可以隨時升級到 {0}"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingCustomizationWidget/EmbeddingCustomizationWidget.tsx:15
 msgid "one of our paid plans."
@@ -23646,8 +23646,8 @@ msgid "embedding the entire metabase app"
 msgstr "嵌入整個元數據庫應用程序"
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:23
-msgid "With {0} you can embed the full Metabase app and enable your users to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
-msgstr "借助 {0}，您可以嵌入完整的 Metabase 應用程序，並使您的用戶能夠鑽取到圖表、瀏覽集合併使用圖形查詢構建器。您還可以獲得優先支持、更多工具來幫助您與團隊分享您的見解，以及強大的選項來幫助您為客戶創建無縫的交互式數據體驗。"
+msgid "With {0} you can embed the fullngmKASE app and enable your users to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
+msgstr "借助 {0}，您可以嵌入完整的ngmKASE 應用程序，並使您的用戶能夠鑽取到圖表、瀏覽集合併使用圖形查詢構建器。您還可以獲得優先支持、更多工具來幫助您與團隊分享您的見解，以及強大的選項來幫助您為客戶創建無縫的交互式數據體驗。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:16
 msgid "some of our paid plans,"
@@ -23694,8 +23694,8 @@ msgid "Embedding"
 msgstr "嵌入"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:24
-msgid "Embed dashboards, questions, or the entire Metabase app into your application. Integrate with your server code to create a secure environment, limited to specific users or organizations."
-msgstr "將儀表板、問題或整個 Metabase 應用程序嵌入到您的應用程序中。與您的服務器代碼集成以創建僅限特定用戶或組織的安全環境。"
+msgid "Embed dashboards, questions, or the entirengmKASE app into your application. Integrate with your server code to create a secure environment, limited to specific users or organizations."
+msgstr "將儀表板、問題或整個ngmKASE 應用程序嵌入到您的應用程序中。與您的服務器代碼集成以創建僅限特定用戶或組織的安全環境。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:28
 msgid "By enabling embedding you're agreeing to"
@@ -23711,14 +23711,14 @@ msgid "More details"
 msgstr "更多細節"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:43
-msgid "When you embed charts or dashboards from Metabase in your own\n"
+msgid "When you embed charts or dashboards fromngmKASE in your own\n"
 "application, that application isn't subject to the Affero General Public\n"
-"License that covers the rest of Metabase, provided you keep the Metabase\n"
-"logo and the \"Powered by Metabase\" visible on those embeds."
-msgstr "當您將 Metabase 中的圖表或儀表板嵌入到您自己的\n"
+"License that covers the rest ofngmKASE, provided you keep thengmKASE\n"
+"logo and the \"Powered byngmKASE\" visible on those embeds."
+msgstr "當您將ngmKASE 中的圖表或儀表板嵌入到您自己的\n"
 "申請，該申請不受 Affero General Public 的約束\n"
-"涵蓋 Metabase 其餘部分的許可證，前提是您保留 Metabase\n"
-"徽標和這些嵌入上可見的“Powered by Metabase”。"
+"涵蓋ngmKASE 其餘部分的許可證，前提是您保留ngmKASE\n"
+"徽標和這些嵌入上可見的“Powered byngmKASE”。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:49
 msgid "Your should, however, read the license text linked above as that is the\n"
@@ -23760,7 +23760,7 @@ msgid "1. Click the button below and create your Slack App"
 msgstr "1. 單擊下面的按鈕並創建您的 Slack 應用程序"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:101
-msgid "First, {0} using the Metabase configuration. Once created, click “${ 1 }” to authorize it."
+msgid "First, {0} using thengmKASE configuration. Once created, click “${ 1 }” to authorize it."
 msgstr "首先，{0} 使用元數據庫配置。創建完成後，點擊“${1}”進行授權。"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:102
@@ -23903,8 +23903,8 @@ msgid "Heavy"
 msgstr "重的"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppOriginDescription/EmbeddingAppOriginDescription.tsx:8
-msgid "With this Pro/Enterprise feature you can embed the full Metabase app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder. {0}"
-msgstr "使用此 Pro/Enterprise 功能，您可以嵌入完整的 Metabase 應用程序。使您的用戶能夠鑽取到圖表、瀏覽集合併使用圖形查詢構建器。 {0}"
+msgid "With this Pro/Enterprise feature you can embed the fullngmKASE app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder. {0}"
+msgstr "使用此 Pro/Enterprise 功能，您可以嵌入完整的ngmKASE 應用程序。使您的用戶能夠鑽取到圖表、瀏覽集合併使用圖形查詢構建器。 {0}"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppOriginDescription/EmbeddingAppOriginDescription.tsx:19
 msgid "Authorized origins"
@@ -23992,8 +23992,8 @@ msgid "Full-app embedding"
 msgstr "全應用嵌入"
 
 #: frontend/src/metabase/admin/settings/selectors.js:481
-msgid "With this Pro/Enterprise feature you can embed the full Metabase app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder."
-msgstr "使用此 Pro/Enterprise 功能，您可以嵌入完整的 Metabase 應用程序。使您的用戶能夠鑽取到圖表、瀏覽集合併使用圖形查詢構建器。"
+msgid "With this Pro/Enterprise feature you can embed the fullngmKASE app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder."
+msgstr "使用此 Pro/Enterprise 功能，您可以嵌入完整的ngmKASE 應用程序。使您的用戶能夠鑽取到圖表、瀏覽集合併使用圖形查詢構建器。"
 
 #: frontend/src/metabase/admin/settings/selectors.js:533
 msgid "Standalone Embed Secret Key used to sign JSON Web Tokens for requests to /api/embed endpoints. This lets you create a secure environment limited to specific users or organizations."
@@ -24159,7 +24159,7 @@ msgid "Boolean indicating whether a Snowplow collector is available to receive a
 msgstr "指示 Snowplow 收集器是否可用於接收分析事件的布爾值。應在賽普拉斯測試或本地開發期間通過環境變量設置。"
 
 #: metabase/analytics/snowplow.clj:28
-msgid "Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase. This is a public setting since some analytics events are sent prior to initial setup."
+msgid "Unique identifier to be used in Snowplow analytics, to identify this instance ofngmKASE. This is a public setting since some analytics events are sent prior to initial setup."
 msgstr "要在 Snowplow 分析中使用的唯一標識符，用於標識此元數據庫實例。這是一個公共設置，因為一些分析事件是在初始設置之前發送的。"
 
 #: metabase/api/database.clj:708 metabase/driver/util.clj:68
@@ -24215,11 +24215,11 @@ msgstr "系統信息：\n"
 " {0}"
 
 #: metabase/driver/common.clj:159
-msgid "Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database. When should Metabase automatically scan and cache field values?"
-msgstr "Metabase 可以掃描此數據庫中每個字段中存在的值，以啟用儀表板和問題中的複選框過濾器。這可能是一個資源密集型過程，特別是如果您有一個非常大的數據庫。 Metabase 什麼時候應該自動掃描和緩存字段值？"
+msgid "Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database. When shouldngmKASE automatically scan and cache field values?"
+msgstr "Metabase 可以掃描此數據庫中每個字段中存在的值，以啟用儀表板和問題中的複選框過濾器。這可能是一個資源密集型過程，特別是如果您有一個非常大的數據庫。ngmKASE 什麼時候應該自動掃描和緩存字段值？"
 
 #: metabase/driver/common.clj:220
-msgid "If your database is behind a firewall, you may need to allow connections from our Metabase [Cloud IP addresses](https://www.metabase.com/cloud/docs/ip-addresses-to-whitelist.html):"
+msgid "If your database is behind a firewall, you may need to allow connections from ourngmKASE [Cloud IP addresses](https://www.metabase.com/cloud/docs/ip-addresses-to-whitelist.html):"
 msgstr "如果您的數據庫位於防火牆後面，您可能需要允許來自我們的元數據庫 [雲 IP 地址](https://www.metabase.com/cloud/docs/ip-addresses-to-whitelist.html) 的連接："
 
 #: metabase/driver/common.clj:177
@@ -24341,16 +24341,16 @@ msgid "[{0}] Model cache refresh failed for {1}"
 msgstr "[{0}] {1} 的模型緩存刷新失敗"
 
 #: metabase/integrations/google.clj:87
-msgid "Google Sign-In token appears to be incorrect. Double check that it matches in Google and Metabase."
-msgstr "Google 登錄令牌似乎不正確。仔細檢查它在 Google 和 Metabase 中是否匹配。"
+msgid "Google Sign-In token appears to be incorrect. Double check that it matches in Google andngmKASE."
+msgstr "Google 登錄令牌似乎不正確。仔細檢查它在 Google 和ngmKASE 中是否匹配。"
 
 #: metabase/integrations/slack.clj:22
-msgid "Deprecated Slack API token for connecting the Metabase Slack bot. Please use a new Slack app integration instead."
-msgstr "已棄用用於連接 Metabase Slack 機器人的 Slack API 令牌。請改用新的 Slack 應用程序集成。"
+msgid "Deprecated Slack API token for connecting thengmKASE Slack bot. Please use a new Slack app integration instead."
+msgstr "已棄用用於連接ngmKASE Slack 機器人的 Slack API 令牌。請改用新的 Slack 應用程序集成。"
 
 #: metabase/integrations/slack.clj:31
-msgid "Bot user OAuth token for connecting the Metabase Slack app. This should be used for all new Slack integrations starting in Metabase v0.42.0."
-msgstr "用於連接 Metabase Slack 應用程序的 Bot 用戶 OAuth 令牌。這應該用於從 Metabase v0.42.0 開始的所有新的 Slack 集成。"
+msgid "Bot user OAuth token for connecting thengmKASE Slack app. This should be used for all new Slack integrations starting inngmKASE v0.42.0."
+msgstr "用於連接ngmKASE Slack 應用程序的 Bot 用戶 OAuth 令牌。這應該用於從ngmKASE v0.42.0 開始的所有新的 Slack 集成。"
 
 #: metabase/integrations/slack.clj:44
 msgid "Whether the current Slack app token, if set, is valid. Set to 'false' if a Slack API request returns an auth error."
@@ -24397,7 +24397,7 @@ msgid "Can't update type or hash_key for a FieldValues."
 msgstr "無法更新 FieldValues 的類型或 hash_key。"
 
 #: metabase/models/humanization.clj:77
-msgid "To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces. We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
+msgid "To make table and field names more human-friendly,ngmKASE will replace dashes and underscores in them with spaces. We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
 msgstr "為了使表和字段名稱更人性化，Metabase 將用空格替換其中的破折號和下劃線。我們會將每個單詞大寫，因此“last_visited_at”將變為“Last Visited At”。"
 
 #: metabase/models/params.clj:38
@@ -24437,7 +24437,7 @@ msgid "Tell us where to find the file for each font weight. You don’t need to 
 msgstr "告訴我們在哪裡可以找到每種字體粗細的文件。你不需要包括所有這些，但如果你這樣做會更好看。"
 
 #: metabase/public_settings.clj:179
-msgid "The default language for all users across the Metabase UI, system emails, pulses, and alerts. Users can individually override this default language from their own account settings."
+msgid "The default language for all users across thengmKASE UI, system emails, pulses, and alerts. Users can individually override this default language from their own account settings."
 msgstr "Metabase UI、系統電子郵件、脈沖和警報中所有用戶的默認語言。用戶可以從他們自己的帳戶設置中單獨覆蓋此默認語言。"
 
 #: metabase/public_settings.clj:693
@@ -25200,7 +25200,7 @@ msgstr "包含您的日期或日期時間值的列的名稱。"
 msgid "Optional. The default is \"ISO\".\n"
 "- ISO: Week 1 starts on the Monday before the first Thursday of January.\n"
 "- US: Week 1 starts on Jan 1. All other weeks start on Sunday.\n"
-"- Instance: Week 1 starts on Jan 1. All other weeks start on the day defined in your Metabase localization settings."
+"- Instance: Week 1 starts on Jan 1. All other weeks start on the day defined in yourngmKASE localization settings."
 msgstr "可選的。默認值為“ISO”。\n"
 "- ISO：第 1 週從 1 月第一個星期四之前的星期一開始。\n"
 "- 美國：第 1 週從 1 月 1 日開始。所有其他週從周日開始。\n"
@@ -25974,7 +25974,7 @@ msgid "{0} (optional)"
 msgstr "{0}（可選）"
 
 #: metabase_enterprise/advanced_config/file.clj:164
-msgid "Found config file at path {0}; Metabase will be initialized with values from this file"
+msgid "Found config file at path {0};ngmKASE will be initialized with values from this file"
 msgstr "在路徑 {0} 找到配置文件；元數據庫將使用此文件中的值進行初始化"
 
 #: metabase_enterprise/advanced_config/file.clj:265
@@ -26038,7 +26038,7 @@ msgid "Invalid Collection ID(s). These Collections do not exist: {0}"
 msgstr "無效的集合 ID。這些集合不存在：{0}"
 
 #: metabase_enterprise/serialization/cmd.clj:95
-msgid "Loading serialized Metabase files from {0}"
+msgid "Loading serializedngmKASE files from {0}"
 msgstr "從 {0} 加載序列化元數據庫文件"
 
 #: metabase_enterprise/serialization/v2/entity_ids.clj:68
@@ -26272,8 +26272,8 @@ msgid "Error reducing result rows: {0}"
 msgstr "減少結果行時出錯：{0}"
 
 #: metabase/sample_data.clj:63
-msgid "Sample database could not be extracted to the plugins directory,which may result in slow startup times. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
-msgstr "示例數據庫無法提取到插件目錄，這可能會導致啟動時間變慢。請將 MB_PLUGINS_DIR 設置為可寫目錄並重新啟動 Metabase。"
+msgid "Sample database could not be extracted to the plugins directory,which may result in slow startup times. Please set MB_PLUGINS_DIR to a writable directory and restartngmKASE."
+msgstr "示例數據庫無法提取到插件目錄，這可能會導致啟動時間變慢。請將 MB_PLUGINS_DIR 設置為可寫目錄並重新啟動ngmKASE。"
 
 #: metabase_enterprise/advanced_config/file.clj:261
 msgid "Metabase config files require a Premium token with the :advanced-config feature."
@@ -26332,11 +26332,11 @@ msgid "This group's user membership will no longer be synced with the directory 
 msgstr "該組的用戶成員資格將不再與目錄服務器同步。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:62
-msgid "What should happen with the groups themselves in Metabase?"
+msgid "What should happen with the groups themselves inngmKASE?"
 msgstr "Metabase 中的組本身會發生什麼情況？"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:63
-msgid "What should happen with the group itself in Metabase?"
+msgid "What should happen with the group itself inngmKASE?"
 msgstr "Metabase 中的組本身會發生什麼情況？"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:68
@@ -26368,8 +26368,8 @@ msgid "Synchronize Group Memberships"
 msgstr "同步組成員"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/GroupMappingsWidget.jsx:118
-msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the directory server. If a group isn‘t mapped, its membership won‘t be synced."
-msgstr "映射允許 Metabase 根據目錄服務器提供的成員信息自動在組中添加和刪除用戶。如果未映射組，則不會同步其成員身份。"
+msgid "Mappings allowngmKASE to automatically add and remove users from groups based on the membership information provided by the directory server. If a group isn‘t mapped, its membership won‘t be synced."
+msgstr "映射允許ngmKASE 根據目錄服務器提供的成員信息自動在組中添加和刪除用戶。如果未映射組，則不會同步其成員身份。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/GroupMappingsWidget.jsx:123
 msgid "About mappings"
@@ -26532,7 +26532,7 @@ msgid "This card does not support click mappings"
 msgstr "此卡片不支持點擊映射"
 
 #: frontend/src/metabase/databases/components/DatabaseCacheScheduleField/DatabaseCacheScheduleField.tsx:88
-msgid "When a user adds a new filter to a dashboard or a SQL question, Metabase will scan the field(s) mapped to that filter in order to show the list of selectable values."
+msgid "When a user adds a new filter to a dashboard or a SQL question,ngmKASE will scan the field(s) mapped to that filter in order to show the list of selectable values."
 msgstr "當用戶向儀表板或 SQL 問題添加新過濾器時，Metabase 將掃描映射到該過濾器的字段以顯示可選值列表。"
 
 #: frontend/src/metabase/models/containers/FormModelPicker/FormModelPicker.tsx:25
@@ -27103,11 +27103,11 @@ msgid "Error preparing statement: {0}"
 msgstr "準備語句時出錯：{0}"
 
 #: metabase/driver/util.clj:331
-msgid "Comma separated names of {0} that should NOT appear in Metabase"
+msgid "Comma separated names of {0} that should NOT appear inngmKASE"
 msgstr "不應出現在配置數據庫中的 {0} 的逗號分隔名稱"
 
 #: metabase/driver/util.clj:324
-msgid "Comma separated names of {0} that should appear in Metabase"
+msgid "Comma separated names of {0} that should appear inngmKASE"
 msgstr "應出現在配置數據庫中的 {0} 的逗號分隔名稱"
 
 #: metabase/driver/util.clj:326 metabase/driver/util.clj:333
@@ -27209,7 +27209,7 @@ msgid "No current user found"
 msgstr "找不到當前用戶"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/utils.ts:30
-msgid "Open the Metabase drill-through menu"
+msgid "Open thengmKASE drill-through menu"
 msgstr "打開元數據庫鑽取菜單"
 
 #: frontend/src/metabase/query_builder/components/expressions/ExpressionWidget.tsx:88
@@ -27378,13 +27378,13 @@ msgid "Tired of manually managing people and groups?"
 msgstr "厭倦了手動管理人員和群組？"
 
 #: frontend/src/metabase/admin/people/components/NudgeToPro.tsx:16
-msgid "Get single-sign on (SSO) via SAML, JWT, or LDAP with Metabase Pro"
-msgstr "使用 Metabase Pro 通過 SAML、JWT 或 LDAP 實現單點登錄 (SSO)"
+msgid "Get single-sign on (SSO) via SAML, JWT, or LDAP withngmKASE Pro"
+msgstr "使用ngmKASE Pro 通過 SAML、JWT 或 LDAP 實現單點登錄 (SSO)"
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:11
 #: frontend/src/metabase/admin/permissions/components/CollectionPermissionsHelp/CollectionPermissionsHelp.tsx:12
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:22
-msgid "People can be members of multiple groups, and Metabase grants them the most permissive level of access across all of a person's groups."
+msgid "People can be members of multiple groups, andngmKASE grants them the most permissive level of access across all of a person's groups."
 msgstr "人們可以是多個組的成員，Metabase 授予他們跨所有組的最寬鬆的訪問級別。"
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:37
@@ -27400,7 +27400,7 @@ msgid "Impersonated (Pro)"
 msgstr "冒充（專業版）"
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:52
-msgid "Impersonation associates a Metabase group with database-defined roles and their privileges. Metabase queries made by this group will respect the grants given to the database roles. You can use impersonation to give a group access to the native/SQL editor, while restricting the group's access to data based on a specific database role."
+msgid "Impersonation associates angmKASE group with database-defined roles and their privileges.ngmKASE queries made by this group will respect the grants given to the database roles. You can use impersonation to give a group access to the native/SQL editor, while restricting the group's access to data based on a specific database role."
 msgstr "模擬將元數據庫組與數據庫定義的角色及其權限相關聯。該組進行的元數據庫查詢將尊重給予數據庫角色的授權。您可以使用模擬來授予組對本機/SQL 編輯器的訪問權限，同時根據特定數據庫角色限制組對數據的訪問權限。"
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:59
@@ -27484,7 +27484,7 @@ msgid "{0} about collection permissions"
 msgstr "{0}關於集合權限"
 
 #: frontend/src/metabase/collections/components/CollectionHeader/CollectionUploadInfoModal.tsx:26
-msgid "Uploads CSVs to Metabase"
+msgid "Uploads CSVs tongmKASE"
 msgstr "將 CSV 上傳到元數據庫"
 
 #: frontend/src/metabase/collections/components/CollectionHeader/CollectionUploadInfoModal.tsx:31
@@ -27644,8 +27644,8 @@ msgid "Navigation bar"
 msgstr "導航欄"
 
 #: frontend/src/metabase/nav/components/DatabasePromptBanner/DatabasePromptBanner.tsx:32
-msgid "Connect to your database to get the most from Metabase."
-msgstr "連接到您的數據庫以充分利用 Metabase。"
+msgid "Connect to your database to get the most fromngmKASE."
+msgstr "連接到您的數據庫以充分利用ngmKASE。"
 
 #: frontend/src/metabase/nav/components/DatabasePromptBanner/DatabasePromptBanner.tsx:39
 msgid "Get help connecting"
@@ -27762,7 +27762,7 @@ msgid "Applications permissions"
 msgstr "應用程序權限"
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:16
-msgid "Application settings are useful for granting groups access to some, but not all, of Metabase’s administrative features."
+msgid "Application settings are useful for granting groups access to some, but not all, ofngmKASE’s administrative features."
 msgstr "應用程序設置對於授予組訪問某些（但不是全部）Metabase 管理功能的權限非常有用。"
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:18
@@ -28055,7 +28055,7 @@ msgid "Map a user attribute to database roles"
 msgstr "將用戶屬性映射到數據庫角色"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationModal/ImpersonationModalView.tsx:77
-msgid "When the person runs a query (including native queries), Metabase will impersonate the privileges of the database role you associate with the user attribute."
+msgid "When the person runs a query (including native queries),ngmKASE will impersonate the privileges of the database role you associate with the user attribute."
 msgstr "當用戶運行查詢（包括本機查詢）時，Metabase 將模擬與用戶屬性關聯的數據庫角色的權限。"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationModal/ImpersonationModalView.tsx:81
@@ -28071,12 +28071,12 @@ msgid "Edit user settings"
 msgstr "編輯用戶設置"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:19
-msgid "Make sure the main database credential has access to everything different user groups may need access to. It's what Metabase uses to sync table information."
-msgstr "確保主數據庫憑據可以訪問不同用戶組可能需要訪問的所有內容。 Metabase 使用它來同步表信息。"
+msgid "Make sure the main database credential has access to everything different user groups may need access to. It's whatngmKASE uses to sync table information."
+msgstr "確保主數據庫憑據可以訪問不同用戶組可能需要訪問的所有內容。ngmKASE 使用它來同步表信息。"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:20
-msgid "{0} is the database user Metabase is using to connect to {1}. Make sure that {2} has access to everything in {3} that all Metabase groups may need access to, as that database user account is what Metabase uses to sync table information."
-msgstr "{0} 是 Metabase 用於連接到 {1} 的數據庫用戶。確保 {2} 有權訪問所有 Metabase 組可能需要訪問的 {3} 中的所有內容，因為該數據庫用戶帳戶是 Metabase 用於同步表信息的帳戶。"
+msgid "{0} is the database userngmKASE is using to connect to {1}. Make sure that {2} has access to everything in {3} that allngmKASE groups may need access to, as that database user account is whatngmKASE uses to sync table information."
+msgstr "{0} 是ngmKASE 用於連接到 {1} 的數據庫用戶。確保 {2} 有權訪問所有ngmKASE 組可能需要訪問的 {3} 中的所有內容，因為該數據庫用戶帳戶是ngmKASE 用於同步表信息的帳戶。"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:28
 msgid "Edit settings"
@@ -28390,8 +28390,8 @@ msgid "Sorry, the row you''re trying to update doesn''t exist"
 msgstr "抱歉，您嘗試更新的行不存在"
 
 #: metabase/driver/sql_jdbc/execute.clj:284
-msgid "{0} is deprecated in Metabase 0.47.0. Implement {1} instead."
-msgstr "{0} 在 Metabase 0.47.0 中已棄用。改為實施 {1}。"
+msgid "{0} is deprecated inngmKASE 0.47.0. Implement {1} instead."
+msgstr "{0} 在ngmKASE 0.47.0 中已棄用。改為實施 {1}。"
 
 #: metabase/events/view_log.clj:29
 msgid "List of the 10 most recently viewed items for the user."
@@ -28860,7 +28860,7 @@ msgid "Export to {0} complete!"
 msgstr "導出至{0}已完成！"
 
 #: metabase_enterprise/serialization/cmd.clj:205
-msgid "Exporting Metabase to {0}"
+msgid "ExportingngmKASE to {0}"
 msgstr "正在將元數據庫導出到 {0}"
 
 #: metabase_enterprise/serialization/v2/load.clj:80
@@ -28997,7 +28997,7 @@ msgid "Upload error details"
 msgstr "上傳錯誤詳細信息"
 
 #: frontend/src/metabase/home/components/CustomHomePageModal/CustomHomePageModal.tsx:108
-msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard, Metabase will redirect them to the default homepage. You can update or reset the homepage at any time in Admin Settings > Settings > General."
+msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard,ngmKASE will redirect them to the default homepage. You can update or reset the homepage at any time in Admin Settings > Settings > General."
 msgstr "選擇一個儀表板作為主頁。如果人們沒有查看所選儀表板的權限，Metabase 會將他們重定向到默認主頁。您可以隨時在管理設置 > 設置 > 常規中更新或重置主頁。"
 
 #: frontend/src/metabase/redux/uploads.ts:68
@@ -29005,7 +29005,7 @@ msgid "You cannot upload files larger than {0}mb"
 msgstr "您無法上傳大於 {0}mb 的文件"
 
 #: metabase/public_settings.clj:104
-msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard, Metabase will redirect them to the default homepage."
+msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard,ngmKASE will redirect them to the default homepage."
 msgstr "選擇一個儀表板作為主頁。如果人們沒有查看所選儀表板的權限，Metabase 會將他們重定向到默認主頁。"
 
 #: metabase/public_settings.clj:355
@@ -29127,11 +29127,11 @@ msgid "Interactive embedding"
 msgstr "交互式嵌入"
 
 #: frontend/src/metabase/admin/settings/selectors.js:507
-msgid "With this Pro/Enterprise feature, you can let your customers query, visualize, and drill-down on their data with the full functionality of Metabase in your app or website, complete with your branding. Set permissions with SSO, down to the row- or column-level, so people only see what they need to."
-msgstr "借助此 Pro/Enterprise 功能，您可以讓客戶利用應用程序或網站中 Metabase 的完整功能以及您的品牌來查詢、可視化和深入了解他們的數據。使用 SSO 設置權限，直至行或列級別，以便人們只看到他們需要的內容。"
+msgid "With this Pro/Enterprise feature, you can let your customers query, visualize, and drill-down on their data with the full functionality ofngmKASE in your app or website, complete with your branding. Set permissions with SSO, down to the row- or column-level, so people only see what they need to."
+msgstr "借助此 Pro/Enterprise 功能，您可以讓客戶利用應用程序或網站中ngmKASE 的完整功能以及您的品牌來查詢、可視化和深入了解他們的數據。使用 SSO 設置權限，直至行或列級別，以便人們只看到他們需要的內容。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:14
-msgid "With {0} you can embed the full Metabase app to allow people to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
+msgid "With {0} you can embed the fullngmKASE app to allow people to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
 msgstr "通過 {0}，您可以嵌入完整的元數據庫應用程序，以允許人們深入查看圖表、瀏覽集合併使用圖形查詢生成器。您還可以獲得優先支持、更多可幫助您與團隊分享見解的工具以及可幫助您為客戶創建無縫、交互式數據體驗的強大選項。"
 
 #: metabase/analytics/prometheus.clj:210
@@ -29197,7 +29197,7 @@ msgstr "設置 {0} 未啟用"
 
 #: metabase/public_settings/premium_features.clj:258
 msgid "{0} is a paid feature not currently available to your instance. Please upgrade to use it. Learn more at metabase.com/upgrade/"
-msgstr "{0} 是一項付費功能，您的實例目前無法使用。請升級才能使用。了解更多信息，請訪問 Metabase.com/upgrade/"
+msgstr "{0} 是一項付費功能，您的實例目前無法使用。請升級才能使用。了解更多信息，請訪問ngmKASE.com/upgrade/"
 
 #: metabase/setup.clj:47
 msgid "Cannot set `has-user-setup`."
@@ -29625,8 +29625,8 @@ msgid "Strict (not recommended)"
 msgstr "严格（不推荐）"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:47
-msgid "Never allows cookies to be sent on a cross-site request. Warning: this will prevent users from following external links to Metabase."
-msgstr "绝不允许在跨站请求中发送 cookie。警告：这将阻止用户跟踪 Metabase 的外部链接。"
+msgid "Never allows cookies to be sent on a cross-site request. Warning: this will prevent users from following external links tongmKASE."
+msgstr "绝不允许在跨站请求中发送 cookie。警告：这将阻止用户跟踪ngmKASE 的外部链接。"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:52
 msgid "Allows all cross-site requests. Incompatible with most Safari and iOS-based browsers."
@@ -29760,7 +29760,7 @@ msgid "Cake"
 msgstr "蛋糕"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/components/OpenInMetabase.jsx:9
-msgid "Open in Metabase"
+msgid "Open inngmKASE"
 msgstr "在元数据库中打开"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/containers/AuditApp.jsx:35
@@ -29832,8 +29832,8 @@ msgid "SameSite cookie setting"
 msgstr "SameSite cookie 设置"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppSameSiteCookieDescription/EmbeddingAppSameSiteCookieDescription.tsx:32
-msgid "Determines whether or not cookies are allowed to be sent on cross-site requests. You’ll likely need to change this to None if your embedding application is hosted under a different domain than Metabase. Otherwise, leave it set to Lax, as it's more secure."
-msgstr "决定是否允许在跨站请求中发送 cookie。如果嵌入应用程序的主机与 Metabase 的域不同，则可能需要将其更改为 \"无\"。否则，请将其设置为 \"宽松\"，因为这样更安全。"
+msgid "Determines whether or not cookies are allowed to be sent on cross-site requests. You’ll likely need to change this to None if your embedding application is hosted under a different domain thanngmKASE. Otherwise, leave it set to Lax, as it's more secure."
+msgstr "决定是否允许在跨站请求中发送 cookie。如果嵌入应用程序的主机与ngmKASE 的域不同，则可能需要将其更改为 \"无\"。否则，请将其设置为 \"宽松\"，因为这样更安全。"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppSameSiteCookieDescription/EmbeddingAppSameSiteCookieDescription.tsx:33
 msgid "If you set this to None, you'll have to use HTTPS (unless you're just embedding locally), or browsers will reject the request. {0}"

@@ -37,5 +37,5 @@ for the features in 0.41.
 
 ----
 
-Here’s a [doc](https://metabase.test) with the findings.`,
+Here’s a [doc](https://data.engeem.com.test) with the findings.`,
 };

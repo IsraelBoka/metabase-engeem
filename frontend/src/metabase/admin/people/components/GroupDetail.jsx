@@ -41,7 +41,7 @@ const GroupDescription = ({ group }) =>
                 settings in the Admin Panel, including changing permissions! So, add people to this group with care.`}
       </p>
       <p>
-        {t`To make sure you don't get locked out of Metabase, there always has to be at least one user in this group.`}
+        {t`To make sure you don't get locked out of ngmKase, there always has to be at least one user in this group.`}
       </p>
     </div>
   ) : null;

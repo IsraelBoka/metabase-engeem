@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: Metabase\n"
+"Project-Id-Version:ngmKASE\n"
 "Language: ar-sa\n"
 "Plural-Forms: nplurals=6; plural= n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 
@@ -51,8 +51,8 @@ msgid "Save"
 msgstr "حفظ"
 
 #: frontend/src/metabase/admin/databases/components/DatabaseSchedulingForm.jsx:122
-msgid "To do some of its magic, Metabase needs to scan your database. We will also rescan it periodically to keep the metadata up-to-date. You can control when the periodic rescans happen below."
-msgstr "حتى تقوم ببعض السحر، تحتاج Metabase لفحص قاعدة بياناتك. ستقوم بهذا الفحص بصورة دورية حتى تكون البيانات الوصفية حديثة. يمكنك بالاسفل التحكم بمواعيد هذا الفحص الدوري."
+msgid "To do some of its magic,ngmKASE needs to scan your database. We will also rescan it periodically to keep the metadata up-to-date. You can control when the periodic rescans happen below."
+msgstr "حتى تقوم ببعض السحر، تحتاجngmKASE لفحص قاعدة بياناتك. ستقوم بهذا الفحص بصورة دورية حتى تكون البيانات الوصفية حديثة. يمكنك بالاسفل التحكم بمواعيد هذا الفحص الدوري."
 
 #: metabase/driver/common.clj:148
 msgid "Database syncing"
@@ -77,14 +77,14 @@ msgid "Metabase can scan the values present in each\n"
 "field in this database to enable checkbox filters in dashboards and questions. This\n"
 "can be a somewhat resource-intensive process, particularly if you have a very large\n"
 "database."
-msgstr "يمكن ل Metabase تفحص القيم الموجودة في كل\n"
+msgstr "يمكن لngmKASE تفحص القيم الموجودة في كل\n"
 "الحقول في قواعد البيانات لتفعيل خانة الفرز في لوحة عرض البيانات و الاستعلامات . ويمكن \n"
 "أن تستهلك هذه العملية الكثير من الموارد,خصوصا إذا كان حجم قواعد\n"
 "البيانات كبيراً."
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:167
-msgid "When should Metabase automatically scan and cache field values?"
-msgstr "متى يجب على Metabase البحث تلقائيا و تخزين قيم الحقول ؟"
+msgid "When shouldngmKASE automatically scan and cache field values?"
+msgstr "متى يجب علىngmKASE البحث تلقائيا و تخزين قيم الحقول ؟"
 
 #: frontend/src/metabase/databases/components/DatabaseCacheScheduleField/DatabaseCacheScheduleField.tsx:72
 msgid "Regularly, on a schedule"
@@ -95,7 +95,7 @@ msgid "Only when adding a new filter widget"
 msgstr "فقط عند إضافة عنصر فلتر جديد"
 
 #: frontend/src/metabase/admin/databases/components/widgets/CacheFieldValuesScheduleWidget.jsx:55
-msgid "When a user adds a new filter to a dashboard or a SQL question, Metabase will\n"
+msgid "When a user adds a new filter to a dashboard or a SQL question,ngmKASE will\n"
 "scan the field(s) mapped to that filter in order to show the list of selectable values."
 msgstr "عندما يضيف مستخدم عامل تصفية جديد إلى لوحة معلومات أو سؤال SQL، ستقوم قاعدة التعريف\n"
 "بمسح الحقل (الحقول) المعين لهذا الفلتر ضوئيا لإظهار قائمة القيم القابلة للتحديد."
@@ -693,7 +693,7 @@ msgid "{0} – Field Settings"
 msgstr "{0} - إعدادات الحقل"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:145
-msgid "Where this field will appear throughout Metabase"
+msgid "Where this field will appear throughoutngmKASE"
 msgstr "أين سيظهر هذا الحقل عبر قاعدة التعريف"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:274
@@ -776,7 +776,7 @@ msgstr "قيم الحقول المخزنة مؤقتًا"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:332
 msgid "Metabase can scan the values for this field to enable checkbox filters in dashboards and questions."
-msgstr "يمكن لـ Metabase مسح قيم هذا الحقل لتمكين عوامل تصفية مربعات الاختيار في لوحات المعلومات والأسئلة."
+msgstr "يمكن لـngmKASE مسح قيم هذا الحقل لتمكين عوامل تصفية مربعات الاختيار في لوحات المعلومات والأسئلة."
 
 #: frontend/src/metabase/admin/datamodel/components/UpdateCachedFieldValues.jsx:15
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:337
@@ -988,18 +988,18 @@ msgstr "اجعل هذا المستخدم مديرا"
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:31
 msgid "All users belong to the {0} group and can't be removed from it. Setting permissions for this group is a great way to\n"
-"make sure you know what new Metabase users will be able to see."
+"make sure you know what newngmKASE users will be able to see."
 msgstr "ينتمي جميع المستخدمين إلى مجموعة {0} ولا يمكن إزالتهم منها. يعد تعيين الأذونات لهذه المجموعة طريقة رائعة للقيام بذلك\n"
 "تأكد من أنك تعرف ما سيتمكن مستخدمو قاعدة التعريف الجديدة من رؤيته."
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:40
-msgid "This is a special group whose members can see everything in the Metabase instance, and who can access and make changes to the\n"
+msgid "This is a special group whose members can see everything in thengmKASE instance, and who can access and make changes to the\n"
 "settings in the Admin Panel, including changing permissions! So, add people to this group with care."
 msgstr "هذه مجموعة خاصة يمكن لأعضائها رؤية كل شيء في METABASE ، والذين يمكنهم الوصول وإجراء التغييرات على\n"
 "الإعدادات في لوحة المسؤول ، بما في ذلك تغيير الأذونات! لذا ، أضف أشخاصًا إلى هذه المجموعة بعناية."
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:44
-msgid "To make sure you don't get locked out of Metabase, there always has to be at least one user in this group."
+msgid "To make sure you don't get locked out ofngmKASE, there always has to be at least one user in this group."
 msgstr "حتى لا يُقفل عليك METABASE من الدخول، يجب أن يكون هناك دائمًا مستخدم واحد على الأقل في هذه المجموعة."
 
 #: frontend/src/metabase/admin/people/components/GroupsListing.jsx:222
@@ -1390,16 +1390,16 @@ msgid "Sorry, an error occurred."
 msgstr "عذرا، حدث خطأ."
 
 #: frontend/src/metabase/admin/permissions/constants/messages.ts:3
-msgid "Administrators always have the highest level of access to everything in Metabase."
-msgstr "يتمتع المسؤولون دائما بأعلى مستوى من الوصول إلى كل شيء في Metabase."
+msgid "Administrators always have the highest level of access to everything inngmKASE."
+msgstr "يتمتع المسؤولون دائما بأعلى مستوى من الوصول إلى كل شيء فيngmKASE."
 
 #: frontend/src/metabase/admin/permissions/selectors.js:70
-msgid "Every Metabase user belongs to the All Users group. If you want to limit or restrict a group's access to something, make sure the All Users group has an equal or lower level of access."
+msgid "EveryngmKASE user belongs to the All Users group. If you want to limit or restrict a group's access to something, make sure the All Users group has an equal or lower level of access."
 msgstr "ينتمي كل مستخدم لقاعدة التعريف إلى مجموعة \"كافة المستخدمين\". إذا كنت تريد تقييد وصول مجموعة إلى شيء ما أو تقييده، فتأكد من أن مجموعة \"جميع المستخدمين\" تتمتع بمستوى وصول مساو أو أقل."
 
 #: frontend/src/metabase/admin/permissions/selectors.js:72
-msgid "MetaBot is Metabase's Slack bot. You can choose what it has access to here."
-msgstr "MetaBot هو روبوت Slack الخاص ب Metabase. يمكنك اختيار ما يمكنه الوصول إليه هنا."
+msgid "MetaBot isngmKASE's Slack bot. You can choose what it has access to here."
+msgstr "MetaBot هو روبوت Slack الخاص بngmKASE. يمكنك اختيار ما يمكنه الوصول إليه هنا."
 
 #: frontend/src/metabase/admin/permissions/selectors/confirmations.ts:59
 msgid "The \"{0}\" group may have access to a different set of {1} than this group, which may give this group additional access to some {2}."
@@ -1524,8 +1524,8 @@ msgstr "دخول عن طريق حساب قوقل"
 
 #: frontend/src/metabase/admin/settings/auth/components/GoogleAuthForm/GoogleAuthForm.tsx:65
 #: frontend/src/metabase/admin/settings/auth/containers/GoogleAuthCard/GoogleAuthCard.tsx:17
-msgid "Allows users with existing Metabase accounts to login with a Google account that matches their email address in addition to their Metabase username and password."
-msgstr "يسمح للمستخدمين الذين لديهم حسابات Metabase حالية بتسجيل الدخول باستخدام حساب Google يطابق عنوان بريدهم الإلكتروني بالإضافة إلى اسم المستخدم وكلمة المرور في قاعدة الوصف."
+msgid "Allows users with existingngmKASE accounts to login with a Google account that matches their email address in addition to theirngmKASE username and password."
+msgstr "يسمح للمستخدمين الذين لديهم حساباتngmKASE حالية بتسجيل الدخول باستخدام حساب Google يطابق عنوان بريدهم الإلكتروني بالإضافة إلى اسم المستخدم وكلمة المرور في قاعدة الوصف."
 
 #: frontend/src/metabase/components/ChannelSetupMessage/ChannelSetupMessage.jsx:32
 msgid "Configure"
@@ -1537,7 +1537,7 @@ msgid "LDAP"
 msgstr "LDAP"
 
 #: frontend/src/metabase/admin/settings/auth/containers/LdapAuthCard/LdapAuthCard.tsx:12
-msgid "Allows users within your LDAP directory to log in to Metabase with their LDAP credentials, and allows automatic mapping of LDAP groups to Metabase groups."
+msgid "Allows users within your LDAP directory to log in tongmKASE with their LDAP credentials, and allows automatic mapping of LDAP groups tongmKASE groups."
 msgstr "يسمح للمستخدمين داخل دليل LDAP بتسجيل الدخول إلى قاعدة التعريف باستخدام بيانات اعتماد LDAP الخاصة بهم، ويسمح بالتعيين التلقائي لمجموعات LDAP إلى مجموعات قاعدة التعريف."
 
 #: frontend/src/metabase/admin/settings/components/SettingsBatchForm.jsx:21
@@ -1614,8 +1614,8 @@ msgid "Getting set up"
 msgstr "الإعداد"
 
 #: frontend/src/metabase/admin/settings/setup/components/SetupCheckList/SetupCheckList.jsx:124
-msgid "A few things you can do to get the most out of Metabase."
-msgstr "بعض الأشياء التي يمكنك القيام بها لتحقيق أقصى استفادة من Metabase."
+msgid "A few things you can do to get the most out ofngmKASE."
+msgstr "بعض الأشياء التي يمكنك القيام بها لتحقيق أقصى استفادة منngmKASE."
 
 #: frontend/src/metabase/admin/settings/setup/components/SetupCheckList/SetupCheckList.jsx:133
 msgid "Recommended next step"
@@ -1626,8 +1626,8 @@ msgid "Google Sign-In"
 msgstr "دخول باستخدام معرف قوقل"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:123
-msgid "To allow users to sign in with Google you'll need to give Metabase a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}"
-msgstr "للسماح للمستخدمين بتسجيل الدخول باستخدام Google، ستحتاج إلى منح Metabase معرف عميل تطبيق وحدة تحكم مطوري برامج Google. يستغرق الأمر بضع خطوات فقط ويمكن العثور على إرشادات حول كيفية إنشاء مفتاح {0}"
+msgid "To allow users to sign in with Google you'll need to givengmKASE a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}"
+msgstr "للسماح للمستخدمين بتسجيل الدخول باستخدام Google، ستحتاج إلى منحngmKASE معرف عميل تطبيق وحدة تحكم مطوري برامج Google. يستغرق الأمر بضع خطوات فقط ويمكن العثور على إرشادات حول كيفية إنشاء مفتاح {0}"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:140
 msgid "Your Google client ID"
@@ -1646,12 +1646,12 @@ msgid "Create a Slack Bot User for MetaBot"
 msgstr "إنشاء مستخدم Slack Bot ل MetaBot"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:255
-msgid "Once you're there, give it a name and click {0}. Then copy and paste the Bot API Token into the field below. Once you are done, create a \"metabase_files\" channel in Slack. Metabase needs this to upload graphs."
+msgid "Once you're there, give it a name and click {0}. Then copy and paste the Bot API Token into the field below. Once you are done, create a \"metabase_files\" channel in Slack.ngmKASE needs this to upload graphs."
 msgstr "بمجرد وصولك إلى هناك ، أعطه اسما وانقر {0}. ثم انسخ والصق رمز واجهة برمجة تطبيقات Bot في الحقل أدناه. بمجرد الانتهاء من ذلك ، قم بإنشاء قناة \"metabase_files\" في Slack. تحتاج قاعدة التعريف إلى ذلك لتحميل الرسوم البيانية."
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm/VersionUpdateNotice/VersionUpdateNotice.jsx:56
-msgid "You're running Metabase {0} which is the latest and greatest!"
-msgstr "أنت تقوم بتشغيل Metabase {0} وهو الأحدث والأعظم!"
+msgid "You're runningngmKASE {0} which is the latest and greatest!"
+msgstr "أنت تقوم بتشغيلngmKASE {0} وهو الأحدث والأعظم!"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:100
 msgid "Metabase {0} is available.  You're running {1}"
@@ -1779,8 +1779,8 @@ msgid "By enabling embedding you're agreeing to the embedding license located at
 msgstr "من خلال تمكين التضمين ، فإنك توافق على ترخيص التضمين الموجود في"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese.jsx:23
-msgid "In plain English, when you embed charts or dashboards from Metabase in your own application, that application isn't subject to the Affero General Public License that covers the rest of Metabase, provided you keep the Metabase logo and the \"Powered by Metabase\" visible on those embeds. You should, however, read the license text linked above as that is the actual license that you will be agreeing to by enabling this feature."
-msgstr "في اللغة الإنجليزية البسيطة، عند تضمين مخططات أو لوحات معلومات من Metabase في تطبيقك الخاص، لا يخضع هذا التطبيق لترخيص Affero العام الذي يغطي بقية قاعدة التعريف، شريطة أن تبقي شعار قاعدة التعريف و \"مدعوم من قاعدة التعريف\" مرئيين على تلك التضمينات. ومع ذلك ، يجب عليك قراءة نص الترخيص المرتبط أعلاه لأن هذا هو الترخيص الفعلي الذي ستوافق عليه من خلال تمكين هذه الميزة."
+msgid "In plain English, when you embed charts or dashboards fromngmKASE in your own application, that application isn't subject to the Affero General Public License that covers the rest ofngmKASE, provided you keep thengmKASE logo and the \"Powered byngmKASE\" visible on those embeds. You should, however, read the license text linked above as that is the actual license that you will be agreeing to by enabling this feature."
+msgstr "في اللغة الإنجليزية البسيطة، عند تضمين مخططات أو لوحات معلومات منngmKASE في تطبيقك الخاص، لا يخضع هذا التطبيق لترخيص Affero العام الذي يغطي بقية قاعدة التعريف، شريطة أن تبقي شعار قاعدة التعريف و \"مدعوم من قاعدة التعريف\" مرئيين على تلك التضمينات. ومع ذلك ، يجب عليك قراءة نص الترخيص المرتبط أعلاه لأن هذا هو الترخيص الفعلي الذي ستوافق عليه من خلال تمكين هذه الميزة."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:68
 msgid "Enable"
@@ -1791,12 +1791,12 @@ msgid "Premium embedding enabled"
 msgstr "تمكين التضمين المتميز"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:30
-msgid "Enter the token you bought from the Metabase Store"
-msgstr "أدخل الرمز المميز الذي اشتريته من متجر Metabase Store"
+msgid "Enter the token you bought from thengmKASE Store"
+msgstr "أدخل الرمز المميز الذي اشتريته من متجرngmKASE Store"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:57
-msgid "Premium embedding lets you disable \"Powered by Metabase\" on your embedded dashboards and questions."
-msgstr "يتيح لك التضمين المميز تعطيل \"مدعوم من Metabase\" على لوحات المعلومات والأسئلة المضمنة."
+msgid "Premium embedding lets you disable \"Powered byngmKASE\" on your embedded dashboards and questions."
+msgstr "يتيح لك التضمين المميز تعطيل \"مدعوم منngmKASE\" على لوحات المعلومات والأسئلة المضمنة."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:64
 msgid "Buy a token"
@@ -1819,10 +1819,10 @@ msgid "Create a mapping"
 msgstr "إنشاء تعيين"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget.jsx:145
-msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the\n"
+msgid "Mappings allowngmKASE to automatically add and remove users from groups based on the membership information provided by the\n"
 "directory server. Membership to the Admin group can be granted through mappings, but will not be automatically removed as a\n"
 "failsafe measure."
-msgstr "تسمح التعيينات ل Metabase بإضافة مستخدمين وإزالتهم تلقائيا من المجموعات استنادا إلى معلومات العضوية التي يوفرها\n"
+msgstr "تسمح التعيينات لngmKASE بإضافة مستخدمين وإزالتهم تلقائيا من المجموعات استنادا إلى معلومات العضوية التي يوفرها\n"
 "خادم الدليل. يمكن منح العضوية في مجموعة المسؤول من خلال التعيينات، ولكن لن تتم إزالتها تلقائيا كعملية\n"
 "تدبير آمن من الفشل."
 
@@ -2128,7 +2128,7 @@ msgid "Embedding in other Applications"
 msgstr "التضمين في تطبيقات أخرى"
 
 #: frontend/src/metabase/admin/settings/selectors.js:332
-msgid "Enable Embedding Metabase in other Applications"
+msgid "Enable EmbeddingngmKASE in other Applications"
 msgstr "تمكين تضمين قاعدة التعريف في تطبيقات أخرى"
 
 #: frontend/src/metabase/admin/settings/selectors.js:532
@@ -2189,11 +2189,11 @@ msgid "Back to login"
 msgstr "العودة إلى تسجيل الدخول"
 
 #: frontend/src/metabase/auth/components/GoogleNoAccount.jsx:15
-msgid "No Metabase account exists for this Google account."
+msgid "NongmKASE account exists for this Google account."
 msgstr "لا يوجد حساب قاعدة وصفية لحساب Google هذا."
 
 #: metabase/integrations/google.clj:26
-msgid "You'll need an administrator to create a Metabase account before you can use Google to log in."
+msgid "You'll need an administrator to create angmKASE account before you can use Google to log in."
 msgstr "ستحتاج إلى مشرف لإنشاء حساب قاعدة وصفية قبل أن تتمكن من استخدام Google لتسجيل الدخول."
 
 #: frontend/src/metabase/auth/components/AuthProviderButton.jsx:24
@@ -2209,7 +2209,7 @@ msgid "Forgot password"
 msgstr "نسيت كلمة السر"
 
 #: frontend/src/metabase/auth/components/ForgotPasswordForm/ForgotPasswordForm.tsx:51
-msgid "The email you use for your Metabase account"
+msgid "The email you use for yourngmKASE account"
 msgstr "البريد الإلكتروني الذي تستخدمه لحساب قاعدة التعريف الخاص بك"
 
 #: frontend/src/metabase/auth/components/ForgotPasswordForm/ForgotPasswordForm.tsx:55
@@ -2221,8 +2221,8 @@ msgid "Check your email for instructions on how to reset your password."
 msgstr "تحقق من بريدك الإلكتروني للحصول على إرشادات حول كيفية إعادة تعيين كلمة المرور."
 
 #: frontend/src/metabase/auth/components/Login/Login.tsx:30
-msgid "Sign in to Metabase"
-msgstr "الدخول ل Metabase"
+msgid "Sign in tongmKASE"
+msgstr "الدخول لngmKASE"
 
 #: frontend/src/metabase/auth/containers/LoginApp.jsx:165
 msgid "OR"
@@ -2535,13 +2535,13 @@ msgstr "لا يمكن الوصول إلى بعض عمليات تثبيت قاع�
 "عادة ما يكون تمكين ذلك أبطأ من الاتصال المباشر."
 
 #: frontend/src/metabase/entities/databases/forms.js:349
-msgid "This is a large database, so let me choose when Metabase syncs and scans"
+msgid "This is a large database, so let me choose whenngmKASE syncs and scans"
 msgstr "هذه قاعدة بيانات كبيرة ، لذا دعني أختار متى تتم مزامنة قاعدة التعريف ومسحها ضوئيا"
 
 #: frontend/src/metabase/components/DatabaseDetailsForm.jsx:296
-msgid "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values.\n"
+msgid "By default,ngmKASE does a lightweight hourly sync and an intensive daily scan of field values.\n"
 "If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
-msgstr "بشكل افتراضي، يقوم Metabase بإجراء مزامنة خفيفة الوزن كل ساعة وفحص يومي مكثف لقيم الحقول.\n"
+msgstr "بشكل افتراضي، يقومngmKASE بإجراء مزامنة خفيفة الوزن كل ساعة وفحص يومي مكثف لقيم الحقول.\n"
 "إذا كانت لديك قاعدة بيانات كبيرة، فإننا نوصي بتشغيل هذه قاعدة بيانات ومراجعة وقت وعدد مرات حدوث عمليات فحص قيمة الحقل."
 
 #: frontend/src/metabase/databases/components/DatabaseClientIdDescription/DatabaseClientIdDescription.tsx:25
@@ -2566,7 +2566,7 @@ msgid "with Google Drive permissions"
 msgstr "باستخدام أذونات Google Drive"
 
 #: frontend/src/metabase/entities/databases/forms.js:248
-msgid "To use Metabase with this data you must enable API access in the Google Developers Console."
+msgid "To usengmKASE with this data you must enable API access in the Google Developers Console."
 msgstr "لاستخدام قاعدة التعريف مع هذه البيانات، يجب تمكين الوصول إلى واجهة برمجة التطبيقات في وحدة تحكم مطوري البرامج في Google."
 
 #: frontend/src/metabase/entities/databases/forms.js:249
@@ -2863,7 +2863,7 @@ msgstr "جاري التحميل..."
 #: frontend/src/metabase/setup/components/NewsletterForm/NewsletterForm.tsx:44
 #, fuzzy
 msgid "Metabase Newsletter"
-msgstr "النشرة الإخبارية ل Metabase"
+msgstr "النشرة الإخبارية لngmKASE"
 
 #: frontend/src/metabase/setup/components/NewsletterForm/NewsletterForm.tsx:48
 #, fuzzy
@@ -2876,8 +2876,8 @@ msgstr "الاشتراك"
 
 #: frontend/src/metabase/setup/components/NewsletterForm/NewsletterForm.tsx:71
 #, fuzzy
-msgid "You're subscribed. Thanks for using Metabase!"
-msgstr "أنت مشترك. شكرا لاستخدام Metabase!"
+msgid "You're subscribed. Thanks for usingngmKASE!"
+msgstr "أنت مشترك. شكرا لاستخدامngmKASE!"
 
 #: frontend/src/metabase/containers/ErrorPages.tsx:35
 #, fuzzy
@@ -2980,7 +2980,7 @@ msgstr "اليوم التقويمي"
 
 #: frontend/src/metabase/components/SchedulePicker/SchedulePicker.tsx:235
 #, fuzzy
-msgid "your Metabase timezone"
+msgid "yourngmKASE timezone"
 msgstr "المنطقة الزمنية لقاعدة التعريف الخاصة بك"
 
 #: frontend/src/metabase/components/SearchHeader.jsx:21
@@ -4694,7 +4694,7 @@ msgstr "مساعدة"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:75
 #, fuzzy
-msgid "About Metabase"
+msgid "AboutngmKASE"
 msgstr "حول قاعدة التعريف"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:81
@@ -5088,7 +5088,7 @@ msgstr "رابط عام"
 
 #: frontend/src/metabase/public/components/widgets/SharingPane.tsx:119
 #, fuzzy
-msgid "Share this {0} with people who don't have a Metabase account using the URL below:"
+msgid "Share this {0} with people who don't have angmKASE account using the URL below:"
 msgstr "شارك هذه {0} مع الأشخاص الذين ليس لديهم حساب قاعدة وصفية باستخدام عنوان URL أدناه:"
 
 #: frontend/src/metabase/public/components/widgets/SharingPane.tsx:148
@@ -5357,8 +5357,8 @@ msgstr "ساعد الجميع في فريقك على البقاء متزامني
 
 #: frontend/src/metabase/pulse/components/WhatsAPulse.jsx:31
 #, fuzzy
-msgid "Pulses let you send data from Metabase to email or Slack on the schedule of your choice."
-msgstr "يتيح لك Pulses إرسال البيانات من Metabase إلى البريد الإلكتروني أو Slack وفقا للجدول الزمني الذي تختاره."
+msgid "Pulses let you send data fromngmKASE to email or Slack on the schedule of your choice."
+msgstr "يتيح لك Pulses إرسال البيانات منngmKASE إلى البريد الإلكتروني أو Slack وفقا للجدول الزمني الذي تختاره."
 
 #: frontend/src/metabase/visualizations/click-actions/components/TimeseriesFilterWidget.jsx:71
 #: metabase/lib/fe_util.cljc:92
@@ -7057,7 +7057,7 @@ msgstr "الاتصال {0}"
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuideEditForm.jsx:253
 #, fuzzy
-msgid "Help new Metabase users find their way around."
+msgid "Help newngmKASE users find their way around."
 msgstr "ساعد مستخدمي قاعدة التعريف الجدد في العثور على طريقهم."
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuideEditForm.jsx:256
@@ -7320,8 +7320,8 @@ msgstr "الاتصال {0}"
 
 #: frontend/src/metabase/setup/components/DatabaseConnectionStep.jsx:132
 #, fuzzy
-msgid "You’ll need some info about your database, like the username and password. If you don’t have that right now, Metabase also comes with a sample dataset you can get started with."
-msgstr "ستحتاج إلى بعض المعلومات حول قاعدة البيانات، مثل اسم المستخدم وكلمة المرور. إذا لم يكن لديك ذلك في الوقت الحالي ، فإن Metabase يأتي أيضا مع مجموعة بيانات نموذجية يمكنك البدء بها."
+msgid "You’ll need some info about your database, like the username and password. If you don’t have that right now,ngmKASE also comes with a sample dataset you can get started with."
+msgstr "ستحتاج إلى بعض المعلومات حول قاعدة البيانات، مثل اسم المستخدم وكلمة المرور. إذا لم يكن لديك ذلك في الوقت الحالي ، فإنngmKASE يأتي أيضا مع مجموعة بيانات نموذجية يمكنك البدء بها."
 
 #: frontend/src/metabase/databases/components/DatabaseForm/DatabaseForm.tsx:205
 #, fuzzy
@@ -7350,7 +7350,7 @@ msgstr "لن نجمع أي أحداث استخدام"
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:90
 #, fuzzy
-msgid "In order to help us improve Metabase, we'd like to collect certain data about usage through Google Analytics."
+msgid "In order to help us improvengmKASE, we'd like to collect certain data about usage through Google Analytics."
 msgstr "لمساعدتنا في تحسين قاعدة التعريف، نود جمع بيانات معينة حول الاستخدام من خلال Google Analytics."
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:95
@@ -7360,8 +7360,8 @@ msgstr "فيما يلي قائمة كاملة بكل ما نتتبعه ولما�
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:89
 #, fuzzy
-msgid "Allow Metabase to anonymously collect usage events"
-msgstr "السماح ل Metabase بجمع أحداث الاستخدام بشكل مجهول"
+msgid "AllowngmKASE to anonymously collect usage events"
+msgstr "السماح لngmKASE بجمع أحداث الاستخدام بشكل مجهول"
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:94
 #, fuzzy
@@ -7400,7 +7400,7 @@ msgstr "على بعد نقرة واحدة فقط."
 
 #: frontend/src/metabase/setup/components/WelcomePage/WelcomePage.tsx:39
 #, fuzzy
-msgid "Welcome to Metabase"
+msgid "Welcome tongmKASE"
 msgstr "مرحبا بكم في قاعدة التعريف"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:132
@@ -7420,7 +7420,7 @@ msgstr "لقد تم إعدادك جميعا!"
 
 #: frontend/src/metabase/setup/components/CompletedStep/CompletedStep.tsx:31
 #, fuzzy
-msgid "Take me to Metabase"
+msgid "Take me tongmKASE"
 msgstr "خذني إلى قاعدة التعريف"
 
 #: frontend/src/metabase/setup/components/UserStep/UserStep.tsx:70
@@ -7508,8 +7508,8 @@ msgstr "سنعرض لك بعض الاستكشافات المثيرة للاهت�
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:69
 #, fuzzy
-msgid "This seems to be taking a while. In the meantime, you can check out one of these example explorations to see what Metabase can do for you."
-msgstr "يبدو أن هذا يستغرق بعض الوقت. في غضون ذلك ، يمكنك التحقق من أحد هذه الأمثلة على الاستكشافات لمعرفة ما يمكن أن تفعله Metabase لك."
+msgid "This seems to be taking a while. In the meantime, you can check out one of these example explorations to see whatngmKASE can do for you."
+msgstr "يبدو أن هذا يستغرق بعض الوقت. في غضون ذلك ، يمكنك التحقق من أحد هذه الأمثلة على الاستكشافات لمعرفة ما يمكن أن تفعلهngmKASE لك."
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:83
 #, fuzzy
@@ -8878,7 +8878,7 @@ msgstr "لم يتم التحقق من البريد الإلكتروني."
 
 #: src/metabase/integrations/google.clj
 #, fuzzy
-msgid "You''ll need an administrator to create a Metabase account before you can use Google to log in."
+msgid "You''ll need an administrator to create angmKASE account before you can use Google to log in."
 msgstr "ستحتاج إلى مشرف لإنشاء حساب قاعدة وصفية قبل أن تتمكن من استخدام Google لتسجيل الدخول."
 
 #: target/classes/metabase/integrations/google.clj
@@ -8961,7 +8961,7 @@ msgstr "هل لديك الكثير من الأسئلة المحفوظة في {0}
 
 #. This is the very first log message that will get printed.
 #. It's here because this is one of the very first namespaces that gets loaded, and the first that has access to the logger
-#. It shows up a solid 10-15 seconds before the "Starting Metabase in STANDALONE mode" message because so many other namespaces need to get loaded
+#. It shows up a solid 10-15 seconds before the "StartingngmKASE in STANDALONE mode" message because so many other namespaces need to get loaded
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:224
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:97
 #: frontend/src/metabase/public/components/EmbedFrame/LogoBadge.tsx:16
@@ -9454,7 +9454,7 @@ msgstr "فشل [[[{0}]]]"
 
 #: metabase/core.clj:70
 #, fuzzy
-msgid "Please use the following URL to setup your Metabase installation:"
+msgid "Please use the following URL to setup yourngmKASE installation:"
 msgstr "يرجى استخدام عنوان URL التالي لإعداد تثبيت قاعدة التعريف:"
 
 #: metabase/core.clj:84
@@ -9469,7 +9469,7 @@ msgstr "اكتمال إيقاف تشغيل قاعدة التعريف"
 
 #: metabase/core.clj:100
 #, fuzzy
-msgid "Starting Metabase version {0} ..."
+msgid "StartingngmKASE version {0} ..."
 msgstr "بدء إصدار قاعدة التعريف {0} ..."
 
 #: src/metabase/core.clj
@@ -9480,7 +9480,7 @@ msgstr "المنطقة الزمنية للنظام هي \"{0}\" ..."
 #. startup database.  validates connection & runs any necessary migrations
 #: metabase/core.clj:110
 #, fuzzy
-msgid "Setting up and migrating Metabase DB. Please sit tight, this may take a minute..."
+msgid "Setting up and migratingngmKASE DB. Please sit tight, this may take a minute..."
 msgstr "إعداد قاعدة بيانات قاعدة التعريف وترحيلها. يرجى الجلوس بإحكام ، قد يستغرق ذلك دقيقة واحدة ..."
 
 #: metabase/core.clj:125
@@ -9505,7 +9505,7 @@ msgstr "إيقاف تشغيل خادم ويب Jetty المضمن"
 
 #: metabase/core.clj:161
 #, fuzzy
-msgid "Starting Metabase in STANDALONE mode"
+msgid "StartingngmKASE in STANDALONE mode"
 msgstr "بدء قاعدة التعريف في الوضع المستقل"
 
 #: metabase/core.clj:171
@@ -9710,8 +9710,8 @@ msgstr "تم تسجيل metabase.driver.FixedHiveDriver بنجاح مع JDBC."
 #. TODO - smtp-port should be switched to type :integer
 #: src/metabase/email.clj target/classes/metabase/email.clj
 #, fuzzy
-msgid "Email address you want to use as the sender of Metabase."
-msgstr "عنوان البريد الإلكتروني الذي تريد استخدامه كمرسل ل Metabase."
+msgid "Email address you want to use as the sender ofngmKASE."
+msgstr "عنوان البريد الإلكتروني الذي تريد استخدامه كمرسل لngmKASE."
 
 #: metabase/email.clj:57
 #, fuzzy
@@ -9826,7 +9826,7 @@ msgstr "قاعدة البحث عن المجموعات، غير مطلوبة إذ
 #. Should be in the form: {"cn=Some Group,dc=...": [1, 2, 3]} where keys are LDAP groups and values are lists of MB groups IDs
 #: metabase/integrations/ldap.clj:93
 #, fuzzy
-msgid "JSON containing LDAP to Metabase group mappings."
+msgid "JSON containing LDAP tongmKASE group mappings."
 msgstr "JSON يحتوي على تعيينات LDAP إلى مجموعة قاعدة التعريف."
 
 #. Define a setting which captures our Slack api token
@@ -10281,13 +10281,13 @@ msgstr "تحميل البرنامج المساعد {0}... "
 
 #: src/metabase/plugins.clj
 #, fuzzy
-msgid "It looks like you have some external dependencies in your Metabase plugins directory."
+msgid "It looks like you have some external dependencies in yourngmKASE plugins directory."
 msgstr "يبدو أن لديك بعض التبعيات الخارجية في دليل المكونات الإضافية لقاعدة التعريف."
 
 #: src/metabase/plugins.clj
 #, fuzzy
-msgid "With Java 9 or higher, Metabase cannot automatically add them to your classpath."
-msgstr "باستخدام Java 9 أو أعلى ، لا يمكن ل Metabase إضافتها تلقائيا إلى مسار الفصل الخاص بك."
+msgid "With Java 9 or higher,ngmKASE cannot automatically add them to your classpath."
+msgstr "باستخدام Java 9 أو أعلى ، لا يمكن لngmKASE إضافتها تلقائيا إلى مسار الفصل الخاص بك."
 
 #: src/metabase/plugins.clj
 #, fuzzy
@@ -10296,37 +10296,37 @@ msgstr "بدلا من ذلك ، يجب عليك تضمينها عند الإطل
 
 #: src/metabase/plugins.clj
 #, fuzzy
-msgid "See https://metabase.com/docs/latest/operations-guide/start.html#java-versions for more details."
-msgstr "راجع https://metabase.com/docs/latest/operations-guide/start.html#java-versions لمزيد من التفاصيل."
+msgid "See https://data.engeem.com.com/docs/latest/operations-guide/start.html#java-versions for more details."
+msgstr "راجع https://data.engeem.com.com/docs/latest/operations-guide/start.html#java-versions لمزيد من التفاصيل."
 
 #: src/metabase/plugins.clj
 #, fuzzy
-msgid "(If you're already running Metabase this way, you can ignore this message.)"
+msgid "(If you're already runningngmKASE this way, you can ignore this message.)"
 msgstr "(إذا كنت تقوم بالفعل بتشغيل قاعدة التعريف بهذه الطريقة، فيمكنك تجاهل هذه الرسالة.)"
 
 #: metabase/public_settings.clj:68
 #, fuzzy
-msgid "Identify when new versions of Metabase are available."
+msgid "Identify when new versions ofngmKASE are available."
 msgstr "حدد متى تتوفر إصدارات جديدة من قاعدة التعريف."
 
 #: metabase/public_settings.clj:74
 #, fuzzy
-msgid "Information about available versions of Metabase."
+msgid "Information about available versions ofngmKASE."
 msgstr "معلومات حول الإصدارات المتوفرة من قاعدة التعريف."
 
 #: metabase/public_settings.clj:77
 #, fuzzy
-msgid "The name used for this instance of Metabase."
+msgid "The name used for this instance ofngmKASE."
 msgstr "الاسم المستخدم لهذا المثيل من قاعدة التعريف."
 
 #: src/metabase/public_settings.clj
 #, fuzzy
-msgid "The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\"."
+msgid "The base URL of thisngmKASE instance, e.g. \"http://metabase.my-company.com\"."
 msgstr "عنوان URL الأساسي لمثيل قاعدة التعريف هذا، على سبيل المثال \"http://metabase.my-company.com\"."
 
 #: src/metabase/public_settings.clj
 #, fuzzy
-msgid "The default language for this Metabase instance."
+msgid "The default language for thisngmKASE instance."
 msgstr "اللغة الافتراضية لمثيل قاعدة التعريف هذا."
 
 #: src/metabase/public_settings.clj
@@ -10341,7 +10341,7 @@ msgstr "يجب الإشارة إلى مستخدمي عنوان البريد ال
 
 #: metabase/public_settings.clj:195
 #, fuzzy
-msgid "Enable the collection of anonymous usage data in order to help Metabase improve."
+msgid "Enable the collection of anonymous usage data in order to helpngmKASE improve."
 msgstr "تمكين جمع بيانات الاستخدام المجهولة من أجل المساعدة في تحسين قاعدة التعريف."
 
 #: metabase/public_settings.clj:258
@@ -10643,10 +10643,10 @@ msgstr "الوظيفة موجودة بالفعل:"
 
 #. This is the very first log message that will get printed.  It's here because this is one of the very first
 #. namespaces that gets loaded, and the first that has access to the logger It shows up a solid 10-15 seconds before
-#. the "Starting Metabase in STANDALONE mode" message because so many other namespaces need to get loaded
+#. the "StartingngmKASE in STANDALONE mode" message because so many other namespaces need to get loaded
 #: src/metabase/util.clj
 #, fuzzy
-msgid "Loading Metabase..."
+msgid "LoadingngmKASE..."
 msgstr "تحميل قاعدة وصفية..."
 
 #: src/metabase/util/date.clj
@@ -10676,12 +10676,12 @@ msgstr "يجب أن تتكون MB_ENCRYPTION_SECRET_KEY من 16 حرفا على 
 
 #: metabase/util/encryption.clj:44
 #, fuzzy
-msgid "Saved credentials encryption is ENABLED for this Metabase instance."
+msgid "Saved credentials encryption is ENABLED for thisngmKASE instance."
 msgstr "تم تمكين تشفير بيانات الاعتماد المحفوظة لمثيل قاعدة التعريف هذا."
 
 #: metabase/util/encryption.clj:45
 #, fuzzy
-msgid "Saved credentials encryption is DISABLED for this Metabase instance."
+msgid "Saved credentials encryption is DISABLED for thisngmKASE instance."
 msgstr "تم تعطيل تشفير بيانات الاعتماد المحفوظة لمثيل قاعدة التعريف هذا."
 
 #: src/metabase/util/encryption.clj
@@ -11448,8 +11448,8 @@ msgstr "استكشاف أخطاء السجلات وإصلاحها"
 
 #: frontend/src/metabase/admin/tasks/containers/TasksApp.jsx:47
 #, fuzzy
-msgid "Trying to get to the bottom of something? This section shows logs of Metabase's background tasks, which can help shed light on what's going on."
-msgstr "هل تحاول الوصول إلى قاع شيء ما؟ يعرض هذا القسم سجلات مهام خلفية Metabase ، والتي يمكن أن تساعد في إلقاء الضوء على ما يجري."
+msgid "Trying to get to the bottom of something? This section shows logs ofngmKASE's background tasks, which can help shed light on what's going on."
+msgstr "هل تحاول الوصول إلى قاع شيء ما؟ يعرض هذا القسم سجلات مهام خلفيةngmKASE ، والتي يمكن أن تساعد في إلقاء الضوء على ما يجري."
 
 #: frontend/src/metabase/admin/tasks/containers/TasksApp.jsx:66
 msgid "Task"
@@ -13741,18 +13741,18 @@ msgstr "نحن نحب ملاحظاتك."
 
 #: metabase/email/messages.clj:106
 #, fuzzy
-msgid "It looks like Metabase wasn’t quite a match for you."
-msgstr "يبدو أن Metabase لم يكن مطابقا تماما لك."
+msgid "It looks likengmKASE wasn’t quite a match for you."
+msgstr "يبدو أنngmKASE لم يكن مطابقا تماما لك."
 
 #: metabase/email/messages.clj:108
 #, fuzzy
-msgid "Would you mind taking a fast 5 question survey to help the Metabase team understand why and make things better in the future?"
-msgstr "هل تمانع في إجراء استطلاع سريع للأسئلة من 5 أسئلة لمساعدة فريق Metabase على فهم السبب وجعل الأمور أفضل في المستقبل؟"
+msgid "Would you mind taking a fast 5 question survey to help thengmKASE team understand why and make things better in the future?"
+msgstr "هل تمانع في إجراء استطلاع سريع للأسئلة من 5 أسئلة لمساعدة فريقngmKASE على فهم السبب وجعل الأمور أفضل في المستقبل؟"
 
 #: metabase/email/messages.clj:286
 #, fuzzy
-msgid "We hope you''ve been enjoying Metabase."
-msgstr "نأمل أن تكون قد استمتعت ب Metabase."
+msgid "We hope you''ve been enjoyingngmKASE."
+msgstr "نأمل أن تكون قد استمتعت بngmKASE."
 
 #: metabase/email/messages.clj:113
 #, fuzzy
@@ -13761,12 +13761,12 @@ msgstr "هل تمانع في إجراء استطلاع سريع من 6 أسئل�
 
 #: src/metabase/email/messages.clj
 #, fuzzy
-msgid "{0} created a Metabase account"
+msgid "{0} created angmKASE account"
 msgstr "{0} إنشاء حساب قاعدة تعريف"
 
 #: src/metabase/email/messages.clj
 #, fuzzy
-msgid "{0} accepted their Metabase invite"
+msgid "{0} accepted theirngmKASE invite"
 msgstr "{0} قبلوا دعوة قاعدة التعريف الخاصة بهم"
 
 #: src/metabase/email/messages.clj
@@ -13781,7 +13781,7 @@ msgstr "[قاعدة وصفية] اخطار"
 
 #: src/metabase/email/messages.clj
 #, fuzzy
-msgid "[Metabase] Help make Metabase better."
+msgid "[Metabase] Help makengmKASE better."
 msgstr "[قاعدة وصفية] ساعد في تحسين قاعدة التعريف."
 
 #: src/metabase/email/messages.clj
@@ -14133,7 +14133,7 @@ msgstr "قد تحتاج إلى إضافة \"?sslmode=require\" إلى سلسلة
 
 #: target/classes/metabase/db/env.clj
 #, fuzzy
-msgid "If Metabase fails to launch, please add it and try again."
+msgid "IfngmKASE fails to launch, please add it and try again."
 msgstr "إذا فشلت قاعدة التعريف في التشغيل، يرجى إضافتها والمحاولة مرة أخرى."
 
 #: target/classes/metabase/db/env.clj
@@ -14143,7 +14143,7 @@ msgstr "انظر https://github.com/metabase/metabase/issues/8908 لمزيد م�
 
 #: src/metabase/db.clj
 #, fuzzy
-msgid "WARNING: Using Metabase with an H2 application database is not recomended for production deployments."
+msgid "WARNING: UsingngmKASE with an H2 application database is not recomended for production deployments."
 msgstr "تحذير: لا يوصى باستخدام قاعدة التعريف مع قاعدة بيانات تطبيق H2 لعمليات نشر الإنتاج."
 
 #: target/classes/metabase/db/env.clj
@@ -14158,12 +14158,12 @@ msgstr "إذا قررت الاستمرار في استخدام H2 ، فيرجى 
 
 #: src/metabase/db.clj
 #, fuzzy
-msgid "See https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
-msgstr "راجع https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres لمزيد من المعلومات."
+msgid "See https://data.engeem.com.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
+msgstr "راجع https://data.engeem.com.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres لمزيد من المعلومات."
 
 #: metabase/db/setup.clj:110
 #, fuzzy
-msgid "Unable to connect to Metabase {0} DB."
+msgid "Unable to connect tongmKASE {0} DB."
 msgstr "غير قادر على الاتصال بقاعدة التعريف {0} قاعدة البيانات."
 
 #: target/classes/metabase/db/data_migrations.clj
@@ -14313,12 +14313,12 @@ msgstr "يتعذر على قاعدة التعريف استخدام دليل ال
 
 #: metabase/plugins.clj:43
 #, fuzzy
-msgid "Please make sure the directory exists and that Metabase has permission to write to it."
+msgid "Please make sure the directory exists and thatngmKASE has permission to write to it."
 msgstr "يرجى التأكد من وجود الدليل وأن قاعدة التعريف لديها إذن للكتابة إليه."
 
 #: metabase/plugins.clj:44
 #, fuzzy
-msgid "You can change the directory Metabase uses for modules by setting the environment variable MB_PLUGINS_DIR."
+msgid "You can change the directoryngmKASE uses for modules by setting the environment variable MB_PLUGINS_DIR."
 msgstr "يمكنك تغيير الدليل الذي تستخدمه قاعدة التعريف للوحدات النمطية عن طريق تعيين متغير البيئة MB_PLUGINS_DIR."
 
 #: metabase/plugins.clj:45
@@ -14328,13 +14328,13 @@ msgstr "العودة إلى دليل مؤقت في الوقت الحالي."
 
 #: metabase/plugins.clj:50
 #, fuzzy
-msgid "Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
-msgstr "يتعذر على قاعدة التعريف الكتابة إلى دليل مؤقت. يرجى تعيين MB_PLUGINS_DIR إلى دليل قابل للكتابة وإعادة تشغيل Metabase."
+msgid "Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restartngmKASE."
+msgstr "يتعذر على قاعدة التعريف الكتابة إلى دليل مؤقت. يرجى تعيين MB_PLUGINS_DIR إلى دليل قابل للكتابة وإعادة تشغيلngmKASE."
 
 #: src/metabase/plugins.clj
 #, fuzzy
-msgid "spark-deps.jar is no longer needed by Metabase 1.0+. You can delete it from the plugins directory."
-msgstr "لم تعد هناك حاجة إلى spark-deps.jar بواسطة Metabase 1.0 +. يمكنك حذفه من دليل المكونات الإضافية."
+msgid "spark-deps.jar is no longer needed byngmKASE 1.0+. You can delete it from the plugins directory."
+msgstr "لم تعد هناك حاجة إلى spark-deps.jar بواسطةngmKASE 1.0 +. يمكنك حذفه من دليل المكونات الإضافية."
 
 #: metabase/plugins.clj:168
 #, fuzzy
@@ -14372,7 +14372,7 @@ msgstr "تمت إضافة {0} عنوان URL إلى classpath"
 
 #: metabase/plugins/dependencies.clj:29
 #, fuzzy
-msgid "Plugin {0} declares a dependency that Metabase does not understand: {1}"
+msgid "Plugin {0} declares a dependency thatngmKASE does not understand: {1}"
 msgstr "يعلن المكون الإضافي {0} عن تبعية لا تفهمها قاعدة التعريف: {1}"
 
 #: metabase/plugins/dependencies.clj:30
@@ -14461,7 +14461,7 @@ msgstr "لا يمكن تهيئة المكون الإضافي: الخاصية ا�
 msgid "Warning: plugin manifest for {0} does not include connection properties"
 msgstr "تحذير: لا يتضمن بيان المكون الإضافي {0} خصائص الاتصال"
 
-#. finally, register the Metabase driver
+#. finally, register thengmKASE driver
 #: metabase/plugins/lazy_loaded_driver.clj:94
 #, fuzzy
 msgid "Registering lazy loading driver {0}..."
@@ -14641,7 +14641,7 @@ msgstr "تم تنظيف محفوظات المهام بنجاح ، ولم يتم 
 
 #: metabase/task/upgrade_checks.clj:31
 #, fuzzy
-msgid "Checking for new Metabase version info."
+msgid "Checking for newngmKASE version info."
 msgstr "التحقق من وجود معلومات إصدار قاعدة التعريف الجديدة."
 
 #: src/metabase/task/upgrade_checks.clj
@@ -15069,7 +15069,7 @@ msgstr "تأكد من تعيين رأس \"نوع المحتوى: التطبيق/
 
 #: metabase/server/middleware/misc.clj:50
 #, fuzzy
-msgid "Setting Metabase site URL to {0}"
+msgid "SettingngmKASE site URL to {0}"
 msgstr "تعيين عنوان URL لموقع قاعدة التعريف إلى {0}"
 
 #: metabase/models/database.clj:83
@@ -15203,7 +15203,7 @@ msgstr "تشغيل الاستعلامات تلقائيا عند إجراء تص�
 
 #: frontend/src/metabase/components/DatabaseDetailsForm.jsx:320
 #, fuzzy
-msgid "When this is on Metabase will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
+msgid "When this is onngmKASE will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
 msgstr "عندما يكون هذا على قاعدة التعريف ، سيتم تشغيل الاستعلامات تلقائيا عندما يقوم المستخدمون بإجراء استكشافات بسيطة باستخدام زري تلخيص وتصفية عند عرض جدول أو مخطط. يمكنك إيقاف تشغيل هذا إذا كان الاستعلام عن قاعدة البيانات هذه بطيئا. لا يؤثر هذا الإعداد على عمليات التنقل أو استعلامات SQL."
 
 #: frontend/src/metabase/containers/Overworld.jsx:313
@@ -15650,11 +15650,11 @@ msgstr "طلب إلغاء، إلغاء مستقبلي."
 #: src/metabase/cmd/load_from_h2.clj
 #, fuzzy
 msgid "Metabase can only transfer data from H2 to Postgres or MySQL/MariaDB."
-msgstr "يمكن ل Metabase فقط نقل البيانات من H2 إلى Postgres أو MySQL / MariaDB."
+msgstr "يمكن لngmKASE فقط نقل البيانات من H2 إلى Postgres أو MySQL / MariaDB."
 
 #: target/classes/metabase/db/env.clj
 #, fuzzy
-msgid "WARNING: Using Metabase with an H2 application database is not recommended for production deployments."
+msgid "WARNING: UsingngmKASE with an H2 application database is not recommended for production deployments."
 msgstr "تحذير: لا يوصى باستخدام قاعدة التعريف مع قاعدة بيانات تطبيق H2 لعمليات نشر الإنتاج."
 
 #: src/metabase/db.clj
@@ -15731,8 +15731,8 @@ msgstr "خطأ في حفظ محفوظات المهام"
 
 #: metabase/plugins.clj:117
 #, fuzzy
-msgid "spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
-msgstr "لم تعد هناك حاجة إلى spark-deps.jar بواسطة Metabase 0.32.0 +. يمكنك حذفه من دليل المكونات الإضافية."
+msgid "spark-deps.jar is no longer needed byngmKASE 0.32.0+. You can delete it from the plugins directory."
+msgstr "لم تعد هناك حاجة إلى spark-deps.jar بواسطةngmKASE 0.32.0 +. يمكنك حذفه من دليل المكونات الإضافية."
 
 #: src/metabase/plugins/classloader.clj
 #, fuzzy
@@ -15772,8 +15772,8 @@ msgstr "لم نتمكن من عرض هذا النبض."
 
 #: metabase/pulse/render/body.clj:1058
 #, fuzzy
-msgid "Please view this card in Metabase."
-msgstr "يرجى الاطلاع على هذه البطاقة في Metabase."
+msgid "Please view this card inngmKASE."
+msgstr "يرجى الاطلاع على هذه البطاقة فيngmKASE."
 
 #: metabase/pulse/render/body.clj:53
 #, fuzzy
@@ -16017,8 +16017,8 @@ msgstr "فشل جلب الحقل {0}: الحقل غير موجود أو ينتم
 
 #: metabase/server/routes/index.clj:74
 #, fuzzy
-msgid "Failed to load template ''{0}''. Did you remember to build the Metabase frontend?"
-msgstr "فشل تحميل القالب ''{0}''. هل تذكرت بناء الواجهة الأمامية ل Metabase؟"
+msgid "Failed to load template ''{0}''. Did you remember to build thengmKASE frontend?"
+msgstr "فشل تحميل القالب ''{0}''. هل تذكرت بناء الواجهة الأمامية لngmKASE؟"
 
 #: target/classes/metabase/sample_data.clj
 #, fuzzy
@@ -16089,7 +16089,7 @@ msgstr "اختر الأعمدة التي تريد تضمينها"
 
 #: frontend/src/metabase/entities/databases/forms.js:343
 #, fuzzy
-msgid "When this is on, Metabase will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
+msgid "When this is on,ngmKASE will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
 msgstr "عند تشغيل ذلك، ستقوم قاعدة التعريف تلقائيا بتشغيل الاستعلامات عندما يقوم المستخدمون بإجراء استكشافات بسيطة باستخدام الزرين تلخيص وتصفية عند عرض جدول أو مخطط. يمكنك إيقاف تشغيل هذا إذا كان الاستعلام عن قاعدة البيانات هذه بطيئا. لا يؤثر هذا الإعداد على عمليات التنقل أو استعلامات SQL."
 
 #: frontend/src/metabase/query_builder/components/notebook/steps/JoinStep/JoinStrategyPicker/JoinStrategyPicker.tsx:51
@@ -16142,12 +16142,12 @@ msgstr "معلومات التشخيص"
 
 #: frontend/src/metabase/admin/tasks/components/Logs/Logs.jsx:108
 #, fuzzy
-msgid "Select Metabase process:"
+msgid "SelectngmKASE process:"
 msgstr "حدد عملية قاعدة التعريف:"
 
 #: frontend/src/metabase/admin/tasks/components/Logs/Logs.jsx:118
 #, fuzzy
-msgid "All Metabase processes"
+msgid "AllngmKASE processes"
 msgstr "جميع عمليات قاعدة التعريف"
 
 #: frontend/src/metabase/lib/auth.js:18
@@ -16172,8 +16172,8 @@ msgstr "يتطلب استخدام هذا الخيار أن يكون المضيف
 
 #: frontend/src/metabase/entities/databases/forms.js:350
 #, fuzzy
-msgid "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
-msgstr "بشكل افتراضي، يقوم Metabase بإجراء مزامنة خفيفة الوزن كل ساعة وفحص يومي مكثف لقيم الحقول. إذا كانت لديك قاعدة بيانات كبيرة، فإننا نوصي بتشغيل هذه قاعدة بيانات ومراجعة وقت وعدد مرات حدوث عمليات فحص قيمة الحقل."
+msgid "By default,ngmKASE does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
+msgstr "بشكل افتراضي، يقومngmKASE بإجراء مزامنة خفيفة الوزن كل ساعة وفحص يومي مكثف لقيم الحقول. إذا كانت لديك قاعدة بيانات كبيرة، فإننا نوصي بتشغيل هذه قاعدة بيانات ومراجعة وقت وعدد مرات حدوث عمليات فحص قيمة الحقل."
 
 #: frontend/src/metabase/home/homepage/components/XraySection/XraySection.tsx:45
 #, fuzzy
@@ -16691,8 +16691,8 @@ msgstr "موافق"
 
 #: frontend/src/metabase/admin/settings/auth/components/GoogleAuthForm/GoogleAuthForm.tsx:68
 #, fuzzy
-msgid "To allow users to sign in with Google you'll need to give Metabase a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
-msgstr "للسماح للمستخدمين بتسجيل الدخول باستخدام Google، ستحتاج إلى منح Metabase معرف عميل تطبيق وحدة تحكم مطوري برامج Google. يستغرق الأمر بضع خطوات فقط ويمكن العثور على إرشادات حول كيفية إنشاء مفتاح {0}."
+msgid "To allow users to sign in with Google you'll need to givengmKASE a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
+msgstr "للسماح للمستخدمين بتسجيل الدخول باستخدام Google، ستحتاج إلى منحngmKASE معرف عميل تطبيق وحدة تحكم مطوري برامج Google. يستغرق الأمر بضع خطوات فقط ويمكن العثور على إرشادات حول كيفية إنشاء مفتاح {0}."
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:134
 #, fuzzy
@@ -16746,13 +16746,13 @@ msgstr "يتضمن دليل استكشاف الأخطاء وإصلاحها"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:114
 #, fuzzy
-msgid "Post on the Metabase support forum"
+msgid "Post on thengmKASE support forum"
 msgstr "النشر على منتدى دعم قاعدة التعريف"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:115
 #, fuzzy
-msgid "A community forum for all things Metabase"
-msgstr "منتدى مجتمعي لجميع الأشياء Metabase"
+msgid "A community forum for all thingsngmKASE"
+msgstr "منتدى مجتمعي لجميع الأشياءngmKASE"
 
 #: frontend/src/metabase/admin/tasks/components/Help/Help.tsx:121
 #, fuzzy
@@ -16837,7 +16837,7 @@ msgstr "معالجة خفيفة لفحص التحديثات على هيكل قو
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:165
 msgid "Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database."
-msgstr "يمكن ل Metabase تفحص القيم الموجودة في كل\n"
+msgstr "يمكن لngmKASE تفحص القيم الموجودة في كل\n"
 "الحقول في قواعد البيانات لتفعيل خانة الفرز في لوحة عرض البيانات و الاستعلامات . ويمكن \n"
 "أن تستهلك هذه العملية الكثير من الموارد,خصوصا إذا كان حجم قواعد\n"
 "البيانات كبيراً."
@@ -17486,8 +17486,8 @@ msgstr "يجب أن تكون {0} الأحرف أو أقل"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:121
 #, fuzzy
-msgid "Thanks for using Metabase!"
-msgstr "شكرا لاستخدام Metabase!"
+msgid "Thanks for usingngmKASE!"
+msgstr "شكرا لاستخدامngmKASE!"
 
 #: frontend/src/metabase/public/components/EmbedFrame/LogoBadge.tsx:26
 #, fuzzy
@@ -17670,8 +17670,8 @@ msgstr "يبدو أن الرمز المميز لمصادقة Google غير صح�
 #: src/metabase/integrations/google.clj
 #: target/classes/metabase/integrations/google.clj
 #, fuzzy
-msgid "Double check that it matches in Google and Metabase."
-msgstr "تحقق مرة أخرى من أنه يتطابق في Google و Metabase."
+msgid "Double check that it matches in Google andngmKASE."
+msgstr "تحقق مرة أخرى من أنه يتطابق في Google وngmKASE."
 
 #: metabase/api/table.clj:341
 #, fuzzy
@@ -17690,7 +17690,7 @@ msgstr "مطلوب ترقية قاعدة البيانات"
 
 #: metabase/db/setup.clj:46
 #, fuzzy
-msgid "NOTICE: Your database requires updates to work with this version of Metabase."
+msgid "NOTICE: Your database requires updates to work with this version ofngmKASE."
 msgstr "إشعار: تتطلب قاعدة البيانات تحديثات للعمل مع هذا الإصدار من قاعدة التعريف."
 
 #: metabase/db/setup.clj:48
@@ -17743,12 +17743,12 @@ msgstr "فشل الاستعلام الفرعي من السؤال المشار إ
 
 #: metabase/driver/mysql.clj:120
 #, fuzzy
-msgid "WARNING: Metabase only officially supports MySQL {0}/MariaDB {1} and above."
+msgid "WARNING:ngmKASE only officially supports MySQL {0}/MariaDB {1} and above."
 msgstr "تحذير: تدعم قاعدة التعريف رسميا فقط MySQL {0}/MariaDB {1} والإصدارات الأحدث."
 
 #: metabase/driver/mysql.clj:124
 #, fuzzy
-msgid "All Metabase features may not work properly when using an unsupported version."
+msgid "AllngmKASE features may not work properly when using an unsupported version."
 msgstr "قد لا تعمل جميع ميزات قاعدة التعريف بشكل صحيح عند استخدام إصدار غير مدعوم."
 
 #: target/classes/metabase/driver/sql/parameters/substitute.clj
@@ -18114,7 +18114,7 @@ msgstr "حسابات الخدمة"
 #: frontend/src/metabase/entities/databases/big-query-fields.js:30
 #, fuzzy
 msgid "Metabase connects to Big Query via {0}."
-msgstr "يتصل Metabase بالاستعلام الكبير عبر {0}."
+msgstr "يتصلngmKASE بالاستعلام الكبير عبر {0}."
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:33
 #, fuzzy
@@ -18277,7 +18277,7 @@ msgstr "ما هي لغتك المفضلة؟"
 
 #: frontend/src/metabase/setup/components/LanguageStep/LanguageStep.tsx:68
 #, fuzzy
-msgid "This language will be used throughout Metabase and will be the default for new users."
+msgid "This language will be used throughoutngmKASE and will be the default for new users."
 msgstr "سيتم استخدام هذه اللغة في جميع أنحاء قاعدة التعريف وستكون هي اللغة الافتراضية للمستخدمين الجدد."
 
 #: frontend/src/metabase/visualizations/components/PinMap.jsx:141
@@ -18466,8 +18466,8 @@ msgstr "خطأ في جلب قيمة الإعداد"
 
 #: src/metabase/public_settings.clj
 #, fuzzy
-msgid "The language that should be used for Metabase's UI, system emails, pulses, and alerts."
-msgstr "اللغة التي يجب استخدامها لواجهة مستخدم Metabase ورسائل البريد الإلكتروني للنظام والنبضات والتنبيهات."
+msgid "The language that should be used forngmKASE's UI, system emails, pulses, and alerts."
+msgstr "اللغة التي يجب استخدامها لواجهة مستخدمngmKASE ورسائل البريد الإلكتروني للنظام والنبضات والتنبيهات."
 
 #: src/metabase/public_settings.clj
 #, fuzzy
@@ -18491,7 +18491,7 @@ msgstr "لا يمكن إعادة توجيه الطلبات إلى HTTPS ما ل�
 
 #: metabase/pulse/render/style.clj:112
 #, fuzzy
-msgid "Error registering fonts: Metabase will not be able to send Pulses."
+msgid "Error registering fonts:ngmKASE will not be able to send Pulses."
 msgstr "تسجيل الأخطاء في الخطوط: لن تتمكن قاعدة التعريف من إرسال Pulses."
 
 #: metabase/pulse/render/style.clj:114
@@ -18659,7 +18659,7 @@ msgstr "تكوين موفر الهوية (IdP)"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:92
 #, fuzzy
-msgid "Your identity provider will need the following info about Metabase."
+msgid "Your identity provider will need the following info aboutngmKASE."
 msgstr "سيحتاج موفر الهوية إلى المعلومات التالية حول قاعدة التعريف."
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:99
@@ -18703,7 +18703,7 @@ msgstr "سمة اسم العائلة للمستخدم"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:126
 #, fuzzy
-msgid "Tell Metabase about your identity provider"
+msgid "TellngmKASE about your identity provider"
 msgstr "إخبار قاعدة التعريف عن موفر الهوية"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:127
@@ -18763,7 +18763,7 @@ msgstr "مزامنة عضوية المجموعة مع الدخول الموحد 
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:176
 #, fuzzy
-msgid "To enable this, you'll need to create mappings to tell Metabase which group(s) your users should\n"
+msgid "To enable this, you'll need to create mappings to tellngmKASE which group(s) your users should\n"
 "be added to based on the SSO group they're in."
 msgstr "لتمكين ذلك، ستحتاج إلى إنشاء تعيينات لإخبار قاعدة التعريف بالمجموعة (المجموعات) التي يجب على المستخدمين استخدامها\n"
 "تتم إضافته استنادا إلى مجموعة الدخول الموحد (SSO) التي يتواجد فيها."
@@ -18788,7 +18788,7 @@ msgstr "التذکر:"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:186
 #, fuzzy
-msgid "If you change any of the settings of an existing SAML active setup, then you will need to restart Metabase for them to take effect."
+msgid "If you change any of the settings of an existing SAML active setup, then you will need to restartngmKASE for them to take effect."
 msgstr "إذا غيرت أيا من إعدادات إعداد SAML نشط حالي، فستحتاج إلى إعادة تشغيل قاعدة التعريف حتى تصبح سارية المفعول."
 
 #: enterprise/frontend/src/metabase-enterprise/auth/containers/SamlAuthCard/SamlAuthCard.tsx:12
@@ -18853,12 +18853,12 @@ msgstr "السلسلة المستخدمة بواسطة مفتاح توقيع JWT
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:27
 #, fuzzy
-msgid "Embedding the entire Metabase app"
+msgid "Embedding the entirengmKASE app"
 msgstr "تضمين تطبيق قاعدة التعريف بالكامل"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:16
 #, fuzzy
-msgid "If you want to embed all of Metabase, enter the origins of the websites or web apps where you want to allow embedding in an iframe, separated by a space. Here are the {0} for what can be entered."
+msgid "If you want to embed all ofngmKASE, enter the origins of the websites or web apps where you want to allow embedding in an iframe, separated by a space. Here are the {0} for what can be entered."
 msgstr "إذا كنت تريد تضمين قاعدة التعريف بالكامل، فأدخل أصول مواقع الويب أو تطبيقات الويب حيث تريد السماح بالتضمين في iframe، مفصولة بمسافة. فيما يلي {0} لما يمكن إدخاله."
 
 #: enterprise/frontend/src/metabase-enterprise/sandboxes/components/EditSandboxingModal/EditSandboxingModal.tsx:115
@@ -19014,8 +19014,8 @@ msgstr "نواجه مشكلة في التحقق من صحة الرمز المم�
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:89
 #, fuzzy
-msgid "Please double-check that your instance can connect to Metabase's servers"
-msgstr "يرجى التحقق مرة أخرى من أن المثيل الخاص بك يمكنه الاتصال بخوادم Metabase"
+msgid "Please double-check that your instance can connect tongmKASE's servers"
+msgstr "يرجى التحقق مرة أخرى من أن المثيل الخاص بك يمكنه الاتصال بخوادمngmKASE"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:94
 #, fuzzy
@@ -19024,12 +19024,12 @@ msgstr "الحصول على المساعدة"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:101
 #, fuzzy
-msgid "Get even more out of Metabase with the Enterprise Edition"
+msgid "Get even more out ofngmKASE with the Enterprise Edition"
 msgstr "احصل على أقصى استفادة من قاعدة التعريف باستخدام إصدار Enterprise Edition"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:103
 #, fuzzy
-msgid "All the tools you need to quickly and easily provide reports for your customers, or to help you run and monitor Metabase in a large organization"
+msgid "All the tools you need to quickly and easily provide reports for your customers, or to help you run and monitorngmKASE in a large organization"
 msgstr "جميع الأدوات التي تحتاجها لتقديم تقارير لعملائك بسرعة وسهولة، أو لمساعدتك في تشغيل قاعدة التعريف ومراقبتها في مؤسسة كبيرة"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:115
@@ -19151,8 +19151,8 @@ msgstr "وضع العلامات البيضاء"
 
 #: enterprise/frontend/src/metabase-enterprise/store/lib/features.js:17
 #, fuzzy
-msgid "Match Metabase to your brand with custom colors, your own logo and more."
-msgstr "قم بمطابقة Metabase مع علامتك التجارية بألوان مخصصة وشعارك الخاص والمزيد."
+msgid "MatchngmKASE to your brand with custom colors, your own logo and more."
+msgstr "قم بمطابقةngmKASE مع علامتك التجارية بألوان مخصصة وشعارك الخاص والمزيد."
 
 #: enterprise/frontend/src/metabase-enterprise/store/lib/features.js:26
 #, fuzzy
@@ -19270,7 +19270,7 @@ msgstr "في"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/utils.ts:29
 #, fuzzy
-msgid "Open the Metabase actions menu"
+msgid "Open thengmKASE actions menu"
 msgstr "فتح قائمة إجراءات قاعدة التعريف"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/TableClickBehaviorView/TableClickBehaviorView.tsx:29
@@ -20115,8 +20115,8 @@ msgstr "أرسله إلى Slack"
 
 #: frontend/src/metabase/sharing/components/NewPulseSidebar.tsx:104
 #, fuzzy
-msgid "Pick a channel and a schedule, and Metabase will do the rest."
-msgstr "اختر قناة وجدولا زمنيا ، وستقوم Metabase بالباقي."
+msgid "Pick a channel and a schedule, andngmKASE will do the rest."
+msgstr "اختر قناة وجدولا زمنيا ، وستقومngmKASE بالباقي."
 
 #: frontend/src/metabase/sharing/components/AddEditSidebar/AddEditEmailSidebar.jsx:51
 #, fuzzy
@@ -20187,18 +20187,18 @@ msgstr "رمز Slack المميز غير صالح."
 
 #: metabase/cmd.clj:51
 #, fuzzy
-msgid "The ''{0}'' command is only available in Metabase Enterprise Edition."
-msgstr "يتوفر الأمر \"{0}\" فقط في Metabase Enterprise Edition."
+msgid "The ''{0}'' command is only available inngmKASE Enterprise Edition."
+msgstr "يتوفر الأمر \"{0}\" فقط فيngmKASE Enterprise Edition."
 
 #: metabase/core.clj:50
 #, fuzzy
 msgid "Metabase Enterprise Edition extensions are PRESENT."
-msgstr "ملحقات Metabase Enterprise Edition موجودة."
+msgstr "ملحقاتngmKASE Enterprise Edition موجودة."
 
 #: metabase/core.clj:52
 #, fuzzy
-msgid "Usage of Metabase Enterprise Edition features are subject to the Metabase Commercial License."
-msgstr "يخضع استخدام ميزات Metabase Enterprise Edition للترخيص التجاري ل Metabase."
+msgid "Usage ofngmKASE Enterprise Edition features are subject to thengmKASE Commercial License."
+msgstr "يخضع استخدام ميزاتngmKASE Enterprise Edition للترخيص التجاري لngmKASE."
 
 #: metabase/core.clj:54
 #, fuzzy
@@ -20208,7 +20208,7 @@ msgstr "راجع {0} للحصول على التفاصيل."
 #: metabase/core.clj:55
 #, fuzzy
 msgid "Metabase Enterprise Edition extensions are NOT PRESENT."
-msgstr "ملحقات Metabase Enterprise Edition غير موجودة."
+msgstr "ملحقاتngmKASE Enterprise Edition غير موجودة."
 
 #: metabase/email/messages.clj:130
 #, fuzzy
@@ -20399,7 +20399,7 @@ msgstr "يجب أن تكون مفاتيح سمات تسجيل الدخول كل�
 
 #: src/metabase/public_settings.clj target/classes/metabase/public_settings.clj
 #, fuzzy
-msgid "The default language for all users across the Metabase UI, system emails, pulses, and alerts."
+msgid "The default language for all users across thengmKASE UI, system emails, pulses, and alerts."
 msgstr "اللغة الافتراضية لجميع المستخدمين عبر واجهة مستخدم قاعدة التعريف ورسائل البريد الإلكتروني للنظام والنبضات والتنبيهات."
 
 #: src/metabase/public_settings.clj target/classes/metabase/public_settings.clj
@@ -20414,7 +20414,7 @@ msgstr "الصفحة الافتراضية لإظهار المستخدم"
 
 #: metabase/public_settings.clj:238
 #, fuzzy
-msgid "Allow this origin to embed the full Metabase application"
+msgid "Allow this origin to embed the fullngmKASE application"
 msgstr "السماح لهذا الأصل بتضمين تطبيق قاعدة التعريف الكامل"
 
 #: metabase/public_settings.clj:343
@@ -20429,7 +20429,7 @@ msgstr "سيحل هذا محل كلمة \"Metabase\" أينما ظهرت."
 
 #: metabase/public_settings.clj:337
 #, fuzzy
-msgid "These are the primary colors used in charts and throughout Metabase. You might need to refresh your browser to see your changes take effect."
+msgid "These are the primary colors used in charts and throughoutngmKASE. You might need to refresh your browser to see your changes take effect."
 msgstr "هذه هي الألوان الأساسية المستخدمة في المخططات وعبر قاعدة التعريف. قد تحتاج إلى تحديث متصفحك لرؤية التغييرات التي أجريتها سارية المفعول."
 
 #: metabase/public_settings.clj:433
@@ -20594,7 +20594,7 @@ msgstr "تضمين معرف المستخدم وتجزئة الاستعلام ف�
 
 #: frontend/src/metabase/entities/databases/forms.js:24
 #, fuzzy
-msgid "When on, Metabase User ID and query hash get appended to queries on this database, which can be useful for auditing and debugging. However, this causes each query to look distinct, preventing BigQuery from returning cached results, which may increase your costs."
+msgid "When on,ngmKASE User ID and query hash get appended to queries on this database, which can be useful for auditing and debugging. However, this causes each query to look distinct, preventing BigQuery from returning cached results, which may increase your costs."
 msgstr "عند التشغيل ، يتم إلحاق معرف مستخدم قاعدة التعريف وتجزئة الاستعلام بالاستعلامات الموجودة في قاعدة البيانات هذه ، والتي يمكن أن تكون مفيدة للتدقيق وتصحيح الأخطاء. ومع ذلك، يؤدي هذا إلى ظهور كل استعلام مميزا، مما يمنع BigQuery من عرض النتائج المخزنة مؤقتا، مما قد يزيد من التكاليف."
 
 #: metabase/driver/common.clj:182
@@ -20604,7 +20604,7 @@ msgstr "جداول إعادة بصمات الأصابع بشكل دوري"
 
 #: frontend/src/metabase/entities/databases/forms.js:357
 #, fuzzy
-msgid "When syncing with this database, Metabase will scan a subset of values of fields to gather statistics that enable things like improved binning behavior in charts, and to generally make your Metabase instance smarter."
+msgid "When syncing with this database,ngmKASE will scan a subset of values of fields to gather statistics that enable things like improved binning behavior in charts, and to generally make yourngmKASE instance smarter."
 msgstr "عند المزامنة مع قاعدة البيانات هذه، ستقوم قاعدة التعريف بفحص مجموعة فرعية من قيم الحقول لجمع الإحصاءات التي تمكن أشياء مثل سلوك الربط المحسن في المخططات، ولجعل مثيل قاعدة التعريف الخاص بك أكثر ذكاء بشكل عام."
 
 #: frontend/src/metabase/lib/core.js:251
@@ -20930,8 +20930,8 @@ msgstr "قيمة بذور السياق غير صالحة"
 
 #: metabase_enterprise/serialization/cmd.clj:59
 #, fuzzy
-msgid "Dump was produced using a different version of Metabase. Things may break!"
-msgstr "تم إنتاج Dump باستخدام إصدار مختلف من Metabase. قد تنكسر الأمور!"
+msgid "Dump was produced using a different version ofngmKASE. Things may break!"
+msgstr "تم إنتاج Dump باستخدام إصدار مختلف منngmKASE. قد تنكسر الأمور!"
 
 #: enterprise/backend/src/metabase_enterprise/serialization/cmd.clj
 #, fuzzy
@@ -21132,7 +21132,7 @@ msgstr "كلمة المرور لفتح متجر المفاتيح"
 
 #: metabase_enterprise/sso/integrations/sso_settings.clj:63
 #, fuzzy
-msgid "Alias for the key that Metabase should use for signing SAML requests"
+msgid "Alias for the key thatngmKASE should use for signing SAML requests"
 msgstr "الاسم المستعار للمفتاح الذي يجب أن تستخدمه قاعدة التعريف لتوقيع طلبات SAML"
 
 #: metabase_enterprise/sso/integrations/sso_settings.clj:85
@@ -21163,7 +21163,7 @@ msgstr "سمة SAML لمزامنة المجموعات"
 #. Should be in the form: {"groupName": [1, 2, 3]} where keys are SAML groups and values are lists of MB groups IDs
 #: metabase_enterprise/sso/integrations/sso_settings.clj:89
 #, fuzzy
-msgid "JSON containing SAML to Metabase group mappings."
+msgid "JSON containing SAML tongmKASE group mappings."
 msgstr "JSON يحتوي على تعيينات مجموعة SAML إلى قاعدة التعريف."
 
 #: metabase_enterprise/sso/integrations/sso_settings.clj:102
@@ -21209,7 +21209,7 @@ msgstr "تمكين مزامنة عضوية المجموعة مع JWT."
 #. Should be in the form: {"groupName": [1, 2, 3]} where keys are JWT groups and values are lists of MB groups IDs
 #: metabase_enterprise/sso/integrations/sso_settings.clj:144
 #, fuzzy
-msgid "JSON containing JWT to Metabase group mappings."
+msgid "JSON containing JWT tongmKASE group mappings."
 msgstr "JSON يحتوي على تعيينات مجموعة JWT إلى قاعدة التعريف."
 
 #: metabase/integrations/common.clj:62
@@ -21802,12 +21802,12 @@ msgstr "هل ترغب في الحصول على ترقيات يتم الاعتن�
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm/VersionUpdateNotice/VersionUpdateNotice.jsx:126
 #: frontend/src/metabase/admin/settings/components/widgets/MarginHostingCTA.jsx:16
 #, fuzzy
-msgid "Migrate to Metabase Cloud."
+msgid "Migrate tongmKASE Cloud."
 msgstr "الترحيل إلى سحابة قاعدة التعريف."
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:50
 #, fuzzy
-msgid "Manage Metabase Cloud"
+msgid "ManagengmKASE Cloud"
 msgstr "إدارة سحابة قاعدة التعريف"
 
 #: frontend/src/metabase/visualizations/visualizations/PivotTable/settings.ts:235
@@ -22271,8 +22271,8 @@ msgstr "تنسيق خلية غير صالح"
 
 #: metabase/search/config.clj:10
 #, fuzzy
-msgid "Enable typeahead search in the Metabase navbar?"
-msgstr "تمكين البحث المسبق في شريط التنقل Metabase؟"
+msgid "Enable typeahead search in thengmKASE navbar?"
+msgstr "تمكين البحث المسبق في شريط التنقلngmKASE؟"
 
 #: target/classes/metabase/server/request/util.clj
 #, fuzzy
@@ -22761,8 +22761,8 @@ msgstr "{0} {1} الحقل غير صالحة: الرجوع إلى {2}"
 #: src/metabase/models/humanization.clj
 #: target/classes/metabase/models/humanization.clj
 #, fuzzy
-msgid "To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces."
-msgstr "لجعل أسماء الجداول والحقول أكثر ملاءمة للإنسان، ستحل Metabase محل الشرطات وتسطير سفلي فيها بمسافات."
+msgid "To make table and field names more human-friendly,ngmKASE will replace dashes and underscores in them with spaces."
+msgstr "لجعل أسماء الجداول والحقول أكثر ملاءمة للإنسان، ستحلngmKASE محل الشرطات وتسطير سفلي فيها بمسافات."
 
 #: src/metabase/models/humanization.clj
 #: target/classes/metabase/models/humanization.clj
@@ -22778,7 +22778,7 @@ msgstr "من شأن وضع الأسماء أن يصطدم: {0} و {1}"
 
 #: metabase/public_settings.clj:81
 #, fuzzy
-msgid "Indicates when Metabase last checked for new versions."
+msgid "Indicates whenngmKASE last checked for new versions."
 msgstr "يشير إلى تاريخ آخر مرة تم فيها التحقق من قاعدة التعريف بحثا عن إصدارات جديدة."
 
 #: src/metabase/public_settings.clj target/classes/metabase/public_settings.clj
@@ -22903,7 +22903,7 @@ msgstr "أدخل الرمز المميز الذي تلقيته من المتجر
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm/VersionUpdateNotice/VersionUpdateNotice.jsx:41
 #, fuzzy
 msgid "Metabase Cloud keeps your instance up-to-date. You're currently on version {0}. Thanks for being a customer!"
-msgstr "تحافظ Metabase Cloud على تحديث مثيلك. أنت حاليا على الإصدار {0}. شكرا لكونك عميلا!"
+msgstr "تحافظngmKASE Cloud على تحديث مثيلك. أنت حاليا على الإصدار {0}. شكرا لكونك عميلا!"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm/VersionUpdateNotice/VersionUpdateNotice.jsx:35
 #, fuzzy
@@ -23089,13 +23089,13 @@ msgstr "اجعل جميع المجموعات الفرعية {0} أيضا."
 
 #: enterprise/frontend/src/metabase-enterprise/hosting/components/SettingsCloudStoreLink/SettingsCloudStoreLink.tsx:10
 #, fuzzy
-msgid "Manage your Cloud account, including billing preferences and technical settings about this instance in your Metabase Store account."
-msgstr "إدارة حساب Cloud الخاص بك، بما في ذلك تفضيلات الفوترة والإعدادات الفنية حول هذا المثيل في حساب Metabase Store الخاص بك."
+msgid "Manage your Cloud account, including billing preferences and technical settings about this instance in yourngmKASE Store account."
+msgstr "إدارة حساب Cloud الخاص بك، بما في ذلك تفضيلات الفوترة والإعدادات الفنية حول هذا المثيل في حسابngmKASE Store الخاص بك."
 
 #: enterprise/frontend/src/metabase-enterprise/hosting/components/SettingsCloudStoreLink/SettingsCloudStoreLink.tsx:12
 #: enterprise/frontend/src/metabase-enterprise/license/components/LicenseAndBillingSettings/LicenseAndBillingSettings.tsx:126
 #, fuzzy
-msgid "Go to the Metabase Store"
+msgid "Go to thengmKASE Store"
 msgstr "انتقل إلى متجر قاعدة التعريف"
 
 #: metabase/driver/presto_jdbc.clj:558
@@ -23244,7 +23244,7 @@ msgstr "تأكد من عدم تمكن المستخدمين من رؤية الب�
 
 #: frontend/src/metabase/admin/permissions/constants/messages.ts:7
 #, fuzzy
-msgid "Only available in certain Metabase plans."
+msgid "Only available in certainngmKASE plans."
 msgstr "متوفر فقط في بعض خطط قاعدة التعريف."
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.jsx:60
@@ -23417,8 +23417,8 @@ msgstr "إلغاء الاشتراك من جميع الاشتراكات / الت�
 
 #: enterprise/frontend/src/metabase-enterprise/caching/components/DatabaseCacheTimeField/DatabaseCacheTimeField.tsx:49
 #, fuzzy
-msgid "How long to keep question results. By default, Metabase will use the value you supply on the {0}, but if this database has other factors that influence the freshness of data, it could make sense to set a custom duration. You can also choose custom durations on individual questions or dashboards to help improve performance."
-msgstr "كم من الوقت للحفاظ على نتائج الأسئلة. بشكل افتراضي ، ستستخدم Metabase القيمة التي توفرها على {0} ، ولكن إذا كانت قاعدة البيانات هذه تحتوي على عوامل أخرى تؤثر على حداثة البيانات ، فقد يكون من المنطقي تعيين مدة مخصصة. يمكنك أيضا اختيار مدد مخصصة على أسئلة فردية أو لوحات معلومات للمساعدة في تحسين الأداء."
+msgid "How long to keep question results. By default,ngmKASE will use the value you supply on the {0}, but if this database has other factors that influence the freshness of data, it could make sense to set a custom duration. You can also choose custom durations on individual questions or dashboards to help improve performance."
+msgstr "كم من الوقت للحفاظ على نتائج الأسئلة. بشكل افتراضي ، ستستخدمngmKASE القيمة التي توفرها على {0} ، ولكن إذا كانت قاعدة البيانات هذه تحتوي على عوامل أخرى تؤثر على حداثة البيانات ، فقد يكون من المنطقي تعيين مدة مخصصة. يمكنك أيضا اختيار مدد مخصصة على أسئلة فردية أو لوحات معلومات للمساعدة في تحسين الأداء."
 
 #: enterprise/frontend/src/metabase-enterprise/caching/components/DatabaseCacheTimeField/DatabaseCacheTimeField.tsx:51
 #, fuzzy
@@ -23689,7 +23689,7 @@ msgstr "سيؤدي ذلك إلى حذف أي اشتراكات أو تنبيها�
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/components/UnsubscribeUserForm/UnsubscribeUserForm.jsx:45
 #, fuzzy
-msgid "This does not affect email distribution lists that are managed outside of Metabase."
+msgid "This does not affect email distribution lists that are managed outside ofngmKASE."
 msgstr "لا يؤثر هذا على قوائم توزيع البريد الإلكتروني التي تتم إدارتها خارج قاعدة التعريف."
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/components/AuditSidebar/AuditSidebar.jsx:36
@@ -23750,8 +23750,8 @@ msgstr "ألا ترى شيئا مدرجا هنا؟"
 
 #: frontend/src/metabase/account/notifications/components/HelpModal/HelpModal.jsx:29
 #, fuzzy
-msgid "It’s possible you may also receive emails from Metabase if you’re a member of an email distribution list, like “team@mycompany.com” and that list is used as the recipient for an alert or dashboard subscription instead of your individual email."
-msgstr "من المحتمل أيضا أن تتلقى رسائل بريد إلكتروني من Metabase إذا كنت عضوا في قائمة توزيع بريد إلكتروني ، مثل \"team@mycompany.com\" ويتم استخدام هذه القائمة كمستلم لتنبيه أو اشتراك في لوحة المعلومات بدلا من بريدك الإلكتروني الفردي."
+msgid "It’s possible you may also receive emails fromngmKASE if you’re a member of an email distribution list, like “team@mycompany.com” and that list is used as the recipient for an alert or dashboard subscription instead of your individual email."
+msgstr "من المحتمل أيضا أن تتلقى رسائل بريد إلكتروني منngmKASE إذا كنت عضوا في قائمة توزيع بريد إلكتروني ، مثل \"team@mycompany.com\" ويتم استخدام هذه القائمة كمستلم لتنبيه أو اشتراك في لوحة المعلومات بدلا من بريدك الإلكتروني الفردي."
 
 #: frontend/src/metabase/account/notifications/components/HelpModal/HelpModal.jsx:33
 #, fuzzy
@@ -24092,8 +24092,8 @@ msgstr "لون شريط التنقل"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/ColorSchemeWidget.jsx:25
 #, fuzzy
-msgid "The top nav bar of Metabase. Defaults to the Primary Color if not set."
-msgstr "شريط التنقل العلوي في Metabase. افتراضيا إلى اللون الأساسي إذا لم يتم تعيينه."
+msgid "The top nav bar ofngmKASE. Defaults to the Primary Color if not set."
+msgstr "شريط التنقل العلوي فيngmKASE. افتراضيا إلى اللون الأساسي إذا لم يتم تعيينه."
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/ColorSchemeWidget.jsx:23
 #, fuzzy
@@ -24156,7 +24156,7 @@ msgstr "ملف JSON لحساب الخدمة"
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:93
 #, fuzzy
-msgid "This JSON file contains the credentials Metabase needs to read and query your dataset."
+msgid "This JSON file contains the credentialsngmKASE needs to read and query your dataset."
 msgstr "يحتوي ملف JSON هذا على بيانات الاعتماد التي تحتاجها قاعدة التعريف لقراءة مجموعة البيانات والاستعلام عنها."
 
 #: metabase/driver/common.clj:130
@@ -24176,12 +24176,12 @@ msgstr "اختيار وقت حدوث المزامنة وعمليات المسح 
 
 #: metabase/driver/common.clj:141
 #, fuzzy
-msgid "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
-msgstr "بشكل افتراضي، يقوم Metabase بإجراء مزامنة خفيفة الوزن كل ساعة وفحص يومي مكثف لقيم الحقول. إذا كانت لديك قاعدة بيانات كبيرة، فقم بتشغيلها لإجراء تغييرات."
+msgid "By default,ngmKASE does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
+msgstr "بشكل افتراضي، يقومngmKASE بإجراء مزامنة خفيفة الوزن كل ساعة وفحص يومي مكثف لقيم الحقول. إذا كانت لديك قاعدة بيانات كبيرة، فقم بتشغيلها لإجراء تغييرات."
 
 #: metabase/driver/common.clj:183
 #, fuzzy
-msgid "This enables Metabase to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
+msgid "This enablesngmKASE to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
 msgstr "وهذا يمكن قاعدة التعريف من البحث عن قيم حقول إضافية أثناء المزامنة مما يسمح بسلوك أكثر ذكاء، مثل تحسين الربط التلقائي على المخططات الشريطية."
 
 #: frontend/src/metabase/setup/components/UserForm/UserForm.tsx:83
@@ -24328,7 +24328,7 @@ msgstr "{0}"
 
 #: frontend/src/metabase/databases/components/DatabaseNameField/DatabaseNameField.tsx:18
 #, fuzzy
-msgid "Choose what this data will be called in Metabase."
+msgid "Choose what this data will be called inngmKASE."
 msgstr "اختر ما سيتم استدعاء هذه البيانات في قاعدة التعريف."
 
 #: frontend/src/metabase/admin/settings/selectors.js:640
@@ -24849,8 +24849,8 @@ msgstr "كان لدى DB {0} معرف مجموعة بيانات مشفر. الت
 
 #: src/metabase/analytics/snowplow.clj
 #, fuzzy
-msgid "Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase."
-msgstr "معرف فريد لاستخدامه في تحليلات Snowplow ، لتحديد هذا المثيل من Metabase."
+msgid "Unique identifier to be used in Snowplow analytics, to identify this instance ofngmKASE."
+msgstr "معرف فريد لاستخدامه في تحليلات Snowplow ، لتحديد هذا المثيل منngmKASE."
 
 #: src/metabase/analytics/snowplow.clj
 #, fuzzy
@@ -24889,7 +24889,7 @@ msgstr "خطأ في إرسال حدث تحليلات Snowplow {0}"
 
 #: metabase/analytics/snowplow.clj:78
 #, fuzzy
-msgid "The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
+msgid "The approximate timestamp at which this instance ofngmKASE was created, for inclusion in analytics."
 msgstr "الطابع الزمني التقريبي الذي تم من خلاله إنشاء هذا المثيل من قاعدة التعريف، لتضمينه في التحليلات."
 
 #: metabase/models/card.clj:769
@@ -25037,7 +25037,7 @@ msgstr "في معظم الحالات ، يجب أن تكون على ما يرا�
 
 #: src/metabase/driver/common.clj
 #, fuzzy
-msgid "If your database is behind a firewall, you may need to allow connections from our Metabase Cloud IP addresses:"
+msgid "If your database is behind a firewall, you may need to allow connections from ourngmKASE Cloud IP addresses:"
 msgstr "إذا كانت قاعدة البيانات الخاصة بك خلف جدار حماية، فقد تحتاج إلى السماح بالاتصالات من عناوين IP السحابية لقاعدة التعريف الخاصة بنا:"
 
 #: metabase/driver/common.clj:334
@@ -25052,7 +25052,7 @@ msgstr "خطأ: قيم متعددة محددة للمعلمة; يمكن أن ت�
 
 #: metabase/driver/h2.clj:96
 #, fuzzy
-msgid "The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
+msgid "The local path relative to wherengmKASE is running from. Your string should not include the .mv.db extension."
 msgstr "المسار المحلي بالنسبة إلى المكان الذي يتم تشغيل قاعدة التعريف منه. يجب ألا تتضمن السلسلة ملحق .mv.db."
 
 #: metabase/driver/postgres.clj:138
@@ -25169,7 +25169,7 @@ msgstr "كل ذلك باستثناء..."
 
 #: metabase/driver/util.clj:293
 #, fuzzy
-msgid "Comma separated names of {0} that <strong>should</strong> appear in Metabase"
+msgid "Comma separated names of {0} that <strong>should</strong> appear inngmKASE"
 msgstr "أسماء {0} مفصولة بفواصل <strong>والتي يجب</strong> أن تظهر في قاعدة التعريف"
 
 #: metabase/driver/util.clj:295 metabase/driver/util.clj:302
@@ -25179,7 +25179,7 @@ msgstr "يمكنك استخدام أنماط مثل <strong>المصادقة*</s
 
 #: metabase/driver/util.clj:300
 #, fuzzy
-msgid "Comma separated names of {0} that <strong>should NOT</strong> appear in Metabase"
+msgid "Comma separated names of {0} that <strong>should NOT</strong> appear inngmKASE"
 msgstr "أسماء {0} مفصولة بفواصل <strong>والتي يجب ألا</strong> تظهر في قاعدة التعريف"
 
 #: metabase/email/messages.clj:703
@@ -25214,8 +25214,8 @@ msgstr "تمت مصادقة الرمز المميز لتسجيل الدخول إ
 
 #: src/metabase/integrations/slack.clj
 #, fuzzy
-msgid "Deprecated Slack API token for connecting the Metabase Slack bot."
-msgstr "الرمز المميز لواجهة برمجة تطبيقات Slack المهملة لتوصيل روبوت Metabase Slack."
+msgid "Deprecated Slack API token for connecting thengmKASE Slack bot."
+msgstr "الرمز المميز لواجهة برمجة تطبيقات Slack المهملة لتوصيل روبوتngmKASE Slack."
 
 #: src/metabase/integrations/slack.clj
 #, fuzzy
@@ -25224,13 +25224,13 @@ msgstr "يرجى استخدام تكامل تطبيق Slack جديد بدلا م
 
 #: src/metabase/integrations/slack.clj
 #, fuzzy
-msgid "Bot user OAuth token for connecting the Metabase Slack app."
-msgstr "رمز مستخدم Bot OAuth لتوصيل تطبيق Metabase Slack ."
+msgid "Bot user OAuth token for connecting thengmKASE Slack app."
+msgstr "رمز مستخدم Bot OAuth لتوصيل تطبيقngmKASE Slack ."
 
 #: src/metabase/integrations/slack.clj
 #, fuzzy
-msgid "This should be used for all new Slack integrations starting in Metabase v0.42.0."
-msgstr "يجب استخدام هذا لجميع عمليات تكامل Slack الجديدة بدءا من Metabase v0.42.0."
+msgid "This should be used for all new Slack integrations starting inngmKASE v0.42.0."
+msgstr "يجب استخدام هذا لجميع عمليات تكامل Slack الجديدة بدءا منngmKASE v0.42.0."
 
 #: src/metabase/integrations/slack.clj
 #, fuzzy
@@ -25244,7 +25244,7 @@ msgstr "اضبط على \"false\" إذا كان طلب واجهة برمجة ت�
 
 #: metabase/integrations/slack.clj:77
 #, fuzzy
-msgid "The name of the channel to which Metabase files should be initially uploaded"
+msgid "The name of the channel to whichngmKASE files should be initially uploaded"
 msgstr "اسم القناة التي يجب تحميل ملفات قاعدة التعريف إليها في البداية"
 
 #: metabase/integrations/slack.clj:119
@@ -25318,7 +25318,7 @@ msgstr "يشير {0} إلى ملف غير موجود: {1}"
 
 #: metabase/models/secret.clj:190
 #, fuzzy
-msgid "{0} (a local file path) cannot be used in Metabase hosted environment"
+msgid "{0} (a local file path) cannot be used inngmKASE hosted environment"
 msgstr "لا يمكن استخدام {0} (مسار ملف محلي) في بيئة قاعدة التعريف المستضافة"
 
 #: metabase/models/setting.clj:576
@@ -25333,7 +25333,7 @@ msgstr "لا يسمح بالقيم على مستوى الموقع لإعداد {
 
 #: metabase/models/setting.clj:722
 #, fuzzy
-msgid "Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
+msgid "Setting {0} is deprecated as ofngmKASE {1} and may be removed in a future version."
 msgstr "تم إهمال إعداد {0} اعتبارا من {1} قاعدة التعريف وقد تتم إزالته في إصدار مستقبلي."
 
 #: metabase/models/setting.clj:934
@@ -25373,13 +25373,13 @@ msgstr " على الرغم من أنه يستخدم لتعيين متغير جل
 
 #: metabase/public_settings.clj:680
 #, fuzzy
-msgid "Error fetching Metabase Cloud gateway IP addresses:"
-msgstr "خطأ في جلب عناوين IP لبوابة Metabase Cloud:"
+msgid "Error fetchingngmKASE Cloud gateway IP addresses:"
+msgstr "خطأ في جلب عناوين IP لبوابةngmKASE Cloud:"
 
 #: metabase/public_settings.clj:684
 #, fuzzy
 msgid "Metabase Cloud gateway IP addresses, to configure connections to DBs behind firewalls"
-msgstr "عناوين IP لبوابة Metabase Cloud ، لتكوين الاتصالات بقواعد البيانات خلف جدران الحماية"
+msgstr "عناوين IP لبوابةngmKASE Cloud ، لتكوين الاتصالات بقواعد البيانات خلف جدران الحماية"
 
 #: src/metabase/public_settings.clj
 #, fuzzy
@@ -25538,8 +25538,8 @@ msgstr "لا يبدو أن هذا الرمز المميز صالح. تحقق م�
 
 #: frontend/src/metabase/admin/settings/hooks/use-license.ts:8
 #, fuzzy
-msgid "We're having trouble validating your token. Please double-check that your instance can connect to Metabase's servers."
-msgstr "نواجه مشكلة في التحقق من صحة الرمز المميز الخاص بك. يرجى التحقق مرة أخرى من أن المثيل الخاص بك يمكنه الاتصال بخوادم Metabase."
+msgid "We're having trouble validating your token. Please double-check that your instance can connect tongmKASE's servers."
+msgstr "نواجه مشكلة في التحقق من صحة الرمز المميز الخاص بك. يرجى التحقق مرة أخرى من أن المثيل الخاص بك يمكنه الاتصال بخوادمngmKASE."
 
 #: frontend/src/metabase-lib/expressions/pratt/compiler.ts:44
 #: frontend/src/metabase-lib/expressions/pratt/compiler.ts:217
@@ -25630,7 +25630,7 @@ msgstr "الدفع"
 
 #: enterprise/frontend/src/metabase-enterprise/license/components/LicenseAndBillingSettings/LicenseAndBillingSettings.tsx:119
 #, fuzzy
-msgid "Manage your Cloud account, including billing preferences, in your Metabase Store account."
+msgid "Manage your Cloud account, including billing preferences, in yourngmKASE Store account."
 msgstr "إدارة حسابك السحابي، بما في ذلك تفضيلات الفوترة، في حساب متجر قاعدة الوصف."
 
 #: enterprise/frontend/src/metabase-enterprise/license/components/LicenseAndBillingSettings/LicenseAndBillingSettings.tsx:133
@@ -25711,7 +25711,7 @@ msgstr "نموذج قاعدة البيانات"
 
 #: frontend/src/metabase/databases/components/DatabaseSyncModal/DatabaseSyncModal.tsx:34
 #, fuzzy
-msgid "Have a look around your Metabase in the meantime if you want to get a head start."
+msgid "Have a look around yourngmKASE in the meantime if you want to get a head start."
 msgstr "ألق نظرة حول قاعدة التعريف الخاصة بك في هذه الأثناء إذا كنت ترغب في الحصول على السبق."
 
 #: frontend/src/metabase/databases/components/DatabaseSyncModal/DatabaseSyncModal.tsx:38
@@ -25808,7 +25808,7 @@ msgstr "سأدعو زميلا في الفريق لتوصيل قاعدة البي
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:74
 #, fuzzy
-msgid "In order to help us improve Metabase, we'd like to collect certain data about product usage."
+msgid "In order to help us improvengmKASE, we'd like to collect certain data about product usage."
 msgstr "لمساعدتنا في تحسين قاعدة التعريف، نود جمع بيانات معينة حول استخدام المنتج."
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:79
@@ -25934,14 +25934,14 @@ msgstr "يظل ترخيص التضمين المميز الخاص بك نشطا �
 
 #: frontend/src/metabase/admin/settings/containers/PremiumEmbeddingLicensePage/PremiumEmbeddingLicensePage.tsx:106
 #, fuzzy
-msgid "Enter the token you bought from the Metabase Store below."
-msgstr "أدخل الرمز المميز الذي اشتريته من متجر Metabase أدناه."
+msgid "Enter the token you bought from thengmKASE Store below."
+msgstr "أدخل الرمز المميز الذي اشتريته من متجرngmKASE أدناه."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingCustomizationInfo.tsx:12
 #, fuzzy
-msgid "Looking to remove the “Powered by Metabase” logo, customize colors\n"
+msgid "Looking to remove the “Powered byngmKASE” logo, customize colors\n"
 "and make it your own? {0}"
-msgstr "تتطلع إلى إزالة شعار \"مدعوم من Metabase\" ، وتخصيص الألوان\n"
+msgstr "تتطلع إلى إزالة شعار \"مدعوم منngmKASE\" ، وتخصيص الألوان\n"
 "وجعلها خاصة بك؟ {0}"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackDeleteModal/SlackDeleteModal.tsx:23
@@ -25984,7 +25984,7 @@ msgstr "دعوة زميل في الفريق"
 
 #: frontend/src/metabase/home/homepage/components/StartSection/StartSection.tsx:117
 #, fuzzy
-msgid "Connect your data to get the most out of Metabase"
+msgid "Connect your data to get the most out ofngmKASE"
 msgstr "ربط بياناتك لتحقيق أقصى استفادة من قاعدة التعريف"
 
 #: frontend/src/metabase/home/homepage/components/StartSection/StartSection.tsx:119
@@ -26127,8 +26127,8 @@ msgstr "نوصيك {0}، راجع التعليمات أدناه:"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:59
 #, fuzzy
-msgid "Bring the power of Metabase to your Slack #channels."
-msgstr "اجلب قوة Metabase إلى #channels Slack الخاص بك."
+msgid "Bring the power ofngmKASE to your Slack #channels."
+msgstr "اجلب قوةngmKASE إلى #channels Slack الخاص بك."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:60
 #, fuzzy
@@ -26142,7 +26142,7 @@ msgstr "1. إنشاء تطبيق Slack الخاص بك"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:101
 #, fuzzy
-msgid "To create your Metabase integration on Slack you’ll need to set up some things."
+msgid "To create yourngmKASE integration on Slack you’ll need to set up some things."
 msgstr "لإنشاء تكامل قاعدة التعريف الخاصة بك على Slack ، ستحتاج إلى إعداد بعض الأشياء."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:102
@@ -26166,7 +26166,7 @@ msgstr "من بيان التطبيق."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:128
 #, fuzzy
-msgid "2. Copy the Metabase manifest"
+msgid "2. Copy thengmKASE manifest"
 msgstr "2. نسخ بيان قاعدة التعريف"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:130
@@ -26515,13 +26515,13 @@ msgstr "حذف {0}؟"
 
 #: frontend/src/metabase/databases/components/DatabaseEngineWarning/DatabaseEngineWarning.tsx:107
 #, fuzzy
-msgid "This is a community-developed driver and not supported by Metabase. "
-msgstr "هذا برنامج تشغيل تم تطويره من قبل المجتمع وغير مدعوم من Metabase. "
+msgid "This is a community-developed driver and not supported byngmKASE. "
+msgstr "هذا برنامج تشغيل تم تطويره من قبل المجتمع وغير مدعوم منngmKASE. "
 
 #: frontend/src/metabase/databases/components/DatabaseEngineWarning/DatabaseEngineWarning.tsx:134
 #, fuzzy
-msgid "This is a partner-developed driver. Though Metabase can’t provide support for it, if you need help you can contact the fine folks at "
-msgstr "هذا هو محرك تم تطويره من قبل الشركاء. على الرغم من أن Metabase لا يمكنها تقديم الدعم لها ، إذا كنت بحاجة إلى مساعدة ، يمكنك الاتصال بالأشخاص الجيدين على "
+msgid "This is a partner-developed driver. ThoughngmKASE can’t provide support for it, if you need help you can contact the fine folks at "
+msgstr "هذا هو محرك تم تطويره من قبل الشركاء. على الرغم من أنngmKASE لا يمكنها تقديم الدعم لها ، إذا كنت بحاجة إلى مساعدة ، يمكنك الاتصال بالأشخاص الجيدين على "
 
 #: frontend/src/metabase/components/Toaster/Toaster.tsx:25
 #: frontend/src/metabase/dashboard/containers/DashboardApp/DashboardApp.jsx:176
@@ -26702,7 +26702,7 @@ msgstr "المتابعة من حيث توقفت"
 
 #: frontend/src/metabase/home/components/HomeXraySection/HomeXraySection.tsx:69
 #, fuzzy
-msgid "Try out these sample x-rays to see what Metabase can do."
+msgid "Try out these sample x-rays to see whatngmKASE can do."
 msgstr "جرب عينات الأشعة السينية هذه لمعرفة ما يمكن أن تفعله قاعدة التعريف."
 
 #: frontend/src/metabase/home/components/HomeXraySection/HomeXraySection.tsx:73
@@ -26870,12 +26870,12 @@ msgstr "إطلاق v2.0"
 
 #: frontend/src/metabase/timelines/collections/components/TimelineEmptyState/TimelineEmptyState.tsx:69
 #, fuzzy
-msgid "Add events to Metabase to show important milestones, launches, or anything else, right alongside your data."
+msgid "Add events tongmKASE to show important milestones, launches, or anything else, right alongside your data."
 msgstr "أضف أحداثا إلى قاعدة التعريف لعرض المعالم المهمة أو عمليات الإطلاق أو أي شيء آخر، إلى جانب بياناتك مباشرة."
 
 #: frontend/src/metabase/timelines/collections/components/TimelineEmptyState/TimelineEmptyState.tsx:70
 #, fuzzy
-msgid "Events in Metabase let you see important milestones, launches, or anything else, right alongside your data."
+msgid "Events inngmKASE let you see important milestones, launches, or anything else, right alongside your data."
 msgstr "تتيح لك الأحداث في قاعدة التعريف الاطلاع على المعالم المهمة أو عمليات الإطلاق أو أي شيء آخر، إلى جانب بياناتك مباشرة."
 
 #: frontend/src/metabase/timelines/collections/components/TimelineCard/TimelineCard.tsx:50
@@ -26912,12 +26912,12 @@ msgstr "نقل {0}"
 
 #: frontend/src/metabase/timelines/questions/components/TimelineEmptyState/TimelineEmptyState.tsx:30
 #, fuzzy
-msgid "Add events to Metabase to show helpful context alongside your data."
+msgid "Add events tongmKASE to show helpful context alongside your data."
 msgstr "أضف أحداثا إلى قاعدة التعريف لعرض سياق مفيد إلى جانب بياناتك."
 
 #: frontend/src/metabase/timelines/questions/components/TimelineEmptyState/TimelineEmptyState.tsx:31
 #, fuzzy
-msgid "Events in Metabase let you see helpful context alongside your data."
+msgid "Events inngmKASE let you see helpful context alongside your data."
 msgstr "تتيح لك الأحداث في قاعدة التعريف رؤية سياق مفيد إلى جانب بياناتك."
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/MetadataTable/MetadataTable.tsx:33
@@ -26927,7 +26927,7 @@ msgstr "أظهر المخطط الأصلي"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:98
 #, fuzzy
-msgid "Click the button below to begin creating your Slack App using the Metabase configuration."
+msgid "Click the button below to begin creating your Slack App using thengmKASE configuration."
 msgstr "انقر فوق الزر أدناه لبدء إنشاء تطبيق Slack باستخدام تكوين قاعدة التعريف."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:99
@@ -27274,9 +27274,9 @@ msgstr "التبديل إلى المرئيات"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget.jsx:139
 #, fuzzy
-msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the\n"
+msgid "Mappings allowngmKASE to automatically add and remove users from groups based on the membership information provided by the\n"
 "directory server. Users are only ever added to or removed from mapped groups."
-msgstr "تسمح التعيينات ل Metabase بإضافة مستخدمين وإزالتهم تلقائيا من المجموعات استنادا إلى معلومات العضوية التي يوفرها\n"
+msgstr "تسمح التعيينات لngmKASE بإضافة مستخدمين وإزالتهم تلقائيا من المجموعات استنادا إلى معلومات العضوية التي يوفرها\n"
 "خادم الدليل. تتم إضافة المستخدمين إلى المجموعات المعينة أو إزالتهم منها فقط."
 
 #: metabase_enterprise/advanced_config/models/pulse_channel.clj:10
@@ -27779,7 +27779,7 @@ msgstr "نماذج الأسئلة المحفوظة وغيرها التي تعت�
 
 #: frontend/src/metabase/admin/settings/selectors.js:641
 #, fuzzy
-msgid "Enabling cache will create tables for your models in a dedicated schema and Metabase will refresh them on a schedule. Questions based on your models will query these tables. {0}."
+msgid "Enabling cache will create tables for your models in a dedicated schema andngmKASE will refresh them on a schedule. Questions based on your models will query these tables. {0}."
 msgstr "سيؤدي تمكين ذاكرة التخزين المؤقت إلى إنشاء جداول لنماذجك في مخطط مخصص وستقوم قاعدة التعريف بتحديثه وفقا لجدول زمني. ستقوم الأسئلة المستندة إلى نماذجك بالاستعلام عن هذه الجداول. {0}."
 
 #: frontend/src/metabase/admin/settings/selectors.js:439
@@ -28125,8 +28125,8 @@ msgstr "نقل وأرشفة والمزيد..."
 
 #: frontend/src/metabase/sharing/components/SlackChannelField/SlackChannelField.tsx:71
 #, fuzzy
-msgid "In order to send subscriptions and alerts to private Slack channels, you must first add the Metabase bot to them."
-msgstr "لإرسال الاشتراكات والتنبيهات إلى قنوات Slack الخاصة ، يجب عليك أولا إضافة روبوت Metabase إليها."
+msgid "In order to send subscriptions and alerts to private Slack channels, you must first add thengmKASE bot to them."
+msgstr "لإرسال الاشتراكات والتنبيهات إلى قنوات Slack الخاصة ، يجب عليك أولا إضافة روبوتngmKASE إليها."
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/ColorResetModal/ColorResetModal.tsx:22
 #, fuzzy
@@ -28260,7 +28260,7 @@ msgstr "عرض صديقنا الصغير على الصفحة الرئيسية"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingCustomizationWidget/EmbeddingCustomizationWidget.tsx:13
 #, fuzzy
-msgid "In order to remove the Metabase logo from embeds, you can always upgrade to {0}"
+msgid "In order to remove thengmKASE logo from embeds, you can always upgrade to {0}"
 msgstr "لإزالة شعار قاعدة التعريف من التضمينات، يمكنك دائما الترقية إلى {0}"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingCustomizationWidget/EmbeddingCustomizationWidget.tsx:15
@@ -28275,8 +28275,8 @@ msgstr "تضمين تطبيق قاعدة التعريف بالكامل"
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:23
 #, fuzzy
-msgid "With {0} you can embed the full Metabase app and enable your users to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
-msgstr "باستخدام {0} يمكنك تضمين تطبيق Metabase الكامل وتمكين المستخدمين من التنقل إلى المخططات وتصفح المجموعات واستخدام أداة إنشاء الاستعلام الرسومية. يمكنك أيضا الحصول على دعم ذي أولوية والمزيد من الأدوات لمساعدتك في مشاركة رؤاك مع فرقك وخيارات قوية لمساعدتك في إنشاء تجارب بيانات سلسة وتفاعلية لعملائك."
+msgid "With {0} you can embed the fullngmKASE app and enable your users to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
+msgstr "باستخدام {0} يمكنك تضمين تطبيقngmKASE الكامل وتمكين المستخدمين من التنقل إلى المخططات وتصفح المجموعات واستخدام أداة إنشاء الاستعلام الرسومية. يمكنك أيضا الحصول على دعم ذي أولوية والمزيد من الأدوات لمساعدتك في مشاركة رؤاك مع فرقك وخيارات قوية لمساعدتك في إنشاء تجارب بيانات سلسة وتفاعلية لعملائك."
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:16
 #, fuzzy
@@ -28332,7 +28332,7 @@ msgstr "تضمين"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:24
 #, fuzzy
-msgid "Embed dashboards, questions, or the entire Metabase app into your application. Integrate with your server code to create a secure environment, limited to specific users or organizations."
+msgid "Embed dashboards, questions, or the entirengmKASE app into your application. Integrate with your server code to create a secure environment, limited to specific users or organizations."
 msgstr "قم بتضمين لوحات المعلومات أو الأسئلة أو تطبيق قاعدة التعريف بالكامل في تطبيقك. التكامل مع رمز الخادم الخاص بك لإنشاء بيئة آمنة، تقتصر على مستخدمين أو مؤسسات محددة."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:28
@@ -28353,14 +28353,14 @@ msgstr "مزيد من التفاصيل"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:43
 #, fuzzy
-msgid "When you embed charts or dashboards from Metabase in your own\n"
+msgid "When you embed charts or dashboards fromngmKASE in your own\n"
 "application, that application isn't subject to the Affero General Public\n"
-"License that covers the rest of Metabase, provided you keep the Metabase\n"
-"logo and the \"Powered by Metabase\" visible on those embeds."
+"License that covers the rest ofngmKASE, provided you keep thengmKASE\n"
+"logo and the \"Powered byngmKASE\" visible on those embeds."
 msgstr "عند تضمين مخططات أو لوحات معلومات من قاعدة التعريف الخاصة بك\n"
 "التطبيق ، هذا التطبيق لا يخضع لعامة Affero\n"
 "الترخيص الذي يغطي بقية قاعدة التعريف، شريطة أن تحتفظ بقاعدة التعريف\n"
-"الشعار و \"مدعوم من Metabase\" مرئية على تلك التضمينات."
+"الشعار و \"مدعوم منngmKASE\" مرئية على تلك التضمينات."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:49
 #, fuzzy
@@ -28412,7 +28412,7 @@ msgstr "1. انقر فوق الزر أدناه وقم بإنشاء تطبيق Sl
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:101
 #, fuzzy
-msgid "First, {0} using the Metabase configuration. Once created, click “${ 1 }” to authorize it."
+msgid "First, {0} using thengmKASE configuration. Once created, click “${ 1 }” to authorize it."
 msgstr "أولا ، {0} باستخدام تكوين قاعدة التعريف. بمجرد الإنشاء ، انقر فوق \"$ { 1 }\" لتفويضه."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:102
@@ -28585,8 +28585,8 @@ msgstr "ثقيل"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppOriginDescription/EmbeddingAppOriginDescription.tsx:8
 #, fuzzy
-msgid "With this Pro/Enterprise feature you can embed the full Metabase app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder. {0}"
-msgstr "باستخدام ميزة Pro / Enterprise هذه ، يمكنك تضمين تطبيق Metabase الكامل. قم بتمكين المستخدمين من التنقل إلى المخططات واستعراض المجموعات واستخدام أداة إنشاء الاستعلام الرسومية. {0}"
+msgid "With this Pro/Enterprise feature you can embed the fullngmKASE app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder. {0}"
+msgstr "باستخدام ميزة Pro / Enterprise هذه ، يمكنك تضمين تطبيقngmKASE الكامل. قم بتمكين المستخدمين من التنقل إلى المخططات واستعراض المجموعات واستخدام أداة إنشاء الاستعلام الرسومية. {0}"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppOriginDescription/EmbeddingAppOriginDescription.tsx:19
 #, fuzzy
@@ -28692,8 +28692,8 @@ msgstr "التضمين الكامل للتطبيق"
 
 #: frontend/src/metabase/admin/settings/selectors.js:481
 #, fuzzy
-msgid "With this Pro/Enterprise feature you can embed the full Metabase app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder."
-msgstr "باستخدام ميزة Pro / Enterprise هذه ، يمكنك تضمين تطبيق Metabase الكامل. قم بتمكين المستخدمين من التنقل إلى المخططات واستعراض المجموعات واستخدام أداة إنشاء الاستعلام الرسومية."
+msgid "With this Pro/Enterprise feature you can embed the fullngmKASE app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder."
+msgstr "باستخدام ميزة Pro / Enterprise هذه ، يمكنك تضمين تطبيقngmKASE الكامل. قم بتمكين المستخدمين من التنقل إلى المخططات واستعراض المجموعات واستخدام أداة إنشاء الاستعلام الرسومية."
 
 #: frontend/src/metabase/admin/settings/selectors.js:533
 #, fuzzy
@@ -28894,8 +28894,8 @@ msgstr "منطقي يشير إلى ما إذا كان جامع Snowplow متاح
 
 #: metabase/analytics/snowplow.clj:28
 #, fuzzy
-msgid "Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase. This is a public setting since some analytics events are sent prior to initial setup."
-msgstr "معرف فريد لاستخدامه في تحليلات Snowplow ، لتحديد هذا المثيل من Metabase. هذا إعداد عام نظرا لأنه يتم إرسال بعض أحداث التحليلات قبل الإعداد الأولي."
+msgid "Unique identifier to be used in Snowplow analytics, to identify this instance ofngmKASE. This is a public setting since some analytics events are sent prior to initial setup."
+msgstr "معرف فريد لاستخدامه في تحليلات Snowplow ، لتحديد هذا المثيل منngmKASE. هذا إعداد عام نظرا لأنه يتم إرسال بعض أحداث التحليلات قبل الإعداد الأولي."
 
 #: metabase/api/database.clj:708 metabase/driver/util.clj:68
 #: metabase/driver/util.clj:40 metabase/driver/util.clj:56
@@ -28960,12 +28960,12 @@ msgstr "معلومات النظام:\n"
 
 #: metabase/driver/common.clj:159
 #, fuzzy
-msgid "Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database. When should Metabase automatically scan and cache field values?"
+msgid "Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database. When shouldngmKASE automatically scan and cache field values?"
 msgstr "يمكن لقاعدة التعريف فحص القيم الموجودة في كل حقل في قاعدة البيانات هذه لتمكين عوامل تصفية خانة الاختيار في لوحات المعلومات والأسئلة. يمكن أن تكون هذه عملية كثيفة الاستخدام للموارد إلى حد ما ، خاصة إذا كان لديك قاعدة بيانات كبيرة جدا. متى يجب على قاعدة التعريف فحص قيم الحقول وتخزينها مؤقتا تلقائيا؟"
 
 #: metabase/driver/common.clj:220
 #, fuzzy
-msgid "If your database is behind a firewall, you may need to allow connections from our Metabase [Cloud IP addresses](https://www.metabase.com/cloud/docs/ip-addresses-to-whitelist.html):"
+msgid "If your database is behind a firewall, you may need to allow connections from ourngmKASE [Cloud IP addresses](https://www.metabase.com/cloud/docs/ip-addresses-to-whitelist.html):"
 msgstr "إذا كانت قاعدة البيانات الخاصة بك خلف جدار حماية، فقد تحتاج إلى السماح بالاتصالات من قاعدة التعريف الخاصة بنا [عناوين IP السحابية] (https://www.metabase.com/cloud/docs/ip العناوين إلى القائمة البيضاء.html):"
 
 #: metabase/driver/common.clj:177
@@ -29117,18 +29117,18 @@ msgstr "[{0}] فشل تحديث ذاكرة التخزين المؤقت للطر�
 
 #: metabase/integrations/google.clj:87
 #, fuzzy
-msgid "Google Sign-In token appears to be incorrect. Double check that it matches in Google and Metabase."
-msgstr "يبدو أن الرمز المميز لتسجيل الدخول إلى Google غير صحيح. تحقق مرة أخرى من أنه يتطابق في Google و Metabase."
+msgid "Google Sign-In token appears to be incorrect. Double check that it matches in Google andngmKASE."
+msgstr "يبدو أن الرمز المميز لتسجيل الدخول إلى Google غير صحيح. تحقق مرة أخرى من أنه يتطابق في Google وngmKASE."
 
 #: metabase/integrations/slack.clj:22
 #, fuzzy
-msgid "Deprecated Slack API token for connecting the Metabase Slack bot. Please use a new Slack app integration instead."
-msgstr "الرمز المميز لواجهة برمجة تطبيقات Slack المهملة لتوصيل روبوت Metabase Slack. يرجى استخدام تكامل تطبيق Slack جديد بدلا من ذلك."
+msgid "Deprecated Slack API token for connecting thengmKASE Slack bot. Please use a new Slack app integration instead."
+msgstr "الرمز المميز لواجهة برمجة تطبيقات Slack المهملة لتوصيل روبوتngmKASE Slack. يرجى استخدام تكامل تطبيق Slack جديد بدلا من ذلك."
 
 #: metabase/integrations/slack.clj:31
 #, fuzzy
-msgid "Bot user OAuth token for connecting the Metabase Slack app. This should be used for all new Slack integrations starting in Metabase v0.42.0."
-msgstr "رمز مستخدم Bot OAuth لتوصيل تطبيق Metabase Slack . يجب استخدام هذا لجميع عمليات تكامل Slack الجديدة بدءا من Metabase v0.42.0."
+msgid "Bot user OAuth token for connecting thengmKASE Slack app. This should be used for all new Slack integrations starting inngmKASE v0.42.0."
+msgstr "رمز مستخدم Bot OAuth لتوصيل تطبيقngmKASE Slack . يجب استخدام هذا لجميع عمليات تكامل Slack الجديدة بدءا منngmKASE v0.42.0."
 
 #: metabase/integrations/slack.clj:44
 #, fuzzy
@@ -29187,8 +29187,8 @@ msgstr "لا يمكن تحديث نوع أو hash_key ل FieldValues."
 
 #: metabase/models/humanization.clj:77
 #, fuzzy
-msgid "To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces. We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
-msgstr "لجعل أسماء الجداول والحقول أكثر ملاءمة للإنسان، ستحل Metabase محل الشرطات وتسطير سفلي فيها بمسافات. سنقوم بتكبير كل كلمة أثناء وجودها ، لذلك ستصبح \"last_visited_at\" \"آخر زيارة في\"."
+msgid "To make table and field names more human-friendly,ngmKASE will replace dashes and underscores in them with spaces. We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
+msgstr "لجعل أسماء الجداول والحقول أكثر ملاءمة للإنسان، ستحلngmKASE محل الشرطات وتسطير سفلي فيها بمسافات. سنقوم بتكبير كل كلمة أثناء وجودها ، لذلك ستصبح \"last_visited_at\" \"آخر زيارة في\"."
 
 #: metabase/models/params.clj:38
 #, fuzzy
@@ -29237,7 +29237,7 @@ msgstr "أخبرنا أين يمكن العثور على الملف لكل وز�
 
 #: metabase/public_settings.clj:179
 #, fuzzy
-msgid "The default language for all users across the Metabase UI, system emails, pulses, and alerts. Users can individually override this default language from their own account settings."
+msgid "The default language for all users across thengmKASE UI, system emails, pulses, and alerts. Users can individually override this default language from their own account settings."
 msgstr "اللغة الافتراضية لجميع المستخدمين عبر واجهة مستخدم قاعدة التعريف ورسائل البريد الإلكتروني للنظام والنبضات والتنبيهات. يمكن للمستخدمين تجاوز هذه اللغة الافتراضية بشكل فردي من إعدادات حساباتهم الخاصة."
 
 #: metabase/public_settings.clj:693
@@ -30038,7 +30038,7 @@ msgstr "اسم العمود بالتاريخ أو قيمة التاريخ وال
 msgid "Optional. The default is \"ISO\".\n"
 "- ISO: Week 1 starts on the Monday before the first Thursday of January.\n"
 "- US: Week 1 starts on Jan 1. All other weeks start on Sunday.\n"
-"- Instance: Week 1 starts on Jan 1. All other weeks start on the day defined in your Metabase localization settings."
+"- Instance: Week 1 starts on Jan 1. All other weeks start on the day defined in yourngmKASE localization settings."
 msgstr "اختياري. الافتراضي هو \"ISO\".\n"
 "- ISO: يبدأ الأسبوع الأول يوم الاثنين قبل أول خميس من شهر يناير.\n"
 "- الولايات المتحدة: يبدأ الأسبوع الأول في الأول من يناير. تبدأ جميع الأسابيع الأخرى يوم الأحد.\n"
@@ -30812,7 +30812,7 @@ msgid "{0} (optional)"
 msgstr "{0} (اختياري)"
 
 #: metabase_enterprise/advanced_config/file.clj:164
-msgid "Found config file at path {0}; Metabase will be initialized with values from this file"
+msgid "Found config file at path {0};ngmKASE will be initialized with values from this file"
 msgstr "تم العثور على ملف التكوين في المسار {0} ؛ ستتم تهيئة قاعدة التعريف بالقيم من هذا الملف"
 
 #: metabase_enterprise/advanced_config/file.clj:265
@@ -30876,7 +30876,7 @@ msgid "Invalid Collection ID(s). These Collections do not exist: {0}"
 msgstr "معرّف (معرّفات) المجموعة غير صالحة. هذه المجموعات غير موجودة: {0}"
 
 #: metabase_enterprise/serialization/cmd.clj:95
-msgid "Loading serialized Metabase files from {0}"
+msgid "Loading serializedngmKASE files from {0}"
 msgstr "تحميل ملفات قاعدة التعريف المتسلسلة من {0}"
 
 #: metabase_enterprise/serialization/v2/entity_ids.clj:68
@@ -31110,7 +31110,7 @@ msgid "Error reducing result rows: {0}"
 msgstr "خطأ في تقليل صفوف النتائج: {0}"
 
 #: metabase/sample_data.clj:63
-msgid "Sample database could not be extracted to the plugins directory,which may result in slow startup times. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
+msgid "Sample database could not be extracted to the plugins directory,which may result in slow startup times. Please set MB_PLUGINS_DIR to a writable directory and restartngmKASE."
 msgstr "تعذر استخراج نموذج قاعدة البيانات إلى دليل المكونات الإضافية ، مما قد يؤدي إلى بطء أوقات بدء التشغيل. يرجى تعيين MB_PLUGINS_DIR إلى دليل قابل للكتابة وإعادة تشغيل قاعدة التعريف."
 
 #: metabase_enterprise/advanced_config/file.clj:261
@@ -31170,11 +31170,11 @@ msgid "This group's user membership will no longer be synced with the directory 
 msgstr "لن تتم مزامنة عضوية المستخدم لهذه المجموعة بعد الآن مع خادم الدليل."
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:62
-msgid "What should happen with the groups themselves in Metabase?"
+msgid "What should happen with the groups themselves inngmKASE?"
 msgstr "ماذا يجب أن يحدث للمجموعات نفسها في قاعدة التعريف؟"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:63
-msgid "What should happen with the group itself in Metabase?"
+msgid "What should happen with the group itself inngmKASE?"
 msgstr "ماذا يجب أن يحدث للمجموعة نفسها في قاعدة التعريف؟"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:68
@@ -31206,7 +31206,7 @@ msgid "Synchronize Group Memberships"
 msgstr "مزامنة عضوية المجموعة"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/GroupMappingsWidget.jsx:118
-msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the directory server. If a group isn‘t mapped, its membership won‘t be synced."
+msgid "Mappings allowngmKASE to automatically add and remove users from groups based on the membership information provided by the directory server. If a group isn‘t mapped, its membership won‘t be synced."
 msgstr "تسمح التعيينات لقاعدة التعريف بإضافة المستخدمين وإزالتهم تلقائيًا من المجموعات بناءً على معلومات العضوية التي يوفرها خادم الدليل. إذا لم يتم تعيين المجموعة ، فلن تتم مزامنة عضويتها."
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/GroupMappingsWidget.jsx:123
@@ -31370,7 +31370,7 @@ msgid "This card does not support click mappings"
 msgstr "لا تدعم هذه البطاقة تعيينات النقرات"
 
 #: frontend/src/metabase/databases/components/DatabaseCacheScheduleField/DatabaseCacheScheduleField.tsx:88
-msgid "When a user adds a new filter to a dashboard or a SQL question, Metabase will scan the field(s) mapped to that filter in order to show the list of selectable values."
+msgid "When a user adds a new filter to a dashboard or a SQL question,ngmKASE will scan the field(s) mapped to that filter in order to show the list of selectable values."
 msgstr "عندما يضيف مستخدم عامل تصفية جديدًا إلى لوحة معلومات أو سؤال SQL ، فإن قاعدة التعريف ستفحص الحقل (الحقول) المعين لهذا المرشح من أجل إظهار قائمة القيم القابلة للتحديد."
 
 #: frontend/src/metabase/models/containers/FormModelPicker/FormModelPicker.tsx:25
@@ -31966,11 +31966,11 @@ msgid "Error preparing statement: {0}"
 msgstr "خطأ في تحضير البيان: {0}"
 
 #: metabase/driver/util.clj:331
-msgid "Comma separated names of {0} that should NOT appear in Metabase"
+msgid "Comma separated names of {0} that should NOT appear inngmKASE"
 msgstr "أسماء {0} مفصولة بفواصل والتي يجب ألا تظهر في قاعدة التعريف"
 
 #: metabase/driver/util.clj:324
-msgid "Comma separated names of {0} that should appear in Metabase"
+msgid "Comma separated names of {0} that should appear inngmKASE"
 msgstr "أسماء {0} مفصولة بفواصل والتي يجب أن تظهر في قاعدة التعريف"
 
 #: metabase/driver/util.clj:326 metabase/driver/util.clj:333
@@ -32072,7 +32072,7 @@ msgid "No current user found"
 msgstr "لم يتم العثور على مستخدم حالي"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/utils.ts:30
-msgid "Open the Metabase drill-through menu"
+msgid "Open thengmKASE drill-through menu"
 msgstr "افتح قائمة قاعدة التعريف"
 
 #: frontend/src/metabase/query_builder/components/expressions/ExpressionWidget.tsx:88
@@ -32241,13 +32241,13 @@ msgid "Tired of manually managing people and groups?"
 msgstr "هل سئمت من إدارة الأشخاص والمجموعات يدويًا؟"
 
 #: frontend/src/metabase/admin/people/components/NudgeToPro.tsx:16
-msgid "Get single-sign on (SSO) via SAML, JWT, or LDAP with Metabase Pro"
-msgstr "احصل على تسجيل دخول أحادي (SSO) عبر SAML أو JWT أو LDAP باستخدام Metabase Pro"
+msgid "Get single-sign on (SSO) via SAML, JWT, or LDAP withngmKASE Pro"
+msgstr "احصل على تسجيل دخول أحادي (SSO) عبر SAML أو JWT أو LDAP باستخدامngmKASE Pro"
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:11
 #: frontend/src/metabase/admin/permissions/components/CollectionPermissionsHelp/CollectionPermissionsHelp.tsx:12
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:22
-msgid "People can be members of multiple groups, and Metabase grants them the most permissive level of access across all of a person's groups."
+msgid "People can be members of multiple groups, andngmKASE grants them the most permissive level of access across all of a person's groups."
 msgstr "يمكن أن يكون الأشخاص أعضاء في مجموعات متعددة ، وتمنحهم قاعدة التعريف مستوى الوصول الأكثر تساهلاً عبر جميع مجموعات الشخص."
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:37
@@ -32263,7 +32263,7 @@ msgid "Impersonated (Pro)"
 msgstr "انتحال الشخصية (Pro)"
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:52
-msgid "Impersonation associates a Metabase group with database-defined roles and their privileges. Metabase queries made by this group will respect the grants given to the database roles. You can use impersonation to give a group access to the native/SQL editor, while restricting the group's access to data based on a specific database role."
+msgid "Impersonation associates angmKASE group with database-defined roles and their privileges.ngmKASE queries made by this group will respect the grants given to the database roles. You can use impersonation to give a group access to the native/SQL editor, while restricting the group's access to data based on a specific database role."
 msgstr "يقرن الانتحال مجموعة قاعدة التعريف بالأدوار المعرفة بقاعدة البيانات وامتيازاتها. ستراعي استعلامات قاعدة التعريف التي تجريها هذه المجموعة المنح الممنوحة لأدوار قاعدة البيانات. يمكنك استخدام الانتحال لمنح مجموعة حق الوصول إلى محرر SQL الأصلي ، مع تقييد وصول المجموعة إلى البيانات بناءً على دور قاعدة بيانات محدد."
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:59
@@ -32347,7 +32347,7 @@ msgid "{0} about collection permissions"
 msgstr "{0} حول أذونات المجموعة"
 
 #: frontend/src/metabase/collections/components/CollectionHeader/CollectionUploadInfoModal.tsx:26
-msgid "Uploads CSVs to Metabase"
+msgid "Uploads CSVs tongmKASE"
 msgstr "لتحميل ملفات CSV إلى قاعدة التعريف"
 
 #: frontend/src/metabase/collections/components/CollectionHeader/CollectionUploadInfoModal.tsx:31
@@ -32507,7 +32507,7 @@ msgid "Navigation bar"
 msgstr "شريط التنقل"
 
 #: frontend/src/metabase/nav/components/DatabasePromptBanner/DatabasePromptBanner.tsx:32
-msgid "Connect to your database to get the most from Metabase."
+msgid "Connect to your database to get the most fromngmKASE."
 msgstr "اتصل بقاعدة البيانات الخاصة بك لتحقيق أقصى استفادة من قاعدة التعريف."
 
 #: frontend/src/metabase/nav/components/DatabasePromptBanner/DatabasePromptBanner.tsx:39
@@ -32625,7 +32625,7 @@ msgid "Applications permissions"
 msgstr "أذونات التطبيقات"
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:16
-msgid "Application settings are useful for granting groups access to some, but not all, of Metabase’s administrative features."
+msgid "Application settings are useful for granting groups access to some, but not all, ofngmKASE’s administrative features."
 msgstr "تعد إعدادات التطبيق مفيدة لمنح المجموعات حق الوصول إلى بعض الميزات الإدارية لقاعدة التعريف ، وليس كلها."
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:18
@@ -32918,7 +32918,7 @@ msgid "Map a user attribute to database roles"
 msgstr "تعيين سمة المستخدم لأدوار قاعدة البيانات"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationModal/ImpersonationModalView.tsx:77
-msgid "When the person runs a query (including native queries), Metabase will impersonate the privileges of the database role you associate with the user attribute."
+msgid "When the person runs a query (including native queries),ngmKASE will impersonate the privileges of the database role you associate with the user attribute."
 msgstr "عندما يقوم الشخص بتشغيل استعلام (بما في ذلك الاستعلامات الأصلية) ، فإن قاعدة التعريف ستنتحل صفة امتيازات دور قاعدة البيانات التي تربطها بسمة المستخدم."
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationModal/ImpersonationModalView.tsx:81
@@ -32934,11 +32934,11 @@ msgid "Edit user settings"
 msgstr "تحرير إعدادات المستخدم"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:19
-msgid "Make sure the main database credential has access to everything different user groups may need access to. It's what Metabase uses to sync table information."
+msgid "Make sure the main database credential has access to everything different user groups may need access to. It's whatngmKASE uses to sync table information."
 msgstr "تأكد من أن بيانات اعتماد قاعدة البيانات الرئيسية لديها حق الوصول إلى كل شيء قد تحتاج مجموعات المستخدمين المختلفة إلى الوصول إليه. إنه ما تستخدمه قاعدة التعريف لمزامنة معلومات الجدول."
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:20
-msgid "{0} is the database user Metabase is using to connect to {1}. Make sure that {2} has access to everything in {3} that all Metabase groups may need access to, as that database user account is what Metabase uses to sync table information."
+msgid "{0} is the database userngmKASE is using to connect to {1}. Make sure that {2} has access to everything in {3} that allngmKASE groups may need access to, as that database user account is whatngmKASE uses to sync table information."
 msgstr "{0} هي قاعدة البيانات التي يستخدمها المستخدم للاتصال بـ {1}. تأكد من أن {2} لديه حق الوصول إلى كل شيء في {3} قد تحتاج جميع مجموعات قواعد التعريف إلى الوصول إليه ، لأن حساب مستخدم قاعدة البيانات هذا هو ما تستخدمه قاعدة التعريف لمزامنة معلومات الجدول."
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:28
@@ -33253,7 +33253,7 @@ msgid "Sorry, the row you''re trying to update doesn''t exist"
 msgstr "عذرًا ، الصف الذي تحاول تحديثه غير موجود"
 
 #: metabase/driver/sql_jdbc/execute.clj:284
-msgid "{0} is deprecated in Metabase 0.47.0. Implement {1} instead."
+msgid "{0} is deprecated inngmKASE 0.47.0. Implement {1} instead."
 msgstr "{0} مهمل في قاعدة التعريف 0.47.0. قم بتنفيذ {1} بدلاً من ذلك."
 
 #: metabase/events/view_log.clj:29
@@ -33733,7 +33733,7 @@ msgid "Export to {0} complete!"
 msgstr "اكتمل التصدير إلى {0}!"
 
 #: metabase_enterprise/serialization/cmd.clj:205
-msgid "Exporting Metabase to {0}"
+msgid "ExportingngmKASE to {0}"
 msgstr "تصدير قاعدة التعريف إلى {0}"
 
 #: metabase_enterprise/serialization/v2/load.clj:80
@@ -33870,7 +33870,7 @@ msgid "Upload error details"
 msgstr "تفاصيل خطأ التحميل"
 
 #: frontend/src/metabase/home/components/CustomHomePageModal/CustomHomePageModal.tsx:108
-msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard, Metabase will redirect them to the default homepage. You can update or reset the homepage at any time in Admin Settings > Settings > General."
+msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard,ngmKASE will redirect them to the default homepage. You can update or reset the homepage at any time in Admin Settings > Settings > General."
 msgstr "اختر لوحة تحكم لتكون بمثابة الصفحة الرئيسية. إذا كان الأشخاص يفتقرون إلى الأذونات لعرض لوحة المعلومات المحددة ، فستقوم قاعدة التعريف بإعادة توجيههم إلى الصفحة الرئيسية الافتراضية. يمكنك تحديث الصفحة الرئيسية أو إعادة تعيينها في أي وقت في إعدادات المسؤول> الإعدادات> عام."
 
 #: frontend/src/metabase/redux/uploads.ts:68
@@ -33878,7 +33878,7 @@ msgid "You cannot upload files larger than {0}mb"
 msgstr "لا يمكنك تحميل ملفات أكبر من {0} ميغا بايت"
 
 #: metabase/public_settings.clj:104
-msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard, Metabase will redirect them to the default homepage."
+msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard,ngmKASE will redirect them to the default homepage."
 msgstr "اختر لوحة تحكم لتكون بمثابة الصفحة الرئيسية. إذا كان الأشخاص يفتقرون إلى الأذونات لعرض لوحة المعلومات المحددة ، فستقوم قاعدة التعريف بإعادة توجيههم إلى الصفحة الرئيسية الافتراضية."
 
 #: metabase/public_settings.clj:355
@@ -34000,11 +34000,11 @@ msgid "Interactive embedding"
 msgstr "التضمين التفاعلي"
 
 #: frontend/src/metabase/admin/settings/selectors.js:507
-msgid "With this Pro/Enterprise feature, you can let your customers query, visualize, and drill-down on their data with the full functionality of Metabase in your app or website, complete with your branding. Set permissions with SSO, down to the row- or column-level, so people only see what they need to."
+msgid "With this Pro/Enterprise feature, you can let your customers query, visualize, and drill-down on their data with the full functionality ofngmKASE in your app or website, complete with your branding. Set permissions with SSO, down to the row- or column-level, so people only see what they need to."
 msgstr "باستخدام ميزة Pro / Enterprise هذه ، يمكنك السماح لعملائك بالاستعلام عن بياناتهم وتصورها والتنقيب عنها باستخدام الوظائف الكاملة لقاعدة التعريف في التطبيق أو موقع الويب الخاص بك ، مع استكمال علامتك التجارية. عيّن الأذونات باستخدام الدخول الموحّد (SSO) ، وصولاً إلى مستوى الصفوف أو العمود ، بحيث يرى الأشخاص فقط ما يحتاجون إليه."
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:14
-msgid "With {0} you can embed the full Metabase app to allow people to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
+msgid "With {0} you can embed the fullngmKASE app to allow people to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
 msgstr "باستخدام {0} ، يمكنك تضمين تطبيق قاعدة التعريف بالكامل للسماح للأشخاص بالتنقل خلال المخططات وتصفح المجموعات واستخدام أداة إنشاء الاستعلام الرسومية. يمكنك أيضًا الحصول على دعم ذي أولوية ، والمزيد من الأدوات لمساعدتك على مشاركة رؤيتك مع فرقك وخيارات قوية لمساعدتك في إنشاء تجارب بيانات تفاعلية وسلسة لعملائك."
 
 #: metabase/analytics/prometheus.clj:210
@@ -34503,7 +34503,7 @@ msgid "Strict (not recommended)"
 msgstr "صارم (غير مستحسن)"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:47
-msgid "Never allows cookies to be sent on a cross-site request. Warning: this will prevent users from following external links to Metabase."
+msgid "Never allows cookies to be sent on a cross-site request. Warning: this will prevent users from following external links tongmKASE."
 msgstr "لا يسمح مطلقًا بإرسال ملفات تعريف الارتباط بناءً على طلب عبر المواقع. تحذير: سيؤدي هذا إلى منع المستخدمين من اتباع الروابط الخارجية لقاعدة التعريف."
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:52
@@ -34643,7 +34643,7 @@ msgid "Cake"
 msgstr "كيك"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/components/OpenInMetabase.jsx:9
-msgid "Open in Metabase"
+msgid "Open inngmKASE"
 msgstr "فتح في قاعدة التعريف"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/containers/AuditApp.jsx:35
@@ -34715,7 +34715,7 @@ msgid "SameSite cookie setting"
 msgstr "إعداد ملف تعريف الارتباط SameSite"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppSameSiteCookieDescription/EmbeddingAppSameSiteCookieDescription.tsx:32
-msgid "Determines whether or not cookies are allowed to be sent on cross-site requests. You’ll likely need to change this to None if your embedding application is hosted under a different domain than Metabase. Otherwise, leave it set to Lax, as it's more secure."
+msgid "Determines whether or not cookies are allowed to be sent on cross-site requests. You’ll likely need to change this to None if your embedding application is hosted under a different domain thanngmKASE. Otherwise, leave it set to Lax, as it's more secure."
 msgstr "يحدد ما إذا كان مسموحًا بإرسال ملفات تعريف الارتباط بناءً على الطلبات عبر المواقع أم لا. ستحتاج على الأرجح إلى تغيير هذا إلى لا شيء إذا كان تطبيق التضمين الخاص بك مستضافًا ضمن مجال مختلف عن قاعدة التعريف. بخلاف ذلك، اتركه مضبوطًا على Lax، لأنه أكثر أمانًا."
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppSameSiteCookieDescription/EmbeddingAppSameSiteCookieDescription.tsx:33

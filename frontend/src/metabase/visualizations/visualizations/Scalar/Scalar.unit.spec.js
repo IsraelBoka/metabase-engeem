@@ -58,7 +58,7 @@ describe("MetricForm", () => {
   });
 
   it("should render markdown in description", () => {
-    const DESCRIPTION = "[link](https://metabase.com)";
+    const DESCRIPTION = "[link](https://data.engeem.com.com)";
 
     render(
       <Scalar

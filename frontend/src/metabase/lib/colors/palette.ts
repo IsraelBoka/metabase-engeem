@@ -6,7 +6,7 @@ export const ACCENT_COUNT = 8;
 // NOTE: DO NOT ADD COLORS WITHOUT EXTREMELY GOOD REASON AND DESIGN REVIEW
 // NOTE: KEEP SYNCRONIZED WITH COLORS.CSS
 export const colors = {
-  brand: "#509EE3",
+  brand: "#324B63",
   summarize: "#88BF4D",
   filter: "#7172AD",
   accent0: "#509EE3",

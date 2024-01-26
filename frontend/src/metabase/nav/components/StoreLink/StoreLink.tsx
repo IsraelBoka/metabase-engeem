@@ -5,7 +5,7 @@ import { StoreIcon, StoreIconRoot, StoreIconWrapper } from "./StoreLink.styled";
 const StoreLink = () => {
   return (
     <Tooltip tooltip={t`Explore paid features`}>
-      <StoreIconRoot href="https://metabase.com/upgrade">
+      <StoreIconRoot href="https://data.engeem.com.com/upgrade">
         <StoreIconWrapper>
           <StoreIcon name="store" size={20} />
         </StoreIconWrapper>

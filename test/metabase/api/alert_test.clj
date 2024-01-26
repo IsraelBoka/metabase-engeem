@@ -64,7 +64,7 @@
   (m/dissoc-in response [:creator :last_login]))
 
 (defmacro ^:private with-test-email [& body]
-  `(mt/with-temporary-setting-values [~'site-url "https://metabase.com/testmb"]
+  `(mt/with-temporary-setting-values [~'site-url "https://data.engeem.com.com/testmb"]
      (mt/with-fake-inbox
        ~@body)))
 
@@ -251,19 +251,19 @@
 
 (defn- new-alert-email [user body-map]
   (mt/email-to user {:subject "You set up an alert",
-                     :body (merge {"https://metabase.com/testmb" true,
+                     :body (merge {"https://data.engeem.com.com/testmb" true,
                                    "My question"                 true}
                                   body-map)}))
 
 (defn- added-to-alert-email [user body-map]
   (mt/email-to user {:subject "Crowberto Corv added you to an alert",
-                     :body (merge {"https://metabase.com/testmb" true,
+                     :body (merge {"https://data.engeem.com.com/testmb" true,
                                    "now getting alerts" true}
                                   body-map)}))
 
 (defn- unsubscribe-email [user body-map]
   (mt/email-to user {:subject "You unsubscribed from an alert",
-                     :body (merge {"https://metabase.com/testmb" true}
+                     :body (merge {"https://data.engeem.com.com/testmb" true}
                                   body-map)}))
 
 (defn- default-alert [card]
@@ -324,7 +324,7 @@
                        :alert_condition  "rows"
                        :alert_first_only false
                        :channels         [daily-email-channel]})))
-                  (et/regex-email-bodies #"https://metabase.com/testmb"
+                  (et/regex-email-bodies #"https://data.engeem.com.com/testmb"
                                          #"has any results"
                                          #"My question")])))))))
 
@@ -342,7 +342,7 @@
                                                           :schedule_type "daily"
                                                           :recipients    (set (map recipient-details [:rasta :crowberto]))}))
             :emails (merge (et/email-to :crowberto {:subject "You set up an alert"
-                                                    :body    {"https://metabase.com/testmb"  true
+                                                    :body    {"https://data.engeem.com.com/testmb"  true
                                                               "My question"                  true
                                                               "now getting alerts"           false
                                                               "confirmation that your alert" true}})
@@ -362,7 +362,7 @@
                                                           :recipients    (mapv mt/fetch-user [:crowberto :rasta]))]})
                               setify-recipient-emails
                               alert-response))
-              :emails (et/regex-email-bodies #"https://metabase.com/testmb"
+              :emails (et/regex-email-bodies #"https://data.engeem.com.com/testmb"
                                              #"now getting alerts"
                                              #"confirmation that your alert"
                                              #"My question")))))))
@@ -385,7 +385,7 @@
                    :alert_above_goal false
                    :alert_first_only false
                    :channels         [daily-email-channel]}))
-               (et/regex-email-bodies #"https://metabase.com/testmb"
+               (et/regex-email-bodies #"https://data.engeem.com.com/testmb"
                                       #"goes below its goal"
                                       #"My question")))))))
 
@@ -408,7 +408,7 @@
                    :alert_above_goal true
                    :alert_first_only false
                    :channels         [daily-email-channel]}))
-               (et/regex-email-bodies #"https://metabase.com/testmb"
+               (et/regex-email-bodies #"https://data.engeem.com.com/testmb"
                                       #"meets its goal"
                                       #"My question")))))))
 
@@ -528,7 +528,7 @@
       (is (= [(-> (default-alert card)
                   (assoc-in [:channels 0 :recipients] (set (map recipient-details [:crowberto :rasta]))))
               (et/email-to :rasta {:subject "Crowberto Corv added you to an alert"
-                                   :body    {"https://metabase.com/testmb" true, "now getting alerts" true}})]
+                                   :body    {"https://data.engeem.com.com/testmb" true, "now getting alerts" true}})]
              (with-alert-setup
                [(et/with-expected-messages 1
                   (alert-response
@@ -536,7 +536,7 @@
                     ((alert-client :crowberto) :put 200 (alert-url alert)
                      (default-alert-req card pc {} [(mt/fetch-user :crowberto)
                                                     (mt/fetch-user :rasta)])))))
-                (et/regex-email-bodies #"https://metabase.com/testmb"
+                (et/regex-email-bodies #"https://data.engeem.com.com/testmb"
                                        #"now getting alerts")]))))))
 
 (deftest update-alerts-non-admin-test
@@ -585,9 +585,9 @@
                      alert-response))))
         (testing "emails"
           (is (= (mt/email-to :rasta {:subject "You’ve been unsubscribed from an alert"
-                                      :body    {"https://metabase.com/testmb"          true
+                                      :body    {"https://data.engeem.com.com/testmb"          true
                                                 "letting you know that Crowberto Corv" true}})
-                 (mt/regex-email-bodies #"https://metabase.com/testmb"
+                 (mt/regex-email-bodies #"https://data.engeem.com.com/testmb"
                                         #"letting you know that Crowberto Corv"))))))))
 
 (deftest update-alert-permissions-test
@@ -824,7 +824,7 @@
                                     (api:unsubscribe! :rasta 204 alert))
                                   (recipient-emails (mt/user-http-request
                                                      :crowberto :get 200 (alert-question-url card))))
-                  :emails       (et/regex-email-bodies #"https://metabase.com/testmb"
+                  :emails       (et/regex-email-bodies #"https://data.engeem.com.com/testmb"
                                                        #"Foo"))))))))
 
   (testing "Alert has two recipients, and admin unsubscribes"
@@ -845,7 +845,7 @@
                                   (et/with-expected-messages 1
                                     (api:unsubscribe! :crowberto 204 alert))
                                   (recipient-emails (mt/user-http-request :crowberto :get 200 (alert-question-url card))))
-                  :emails       (et/regex-email-bodies #"https://metabase.com/testmb"
+                  :emails       (et/regex-email-bodies #"https://data.engeem.com.com/testmb"
                                                        #"Foo"))))))))
 
   (testing "Alert should be archived if the last recipient unsubscribes"
@@ -861,7 +861,7 @@
                  (et/with-expected-messages 1 (api:unsubscribe! :rasta 204 alert))
                  (array-map
                   :archived? (t2/select-one-fn :archived Pulse :id (u/the-id alert))
-                  :emails    (et/regex-email-bodies #"https://metabase.com/testmb"
+                  :emails    (et/regex-email-bodies #"https://data.engeem.com.com/testmb"
                                                     #"Foo"))))))))
 
   (testing "Alert should not be archived if there is a slack channel"
@@ -878,13 +878,13 @@
                  (et/with-expected-messages 1 (api:unsubscribe! :rasta 204 alert))
                  (array-map
                   :archived? (t2/select-one-fn :archived Pulse :id (u/the-id alert))
-                  :emails    (et/regex-email-bodies #"https://metabase.com/testmb"
+                  :emails    (et/regex-email-bodies #"https://data.engeem.com.com/testmb"
                                                     #"Foo"))))))))
 
   (testing "If email is disabled, users should be unsubscribed"
     (is (= {:archived? false
             :emails    (et/email-to :rasta {:subject "You’ve been unsubscribed from an alert",
-                                            :body    {"https://metabase.com/testmb"          true,
+                                            :body    {"https://data.engeem.com.com/testmb"          true,
                                                       "letting you know that Crowberto Corv" true}})}
            (mt/with-temp [Card                  card  (basic-alert-query)
                           Pulse                 alert (basic-alert)
@@ -899,13 +899,13 @@
                     :put 200 (alert-url alert) (assoc-in (default-alert-req card pc-1) [:channels 0 :enabled] false)))
                  (array-map
                   :archived? (t2/select-one-fn :archived Pulse :id (u/the-id alert))
-                  :emails    (et/regex-email-bodies #"https://metabase.com/testmb"
+                  :emails    (et/regex-email-bodies #"https://data.engeem.com.com/testmb"
                                                     #"letting you know that Crowberto Corv"))))))))
 
   (testing "Re-enabling email should send users a subscribe notification"
     (is (= {:archived? false
             :emails    (et/email-to :rasta {:subject "Crowberto Corv added you to an alert",
-                                            :body    {"https://metabase.com/testmb"    true,
+                                            :body    {"https://data.engeem.com.com/testmb"    true,
                                                       "now getting alerts about .*Foo" true}})}
            (mt/with-temp [Card                  card  (basic-alert-query)
                           Pulse                 alert (basic-alert)
@@ -920,9 +920,9 @@
                     :put 200 (alert-url alert) (assoc-in (default-alert-req card pc-1) [:channels 0 :enabled] true)))
                  (array-map
                   :archived? (t2/select-one-fn :archived Pulse :id (u/the-id alert))
-                  :emails    (et/regex-email-bodies #"https://metabase.com/testmb"
+                  :emails    (et/regex-email-bodies #"https://data.engeem.com.com/testmb"
                                                     #"now getting alerts about .*Foo")
-                  :emails  (et/regex-email-bodies #"https://metabase.com/testmb"
+                  :emails  (et/regex-email-bodies #"https://data.engeem.com.com/testmb"
                                                   #"now getting alerts about .*Foo")))))))))
 
 (deftest alert-unsubscribe-event-test

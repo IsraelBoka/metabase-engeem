@@ -128,7 +128,7 @@ const QUERY_FILTER_QUANTITY = [
   POINT_COUNT,
 ];
 
-const URL = "https://metabase.com/";
+const URL = "https://data.engeem.com.com/";
 const URL_WITH_PARAMS = `${URL}{{${DASHBOARD_FILTER_TEXT.slug}}}/{{${COUNT_COLUMN_ID}}}/{{${CREATED_AT_COLUMN_ID}}}`;
 const URL_WITH_FILLED_PARAMS = URL_WITH_PARAMS.replace(
   `{{${COUNT_COLUMN_ID}}}`,
@@ -392,8 +392,7 @@ describe("scenarios > dashboard > dashboard cards > click behavior", () => {
         cy.location().should(({ pathname, search }) => {
           expect(pathname).to.equal(`/dashboard/${targetDashboardId}`);
           expect(search).to.equal(
-            `?tab=${TAB_SLUG_MAP[SECOND_TAB.name]}&${
-              DASHBOARD_FILTER_TEXT.slug
+            `?tab=${TAB_SLUG_MAP[SECOND_TAB.name]}&${DASHBOARD_FILTER_TEXT.slug
             }=${POINT_COUNT}`,
           );
         });
@@ -1188,8 +1187,7 @@ describe("scenarios > dashboard > dashboard cards > click behavior", () => {
         cy.location().should(({ pathname, search }) => {
           expect(pathname).to.equal(`/dashboard/${targetDashboardId}`);
           expect(search).to.equal(
-            `?tab=${TAB_SLUG_MAP[SECOND_TAB.name]}&${
-              DASHBOARD_FILTER_TEXT.slug
+            `?tab=${TAB_SLUG_MAP[SECOND_TAB.name]}&${DASHBOARD_FILTER_TEXT.slug
             }=${POINT_COUNT}&${DASHBOARD_FILTER_TIME.slug}=`,
           );
         });

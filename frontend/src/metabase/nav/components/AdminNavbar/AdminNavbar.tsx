@@ -37,7 +37,7 @@ export const AdminNavbar = ({
       <AdminLogoLink to="/admin">
         <AdminLogoContainer>
           <LogoIcon className="text-brand my2" dark />
-          <AdminLogoText>{t`Metabase Admin`}</AdminLogoText>
+          <AdminLogoText>{t`NgmKase Admin`}</AdminLogoText>
         </AdminLogoContainer>
       </AdminLogoLink>
 

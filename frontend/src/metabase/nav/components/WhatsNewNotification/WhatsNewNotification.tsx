@@ -62,7 +62,7 @@ export function WhatsNewNotification() {
           </DismissIconButtonWrapper>
         </Flex>
 
-        <Text weight="bold" size="sm">{t`Metabase has been updated`}</Text>
+        <Text weight="bold" size="sm">{t`ngmKase has been updated`}</Text>
 
         <Anchor
           size="sm"

@@ -41,7 +41,7 @@ export const NewsletterForm = (): JSX.Element => {
       <EmailFormLabel>
         <EmailFormLabelCard>
           <EmailFormLabelIcon name="mail" />
-          <EmailFormLabelText>{t`Metabase Newsletter`}</EmailFormLabelText>
+          <EmailFormLabelText>{t`ngmKase Newsletter`}</EmailFormLabelText>
         </EmailFormLabelCard>
       </EmailFormLabel>
       <EmailFormHeader>

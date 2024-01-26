@@ -200,7 +200,7 @@ describe("scenarios > organization > timelines > question", () => {
         events: [
           {
             name: "RC1",
-            description: "[Release notes](https://metabase.test)",
+            description: "[Release notes](https://data.engeem.com.test)",
             timestamp: "2024-10-20T00:00:00Z",
           },
         ],

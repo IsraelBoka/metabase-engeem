@@ -121,7 +121,7 @@ class SetupCheckList extends Component {
       <SetupListRoot>
         <div className="px2">
           <h2>{t`Getting set up`}</h2>
-          <p className="mt1">{t`A few things you can do to get the most out of Metabase.`}</p>
+          <p className="mt1">{t`A few things you can do to get the most out of ngmKase.`}</p>
           <LoadingAndErrorWrapper
             loading={!this.state.tasks}
             error={this.state.error}
@@ -141,10 +141,6 @@ class SetupCheckList extends Component {
             )}
           </LoadingAndErrorWrapper>
         </div>
-
-        {!MetabaseSettings.isHosted() && !isPaidPlan && (
-          <MarginHostingCTA tagline={t`Have your server maintained for you.`} />
-        )}
       </SetupListRoot>
     );
   }

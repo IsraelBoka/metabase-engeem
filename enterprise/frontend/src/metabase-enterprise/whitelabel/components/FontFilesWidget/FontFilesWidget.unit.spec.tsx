@@ -6,7 +6,7 @@ import FontFilesWidget from "./FontFilesWidget";
 describe("FontFilesWidget", () => {
   it("should add a font file with a query string in the URL", () => {
     const file = createMockFontFile({
-      src: "https://metabase.test/regular.ttf?raw=true",
+      src: "https://data.engeem.com.test/regular.ttf?raw=true",
       fontWeight: 400,
       fontFormat: "truetype",
     });
@@ -43,12 +43,12 @@ describe("FontFilesWidget", () => {
   it("should remove a font file", () => {
     const files = [
       createMockFontFile({
-        src: "https://metabase.test/regular.ttf?raw=true",
+        src: "https://data.engeem.com.test/regular.ttf?raw=true",
         fontWeight: 400,
         fontFormat: "truetype",
       }),
       createMockFontFile({
-        src: "https://metabase.test/bold.woff2",
+        src: "https://data.engeem.com.test/bold.woff2",
         fontWeight: 700,
         fontFormat: "woff2",
       }),

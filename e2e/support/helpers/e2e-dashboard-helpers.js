@@ -291,7 +291,7 @@ export function getLinkCardDetails({
   row = 0,
   size_x = 4,
   size_y = 1,
-  url = "https://metabase.com",
+  url = "https://data.engeem.com.com",
 } = {}) {
   return {
     id,

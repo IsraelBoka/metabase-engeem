@@ -6,7 +6,6 @@ import LogoIcon from "metabase/components/LogoIcon";
 import { loadDefaults, selectStep } from "../../actions";
 import { LANGUAGE_STEP, LOCALE_TIMEOUT } from "../../constants";
 import { getIsLocaleLoaded } from "../../selectors";
-import { SetupHelp } from "../SetupHelp";
 import {
   PageRoot,
   PageMain,
@@ -35,8 +34,8 @@ export const WelcomePage = (): JSX.Element | null => {
   return (
     <PageRoot data-testid="welcome-page">
       <PageMain>
-        <LogoIcon height={118} />
-        <PageTitle>{t`Welcome to Metabase`}</PageTitle>
+        <LogoIcon height={118} /><br />
+        <PageTitle>{t`Welcome to NGM-KASE`}</PageTitle>
         <PageBody>
           {t`Looks like everything is working.`}{" "}
           {t`Now let’s get to know you, connect to your data, and start finding you some answers!`}
@@ -45,7 +44,6 @@ export const WelcomePage = (): JSX.Element | null => {
           {t`Let's get started`}
         </PageButton>
       </PageMain>
-      <SetupHelp />
     </PageRoot>
   );
 };

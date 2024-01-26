@@ -81,7 +81,7 @@ describe("createSessionMiddleware", () => {
 
   describe("when logged in", () => {
     beforeEach(() => {
-      changeJSDOMURL("https://metabase.com/question/1?query=5#hash");
+      changeJSDOMURL("https://data.engeem.com.com/question/1?query=5#hash");
     });
 
     it("should not dispatch the logout action when session exists", () => {
@@ -119,7 +119,7 @@ describe("createSessionMiddleware", () => {
   describe("logged in redirect", () => {
     beforeEach(() => {
       changeJSDOMURL(
-        "https://metabase.com/auth/login?redirect=%2Fquestion%2F1%3Fquery%3D5%23hash",
+        "https://data.engeem.com.com/auth/login?redirect=%2Fquestion%2F1%3Fquery%3D5%23hash",
       );
     });
 

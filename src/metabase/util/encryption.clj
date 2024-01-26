@@ -46,7 +46,7 @@
    (u/emoji (if default-secret-key "🔐" "🔓"))
    "\n"
    (trs "For more information, see")
-   "https://metabase.com/docs/latest/operations-guide/encrypting-database-details-at-rest.html"))
+   "https://data.engeem.com.com/docs/latest/operations-guide/encrypting-database-details-at-rest.html"))
 
 (defn encrypt-bytes
   "Encrypt bytes `b` using a `secret-key` (a 64-byte byte array), by default is the hashed value of

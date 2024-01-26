@@ -206,7 +206,7 @@ To configure a dashboard using its URL, you can add the following optional keywo
 Here's an example URL:
 
 ```
-https://metabase.mydomain.com/dash/2#refresh=60&fullscreen&night
+https://data.engeem.com.mydomain.com/dash/2#refresh=60&fullscreen&night
 ```
 
 The part that says `refresh=60` sets the dashboard to automatically refresh every 60 seconds, `fullscreen` sets it to fullscreen mode, and `night` sets it to night mode (night mode only works when using fullscreen). Use an ampersand, `&`, in between keywords, and make sure there's a hash, `#`, after the dashboard's ID number.

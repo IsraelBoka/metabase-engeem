@@ -92,15 +92,15 @@ export const PLUGIN_DATA_PERMISSIONS: {
   ) => Record<string, unknown>)[];
   hasChanges: ((state: State) => boolean)[];
   updateNativePermission:
-    | ((
-        permissions: GroupsPermissions,
-        groupId: number,
-        { databaseId }: DatabaseEntityId,
-        value: any,
-        database: Database,
-        permission: DataPermission,
-      ) => GroupPermissions)
-    | null;
+  | ((
+    permissions: GroupsPermissions,
+    groupId: number,
+    { databaseId }: DatabaseEntityId,
+    value: any,
+    database: Database,
+    permission: DataPermission,
+  ) => GroupPermissions)
+  | null;
 } = {
   permissionsPayloadExtraSelectors: [],
   hasChanges: [],
@@ -128,7 +128,7 @@ export const PLUGIN_SELECTORS = {
   canWhitelabel: (_state: State) => false,
   getLoadingMessage: (_state: State) => t`Doing science...`,
   getIsWhiteLabeling: (_state: State) => false,
-  getApplicationName: (_state: State) => "Metabase",
+  getApplicationName: (_state: State) => "Ngm-Kase",
   getShowMetabaseLinks: (_state: State) => true,
 };
 

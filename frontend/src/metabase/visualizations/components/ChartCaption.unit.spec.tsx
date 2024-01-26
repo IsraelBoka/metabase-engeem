@@ -80,7 +80,7 @@ describe("ChartCaption", () => {
   it("should render markdown in description", () => {
     setup({
       series: getSeries({ card: createMockCard({ name: "card name" }) }),
-      settings: { "card.description": "[link](https://metabase.com)" },
+      settings: { "card.description": "[link](https://data.engeem.com.com)" },
     });
 
     userEvent.hover(getIcon("info"));

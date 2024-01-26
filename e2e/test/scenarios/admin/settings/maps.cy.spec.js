@@ -61,7 +61,7 @@ describe("scenarios > admin > settings > map settings", () => {
     // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
     cy.findByText(
       "Invalid GeoJSON file location: must either start with http:// or https:// or be a relative path to a file on the classpath. " +
-        "URLs referring to hosts that supply internal hosting metadata are prohibited.",
+      "URLs referring to hosts that supply internal hosting metadata are prohibited.",
     );
   });
 
@@ -73,7 +73,7 @@ describe("scenarios > admin > settings > map settings", () => {
     // Not GeoJSON
     cy.findByPlaceholderText(
       "Like https://my-mb-server.com/maps/my-map.json",
-    ).type("https://metabase.com");
+    ).type("https://data.engeem.com.com");
     // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
     cy.findByText("Load").click();
     // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage

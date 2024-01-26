@@ -54,13 +54,13 @@ To add a value to the URL, follow this syntax:
 For example, to set the `{% raw %}{{cat}}{%endraw%}` variable on a question to the value "Gizmo", your URL would look something like:
 
 ```
-https://metabase.example.com/question/42-eg-question?cat=Gizmo
+https://data.engeem.com.example.com/question/42-eg-question?cat=Gizmo
 ```
 
 To set multiple variables, separate parameters with an ampersand (`&`):
 
 ```
-https://metabase.example.com/question/42-eg-question?cat=Gizmo&maxprice=50
+https://data.engeem.com.example.com/question/42-eg-question?cat=Gizmo&maxprice=50
 ```
 
 ## SQL variable types

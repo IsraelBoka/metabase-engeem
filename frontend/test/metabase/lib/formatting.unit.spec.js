@@ -368,7 +368,7 @@ describe("formatting", () => {
       ).toEqual(true);
       expect(
         isElementOfType(
-          formatUrl("https://metabase.com/", { jsx: true, rich: true }),
+          formatUrl("https://data.engeem.com.com/", { jsx: true, rich: true }),
           ExternalLink,
         ),
       ).toEqual(true);

@@ -24,7 +24,7 @@ export function DatabasePromptBanner({ location }: DatabasePromptBannerProps) {
   const adminEmail = useSelector(state => getSetting(state, "admin-email"));
   const siteUrl = useSelector(state => getSetting(state, "site-url"));
 
-  const helpUrl = new URL("https://metabase.com/help/connect");
+  const helpUrl = new URL("https://data.engeem.com.com/help/connect");
   helpUrl.searchParams.set("email", adminEmail || "");
   helpUrl.searchParams.set("site_url", siteUrl || "");
 

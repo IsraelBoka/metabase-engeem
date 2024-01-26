@@ -470,13 +470,13 @@
                      :db_id nil   :collection_id     collection-id}
                     {:id model-id :model "dataset"   :name "Linked model name"     :description "Linked model desc"     :display "table"
                      :db_id nil   :collection_id     collection-id}
-                    {:url "https://metabase.com"}]
+                    {:url "https://data.engeem.com.com"}]
                    (link-card-info-from-resp
                     (mt/user-http-request :crowberto :get 200 (format "dashboard/%d" (:id dashboard))))))
 
             (testing "should return restricted if user doesn't have permission to view the models"
               (perms/revoke-data-perms! (perms-group/all-users) database-id)
-              (is (= #{{:restricted true} {:url "https://metabase.com"}}
+              (is (= #{{:restricted true} {:url "https://data.engeem.com.com"}}
                      (set (link-card-info-from-resp
                            (mt/user-http-request :lucky :get 200 (format "dashboard/%d" (:id dashboard))))))))))))
 

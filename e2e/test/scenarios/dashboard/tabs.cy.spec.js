@@ -191,7 +191,7 @@ describe("scenarios > dashboard > tabs", () => {
           text: "Heading card",
         }),
         getLinkCardDetails({
-          url: "https://metabase.com",
+          url: "https://data.engeem.com.com",
         }),
       ];
 

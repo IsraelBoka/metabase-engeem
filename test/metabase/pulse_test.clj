@@ -196,7 +196,7 @@
                 {:title           pulse.test-util/card-name
                  :rendered-info   {:attachments false
                                    :content     true}
-                 :title_link      (str "https://metabase.com/testmb/question/" card-id)
+                 :title_link      (str "https://data.engeem.com.com/testmb/question/" card-id)
                  :attachment-name "image.png"
                  :channel-id      "FOO"
                  :fallback        pulse.test-util/card-name}]}
@@ -218,13 +218,13 @@
         (is (= (rasta-pulse-email {:body [{"Pulse Name"                                         true
                                            "More results have been included"                    false
                                            "ID</th>"                                            true
-                                           "<a href=\\\"https://metabase.com/testmb/dashboard/" false}
+                                           "<a href=\\\"https://data.engeem.com.com/testmb/dashboard/" false}
                                           pulse.test-util/png-attachment]})
                (mt/summarize-multipart-email
                 #"Pulse Name"
                 #"More results have been included"
                 #"ID</th>"
-                #"<a href=\"https://metabase.com/testmb/dashboard/"))))
+                #"<a href=\"https://data.engeem.com.com/testmb/dashboard/"))))
 
       :slack
       (fn [{:keys [card-id]} [pulse-results]]
@@ -238,7 +238,7 @@
                      {:title           pulse.test-util/card-name
                       :rendered-info   {:attachments false
                                         :content     true}
-                      :title_link      (str "https://metabase.com/testmb/question/" card-id)
+                      :title_link      (str "https://data.engeem.com.com/testmb/question/" card-id)
                       :attachment-name "image.png"
                       :channel-id      "FOO"
                       :fallback        pulse.test-util/card-name}]}
@@ -455,7 +455,7 @@
                                 {:title                  pulse.test-util/card-name
                                  :rendered-info          {:attachments false
                                                           :content     true}
-                                 :title_link             (str "https://metabase.com/testmb/question/" card-id)
+                                 :title_link             (str "https://data.engeem.com.com/testmb/question/" card-id)
                                  :attachment-name        "image.png"
                                  :channel-id             "FOO"
                                  :fallback               pulse.test-util/card-name}]}
@@ -747,14 +747,14 @@
                   {:title           pulse.test-util/card-name,
                    :rendered-info   {:attachments false
                                      :content     true}
-                   :title_link      (str "https://metabase.com/testmb/question/" card-id-1),
+                   :title_link      (str "https://data.engeem.com.com/testmb/question/" card-id-1),
                    :attachment-name "image.png",
                    :channel-id      "FOO",
                    :fallback        pulse.test-util/card-name}
                   {:title           "Test card 2",
                    :rendered-info   {:attachments false
                                      :content     true}
-                   :title_link      (str "https://metabase.com/testmb/question/" card-id-2),
+                   :title_link      (str "https://data.engeem.com.com/testmb/question/" card-id-2),
                    :attachment-name "image.png",
                    :channel-id      "FOO",
                    :fallback        "Test card 2"}]}
@@ -821,7 +821,7 @@
                                     [{:type "header", :text {:type "plain_text", :text "Pulse: Pulse Name", :emoji true}}
                                      {:type "section", :fields [{:type "mrkdwn", :text "Sent by Rasta Toucan"}]}]}
                                    {:title           pulse.test-util/card-name
-                                    :title_link      (str "https://metabase.com/testmb/question/" card-id)
+                                    :title_link      (str "https://data.engeem.com.com/testmb/question/" card-id)
                                     :rendered-info   {:attachments false
                                                       :content     true}
                                     :attachment-name "image.png"

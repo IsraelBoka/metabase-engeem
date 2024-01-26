@@ -59,7 +59,7 @@
 
 (defn do-with-site-url
   [f]
-  (mt/with-temporary-setting-values [site-url "https://metabase.com/testmb"]
+  (mt/with-temporary-setting-values [site-url "https://data.engeem.com.com/testmb"]
     (f)))
 
 (defmacro email-test-setup

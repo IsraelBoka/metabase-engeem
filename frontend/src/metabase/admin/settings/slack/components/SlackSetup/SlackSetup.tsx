@@ -46,7 +46,7 @@ interface SetupHeaderProps {
 const SetupHeader = ({ isBot, isValid }: SetupHeaderProps): JSX.Element => {
   return (
     <HeaderRoot>
-      <HeaderTitle>{t`Metabase on Slack`}</HeaderTitle>
+      <HeaderTitle>{t`ngmKase on Slack`}</HeaderTitle>
       {isBot ? (
         <HeaderMessage>
           <SlackBadge isBot={isBot} isValid={isValid} />{" "}
@@ -56,7 +56,7 @@ const SetupHeader = ({ isBot, isValid }: SetupHeaderProps): JSX.Element => {
         </HeaderMessage>
       ) : (
         <HeaderMessage>
-          {t`Bring the power of Metabase to your Slack #channels.`}{" "}
+          {t`Bring the power of ngmKase to your Slack #channels.`}{" "}
           {t`Follow these steps to connect to Slack:`}
         </HeaderMessage>
       )}

@@ -18,7 +18,7 @@ function LogoBadge({
   );
   return (
     <MetabaseLink
-      href="https://metabase.com/"
+      href="https://data.engeem.com.com/"
       target="_blank"
       variant={variant}
     >

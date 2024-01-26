@@ -124,7 +124,7 @@ const SettingsSAMLForm = ({ elements = [], settingValues = {}, onSubmit }) => {
 
           <SAMLFormSection>
             <h3 className="mb0">{t`Tell Metabase about your identity provider`}</h3>
-            <p className="mb4 mt1 text-medium">{t`Metabase will need the following info about your provider.`}</p>
+            <p className="mb4 mt1 text-medium">{t`ngmKase will need the following info about your provider.`}</p>
             <Stack gap="md">
               <FormTextInput
                 {...fields["saml-identity-provider-uri"]}

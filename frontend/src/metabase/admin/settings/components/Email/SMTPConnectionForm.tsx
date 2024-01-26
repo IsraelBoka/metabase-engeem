@@ -155,9 +155,6 @@ export const SMTPConnectionForm = ({
             </>
           )}
         />
-        {!isPaidPlan && (
-          <MarginHostingCTA tagline={t`Have your email configured for you.`} />
-        )}
       </Flex>
     </Stack>
   );

@@ -80,7 +80,7 @@ Use the typeahead search in the your variable to find your model or question. Ty
 
 Selecting a question from the variable sidebar in the SQL editor will automatically add the ID number to the variable in our query.
 
-You can also navigate to the model or question you'd like to reference and find its ID in the URL in your browser's address bar, after `/model/` or `/question/`. E.g., for `https://metabase.example.com/model/12345-example-name`, the model's ID would be `12345`.
+You can also navigate to the model or question you'd like to reference and find its ID in the URL in your browser's address bar, after `/model/` or `/question/`. E.g., for `https://data.engeem.com.example.com/model/12345-example-name`, the model's ID would be `12345`.
 
 ## Limitations and tradeoffs
 

@@ -1315,7 +1315,7 @@ The name used for this instance of Metabase.
 Type: string<br>
 Default: `null`
 
-The base URL where users access Metabase, e.g. `https://metabase.example.com` or `https://example.com/metabase`.
+The base URL where users access Metabase, e.g. `https://data.engeem.com.example.com` or `https://example.com/metabase`.
 
 This URL is critical for things like SSO authentication, email links, embedding and more. Even difference with `http://` vs `https://` can cause problems. Make sure that the address defined is how Metabase is being accessed.
 

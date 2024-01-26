@@ -32,7 +32,7 @@ export const LegaleseStep = ({
             {jt`By clicking "Agree and continue" you're agreeing to ${(
               <ExternalLink
                 key="embed-license-link"
-                href="https://metabase.com/license/embedding"
+                href="https://data.engeem.com.com/license/embedding"
                 target="_blank"
               >
                 {t`our embedding license.`}

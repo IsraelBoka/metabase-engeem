@@ -202,7 +202,7 @@
        DashboardCard _                  {:dashboard_id           dashboard-id
                                          :row                    7
                                          :visualization_settings {:virtual_card {:display "link"}
-                                                                  :link         {:url "https://metabase.com"}}}]
+                                                                  :link         {:url "https://data.engeem.com.com"}}}]
       (thunk {:collection-owner-id rasta-id
               :collection-id       coll-id
               :database-id         db-id
@@ -210,7 +210,7 @@
               :card-id             card-id
               :model-id            model-id
               :dashboard-id        dash-id
-              :url                 "https://metabase.com"}))))
+              :url                 "https://data.engeem.com.com"}))))
 
 (defmacro with-link-card-fixture-for-dashboard
   "Given a dashboard, prepare a list of linkcards that connected to it and execute the body."
@@ -304,11 +304,11 @@
                          ;; Inline table
                          "ID</th>" true
                          ;; Links to source dashboard
-                         "<a class=\\\"title\\\" href=\\\"https://metabase.com/testmb/dashboard/\\d+\\\"" true
+                         "<a class=\\\"title\\\" href=\\\"https://data.engeem.com.com/testmb/dashboard/\\d+\\\"" true
                          ;; Links to Metabase instance
-                         "Sent from <a href=\\\"https://metabase.com/testmb\\\"" true
+                         "Sent from <a href=\\\"https://data.engeem.com.com/testmb\\\"" true
                          ;; Links to subscription management page in account settings
-                         "\\\"https://metabase.com/testmb/account/notifications\\\"" true
+                         "\\\"https://data.engeem.com.com/testmb/account/notifications\\\"" true
                          "Manage your subscriptions" true}
                         pulse.test-util/png-attachment]})
                (mt/summarize-multipart-email
@@ -317,9 +317,9 @@
                 #"Sent by Rasta Toucan"
                 #"More results have been included"
                 #"ID</th>"
-                #"<a class=\"title\" href=\"https://metabase.com/testmb/dashboard/\d+\""
-                #"Sent from <a href=\"https://metabase.com/testmb\""
-                #"\"https://metabase.com/testmb/account/notifications\""
+                #"<a class=\"title\" href=\"https://data.engeem.com.com/testmb/dashboard/\d+\""
+                #"Sent from <a href=\"https://data.engeem.com.com/testmb\""
+                #"\"https://data.engeem.com.com/testmb/account/notifications\""
                 #"Manage your subscriptions"))))
       :slack
       (fn [{:keys [card-id dashboard-id]} [pulse-results]]
@@ -334,14 +334,14 @@
                      {:title           pulse.test-util/card-name
                       :rendered-info   {:attachments false
                                         :content     true}
-                      :title_link      (str "https://metabase.com/testmb/question/" card-id)
+                      :title_link      (str "https://data.engeem.com.com/testmb/question/" card-id)
                       :attachment-name "image.png"
                       :channel-id      "FOO"
                       :fallback        pulse.test-util/card-name}
                      {:blocks [{:type "divider"}
                                {:type "context"
                                 :elements [{:type "mrkdwn"
-                                            :text (str "<https://metabase.com/testmb/dashboard/"
+                                            :text (str "<https://data.engeem.com.com/testmb/dashboard/"
                                                        dashboard-id
                                                        "|*Sent from Metabase Test*>")}]}]}]}
                    (pulse.test-util/thunk->boolean pulse-results))))
@@ -386,7 +386,7 @@
                              {:type "section", :fields [{:type "mrkdwn", :text "Sent by Rasta Toucan"}]}]}
                    {:title           pulse.test-util/card-name
                     :rendered-info   {:attachments false, :content true, :render/text true},
-                    :title_link      (str "https://metabase.com/testmb/question/" card-id)
+                    :title_link      (str "https://data.engeem.com.com/testmb/question/" card-id)
                     :attachment-name "image.png"
                     :channel-id      "FOO"
                     :fallback        pulse.test-util/card-name}
@@ -394,7 +394,7 @@
                    {:blocks [{:type "divider"}
                              {:type "context"
                               :elements [{:type "mrkdwn"
-                                          :text (str "<https://metabase.com/testmb/dashboard/"
+                                          :text (str "<https://data.engeem.com.com/testmb/dashboard/"
                                                      dashboard-id
                                                      "|*Sent from Metabase Test*>")}]}]}]}
                  (pulse.test-util/thunk->boolean pulse-results)))))}}))
@@ -433,7 +433,7 @@
                                   {:type "section", :fields [{:type "mrkdwn", :text "Sent by Rasta Toucan"}]}]}
                         {:title           pulse.test-util/card-name
                          :rendered-info   {:attachments false, :content true, :render/text true},
-                         :title_link      (str "https://metabase.com/testmb/question/" card-id)
+                         :title_link      (str "https://data.engeem.com.com/testmb/question/" card-id)
                          :attachment-name "image.png"
                          :channel-id      "FOO"
                          :fallback        pulse.test-util/card-name}
@@ -441,7 +441,7 @@
                         {:blocks [{:type "divider"}
                                   {:type "context"
                                    :elements [{:type "mrkdwn"
-                                               :text (str "<https://metabase.com/testmb/dashboard/"
+                                               :text (str "<https://data.engeem.com.com/testmb/dashboard/"
                                                           dashboard-id
                                                           "|*Sent from Metabase Test*>")}]}]}]}
                       (pulse.test-util/thunk->boolean pulse-results)))))}}))
@@ -463,10 +463,10 @@
         (fn [_ _]
           (testing "Markdown cards are included in email subscriptions"
             (is (= (rasta-pulse-email {:body [{"Aviary KPIs" true
-                                               "<a class=\\\"title\\\" href=\\\"https://metabase.com/testmb/dashboard/\\d+\\?state=CA&amp;state=NY&amp;state=NJ&amp;quarter_and_year=Q1-2021\\\"" true}
+                                               "<a class=\\\"title\\\" href=\\\"https://data.engeem.com.com/testmb/dashboard/\\d+\\?state=CA&amp;state=NY&amp;state=NJ&amp;quarter_and_year=Q1-2021\\\"" true}
                                               pulse.test-util/png-attachment]})
                    (mt/summarize-multipart-email #"Aviary KPIs"
-                                                 #"<a class=\"title\" href=\"https://metabase.com/testmb/dashboard/\d+\?state=CA&amp;state=NY&amp;state=NJ&amp;quarter_and_year=Q1-2021\"")))))
+                                                 #"<a class=\"title\" href=\"https://data.engeem.com.com/testmb/dashboard/\d+\?state=CA&amp;state=NY&amp;state=NJ&amp;quarter_and_year=Q1-2021\"")))))
 
         :slack
         (fn [{:keys [card-id dashboard-id]} [pulse-results]]
@@ -481,14 +481,14 @@
                                {:type "section", :fields [{:type "mrkdwn", :text "Sent by Rasta Toucan"}]}]}
                      {:title           pulse.test-util/card-name
                       :rendered-info   {:attachments false, :content true, :render/text true},
-                      :title_link      (str "https://metabase.com/testmb/question/" card-id)
+                      :title_link      (str "https://data.engeem.com.com/testmb/question/" card-id)
                       :attachment-name "image.png"
                       :channel-id      "FOO"
                       :fallback        pulse.test-util/card-name}
                      {:blocks [{:type "divider"}
                                {:type "context"
                                 :elements [{:type "mrkdwn"
-                                            :text (str "<https://metabase.com/testmb/dashboard/"
+                                            :text (str "<https://data.engeem.com.com/testmb/dashboard/"
                                                        dashboard-id
                                                        "?state=CA&state=NY&state=NJ&quarter_and_year=Q1-2021|*Sent from Metabase Test*>")}]}]}]}
                    (pulse.test-util/thunk->boolean pulse-results)))))}})))
@@ -510,27 +510,27 @@
        (is (every?
              true?
              (-> (mt/summarize-multipart-email
-                   #"https://metabase\.com/testmb/collection/\d+"
+                   #"https://data.engeem.com\.com/testmb/collection/\d+"
                    #"Linked collection name"
                    #"Linked collection desc"
 
-                   #"https://metabase\.com/testmb/browse/\d+"
+                   #"https://data.engeem.com\.com/testmb/browse/\d+"
                    #"Linked database name"
                    #"Linked database desc"
 
-                   #"https://metabase\.com/testmb/question\?db=\d+&amp;table=\d+"
+                   #"https://data.engeem.com\.com/testmb/question\?db=\d+&amp;table=\d+"
                    #"Linked table dname"
                    #"Linked table desc"
 
-                   #"https://metabase\.com/testmb/question/\d+"
+                   #"https://data.engeem.com\.com/testmb/question/\d+"
                    #"Linked card name"
                    #"Linked card desc"
 
-                   #"https://metabase\.com/testmb/question/\d+"
+                   #"https://data.engeem.com\.com/testmb/question/\d+"
                    #"Linked model name"
                    #"Linked model desc"
 
-                   #"https://metabase\.com/testmb/dashboard/\d+"
+                   #"https://data.engeem.com\.com/testmb/dashboard/\d+"
                    #"Linked Dashboard name"
                    #"Linked Dashboard desc")
                  (get "rasta@metabase.com")
@@ -552,7 +552,7 @@
                    {:type "section", :fields [{:type "mrkdwn", :text "Sent by Rasta Toucan"}]}]}
                  {:title "Test card",
                   :rendered-info {:attachments false, :content true, :render/text true},
-                  :title_link #"https://metabase.com/testmb/question/.+",
+                  :title_link #"https://data.engeem.com.com/testmb/question/.+",
                   :attachment-name "image.png",
                   :channel-id "FOO",
                   :fallback "Test card"}
@@ -560,37 +560,37 @@
                   [{:type "section",
                     :text
                     {:type "mrkdwn",
-                     :text #"\*<https://metabase\.com/testmb/collection/\d+\|Linked collection name>\*\nLinked collection desc"}}]}
+                     :text #"\*<https://data.engeem.com\.com/testmb/collection/\d+\|Linked collection name>\*\nLinked collection desc"}}]}
                  {:blocks
                   [{:type "section",
                     :text
-                    {:type "mrkdwn", :text #"\*<https://metabase\.com/testmb/browse/\d+\|Linked database name>\*\nLinked database desc"}}]}
-                 {:blocks
-                  [{:type "section",
-                    :text
-                    {:type "mrkdwn",
-                     :text #"\*<https://metabase\.com/testmb/question\?db=\d+&table=\d+\|Linked table dname>\*\nLinked table desc"}}]}
+                    {:type "mrkdwn", :text #"\*<https://data.engeem.com\.com/testmb/browse/\d+\|Linked database name>\*\nLinked database desc"}}]}
                  {:blocks
                   [{:type "section",
                     :text
                     {:type "mrkdwn",
-                     :text #"\*<https://metabase\.com/testmb/dashboard/\d+\|Linked Dashboard name>\*\nLinked Dashboard desc"}}]}
-                 {:blocks
-                  [{:type "section",
-                    :text {:type "mrkdwn", :text #"\*<https://metabase\.com/testmb/question/\d+\|Linked card name>\*\nLinked card desc"}}]}
+                     :text #"\*<https://data.engeem.com\.com/testmb/question\?db=\d+&table=\d+\|Linked table dname>\*\nLinked table desc"}}]}
                  {:blocks
                   [{:type "section",
                     :text
-                    {:type "mrkdwn", :text #"\*<https://metabase\.com/testmb/question/\d+\|Linked model name>\*\nLinked model desc"}}]}
+                    {:type "mrkdwn",
+                     :text #"\*<https://data.engeem.com\.com/testmb/dashboard/\d+\|Linked Dashboard name>\*\nLinked Dashboard desc"}}]}
                  {:blocks
-                  [{:type "section", :text {:type "mrkdwn", :text "*<https://metabase.com|https://metabase.com>*"}}]}
+                  [{:type "section",
+                    :text {:type "mrkdwn", :text #"\*<https://data.engeem.com\.com/testmb/question/\d+\|Linked card name>\*\nLinked card desc"}}]}
+                 {:blocks
+                  [{:type "section",
+                    :text
+                    {:type "mrkdwn", :text #"\*<https://data.engeem.com\.com/testmb/question/\d+\|Linked model name>\*\nLinked model desc"}}]}
+                 {:blocks
+                  [{:type "section", :text {:type "mrkdwn", :text "*<https://data.engeem.com.com|https://data.engeem.com.com>*"}}]}
                  {:blocks
                   [{:type "divider"}
                    {:type "context",
                     :elements
                     [{:type "mrkdwn",
                       :text
-                      #"<https://metabase\.com/testmb/dashboard/\d+\?state=CA&state=NY&state=NJ&quarter_and_year=Q1-2021\|\*Sent from Metabase Test\*>"}]}]}]}
+                      #"<https://data.engeem.com\.com/testmb/dashboard/\d+\?state=CA&state=NY&state=NJ&quarter_and_year=Q1-2021\|\*Sent from Metabase Test\*>"}]}]}]}
                (pulse.test-util/thunk->boolean pulse-results))))}}))
 
 (deftest mrkdwn-length-limit-test
@@ -728,13 +728,13 @@
                                         :row                    1}
        DashboardCard _                 {:dashboard_id           dashboard-id
                                         :visualization_settings {:virtual_card {:display "link"}
-                                                                 :link         {:url "https://metabase.com"}}
+                                                                 :link         {:url "https://data.engeem.com.com"}}
                                         :row                    2}
        DashboardCard _                 {:dashboard_id           dashboard-id
                                         :visualization_settings {:virtual_card {:display "action"}}
                                         :row                    3}]
       (is (=? [{:text "Markdown"}
-               {:text "### [https://metabase.com](https://metabase.com)"}]
+               {:text "### [https://data.engeem.com.com](https://data.engeem.com.com)"}]
              (@#'metabase.pulse/execute-dashboard {:creator_id (mt/user->id :rasta)} dashboard)))))
 
   (testing "Link cards are returned and info should be newly fetched"
@@ -761,13 +761,13 @@
                      {:text (format "### [New Dashboard name](%s/dashboard/%d)\nLinked Dashboard desc" site-url dashboard-id)}
                      {:text (format "### [New Card name](%s/question/%d)\nLinked card desc" site-url card-id)}
                      {:text (format "### [New Card name](%s/question/%d)\nLinked model desc" site-url model-id)}
-                     {:text (format "### [https://metabase.com](https://metabase.com)")}]
+                     {:text (format "### [https://data.engeem.com.com](https://data.engeem.com.com)")}]
                     (@#'metabase.pulse/execute-dashboard {:creator_id collection-owner-id} dashboard))))
 
           (testing "it should filter out models that current users does not have permission to read"
             (is (=? [{:text (format "### [New Database name](%s/browse/%d)\nLinked database desc" site-url database-id)}
                      {:text (format "### [Linked table dname](%s/question?db=%d&table=%d)\nLinked table desc" site-url database-id table-id)}
-                     {:text (format "### [https://metabase.com](https://metabase.com)")}]
+                     {:text (format "### [https://data.engeem.com.com](https://data.engeem.com.com)")}]
                     (@#'metabase.pulse/execute-dashboard {:creator_id (mt/user->id :lucky)} dashboard)))))))))
 
 (deftest execute-dashboard-with-tabs-test
@@ -872,7 +872,7 @@
                  {:blocks [{:type "section", :text {:type "mrkdwn", :text "*The first tab*"}}]}
                  {:title "Test card",
                   :rendered-info {:attachments false, :content true, :render/text true},
-                  :title_link #"https://metabase.com/testmb/question/.+",
+                  :title_link #"https://data.engeem.com.com/testmb/question/.+",
                   :attachment-name "image.png",
                   :channel-id "FOO",
                   :fallback "Test card"}
@@ -887,7 +887,7 @@
                     :elements
                     [{:type "mrkdwn"
                       :text
-                      #"<https://metabase\.com/testmb/dashboard/\d+\?state=CA&state=NY&state=NJ&quarter_and_year=Q1-2021\|\*Sent from Metabase Test\*>"}]}]}]}
+                      #"<https://data.engeem.com\.com/testmb/dashboard/\d+\?state=CA&state=NY&state=NJ&quarter_and_year=Q1-2021\|\*Sent from Metabase Test\*>"}]}]}]}
                (pulse.test-util/thunk->boolean pulse-results))))}}))
 
 (defn- result-attachment

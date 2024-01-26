@@ -92,7 +92,7 @@ export const PreferencesStep = (): JSX.Element => {
       </StepToggleContainer>
       {isTrackingAllowed && (
         <StepInfoList>
-          <li>{jt`Metabase ${(
+          <li>{jt`ngmKase ${(
             <strong key="message">{t`never`}</strong>
           )} collects anything about your data or question results.`}</li>
           <li>{t`All collection is completely anonymous.`}</li>

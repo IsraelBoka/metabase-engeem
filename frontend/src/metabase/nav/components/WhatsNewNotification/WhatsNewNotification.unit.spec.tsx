@@ -33,7 +33,7 @@ const setup = ({
     mockVersion({ version: "v0.48.1" }),
     mockVersion({
       version: "v0.48.0",
-      announcement_url: "https://metabase.com/releases/48",
+      announcement_url: "https://data.engeem.com.com/releases/48",
     }),
     mockVersion({ version: "v0.47.0" }),
   ],
@@ -123,18 +123,18 @@ describe("WhatsNewNotification", () => {
         versions: [
           mockVersion({
             version: "v0.48.0",
-            announcement_url: "https://metabase.com/releases/48",
+            announcement_url: "https://data.engeem.com.com/releases/48",
           }),
           mockVersion({
             version: "v0.47.0",
-            announcement_url: "https://metabase.com/releases/47",
+            announcement_url: "https://data.engeem.com.com/releases/47",
           }),
         ],
       });
 
       expect(screen.getByRole("link")).toHaveAttribute(
         "href",
-        "https://metabase.com/releases/48",
+        "https://data.engeem.com.com/releases/48",
       );
     });
   });

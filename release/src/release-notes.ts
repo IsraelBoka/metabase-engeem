@@ -19,7 +19,7 @@ const releaseTemplate = `# NOTE: clean up 'Enhancements' and 'Bug fixes' section
 **Upgrading**
 
 You can download a .jar of the release, or get the latest on Docker. Make sure to back up your Metabase
-database before you upgrade! Need help? Check out our [upgrading instructions](https://metabase.com/docs/latest/operations-guide/upgrading-metabase.html).
+database before you upgrade! Need help? Check out our [upgrading instructions](https://data.engeem.com.com/docs/latest/operations-guide/upgrading-metabase.html).
 
 Docker image: {{docker-tag}}
 Download the JAR here: {{download-url}}

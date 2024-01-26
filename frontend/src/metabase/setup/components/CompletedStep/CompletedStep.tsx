@@ -28,7 +28,7 @@ export const CompletedStep = (): JSX.Element | null => {
       </StepBody>
       <StepFooter>
         <a className="Button Button--primary" href={baseUrl}>
-          {t`Take me to Metabase`}
+          {t`Take me to ngmKase`}
         </a>
       </StepFooter>
     </StepRoot>

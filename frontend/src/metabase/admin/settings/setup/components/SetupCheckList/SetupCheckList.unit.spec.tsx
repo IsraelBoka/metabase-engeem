@@ -22,7 +22,7 @@ const ADD_DB_TASK = createMockSetupCheckListTask({
 const SWITCH_DB_TASK = createMockSetupCheckListTask({
   title: "Switch to a production-ready app database",
   group: "Productionize",
-  link: "https://metabase.test//docs/latest/installation-and-operation/migrating-from-h2",
+  link: "https://data.engeem.com.test//docs/latest/installation-and-operation/migrating-from-h2",
 });
 
 const CHECK_LIST_ITEMS = [

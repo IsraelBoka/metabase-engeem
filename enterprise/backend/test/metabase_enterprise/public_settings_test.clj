@@ -34,16 +34,16 @@
         (is (thrown-with-msg?
              clojure.lang.ExceptionInfo
              #"Setting embedding-app-origin is not enabled because feature :embedding is not available"
-             (embed.settings/embedding-app-origin! "https://metabase.com")))
+             (embed.settings/embedding-app-origin! "https://data.engeem.com.com")))
 
         (testing "even if env is set, return the default value"
-          (mt/with-temp-env-var-value! [mb-embedding-app-origin "https://metabase.com"]
+          (mt/with-temp-env-var-value! [mb-embedding-app-origin "https://data.engeem.com.com"]
             (is (nil? (embed.settings/embedding-app-origin)))))))
 
     (testing "can change embedding-app-origin if :embedding is enabled"
       (mt/with-premium-features #{:embedding}
-        (embed.settings/embedding-app-origin! "https://metabase.com")
-        (is (= "https://metabase.com"
+        (embed.settings/embedding-app-origin! "https://data.engeem.com.com")
+        (is (= "https://data.engeem.com.com"
                (embed.settings/embedding-app-origin)))
 
         (testing "it works with env too"

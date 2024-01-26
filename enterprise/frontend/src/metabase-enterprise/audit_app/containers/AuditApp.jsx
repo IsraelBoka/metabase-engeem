@@ -39,7 +39,7 @@ const DeprecationSection = () => {
                   key="link"
                   to={`/collection/${auditCollection.id}`}
                 >
-                  {t`Metabase Analytics Collection`}
+                  {t`NgmKase Analytics Collection`}
                 </Link>
               )}
                and will be removed in a future release.`}

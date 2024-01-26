@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: Metabase\n"
+"Project-Id-Version:ngmKASE\n"
 "Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
@@ -51,8 +51,8 @@ msgid "Save"
 msgstr "Uložit"
 
 #: frontend/src/metabase/admin/databases/components/DatabaseSchedulingForm.jsx:122
-msgid "To do some of its magic, Metabase needs to scan your database. We will also rescan it periodically to keep the metadata up-to-date. You can control when the periodic rescans happen below."
-msgstr "Aby mohl Metabase předvést svá kouzla, potřebuje si proskenovat Vaši databázi. Tento sken bude prováděn periodicky, aby byla metadata vždy aktuální. Níže můžete nastavit, kdy se budou tyto periodické skeny provádět."
+msgid "To do some of its magic,ngmKASE needs to scan your database. We will also rescan it periodically to keep the metadata up-to-date. You can control when the periodic rescans happen below."
+msgstr "Aby mohlngmKASE předvést svá kouzla, potřebuje si proskenovat Vaši databázi. Tento sken bude prováděn periodicky, aby byla metadata vždy aktuální. Níže můžete nastavit, kdy se budou tyto periodické skeny provádět."
 
 #: metabase/driver/common.clj:148
 msgid "Database syncing"
@@ -80,8 +80,8 @@ msgid "Metabase can scan the values present in each\n"
 msgstr "Metabase může projít hodnoty každého políčka a povolit v dotazech a nástěnkách filtrování pomocí zaškrtávacích políček. Tento proces může znatelně zatížit databázi, především, pokud je velká."
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:167
-msgid "When should Metabase automatically scan and cache field values?"
-msgstr "Kdy má Metabase skenovat a uložit hodnoty polí do mezipaměti?"
+msgid "When shouldngmKASE automatically scan and cache field values?"
+msgstr "Kdy mángmKASE skenovat a uložit hodnoty polí do mezipaměti?"
 
 #: frontend/src/metabase/databases/components/DatabaseCacheScheduleField/DatabaseCacheScheduleField.tsx:72
 msgid "Regularly, on a schedule"
@@ -92,9 +92,9 @@ msgid "Only when adding a new filter widget"
 msgstr "Pouze, když přidávám nový filtrovací widget"
 
 #: frontend/src/metabase/admin/databases/components/widgets/CacheFieldValuesScheduleWidget.jsx:55
-msgid "When a user adds a new filter to a dashboard or a SQL question, Metabase will\n"
+msgid "When a user adds a new filter to a dashboard or a SQL question,ngmKASE will\n"
 "scan the field(s) mapped to that filter in order to show the list of selectable values."
-msgstr "Když uživatel přidá nový filtr na nástěnku nebo k SQL dotazu, Metabase projde pole související s filtrem, aby bylo možné zobrazit seznam možností."
+msgstr "Když uživatel přidá nový filtr na nástěnku nebo k SQL dotazu,ngmKASE projde pole související s filtrem, aby bylo možné zobrazit seznam možností."
 
 #: frontend/src/metabase/databases/components/DatabaseCacheScheduleField/DatabaseCacheScheduleField.tsx:92
 msgid "Never, I'll do this manually if I need to"
@@ -680,8 +680,8 @@ msgid "{0} – Field Settings"
 msgstr "{0} - Nastavení políčka"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:145
-msgid "Where this field will appear throughout Metabase"
-msgstr "Kde se toto políčko v Metabase objeví"
+msgid "Where this field will appear throughoutngmKASE"
+msgstr "Kde se toto políčko vngmKASE objeví"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:274
 msgid "Filtering on this field"
@@ -975,17 +975,17 @@ msgstr "Učinit uživatele správcem"
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:31
 msgid "All users belong to the {0} group and can't be removed from it. Setting permissions for this group is a great way to\n"
-"make sure you know what new Metabase users will be able to see."
+"make sure you know what newngmKASE users will be able to see."
 msgstr "Všichni uživatelé patří do {0} skupiny a nelze je odebrat. Nastavením oprávnění této skupině ovládáte, co uvidí noví uživatelé."
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:40
-msgid "This is a special group whose members can see everything in the Metabase instance, and who can access and make changes to the\n"
+msgid "This is a special group whose members can see everything in thengmKASE instance, and who can access and make changes to the\n"
 "settings in the Admin Panel, including changing permissions! So, add people to this group with care."
 msgstr "Toto je speciální skupina, jejíž členové vidí veškerý obsah této instance a mají přístup do správcovské sekce, včetně nastavení oprávnění! Členy této skupiny vybírejte s rozmyslem."
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:44
-msgid "To make sure you don't get locked out of Metabase, there always has to be at least one user in this group."
-msgstr "Abyste neztratili přístup k Metabase, musí v této skupině být vždy alespoň jeden uživatel. "
+msgid "To make sure you don't get locked out ofngmKASE, there always has to be at least one user in this group."
+msgstr "Abyste neztratili přístup kngmKASE, musí v této skupině být vždy alespoň jeden uživatel. "
 
 #: frontend/src/metabase/admin/people/components/GroupsListing.jsx:222
 msgid "Members"
@@ -1014,7 +1014,7 @@ msgstr "Skupina je dobrá tak, jako jsou její členové."
 #: frontend/src/metabase/admin/people/components/GroupSummary.jsx:15
 #: frontend/src/metabase/admin/routes.jsx:95
 msgid "Admin"
-msgstr "Správa Metabase"
+msgstr "SprávangmKASE"
 
 #: frontend/src/metabase/admin/people/components/GroupSummary.jsx:16
 #: frontend/src/metabase/parameters/components/ParameterValueWidget.jsx:247
@@ -1367,15 +1367,15 @@ msgid "Sorry, an error occurred."
 msgstr "Došlo k chybě."
 
 #: frontend/src/metabase/admin/permissions/constants/messages.ts:3
-msgid "Administrators always have the highest level of access to everything in Metabase."
-msgstr "Správci mají vždy nejvyšší úroveň přístupu ke všemu v Metabase."
+msgid "Administrators always have the highest level of access to everything inngmKASE."
+msgstr "Správci mají vždy nejvyšší úroveň přístupu ke všemu vngmKASE."
 
 #: frontend/src/metabase/admin/permissions/selectors.js:70
-msgid "Every Metabase user belongs to the All Users group. If you want to limit or restrict a group's access to something, make sure the All Users group has an equal or lower level of access."
-msgstr "Každý uživatel Metabase patří do skupiny Všichni uživatelé. Pokud chcete omezit nebo zakázat přístupy skupiny, ujistěte se, že skupina Všichni uživatelé má stejná nebo nižší oprávnění přístupu."
+msgid "EveryngmKASE user belongs to the All Users group. If you want to limit or restrict a group's access to something, make sure the All Users group has an equal or lower level of access."
+msgstr "Každý uživatelngmKASE patří do skupiny Všichni uživatelé. Pokud chcete omezit nebo zakázat přístupy skupiny, ujistěte se, že skupina Všichni uživatelé má stejná nebo nižší oprávnění přístupu."
 
 #: frontend/src/metabase/admin/permissions/selectors.js:72
-msgid "MetaBot is Metabase's Slack bot. You can choose what it has access to here."
+msgid "MetaBot isngmKASE's Slack bot. You can choose what it has access to here."
 msgstr "MetaBot je náš bot pro Slack. Zde můžete nastavit, k čemu má přístup."
 
 #: frontend/src/metabase/admin/permissions/selectors/confirmations.ts:59
@@ -1501,7 +1501,7 @@ msgstr "Přihlásit přes Google"
 
 #: frontend/src/metabase/admin/settings/auth/components/GoogleAuthForm/GoogleAuthForm.tsx:65
 #: frontend/src/metabase/admin/settings/auth/containers/GoogleAuthCard/GoogleAuthCard.tsx:17
-msgid "Allows users with existing Metabase accounts to login with a Google account that matches their email address in addition to their Metabase username and password."
+msgid "Allows users with existingngmKASE accounts to login with a Google account that matches their email address in addition to theirngmKASE username and password."
 msgstr "Umožní stávajícím uživatelům přihlásit se pomocí Google účtu, který odpovídá jejich e-mailové adrese."
 
 #: frontend/src/metabase/components/ChannelSetupMessage/ChannelSetupMessage.jsx:32
@@ -1514,8 +1514,8 @@ msgid "LDAP"
 msgstr "LDAP"
 
 #: frontend/src/metabase/admin/settings/auth/containers/LdapAuthCard/LdapAuthCard.tsx:12
-msgid "Allows users within your LDAP directory to log in to Metabase with their LDAP credentials, and allows automatic mapping of LDAP groups to Metabase groups."
-msgstr "Umožní uživatelům ve vašem LDAP adresáři přihlásit se pomocí LDAP účtu a umožní automatické mapování LDAP skupin do Metabase."
+msgid "Allows users within your LDAP directory to log in tongmKASE with their LDAP credentials, and allows automatic mapping of LDAP groups tongmKASE groups."
+msgstr "Umožní uživatelům ve vašem LDAP adresáři přihlásit se pomocí LDAP účtu a umožní automatické mapování LDAP skupin dongmKASE."
 
 #: frontend/src/metabase/admin/settings/components/SettingsBatchForm.jsx:21
 #: frontend/src/metabase/admin/settings/components/SettingsBatchForm.jsx:25
@@ -1591,8 +1591,8 @@ msgid "Getting set up"
 msgstr "Připravte se"
 
 #: frontend/src/metabase/admin/settings/setup/components/SetupCheckList/SetupCheckList.jsx:124
-msgid "A few things you can do to get the most out of Metabase."
-msgstr "Několik věcí, které můžete udělat, abyste z Metabase vytěžili maximum."
+msgid "A few things you can do to get the most out ofngmKASE."
+msgstr "Několik věcí, které můžete udělat, abyste zngmKASE vytěžili maximum."
 
 #: frontend/src/metabase/admin/settings/setup/components/SetupCheckList/SetupCheckList.jsx:133
 msgid "Recommended next step"
@@ -1603,8 +1603,8 @@ msgid "Google Sign-In"
 msgstr "Přihlášení Google"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:123
-msgid "To allow users to sign in with Google you'll need to give Metabase a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}"
-msgstr "Chcete-li povolit uživatelům přihlásit se pomocí služby Google, musíte Metabase poskytnout klientské ID aplikace z konzoly Google Developers. Pokyny, jak vytvořit klíč, naleznete {0}"
+msgid "To allow users to sign in with Google you'll need to givengmKASE a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}"
+msgstr "Chcete-li povolit uživatelům přihlásit se pomocí služby Google, musítengmKASE poskytnout klientské ID aplikace z konzoly Google Developers. Pokyny, jak vytvořit klíč, naleznete {0}"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:140
 msgid "Your Google client ID"
@@ -1623,12 +1623,12 @@ msgid "Create a Slack Bot User for MetaBot"
 msgstr "Vytvořit Slack Bot uživatele pro MetaBot"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:255
-msgid "Once you're there, give it a name and click {0}. Then copy and paste the Bot API Token into the field below. Once you are done, create a \"metabase_files\" channel in Slack. Metabase needs this to upload graphs."
-msgstr "Když už jste tam, pojmenujte ho a klikněte na {0}. Potom zkopírujte a vložte Bot API Token do pole níže. Po dokončení vytvořte v Slack kanálu \"metabase_files\". Metabase to potřebuje na posílání grafů."
+msgid "Once you're there, give it a name and click {0}. Then copy and paste the Bot API Token into the field below. Once you are done, create a \"metabase_files\" channel in Slack.ngmKASE needs this to upload graphs."
+msgstr "Když už jste tam, pojmenujte ho a klikněte na {0}. Potom zkopírujte a vložte Bot API Token do pole níže. Po dokončení vytvořte v Slack kanálu \"metabase_files\".ngmKASE to potřebuje na posílání grafů."
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm/VersionUpdateNotice/VersionUpdateNotice.jsx:56
-msgid "You're running Metabase {0} which is the latest and greatest!"
-msgstr "Provozujete Metabase {0}, jedná se o aktuální verzi!"
+msgid "You're runningngmKASE {0} which is the latest and greatest!"
+msgstr "ProvozujetengmKASE {0}, jedná se o aktuální verzi!"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:100
 msgid "Metabase {0} is available.  You're running {1}"
@@ -1756,8 +1756,8 @@ msgid "By enabling embedding you're agreeing to the embedding license located at
 msgstr "Povolením vkládání souhlasíte se související licencí umístěné na "
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese.jsx:23
-msgid "In plain English, when you embed charts or dashboards from Metabase in your own application, that application isn't subject to the Affero General Public License that covers the rest of Metabase, provided you keep the Metabase logo and the \"Powered by Metabase\" visible on those embeds. You should, however, read the license text linked above as that is the actual license that you will be agreeing to by enabling this feature."
-msgstr "Jednoduše, pokud vkládáte grafy nebo nástěnky z Metabase do vaší aplikace, tato nemusí splňovat podmínky licence AGPL, pokud ve vložených částech ponecháte viditelné logo Metabase a nápis \"Powered by Metabase\". Přesto byste si měli text licence přečíst, abyste věděli, s čím souhlasíte."
+msgid "In plain English, when you embed charts or dashboards fromngmKASE in your own application, that application isn't subject to the Affero General Public License that covers the rest ofngmKASE, provided you keep thengmKASE logo and the \"Powered byngmKASE\" visible on those embeds. You should, however, read the license text linked above as that is the actual license that you will be agreeing to by enabling this feature."
+msgstr "Jednoduše, pokud vkládáte grafy nebo nástěnky zngmKASE do vaší aplikace, tato nemusí splňovat podmínky licence AGPL, pokud ve vložených částech ponecháte viditelné logongmKASE a nápis \"Powered byngmKASE\". Přesto byste si měli text licence přečíst, abyste věděli, s čím souhlasíte."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:68
 msgid "Enable"
@@ -1768,12 +1768,12 @@ msgid "Premium embedding enabled"
 msgstr "Prémiové vkládání zapnuté"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:30
-msgid "Enter the token you bought from the Metabase Store"
-msgstr "Zadejte token, který jste obdrželi po zakoupení v obchodě Metabase"
+msgid "Enter the token you bought from thengmKASE Store"
+msgstr "Zadejte token, který jste obdrželi po zakoupení v obchoděngmKASE"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:57
-msgid "Premium embedding lets you disable \"Powered by Metabase\" on your embedded dashboards and questions."
-msgstr "Prémiové vkládání umožňuje zakázat zobrazení \"Powered by Metabase\" v nástěnkách a otázkách."
+msgid "Premium embedding lets you disable \"Powered byngmKASE\" on your embedded dashboards and questions."
+msgstr "Prémiové vkládání umožňuje zakázat zobrazení \"Powered byngmKASE\" v nástěnkách a otázkách."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:64
 msgid "Buy a token"
@@ -1796,10 +1796,10 @@ msgid "Create a mapping"
 msgstr "Vytvořit mapování"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget.jsx:145
-msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the\n"
+msgid "Mappings allowngmKASE to automatically add and remove users from groups based on the membership information provided by the\n"
 "directory server. Membership to the Admin group can be granted through mappings, but will not be automatically removed as a\n"
 "failsafe measure."
-msgstr "Mapování umožňuje Metabase automaticky přidávat a odebírat uživatele ze skupin na základě informací o členství poskytnutých adresářovým serverem. Členství ve skupině Správce lze přidat prostřednictvím mapování, ale kvůli bezpečnostní pojistce nebude automaticky odstraněno. \n"
+msgstr "Mapování umožňujengmKASE automaticky přidávat a odebírat uživatele ze skupin na základě informací o členství poskytnutých adresářovým serverem. Členství ve skupině Správce lze přidat prostřednictvím mapování, ale kvůli bezpečnostní pojistce nebude automaticky odstraněno. \n"
 "Pozor: pokud skupina na serveru obsahuje jinou skupinu, její členové nemusí být správně namapováni."
 
 #: frontend/src/metabase/plugins/builtin/auth/ldap.js:108
@@ -2104,7 +2104,7 @@ msgid "Embedding in other Applications"
 msgstr "Vkládání do ostatních aplikací"
 
 #: frontend/src/metabase/admin/settings/selectors.js:332
-msgid "Enable Embedding Metabase in other Applications"
+msgid "Enable EmbeddingngmKASE in other Applications"
 msgstr "Povolit vkládání do ostatních aplikací"
 
 #: frontend/src/metabase/admin/settings/selectors.js:532
@@ -2165,12 +2165,12 @@ msgid "Back to login"
 msgstr "Zpět na přihlášení"
 
 #: frontend/src/metabase/auth/components/GoogleNoAccount.jsx:15
-msgid "No Metabase account exists for this Google account."
-msgstr "Pro tento Google účet neexistuje Metabase účet."
+msgid "NongmKASE account exists for this Google account."
+msgstr "Pro tento Google účet neexistujengmKASE účet."
 
 #: metabase/integrations/google.clj:26
-msgid "You'll need an administrator to create a Metabase account before you can use Google to log in."
-msgstr "Před přihlášením přes Google musí správce vytvořit odpovídající účet v Metabase."
+msgid "You'll need an administrator to create angmKASE account before you can use Google to log in."
+msgstr "Před přihlášením přes Google musí správce vytvořit odpovídající účet vngmKASE."
 
 #: frontend/src/metabase/auth/components/AuthProviderButton.jsx:24
 msgid "Sign in with {0}"
@@ -2185,8 +2185,8 @@ msgid "Forgot password"
 msgstr "Zapomenuté heslo"
 
 #: frontend/src/metabase/auth/components/ForgotPasswordForm/ForgotPasswordForm.tsx:51
-msgid "The email you use for your Metabase account"
-msgstr "E-mail vašeho Metabase účtu"
+msgid "The email you use for yourngmKASE account"
+msgstr "E-mail vašehongmKASE účtu"
 
 #: frontend/src/metabase/auth/components/ForgotPasswordForm/ForgotPasswordForm.tsx:55
 msgid "Send password reset email"
@@ -2197,8 +2197,8 @@ msgid "Check your email for instructions on how to reset your password."
 msgstr "Instrukce pro reset hesla najdete ve své e-mailové schránce."
 
 #: frontend/src/metabase/auth/components/Login/Login.tsx:30
-msgid "Sign in to Metabase"
-msgstr "Přihlásit do Metabase"
+msgid "Sign in tongmKASE"
+msgstr "Přihlásit dongmKASE"
 
 #: frontend/src/metabase/auth/containers/LoginApp.jsx:165
 msgid "OR"
@@ -2506,11 +2506,11 @@ msgstr "Přístup k některým instalacím databáze je možný pouze připojen�
 "Tato volba také poskytuje další úroveň zabezpečení, když není k dispozici síť VPN. Toto je obvykle pomalejší než přímé připojení."
 
 #: frontend/src/metabase/entities/databases/forms.js:349
-msgid "This is a large database, so let me choose when Metabase syncs and scans"
-msgstr "Tato databáze je velká, takže nastavte kdy má Metabase spustit synchronizaci a skenování"
+msgid "This is a large database, so let me choose whenngmKASE syncs and scans"
+msgstr "Tato databáze je velká, takže nastavte kdy mángmKASE spustit synchronizaci a skenování"
 
 #: frontend/src/metabase/components/DatabaseDetailsForm.jsx:296
-msgid "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values.\n"
+msgid "By default,ngmKASE does a lightweight hourly sync and an intensive daily scan of field values.\n"
 "If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
 msgstr "Metabase standardně provádí odlehčenou hodinovou synchronizaci a intenzivní denní skenování hodnot polí. Pokud máte rozsáhlou databázi, doporučujeme zapnout skenování a zkontrolovat kdy a jak často se uskuteční kontrola hodnot polí."
 
@@ -2536,8 +2536,8 @@ msgid "with Google Drive permissions"
 msgstr "s povoleními Google Drive"
 
 #: frontend/src/metabase/entities/databases/forms.js:248
-msgid "To use Metabase with this data you must enable API access in the Google Developers Console."
-msgstr "Pokud chcete používat Metabase s těmito daty, musíte povolit přístup přes API v konzoli Google vývojáře."
+msgid "To usengmKASE with this data you must enable API access in the Google Developers Console."
+msgstr "Pokud chcete používatngmKASE s těmito daty, musíte povolit přístup přes API v konzoli Google vývojáře."
 
 #: frontend/src/metabase/entities/databases/forms.js:249
 msgid "{0} to go to the console if you haven't already done so."
@@ -2815,7 +2815,7 @@ msgstr "Nahrávám..."
 
 #: frontend/src/metabase/setup/components/NewsletterForm/NewsletterForm.tsx:44
 msgid "Metabase Newsletter"
-msgstr "Zpravodaj Metabase"
+msgstr "ZpravodajngmKASE"
 
 #: frontend/src/metabase/setup/components/NewsletterForm/NewsletterForm.tsx:48
 msgid "Get infrequent emails about new releases and feature updates."
@@ -2826,8 +2826,8 @@ msgid "Subscribe"
 msgstr "Odebírat"
 
 #: frontend/src/metabase/setup/components/NewsletterForm/NewsletterForm.tsx:71
-msgid "You're subscribed. Thanks for using Metabase!"
-msgstr "Odebíráte novinky. Díky, že používáte Metabase!"
+msgid "You're subscribed. Thanks for usingngmKASE!"
+msgstr "Odebíráte novinky. Díky, že používátengmKASE!"
 
 #: frontend/src/metabase/containers/ErrorPages.tsx:35
 msgid "We're a little lost..."
@@ -2924,8 +2924,8 @@ msgid "Calendar Day"
 msgstr "Kalendářní den"
 
 #: frontend/src/metabase/components/SchedulePicker/SchedulePicker.tsx:235
-msgid "your Metabase timezone"
-msgstr "vašem časovém pásmu Metabase"
+msgid "yourngmKASE timezone"
+msgstr "vašem časovém pásmungmKASE"
 
 #: frontend/src/metabase/components/SearchHeader.jsx:21
 msgid "Filter this list..."
@@ -4427,8 +4427,8 @@ msgid "Help"
 msgstr "Nápověda"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:75
-msgid "About Metabase"
-msgstr "O Metabase"
+msgid "AboutngmKASE"
+msgstr "OngmKASE"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:81
 msgid "Sign out"
@@ -4456,7 +4456,7 @@ msgstr "a je sestavený s péčí v San Franciscu v Kalifornii"
 
 #: frontend/src/metabase/nav/components/AdminNavbar/AdminNavbar.tsx:40
 msgid "Metabase Admin"
-msgstr "Správa Metabase"
+msgstr "SprávangmKASE"
 
 #: frontend/src/metabase/query_builder/components/NativeQueryEditor/NativeQueryEditorSidebar/NativeQueryEditorSidebar.tsx:94
 #: frontend/src/metabase/query_builder/components/NativeQueryEditor/NativeQueryEditorSidebar/NativeQueryEditorSidebar.tsx:96
@@ -4774,7 +4774,7 @@ msgid "Public link"
 msgstr "Veřejný odkaz"
 
 #: frontend/src/metabase/public/components/widgets/SharingPane.tsx:119
-msgid "Share this {0} with people who don't have a Metabase account using the URL below:"
+msgid "Share this {0} with people who don't have angmKASE account using the URL below:"
 msgstr "Sdílejte {0} s lidmi, kteří nemají účet metabase pomocí URL adresy uvedené níže:"
 
 #: frontend/src/metabase/public/components/widgets/SharingPane.tsx:148
@@ -4998,8 +4998,8 @@ msgid "Help everyone on your team stay in sync with your data."
 msgstr "Pomozte všem v týmu aby byli synchronizováni s vašimi daty."
 
 #: frontend/src/metabase/pulse/components/WhatsAPulse.jsx:31
-msgid "Pulses let you send data from Metabase to email or Slack on the schedule of your choice."
-msgstr "Pulzy umožňují odesílat data z Metabase na email nebo Slack na základě plánu a podle vašeho výběru."
+msgid "Pulses let you send data fromngmKASE to email or Slack on the schedule of your choice."
+msgstr "Pulzy umožňují odesílat data zngmKASE na email nebo Slack na základě plánu a podle vašeho výběru."
 
 #: frontend/src/metabase/visualizations/click-actions/components/TimeseriesFilterWidget.jsx:71
 #: metabase/lib/fe_util.cljc:92
@@ -6429,8 +6429,8 @@ msgid "Contact {0}"
 msgstr "Kontakt {0}"
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuideEditForm.jsx:253
-msgid "Help new Metabase users find their way around."
-msgstr "Pomozte novým uživatelům Metabase najít cestu k poznávání dat."
+msgid "Help newngmKASE users find their way around."
+msgstr "Pomozte novým uživatelůmngmKASE najít cestu k poznávání dat."
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuideEditForm.jsx:256
 msgid "The Getting Started guide highlights the dashboard, metrics, segments, and tables that matter most, and informs your users of important things they should know before digging into the data."
@@ -6644,8 +6644,8 @@ msgid "Connecting to {0}"
 msgstr "Připojuji se k {0}"
 
 #: frontend/src/metabase/setup/components/DatabaseConnectionStep.jsx:132
-msgid "You’ll need some info about your database, like the username and password. If you don’t have that right now, Metabase also comes with a sample dataset you can get started with."
-msgstr "Budete potřebovat určité informace o své databázi, například uživatelské jméno a heslo. Pokud je ještě nemáte, Metabase přichází i se vzorovou databází, se kterou si můžete pohrát."
+msgid "You’ll need some info about your database, like the username and password. If you don’t have that right now,ngmKASE also comes with a sample dataset you can get started with."
+msgstr "Budete potřebovat určité informace o své databázi, například uživatelské jméno a heslo. Pokud je ještě nemáte,ngmKASE přichází i se vzorovou databází, se kterou si můžete pohrát."
 
 #: frontend/src/metabase/databases/components/DatabaseForm/DatabaseForm.tsx:205
 msgid "I'll add my data later"
@@ -6668,16 +6668,16 @@ msgid "We won't collect any usage events"
 msgstr "Nebudeme shromažďovat žádné záznamy o používání"
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:90
-msgid "In order to help us improve Metabase, we'd like to collect certain data about usage through Google Analytics."
-msgstr "Abyste nám pomohli vylepšit Metabase, chceme shromažďovat určité údaje o používání prostřednictvím služby Google Analytics."
+msgid "In order to help us improvengmKASE, we'd like to collect certain data about usage through Google Analytics."
+msgstr "Abyste nám pomohli vylepšitngmKASE, chceme shromažďovat určité údaje o používání prostřednictvím služby Google Analytics."
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:95
 msgid "Here's a full list of everything we track and why."
 msgstr "Zde je úplný seznam všeho, co sledujeme a proč."
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:89
-msgid "Allow Metabase to anonymously collect usage events"
-msgstr "Povolit Metabase anonymně sbírat záznamy o používání"
+msgid "AllowngmKASE to anonymously collect usage events"
+msgstr "PovolitngmKASE anonymně sbírat záznamy o používání"
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:94
 msgid "Metabase {0} collects anything about your data or question results."
@@ -6709,8 +6709,8 @@ msgid "is just a click away."
 msgstr "je vzdálen jen na jedno kliknutí."
 
 #: frontend/src/metabase/setup/components/WelcomePage/WelcomePage.tsx:39
-msgid "Welcome to Metabase"
-msgstr "Vítejte v Metabase"
+msgid "Welcome tongmKASE"
+msgstr "Vítejte vngmKASE"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:132
 msgid "Looks like everything is working. Now let’s get to know you, connect to your data, and start finding you some answers!"
@@ -6725,8 +6725,8 @@ msgid "You're all set up!"
 msgstr "Všechno je připraveno!"
 
 #: frontend/src/metabase/setup/components/CompletedStep/CompletedStep.tsx:31
-msgid "Take me to Metabase"
-msgstr "Ukažte mi Metabase"
+msgid "Take me tongmKASE"
+msgstr "Ukažte mingmKASE"
 
 #: frontend/src/metabase/setup/components/UserStep/UserStep.tsx:70
 msgid "What should we call you?"
@@ -6802,8 +6802,8 @@ msgid "We’ll show you some interesting explorations of your data in\n"
 msgstr "Ukážeme vám několik zajímavých průzkumů vašich dat jen za pár minut."
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:69
-msgid "This seems to be taking a while. In the meantime, you can check out one of these example explorations to see what Metabase can do for you."
-msgstr "Zdá se, že to chvíli trvá. Mezitím si můžete prohlédnout jeden z těchto vzorových průzkumů a zjistit, co pro vás může Metabase udělat."
+msgid "This seems to be taking a while. In the meantime, you can check out one of these example explorations to see whatngmKASE can do for you."
+msgstr "Zdá se, že to chvíli trvá. Mezitím si můžete prohlédnout jeden z těchto vzorových průzkumů a zjistit, co pro vás můžengmKASE udělat."
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:83
 msgid "I took a look at the data you just connected, and I have some explorations of interesting things I found. Hope you like them!"
@@ -7948,8 +7948,8 @@ msgid "Email is not verified."
 msgstr "Email není ověřený."
 
 #: src/metabase/integrations/google.clj
-msgid "You''ll need an administrator to create a Metabase account before you can use Google to log in."
-msgstr "Než se budete moci přihlásit pomocí Google, budete potřebovat správce, aby vám vytvořil účet v Metabase."
+msgid "You''ll need an administrator to create angmKASE account before you can use Google to log in."
+msgstr "Než se budete moci přihlásit pomocí Google, budete potřebovat správce, aby vám vytvořil účet vngmKASE."
 
 #: target/classes/metabase/integrations/google.clj
 msgid "Successfully authenticated Google Auth token for: {0} {1}"
@@ -8016,7 +8016,7 @@ msgstr "Máte spoustu uložených dotazů v {0}? Vytvořte sbírky, které je po
 
 #. This is the very first log message that will get printed.
 #. It's here because this is one of the very first namespaces that gets loaded, and the first that has access to the logger
-#. It shows up a solid 10-15 seconds before the "Starting Metabase in STANDALONE mode" message because so many other namespaces need to get loaded
+#. It shows up a solid 10-15 seconds before the "StartingngmKASE in STANDALONE mode" message because so many other namespaces need to get loaded
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:224
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:97
 #: frontend/src/metabase/public/components/EmbedFrame/LogoBadge.tsx:16
@@ -8417,8 +8417,8 @@ msgid "FAIL [[[{0}]]]"
 msgstr "FAIL [[[{0}]]]"
 
 #: metabase/core.clj:70
-msgid "Please use the following URL to setup your Metabase installation:"
-msgstr "Pro nastavení instalace Metabase použijte následující URL adresu:"
+msgid "Please use the following URL to setup yourngmKASE installation:"
+msgstr "Pro nastavení instalacengmKASE použijte následující URL adresu:"
 
 #: metabase/core.clj:84
 msgid "Metabase Shutting Down ..."
@@ -8426,10 +8426,10 @@ msgstr "Metabase se vypíná ..."
 
 #: metabase/core.clj:90
 msgid "Metabase Shutdown COMPLETE"
-msgstr "Vypnuti Metabase bylo uspesne"
+msgstr "VypnutingmKASE bylo uspesne"
 
 #: metabase/core.clj:100
-msgid "Starting Metabase version {0} ..."
+msgid "StartingngmKASE version {0} ..."
 msgstr "Spouští se metabase ve verzi {0} ..."
 
 #: src/metabase/core.clj
@@ -8438,8 +8438,8 @@ msgstr "Časové pásmo systému je ''{0}'' ..."
 
 #. startup database.  validates connection & runs any necessary migrations
 #: metabase/core.clj:110
-msgid "Setting up and migrating Metabase DB. Please sit tight, this may take a minute..."
-msgstr "Nastavení a migrace databáze Metabase. Vydržte, může to chvíli trvat..."
+msgid "Setting up and migratingngmKASE DB. Please sit tight, this may take a minute..."
+msgstr "Nastavení a migrace databázengmKASE. Vydržte, může to chvíli trvat..."
 
 #: metabase/core.clj:125
 msgid "Looks like this is a new installation ... preparing setup wizard"
@@ -8447,7 +8447,7 @@ msgstr "Vypadá to, že se jedná o novou instalaci ... připravuje se průvodce
 
 #: metabase/core.clj:137
 msgid "Metabase Initialization COMPLETE"
-msgstr "Inicializace Metabase je HOTOVA"
+msgstr "InicializacengmKASE je HOTOVA"
 
 #: metabase/server.clj:49
 msgid "Launching Embedded Jetty Webserver with config:"
@@ -8458,12 +8458,12 @@ msgid "Shutting Down Embedded Jetty Webserver"
 msgstr "Vypina se vestaveny webovy server Jetty"
 
 #: metabase/core.clj:161
-msgid "Starting Metabase in STANDALONE mode"
-msgstr "Spuštění Metabase v režimu STANDALONE"
+msgid "StartingngmKASE in STANDALONE mode"
+msgstr "SpuštěníngmKASE v režimu STANDALONE"
 
 #: metabase/core.clj:171
 msgid "Metabase Initialization FAILED"
-msgstr "Inicializace Metabase SELHALA"
+msgstr "InicializacengmKASE SELHALA"
 
 #: metabase/db/liquibase.clj:205
 msgid "Database has migration lock; cannot run migrations."
@@ -8623,8 +8623,8 @@ msgstr "Úspěšně zaregistrovaný metabase.driver.FixedHiveDriver v JDBC."
 #. CONFIG
 #. TODO - smtp-port should be switched to type :integer
 #: src/metabase/email.clj target/classes/metabase/email.clj
-msgid "Email address you want to use as the sender of Metabase."
-msgstr "Emailová adresa, kterou chcete použít jako odesílatele v Metabase."
+msgid "Email address you want to use as the sender ofngmKASE."
+msgstr "Emailová adresa, kterou chcete použít jako odesílatele vngmKASE."
 
 #: metabase/email.clj:57
 msgid "The address of the SMTP server that handles your emails."
@@ -8716,8 +8716,8 @@ msgstr "Počáteční umístění pro skupiny se nevyžaduje, pokud váš adres�
 
 #. Should be in the form: {"cn=Some Group,dc=...": [1, 2, 3]} where keys are LDAP groups and values are lists of MB groups IDs
 #: metabase/integrations/ldap.clj:93
-msgid "JSON containing LDAP to Metabase group mappings."
-msgstr "JSON obsahující mapování skupin LDAP do Metabase."
+msgid "JSON containing LDAP tongmKASE group mappings."
+msgstr "JSON obsahující mapování skupin LDAP dongmKASE."
 
 #. Define a setting which captures our Slack api token
 #: target/classes/metabase/integrations/slack.clj
@@ -9084,44 +9084,44 @@ msgid "Loading plugin {0}... "
 msgstr "Načítám doplněk {0}... "
 
 #: src/metabase/plugins.clj
-msgid "It looks like you have some external dependencies in your Metabase plugins directory."
-msgstr "Zdá se, že ve složce doplňků Metabase máte nějaké vnější závislosti."
+msgid "It looks like you have some external dependencies in yourngmKASE plugins directory."
+msgstr "Zdá se, že ve složce doplňkůngmKASE máte nějaké vnější závislosti."
 
 #: src/metabase/plugins.clj
-msgid "With Java 9 or higher, Metabase cannot automatically add them to your classpath."
-msgstr "S Javou 9 nebo vyšší, je Metabase nemůže automaticky přidat do vaší třídy."
+msgid "With Java 9 or higher,ngmKASE cannot automatically add them to your classpath."
+msgstr "S Javou 9 nebo vyšší, jengmKASE nemůže automaticky přidat do vaší třídy."
 
 #: src/metabase/plugins.clj
 msgid "Instead, you should include them at launch with the -cp option. For example:"
 msgstr "Namísto toho by jste je měli zahrnout při spuštění pomocí parametru -cp. Například:"
 
 #: src/metabase/plugins.clj
-msgid "See https://metabase.com/docs/latest/operations-guide/start.html#java-versions for more details."
-msgstr "Další podrobnosti najdete na stránce https://metabase.com/docs/latest/operations-guide/start.html#java-versions."
+msgid "See https://data.engeem.com.com/docs/latest/operations-guide/start.html#java-versions for more details."
+msgstr "Další podrobnosti najdete na stránce https://data.engeem.com.com/docs/latest/operations-guide/start.html#java-versions."
 
 #: src/metabase/plugins.clj
-msgid "(If you're already running Metabase this way, you can ignore this message.)"
-msgstr "(Pokud již používáte Metabase tímto způsobem, můžete tuto zprávu ignorovat.)"
+msgid "(If you're already runningngmKASE this way, you can ignore this message.)"
+msgstr "(Pokud již používátengmKASE tímto způsobem, můžete tuto zprávu ignorovat.)"
 
 #: metabase/public_settings.clj:68
-msgid "Identify when new versions of Metabase are available."
-msgstr "Informuj pokud jsou k dispozici nové verze Metabase."
+msgid "Identify when new versions ofngmKASE are available."
+msgstr "Informuj pokud jsou k dispozici nové verzengmKASE."
 
 #: metabase/public_settings.clj:74
-msgid "Information about available versions of Metabase."
-msgstr "Informace o dostupných verzích Metabase."
+msgid "Information about available versions ofngmKASE."
+msgstr "Informace o dostupných verzíchngmKASE."
 
 #: metabase/public_settings.clj:77
-msgid "The name used for this instance of Metabase."
-msgstr "Název používaný v této instanci Metabase."
+msgid "The name used for this instance ofngmKASE."
+msgstr "Název používaný v této instancingmKASE."
 
 #: src/metabase/public_settings.clj
-msgid "The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\"."
-msgstr "Základní URL adresa této instance Metabase, např. \"http://metabase.moje-firma.cz\"."
+msgid "The base URL of thisngmKASE instance, e.g. \"http://metabase.my-company.com\"."
+msgstr "Základní URL adresa této instancengmKASE, např. \"http://metabase.moje-firma.cz\"."
 
 #: src/metabase/public_settings.clj
-msgid "The default language for this Metabase instance."
-msgstr "Výchozí jazyk pro tuto instanci Metabase."
+msgid "The default language for thisngmKASE instance."
+msgstr "Výchozí jazyk pro tuto instancingmKASE."
 
 #: src/metabase/public_settings.clj
 msgid "This only applies to emails, Pulses, etc. Users'' browsers will specify the language used in the user interface."
@@ -9132,8 +9132,8 @@ msgid "The email address users should be referred to if they encounter a problem
 msgstr "E-mail, na který uživatelé mohou napsat v případě problémů."
 
 #: metabase/public_settings.clj:195
-msgid "Enable the collection of anonymous usage data in order to help Metabase improve."
-msgstr "Povolit anonymní sběr dat o používání Metabase za účelem dalšího zlepšování."
+msgid "Enable the collection of anonymous usage data in order to helpngmKASE improve."
+msgstr "Povolit anonymní sběr dat o používáníngmKASE za účelem dalšího zlepšování."
 
 #: metabase/public_settings.clj:258
 msgid "The map tile server URL template used in map visualizations, for example from OpenStreetMaps or MapBox."
@@ -9375,10 +9375,10 @@ msgstr "Úkol už existuje:"
 
 #. This is the very first log message that will get printed.  It's here because this is one of the very first
 #. namespaces that gets loaded, and the first that has access to the logger It shows up a solid 10-15 seconds before
-#. the "Starting Metabase in STANDALONE mode" message because so many other namespaces need to get loaded
+#. the "StartingngmKASE in STANDALONE mode" message because so many other namespaces need to get loaded
 #: src/metabase/util.clj
-msgid "Loading Metabase..."
-msgstr "Načítá se Metabase..."
+msgid "LoadingngmKASE..."
+msgstr "Načítá sengmKASE..."
 
 #: src/metabase/util/date.clj
 msgid "Possible timezone conflict found on database {0}."
@@ -9401,12 +9401,12 @@ msgid "MB_ENCRYPTION_SECRET_KEY must be at least 16 characters."
 msgstr "MB_ENCRYPTION_SECRET_KEY musí mít nejméně 16 znaků."
 
 #: metabase/util/encryption.clj:44
-msgid "Saved credentials encryption is ENABLED for this Metabase instance."
-msgstr "Šifrování uložených pověření je pro tuto instanci Metabase ZAPNUTO."
+msgid "Saved credentials encryption is ENABLED for thisngmKASE instance."
+msgstr "Šifrování uložených pověření je pro tuto instancingmKASE ZAPNUTO."
 
 #: metabase/util/encryption.clj:45
-msgid "Saved credentials encryption is DISABLED for this Metabase instance."
-msgstr "Šifrování uložených pověření je pro tuto instanci Metabase VYPNUTO."
+msgid "Saved credentials encryption is DISABLED for thisngmKASE instance."
+msgstr "Šifrování uložených pověření je pro tuto instancingmKASE VYPNUTO."
 
 #: src/metabase/util/encryption.clj
 msgid "nFor more information, see"
@@ -10045,8 +10045,8 @@ msgid "Troubleshooting logs"
 msgstr "Diagnostické záznamy"
 
 #: frontend/src/metabase/admin/tasks/containers/TasksApp.jsx:47
-msgid "Trying to get to the bottom of something? This section shows logs of Metabase's background tasks, which can help shed light on what's going on."
-msgstr "Snažíte se něco vyřešit? Tako sekce zobrazuje Metabase logy z úloh běžících na pozadí, ty vám pomůžou objasnit si co se děje."
+msgid "Trying to get to the bottom of something? This section shows logs ofngmKASE's background tasks, which can help shed light on what's going on."
+msgstr "Snažíte se něco vyřešit? Tako sekce zobrazujengmKASE logy z úloh běžících na pozadí, ty vám pomůžou objasnit si co se děje."
 
 #: frontend/src/metabase/admin/tasks/containers/TasksApp.jsx:66
 msgid "Task"
@@ -11924,28 +11924,28 @@ msgid "We’d love your feedback."
 msgstr "Byli bychom rádi, pokud byste nám poslali vaši zpětnou vazbu."
 
 #: metabase/email/messages.clj:106
-msgid "It looks like Metabase wasn’t quite a match for you."
-msgstr "Vypadá to, že pro vás Metabase nebyla nejlepší volba."
+msgid "It looks likengmKASE wasn’t quite a match for you."
+msgstr "Vypadá to, že pro vásngmKASE nebyla nejlepší volba."
 
 #: metabase/email/messages.clj:108
-msgid "Would you mind taking a fast 5 question survey to help the Metabase team understand why and make things better in the future?"
-msgstr "Mohl byste vyplnit 5 rychlých otázek, abyste pomohli týmu Metabase do budoucna pár věcí pochopit a vylepšit?"
+msgid "Would you mind taking a fast 5 question survey to help thengmKASE team understand why and make things better in the future?"
+msgstr "Mohl byste vyplnit 5 rychlých otázek, abyste pomohli týmungmKASE do budoucna pár věcí pochopit a vylepšit?"
 
 #: metabase/email/messages.clj:286
-msgid "We hope you''ve been enjoying Metabase."
-msgstr "Doufáme, že se vám Metabase líbil."
+msgid "We hope you''ve been enjoyingngmKASE."
+msgstr "Doufáme, že se vámngmKASE líbil."
 
 #: metabase/email/messages.clj:113
 msgid "Would you mind taking a fast 6 question survey to tell us how it’s going?"
-msgstr "Nevadilo by vám odpovědět na 6 rychlých otázek, aby jste nám řekli, jak se vám Metabase používá ?"
+msgstr "Nevadilo by vám odpovědět na 6 rychlých otázek, aby jste nám řekli, jak se vámngmKASE používá ?"
 
 #: src/metabase/email/messages.clj
-msgid "{0} created a Metabase account"
-msgstr "{0} vytvořil účet Metabase"
+msgid "{0} created angmKASE account"
+msgstr "{0} vytvořil účetngmKASE"
 
 #: src/metabase/email/messages.clj
-msgid "{0} accepted their Metabase invite"
-msgstr "{0} přijal pozvání do Metabase"
+msgid "{0} accepted theirngmKASE invite"
+msgstr "{0} přijal pozvání dongmKASE"
 
 #: src/metabase/email/messages.clj
 msgid "[Metabase] Password Reset Request"
@@ -11956,12 +11956,12 @@ msgid "[Metabase] Notification"
 msgstr "[Metabase] Oznámení"
 
 #: src/metabase/email/messages.clj
-msgid "[Metabase] Help make Metabase better."
-msgstr "[Metabase] Pomozte vylepšit Metabase."
+msgid "[Metabase] Help makengmKASE better."
+msgstr "[Metabase] Pomozte vylepšitngmKASE."
 
 #: src/metabase/email/messages.clj
 msgid "[Metabase] Tell us how things are going."
-msgstr "[Metabase] Řekněte nám, jak se Metabase používá."
+msgstr "[Metabase] Řekněte nám, jak sengmKASE používá."
 
 #: metabase/mbql/util.cljc:374
 msgid "Error: query''s source query has not been resolved. You probably need to `preprocess` the query first."
@@ -12255,16 +12255,16 @@ msgid "You may need to add `?sslmode=require` to your application DB connection 
 msgstr "Možná budete muset do připojovacího řetězce k aplikační DB přidat `?sslmode=require`."
 
 #: target/classes/metabase/db/env.clj
-msgid "If Metabase fails to launch, please add it and try again."
-msgstr "Pokud se Metabase nespustí, zkuste to znovu."
+msgid "IfngmKASE fails to launch, please add it and try again."
+msgstr "Pokud sengmKASE nespustí, zkuste to znovu."
 
 #: target/classes/metabase/db/env.clj
 msgid "See https://github.com/metabase/metabase/issues/8908 for more details."
 msgstr "Více informací naleznete na stránce https://github.com/metabase/metabase/issues/8908."
 
 #: src/metabase/db.clj
-msgid "WARNING: Using Metabase with an H2 application database is not recomended for production deployments."
-msgstr "UPOZORNĚNÍ: Používání Metabase běžící na H2 databázi se nedoporučuje v produkčním prostředí."
+msgid "WARNING: UsingngmKASE with an H2 application database is not recomended for production deployments."
+msgstr "UPOZORNĚNÍ: PoužíváníngmKASE běžící na H2 databázi se nedoporučuje v produkčním prostředí."
 
 #: target/classes/metabase/db/env.clj
 msgid "For production deployments, we highly recommend using Postgres, MySQL, or MariaDB instead."
@@ -12275,12 +12275,12 @@ msgid "If you decide to continue to use H2, please be sure to back up the databa
 msgstr "Pokud se rozhodnete pokračovat v používání H2, nezapomeňte pravidelně zálohovat databázový soubor."
 
 #: src/metabase/db.clj
-msgid "See https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
-msgstr "Více informací naleznete na stránce https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-orgres."
+msgid "See https://data.engeem.com.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
+msgstr "Více informací naleznete na stránce https://data.engeem.com.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-orgres."
 
 #: metabase/db/setup.clj:110
-msgid "Unable to connect to Metabase {0} DB."
-msgstr "Nelze se připojit k Metabase {0} DB."
+msgid "Unable to connect tongmKASE {0} DB."
+msgstr "Nelze se připojit kngmKASE {0} DB."
 
 #: target/classes/metabase/db/data_migrations.clj
 msgid "Error adding legacy SQL directive to BigQuery saved Question"
@@ -12399,11 +12399,11 @@ msgid "Metabase cannot use the plugins directory {0}"
 msgstr "Metabase nemůže používat adresář zásuvných modulů {0}"
 
 #: metabase/plugins.clj:43
-msgid "Please make sure the directory exists and that Metabase has permission to write to it."
+msgid "Please make sure the directory exists and thatngmKASE has permission to write to it."
 msgstr "Zkontrolujte, zda adresář existuje a zda má metabase oprávnění k zápisu do tohoto adresáře."
 
 #: metabase/plugins.clj:44
-msgid "You can change the directory Metabase uses for modules by setting the environment variable MB_PLUGINS_DIR."
+msgid "You can change the directoryngmKASE uses for modules by setting the environment variable MB_PLUGINS_DIR."
 msgstr "Adresář, který metabase používá pro moduly, můžete změnit nastavením proměnné prostředí MB_PLUGINS_DIR."
 
 #: metabase/plugins.clj:45
@@ -12411,11 +12411,11 @@ msgid "Falling back to a temporary directory for now."
 msgstr "Prozatím se vracím zpět do dočasného adresáře."
 
 #: metabase/plugins.clj:50
-msgid "Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
-msgstr "Metabase nemůže zapisovat do dočasného adresáře. Prosím, nastavte MB_PLUGINS_DIR na zapisovatelný adresář a restartujte Metabase."
+msgid "Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restartngmKASE."
+msgstr "Metabase nemůže zapisovat do dočasného adresáře. Prosím, nastavte MB_PLUGINS_DIR na zapisovatelný adresář a restartujtengmKASE."
 
 #: src/metabase/plugins.clj
-msgid "spark-deps.jar is no longer needed by Metabase 1.0+. You can delete it from the plugins directory."
+msgid "spark-deps.jar is no longer needed byngmKASE 1.0+. You can delete it from the plugins directory."
 msgstr "Metabase 1.0+ už nepotřebuje spark-deps.jar. Můžete ho odstranit z adresáře doplňků."
 
 #: metabase/plugins.clj:168
@@ -12447,8 +12447,8 @@ msgid "Added URL {0} to classpath"
 msgstr "Byla přidána adresa URL {0} pro classpath"
 
 #: metabase/plugins/dependencies.clj:29
-msgid "Plugin {0} declares a dependency that Metabase does not understand: {1}"
-msgstr "Plugin {0} deklaruje závislost, které Metabase nerozumí: {1}"
+msgid "Plugin {0} declares a dependency thatngmKASE does not understand: {1}"
+msgstr "Plugin {0} deklaruje závislost, kteréngmKASE nerozumí: {1}"
 
 #: metabase/plugins/dependencies.clj:30
 msgid "Refer to the plugin manifest reference for a complete list of valid plugin dependencies:"
@@ -12519,7 +12519,7 @@ msgstr "Nelze inicializovat doplněk: chybí požadovaná vlastnost `driver-name
 msgid "Warning: plugin manifest for {0} does not include connection properties"
 msgstr "Varování: manifest pluginu pro {0} nezahrnuje vlastnosti připojení"
 
-#. finally, register the Metabase driver
+#. finally, register thengmKASE driver
 #: metabase/plugins/lazy_loaded_driver.clj:94
 msgid "Registering lazy loading driver {0}..."
 msgstr "Registruji ovladač pro odložené načítání {0}..."
@@ -12667,7 +12667,7 @@ msgid "Task history cleanup successful, no rows were deleted"
 msgstr "Čištění historie úloh bylo úspěšné, žádné řádky nebyly odstraněny"
 
 #: metabase/task/upgrade_checks.clj:31
-msgid "Checking for new Metabase version info."
+msgid "Checking for newngmKASE version info."
 msgstr "Vyhledávají se informace o nové verzi metabase."
 
 #: src/metabase/task/upgrade_checks.clj
@@ -13016,8 +13016,8 @@ msgid "Make sure you set a 'Content-Type: application/json' header."
 msgstr "Ujistěte se, že jste nastavili hlavičku 'Content-Type: application/json'."
 
 #: metabase/server/middleware/misc.clj:50
-msgid "Setting Metabase site URL to {0}"
-msgstr "Nastavuji URL adresu Metabase na {0}"
+msgid "SettingngmKASE site URL to {0}"
+msgstr "Nastavuji URL adresungmKASE na {0}"
 
 #: metabase/models/database.clj:83
 msgid "Error scheduling tasks for DB"
@@ -13123,8 +13123,8 @@ msgid "Automatically run queries when doing simple filtering and summarizing"
 msgstr "Automaticky spouštět dotazy při jednoduchém filtrování a sumarizaci"
 
 #: frontend/src/metabase/components/DatabaseDetailsForm.jsx:320
-msgid "When this is on Metabase will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
-msgstr "Když je toto zapnuto, Metabase automaticky spouští dotazy, když uživatelé dělají jednoduché průzkumy pomocí tlačítek Sumarizovat a Filtrovat během prohlížení tabulky nebo grafu. Tuto možnost lze vypnout, pokud je vyhledávání v této databázi pomalé. Toto nastavení nemá vliv na SQL dotazy."
+msgid "When this is onngmKASE will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
+msgstr "Když je toto zapnuto,ngmKASE automaticky spouští dotazy, když uživatelé dělají jednoduché průzkumy pomocí tlačítek Sumarizovat a Filtrovat během prohlížení tabulky nebo grafu. Tuto možnost lze vypnout, pokud je vyhledávání v této databázi pomalé. Toto nastavení nemá vliv na SQL dotazy."
 
 #: frontend/src/metabase/containers/Overworld.jsx:313
 msgid "Learn about this database"
@@ -13491,8 +13491,8 @@ msgid "Metabase can only transfer data from H2 to Postgres or MySQL/MariaDB."
 msgstr "Metabase muze migrovat data pouze z H2 do Postgres nebo MySQL / MariaDB."
 
 #: target/classes/metabase/db/env.clj
-msgid "WARNING: Using Metabase with an H2 application database is not recommended for production deployments."
-msgstr "UPOZORNĚNÍ: Použití Metabase s aplikační databází H2 se nedoporučuje pro produkční nasazení."
+msgid "WARNING: UsingngmKASE with an H2 application database is not recommended for production deployments."
+msgstr "UPOZORNĚNÍ: PoužitíngmKASE s aplikační databází H2 se nedoporučuje pro produkční nasazení."
 
 #: src/metabase/db.clj
 msgid "Application database setup"
@@ -13554,7 +13554,7 @@ msgid "Error saving task history"
 msgstr "Chyba při ukládání historie úloh"
 
 #: metabase/plugins.clj:117
-msgid "spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
+msgid "spark-deps.jar is no longer needed byngmKASE 0.32.0+. You can delete it from the plugins directory."
 msgstr "Metabase 0.32.0+ už nepotřebuje spark-deps.jar. Můžete ho odstranit z adresáře doplňků."
 
 #: src/metabase/plugins/classloader.clj
@@ -13587,8 +13587,8 @@ msgid "We were unable to display this Pulse."
 msgstr "Tento pulz se nám nepodařilo zobrazit"
 
 #: metabase/pulse/render/body.clj:1058
-msgid "Please view this card in Metabase."
-msgstr "Prohlédněte si tuto kartu v Metabase."
+msgid "Please view this card inngmKASE."
+msgstr "Prohlédněte si tuto kartu vngmKASE."
 
 #: metabase/pulse/render/body.clj:53
 msgid "An error occurred while displaying this card."
@@ -13786,8 +13786,8 @@ msgid "Failed to fetch Field {0}: Field does not exist, or belongs to a differen
 msgstr "Nepodařilo se načíst pole {0}: Pole neexistuje nebo patří do jiné databáze."
 
 #: metabase/server/routes/index.clj:74
-msgid "Failed to load template ''{0}''. Did you remember to build the Metabase frontend?"
-msgstr "Nepodařilo se načíst šablonu ''{0}''. Pamatujete jak postavit Metabase frontend?"
+msgid "Failed to load template ''{0}''. Did you remember to build thengmKASE frontend?"
+msgstr "Nepodařilo se načíst šablonu ''{0}''. Pamatujete jak postavitngmKASE frontend?"
 
 #: target/classes/metabase/sample_data.clj
 msgid "Sample dataset DB file ''{0}'' cannot be found."
@@ -13844,8 +13844,8 @@ msgid "Pick the columns you want to include"
 msgstr "Vyberte sloupce, které chcete zahrnout"
 
 #: frontend/src/metabase/entities/databases/forms.js:343
-msgid "When this is on, Metabase will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
-msgstr "Když je toto zapnuto, Metabase automaticky spouští dotazy, když uživatelé dělají jednoduché průzkumy pomocí tlačítek Sumarizovat a Filtrovat během prohlížení tabulky nebo grafu. Tuto možnost lze vypnout, pokud je vyhledávání v této databázi pomalé. Toto nastavení nemá vliv na SQL dotazy."
+msgid "When this is on,ngmKASE will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
+msgstr "Když je toto zapnuto,ngmKASE automaticky spouští dotazy, když uživatelé dělají jednoduché průzkumy pomocí tlačítek Sumarizovat a Filtrovat během prohlížení tabulky nebo grafu. Tuto možnost lze vypnout, pokud je vyhledávání v této databázi pomalé. Toto nastavení nemá vliv na SQL dotazy."
 
 #: frontend/src/metabase/query_builder/components/notebook/steps/JoinStep/JoinStrategyPicker/JoinStrategyPicker.tsx:51
 #: frontend/src/metabase/query_builder/components/notebook/steps/JoinStep/JoinStrategyPicker/JoinStrategyPicker.tsx:55
@@ -13888,12 +13888,12 @@ msgid "Diagnostic Info"
 msgstr "Diagnostické informace"
 
 #: frontend/src/metabase/admin/tasks/components/Logs/Logs.jsx:108
-msgid "Select Metabase process:"
-msgstr "Vyberte Metabase proces:"
+msgid "SelectngmKASE process:"
+msgstr "VybertengmKASE proces:"
 
 #: frontend/src/metabase/admin/tasks/components/Logs/Logs.jsx:118
-msgid "All Metabase processes"
-msgstr "Všechny Metabase procesy"
+msgid "AllngmKASE processes"
+msgstr "VšechnyngmKASE procesy"
 
 #: frontend/src/metabase/lib/auth.js:18
 msgid "The window was closed before completing Google Authentication."
@@ -13912,7 +13912,7 @@ msgid "Using this option requires that provided host is a FQDN.  If connecting t
 msgstr "Použití této volby vyžaduje, aby hostitel byl zadán jako FQDN. Pokud se připojujete ke Atlas klustru, možná bude nutné tuto možnost povolit. Pokud nevíte, co to znamená, nechte to vypnuté."
 
 #: frontend/src/metabase/entities/databases/forms.js:350
-msgid "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
+msgid "By default,ngmKASE does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
 msgstr "Metabase standardně provádí odlehčenou hodinovou synchronizaci a intenzivní denní skenování hodnot polí. Pokud máte rozsáhlou databázi, doporučujeme zapnout skenování a zkontrolovat kdy a jak často se uskuteční kontrola hodnot polí."
 
 #: frontend/src/metabase/home/homepage/components/XraySection/XraySection.tsx:45
@@ -14330,8 +14330,8 @@ msgid "OK"
 msgstr "Ok"
 
 #: frontend/src/metabase/admin/settings/auth/components/GoogleAuthForm/GoogleAuthForm.tsx:68
-msgid "To allow users to sign in with Google you'll need to give Metabase a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
-msgstr "Chcete-li povolit uživatelům přihlásit se pomocí služby Google, musíte Metabase poskytnout ID aplikace Google Developers konzole. To zabere pouze pár kroků a pokyny, jak vytvořit klíč, naleznete {0}."
+msgid "To allow users to sign in with Google you'll need to givengmKASE a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
+msgstr "Chcete-li povolit uživatelům přihlásit se pomocí služby Google, musítengmKASE poskytnout ID aplikace Google Developers konzole. To zabere pouze pár kroků a pokyny, jak vytvořit klíč, naleznete {0}."
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:134
 msgid "Be sure to include the full client ID, including the apps.googleusercontent.com suffix."
@@ -14367,19 +14367,19 @@ msgstr "Žádná mapovatelná skupina"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:109
 msgid "Metabase Documentation"
-msgstr "Dokumentace Metabase"
+msgstr "DokumentacengmKASE"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:110
 msgid "Includes a troubleshooting guide"
 msgstr "Zahrnuje průvodce řešením problémů"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:114
-msgid "Post on the Metabase support forum"
-msgstr "Příspěvek na fóru podpory Metabase"
+msgid "Post on thengmKASE support forum"
+msgstr "Příspěvek na fóru podporyngmKASE"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:115
-msgid "A community forum for all things Metabase"
-msgstr "Komunitní fórum pro Metabase"
+msgid "A community forum for all thingsngmKASE"
+msgstr "Komunitní fórum prongmKASE"
 
 #: frontend/src/metabase/admin/tasks/components/Help/Help.tsx:121
 msgid "File a bug report"
@@ -14993,8 +14993,8 @@ msgid "must be {0} characters or less"
 msgstr "musí obsahovat {0} znaků nebo méně"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:121
-msgid "Thanks for using Metabase!"
-msgstr "Děkujeme, že používáte Metabase!"
+msgid "Thanks for usingngmKASE!"
+msgstr "Děkujeme, že používátengmKASE!"
 
 #: frontend/src/metabase/public/components/EmbedFrame/LogoBadge.tsx:26
 msgid "Powered by {0}"
@@ -15148,8 +15148,8 @@ msgstr "Token Google Auth se zdá být nesprávný. "
 
 #: src/metabase/integrations/google.clj
 #: target/classes/metabase/integrations/google.clj
-msgid "Double check that it matches in Google and Metabase."
-msgstr "Zkontrolujte, zda se shoduje ve službách Google a Metabase."
+msgid "Double check that it matches in Google andngmKASE."
+msgstr "Zkontrolujte, zda se shoduje ve službách Google angmKASE."
 
 #: metabase/api/table.clj:341
 msgid "Everything else"
@@ -15164,8 +15164,8 @@ msgid "Database Upgrade Required"
 msgstr "Požadována aktualizace databáze"
 
 #: metabase/db/setup.clj:46
-msgid "NOTICE: Your database requires updates to work with this version of Metabase."
-msgstr "UPOZORNĚNÍ: Vaše databáze vyžaduje aktualizace, aby mohla fungovat s touto verzí Metabase."
+msgid "NOTICE: Your database requires updates to work with this version ofngmKASE."
+msgstr "UPOZORNĚNÍ: Vaše databáze vyžaduje aktualizace, aby mohla fungovat s touto verzíngmKASE."
 
 #: metabase/db/setup.clj:48
 msgid "Please execute the following sql commands on your database before proceeding."
@@ -15207,12 +15207,12 @@ msgid "The sub-query from referenced question #{0} failed with the following err
 msgstr "Pod-dotaz z referenční otázky #{0} selhal s následující chybou: {1}"
 
 #: metabase/driver/mysql.clj:120
-msgid "WARNING: Metabase only officially supports MySQL {0}/MariaDB {1} and above."
-msgstr "UPOZORNĚNÍ: Metabase oficiálně podporuje pouze MySQL {0} / MariaDB {1} a vyšší."
+msgid "WARNING:ngmKASE only officially supports MySQL {0}/MariaDB {1} and above."
+msgstr "UPOZORNĚNÍ:ngmKASE oficiálně podporuje pouze MySQL {0} / MariaDB {1} a vyšší."
 
 #: metabase/driver/mysql.clj:124
-msgid "All Metabase features may not work properly when using an unsupported version."
-msgstr "Při používání nepodporované verze nemusí všechny funkce Metabase fungovat správně."
+msgid "AllngmKASE features may not work properly when using an unsupported version."
+msgstr "Při používání nepodporované verze nemusí všechny funkcengmKASE fungovat správně."
 
 #: target/classes/metabase/driver/sql/parameters/substitute.clj
 msgid "Unable to substitute parameters"
@@ -15638,8 +15638,8 @@ msgid "What's your preferred language?"
 msgstr "Jaký je tvůj preferovaný jazyk?"
 
 #: frontend/src/metabase/setup/components/LanguageStep/LanguageStep.tsx:68
-msgid "This language will be used throughout Metabase and will be the default for new users."
-msgstr "Tento jazyk bude použit v celém Metabase a bude použit jako výchozí pro nové uživatele."
+msgid "This language will be used throughoutngmKASE and will be the default for new users."
+msgstr "Tento jazyk bude použit v celémngmKASE a bude použit jako výchozí pro nové uživatele."
 
 #: frontend/src/metabase/visualizations/components/PinMap.jsx:141
 msgid "We filtered out {0} row(s) containing null values."
@@ -15790,8 +15790,8 @@ msgid "Error fetching value of Setting"
 msgstr "Chyba při načítání hodnoty nastavení"
 
 #: src/metabase/public_settings.clj
-msgid "The language that should be used for Metabase's UI, system emails, pulses, and alerts."
-msgstr "Jazyk, který se má použít pro ovládací rozhraní Metabase, odesílané maily, pulzy a upozornění."
+msgid "The language that should be used forngmKASE's UI, system emails, pulses, and alerts."
+msgstr "Jazyk, který se má použít pro ovládací rozhraníngmKASE, odesílané maily, pulzy a upozornění."
 
 #: src/metabase/public_settings.clj
 msgid "This is also the default language for all users, which they can change from their own account settings."
@@ -15810,8 +15810,8 @@ msgid "Cannot redirect requests to HTTPS unless `site-url` is HTTPS."
 msgstr "Nelze přesměrovat požadavky na HTTPS pokud není `site-url` HTTPS."
 
 #: metabase/pulse/render/style.clj:112
-msgid "Error registering fonts: Metabase will not be able to send Pulses."
-msgstr "Chyba při registraci fontů: Metabase nebude moci posílat Pulzy."
+msgid "Error registering fonts:ngmKASE will not be able to send Pulses."
+msgstr "Chyba při registraci fontů:ngmKASE nebude moci posílat Pulzy."
 
 #: metabase/pulse/render/style.clj:114
 msgid "This is a known issue with certain JVMs. See {0} and for more details."
@@ -15946,8 +15946,8 @@ msgid "Configure your identity provider (IdP)"
 msgstr "Nastavte Vašeho poskytovatele identity (IdP)"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:92
-msgid "Your identity provider will need the following info about Metabase."
-msgstr "Váš poskytovatel identity bude potřebovat znát následující info o Metabase."
+msgid "Your identity provider will need the following info aboutngmKASE."
+msgstr "Váš poskytovatel identity bude potřebovat znát následující info ongmKASE."
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:99
 msgid "URL the IdP should redirect back to"
@@ -15980,8 +15980,8 @@ msgid "User's last name attribute"
 msgstr "Atribut pro příjmení"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:126
-msgid "Tell Metabase about your identity provider"
-msgstr "Sdělte Metabase něco o Vašem poskytovateli identity"
+msgid "TellngmKASE about your identity provider"
+msgstr "SděltengmKASE něco o Vašem poskytovateli identity"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:127
 msgid "Metabase will need the following info about your provider."
@@ -16029,9 +16029,9 @@ msgid "Synchronize group membership with your SSO"
 msgstr "Synchronizuj členství ve skupině s vaším SSO"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:176
-msgid "To enable this, you'll need to create mappings to tell Metabase which group(s) your users should\n"
+msgid "To enable this, you'll need to create mappings to tellngmKASE which group(s) your users should\n"
 "be added to based on the SSO group they're in."
-msgstr "Aby to šlo povolit, musíte nastavit mapování a Metabase vědělo, do kterých skupin mají být na základě SSO přidáni."
+msgstr "Aby to šlo povolit, musíte nastavit mapování angmKASE vědělo, do kterých skupin mají být na základě SSO přidáni."
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsJWTForm/SettingsJWTForm.tsx:120
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsJWTForm/SettingsJWTForm.tsx:121
@@ -16051,8 +16051,8 @@ msgid "Note:"
 msgstr "Poznámka:"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:186
-msgid "If you change any of the settings of an existing SAML active setup, then you will need to restart Metabase for them to take effect."
-msgstr "Pokud již máte SAML aktivní a některé z těchto nastavení změníte, pak musíte Metabase restartovat aby se změny projevily."
+msgid "If you change any of the settings of an existing SAML active setup, then you will need to restartngmKASE for them to take effect."
+msgstr "Pokud již máte SAML aktivní a některé z těchto nastavení změníte, pak musítengmKASE restartovat aby se změny projevily."
 
 #: enterprise/frontend/src/metabase-enterprise/auth/containers/SamlAuthCard/SamlAuthCard.tsx:12
 msgid "Allows users to login via a SAML Identity Provider."
@@ -16103,12 +16103,12 @@ msgid "String used by the JWT signing key"
 msgstr "Řetězec použitý pro podepisovací klíč JWT"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:27
-msgid "Embedding the entire Metabase app"
-msgstr "Vkládání celé Metabase aplikace"
+msgid "Embedding the entirengmKASE app"
+msgstr "Vkládání celéngmKASE aplikace"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:16
-msgid "If you want to embed all of Metabase, enter the origins of the websites or web apps where you want to allow embedding in an iframe, separated by a space. Here are the {0} for what can be entered."
-msgstr "Pokud chce povolit kompletní vkládání pro celou Metabase, vložte původ stránek nebo webových aplikací které chcete vložit do iframe, oddělit čárkou. Zde je přehled {0} toho co lze zadat."
+msgid "If you want to embed all ofngmKASE, enter the origins of the websites or web apps where you want to allow embedding in an iframe, separated by a space. Here are the {0} for what can be entered."
+msgstr "Pokud chce povolit kompletní vkládání pro celoungmKASE, vložte původ stránek nebo webových aplikací které chcete vložit do iframe, oddělit čárkou. Zde je přehled {0} toho co lze zadat."
 
 #: enterprise/frontend/src/metabase-enterprise/sandboxes/components/EditSandboxingModal/EditSandboxingModal.tsx:115
 msgid "Grant sandboxed access to this table"
@@ -16233,20 +16233,20 @@ msgid "We're having trouble validating your token"
 msgstr "Máme potíže ověřit váš token"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:89
-msgid "Please double-check that your instance can connect to Metabase's servers"
-msgstr "Prosím ověřte, že vaše instance se dokáže připojit serverům Metabase"
+msgid "Please double-check that your instance can connect tongmKASE's servers"
+msgstr "Prosím ověřte, že vaše instance se dokáže připojit serverůmngmKASE"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:94
 msgid "Get help"
 msgstr "Získat pomoc"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:101
-msgid "Get even more out of Metabase with the Enterprise Edition"
-msgstr "Získejte více funkcí Metabase s Enterprise Edicí"
+msgid "Get even more out ofngmKASE with the Enterprise Edition"
+msgstr "Získejte více funkcíngmKASE s Enterprise Edicí"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:103
-msgid "All the tools you need to quickly and easily provide reports for your customers, or to help you run and monitor Metabase in a large organization"
-msgstr "Seznam nástrojů, které můžete potřebovat pro rychlé a snadné reporty, nebo pro použití Metabase ve velké organizaci"
+msgid "All the tools you need to quickly and easily provide reports for your customers, or to help you run and monitorngmKASE in a large organization"
+msgstr "Seznam nástrojů, které můžete potřebovat pro rychlé a snadné reporty, nebo pro použitíngmKASE ve velké organizaci"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:115
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:137
@@ -16345,8 +16345,8 @@ msgid "White labeling"
 msgstr "Grafické úpravy"
 
 #: enterprise/frontend/src/metabase-enterprise/store/lib/features.js:17
-msgid "Match Metabase to your brand with custom colors, your own logo and more."
-msgstr "Přizpůsobí Metabase vaší obchodní značce pomocí vlastních barev, loga, atd..."
+msgid "MatchngmKASE to your brand with custom colors, your own logo and more."
+msgstr "PřizpůsobíngmKASE vaší obchodní značce pomocí vlastních barev, loga, atd..."
 
 #: enterprise/frontend/src/metabase-enterprise/store/lib/features.js:26
 msgid "Auditing"
@@ -16445,7 +16445,7 @@ msgid "at"
 msgstr "v čase"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/utils.ts:29
-msgid "Open the Metabase actions menu"
+msgid "Open thengmKASE actions menu"
 msgstr "Otevřít menu s akcemi"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/TableClickBehaviorView/TableClickBehaviorView.tsx:29
@@ -17139,8 +17139,8 @@ msgid "Send it to Slack"
 msgstr "Odeslat na Slack"
 
 #: frontend/src/metabase/sharing/components/NewPulseSidebar.tsx:104
-msgid "Pick a channel and a schedule, and Metabase will do the rest."
-msgstr "Zvolte kanál a termín, Metabase zařídí zbytek."
+msgid "Pick a channel and a schedule, andngmKASE will do the rest."
+msgstr "Zvolte kanál a termín,ngmKASE zařídí zbytek."
 
 #: frontend/src/metabase/sharing/components/AddEditSidebar/AddEditEmailSidebar.jsx:51
 msgid "Email this dashboard"
@@ -17197,16 +17197,16 @@ msgid "Invalid Slack token."
 msgstr "Neplatný token Slacku."
 
 #: metabase/cmd.clj:51
-msgid "The ''{0}'' command is only available in Metabase Enterprise Edition."
-msgstr "Příkaz ''{0}'' je dostupný pouze v Enterprise edici Metabase."
+msgid "The ''{0}'' command is only available inngmKASE Enterprise Edition."
+msgstr "Příkaz ''{0}'' je dostupný pouze v Enterprise edicingmKASE."
 
 #: metabase/core.clj:50
 msgid "Metabase Enterprise Edition extensions are PRESENT."
-msgstr "Rozšíření pro Enterprise edici Metabase JSOU dostupné."
+msgstr "Rozšíření pro Enterprise edicingmKASE JSOU dostupné."
 
 #: metabase/core.clj:52
-msgid "Usage of Metabase Enterprise Edition features are subject to the Metabase Commercial License."
-msgstr "Použití funkcí Enterprise edice Metabase je vázané na obchodní licenci Metabase."
+msgid "Usage ofngmKASE Enterprise Edition features are subject to thengmKASE Commercial License."
+msgstr "Použití funkcí Enterprise edicengmKASE je vázané na obchodní licencingmKASE."
 
 #: metabase/core.clj:54
 msgid "See {0} for details."
@@ -17214,7 +17214,7 @@ msgstr "Pro detaily načti {0}."
 
 #: metabase/core.clj:55
 msgid "Metabase Enterprise Edition extensions are NOT PRESENT."
-msgstr "Rozšíření pro Enterprise edici Metabase NEJSOU dostupné."
+msgstr "Rozšíření pro Enterprise edicingmKASE NEJSOU dostupné."
 
 #: metabase/email/messages.clj:130
 msgid "You''re invited to join {0}''s {1}"
@@ -17368,8 +17368,8 @@ msgid "login attribute keys must be a keyword or string"
 msgstr "klíčové atributy pro přihlášení musí být klíčové slovo nebo text"
 
 #: src/metabase/public_settings.clj target/classes/metabase/public_settings.clj
-msgid "The default language for all users across the Metabase UI, system emails, pulses, and alerts."
-msgstr "Výchozí jazyk pro všechny uživatele v Metabase, odesílané maily, pulzy a upozornění."
+msgid "The default language for all users across thengmKASE UI, system emails, pulses, and alerts."
+msgstr "Výchozí jazyk pro všechny uživatele vngmKASE, odesílané maily, pulzy a upozornění."
 
 #: src/metabase/public_settings.clj target/classes/metabase/public_settings.clj
 msgid "Users can individually override this default language from their own account settings."
@@ -17380,8 +17380,8 @@ msgid "Default page to show the user"
 msgstr "Výchozí stránka, která se má uživateli zobrazit"
 
 #: metabase/public_settings.clj:238
-msgid "Allow this origin to embed the full Metabase application"
-msgstr "Povolí tomuto zdroji integrovat kód celé Metabase"
+msgid "Allow this origin to embed the fullngmKASE application"
+msgstr "Povolí tomuto zdroji integrovat kód celéngmKASE"
 
 #: metabase/public_settings.clj:343
 msgid "Values greater than {0} ({1}) are not allowed."
@@ -17392,8 +17392,8 @@ msgid "This will replace the word \"Metabase\" wherever it appears."
 msgstr "Toto nahradí slovo \"Metabase\" kdekoliv se ukáže."
 
 #: metabase/public_settings.clj:337
-msgid "These are the primary colors used in charts and throughout Metabase. You might need to refresh your browser to see your changes take effect."
-msgstr "Toto jsou hlavní barvy použité v grafech a naskrz Metabase. Možná bude potřeba v prohlížeči udělat refresh aby šlo vidět změny."
+msgid "These are the primary colors used in charts and throughoutngmKASE. You might need to refresh your browser to see your changes take effect."
+msgstr "Toto jsou hlavní barvy použité v grafech a naskrzngmKASE. Možná bude potřeba v prohlížeči udělat refresh aby šlo vidět změny."
 
 #: metabase/public_settings.clj:433
 msgid "For best results, use an SVG file with a transparent background."
@@ -17525,7 +17525,7 @@ msgid "Include User ID and query hash in queries"
 msgstr "Zahrnout ID uživatele a hash dotazu v dotazech"
 
 #: frontend/src/metabase/entities/databases/forms.js:24
-msgid "When on, Metabase User ID and query hash get appended to queries on this database, which can be useful for auditing and debugging. However, this causes each query to look distinct, preventing BigQuery from returning cached results, which may increase your costs."
+msgid "When on,ngmKASE User ID and query hash get appended to queries on this database, which can be useful for auditing and debugging. However, this causes each query to look distinct, preventing BigQuery from returning cached results, which may increase your costs."
 msgstr "Když je zapnuto, ID uživatele a hash dotazu se připojí k dotazům na tuto databázi, což může být užitečné pro auditování a ladění. Avšak způsobí to, že každý dotaz bude vypadat jedinečně, to zabrání BigQuery vrácení cachovaných výsledků a to může navýšit vaše náklady."
 
 #: metabase/driver/common.clj:182
@@ -17533,8 +17533,8 @@ msgid "Periodically refingerprint tables"
 msgstr "Pravidelně generovat otisky tabulek"
 
 #: frontend/src/metabase/entities/databases/forms.js:357
-msgid "When syncing with this database, Metabase will scan a subset of values of fields to gather statistics that enable things like improved binning behavior in charts, and to generally make your Metabase instance smarter."
-msgstr "Při synchronizaci s touto databází, Metabase naskenuje podmnožinu hodnot polí k získání statistik, které umožní věci jako vylepšené hranice tříd v grafech, a také  bude celá Metabase chytřejší."
+msgid "When syncing with this database,ngmKASE will scan a subset of values of fields to gather statistics that enable things like improved binning behavior in charts, and to generally make yourngmKASE instance smarter."
+msgstr "Při synchronizaci s touto databází,ngmKASE naskenuje podmnožinu hodnot polí k získání statistik, které umožní věci jako vylepšené hranice tříd v grafech, a také  bude celángmKASE chytřejší."
 
 #: frontend/src/metabase/lib/core.js:251
 msgid "Updated date"
@@ -17801,8 +17801,8 @@ msgid "invalid context seed value"
 msgstr "neplatná hodnota context seed"
 
 #: metabase_enterprise/serialization/cmd.clj:59
-msgid "Dump was produced using a different version of Metabase. Things may break!"
-msgstr "Dump byl vytvořen jinou vezí Metabase. Něco se může pokazit!"
+msgid "Dump was produced using a different version ofngmKASE. Things may break!"
+msgstr "Dump byl vytvořen jinou vezíngmKASE. Něco se může pokazit!"
 
 #: enterprise/backend/src/metabase_enterprise/serialization/cmd.clj
 msgid "Error loading dump: {0}"
@@ -17961,8 +17961,8 @@ msgid "Password for opening the keystore"
 msgstr "Heslo pro otevření keystore"
 
 #: metabase_enterprise/sso/integrations/sso_settings.clj:63
-msgid "Alias for the key that Metabase should use for signing SAML requests"
-msgstr "Alias pro klíč, který má Metabase použít k podepsání SAML požadavků"
+msgid "Alias for the key thatngmKASE should use for signing SAML requests"
+msgstr "Alias pro klíč, který mángmKASE použít k podepsání SAML požadavků"
 
 #: metabase_enterprise/sso/integrations/sso_settings.clj:85
 msgid "SAML attribute for the user''s email address"
@@ -17986,8 +17986,8 @@ msgstr "SAML atribut pro synchronizaci skupin"
 
 #. Should be in the form: {"groupName": [1, 2, 3]} where keys are SAML groups and values are lists of MB groups IDs
 #: metabase_enterprise/sso/integrations/sso_settings.clj:89
-msgid "JSON containing SAML to Metabase group mappings."
-msgstr "JSON obsahující mapování skupin z SAML do Metabase"
+msgid "JSON containing SAML tongmKASE group mappings."
+msgstr "JSON obsahující mapování skupin z SAML dongmKASE"
 
 #: metabase_enterprise/sso/integrations/sso_settings.clj:102
 msgid "Enable JWT based authentication"
@@ -18023,8 +18023,8 @@ msgstr "Povolit synchronizaci skupin v JWT."
 
 #. Should be in the form: {"groupName": [1, 2, 3]} where keys are JWT groups and values are lists of MB groups IDs
 #: metabase_enterprise/sso/integrations/sso_settings.clj:144
-msgid "JSON containing JWT to Metabase group mappings."
-msgstr "JSON obsahující mapování skupin z JWT do Metabase"
+msgid "JSON containing JWT tongmKASE group mappings."
+msgstr "JSON obsahující mapování skupin z JWT dongmKASE"
 
 #: metabase/integrations/common.clj:62
 msgid "Should new email notifications be sent to admins, for all new SSO users?"
@@ -18502,12 +18502,12 @@ msgstr "Chcete mít o upgrade postaráno?"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm/VersionUpdateNotice/VersionUpdateNotice.jsx:126
 #: frontend/src/metabase/admin/settings/components/widgets/MarginHostingCTA.jsx:16
-msgid "Migrate to Metabase Cloud."
-msgstr "Migrace do cloudu Metabase."
+msgid "Migrate tongmKASE Cloud."
+msgstr "Migrace do cloudungmKASE."
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:50
-msgid "Manage Metabase Cloud"
-msgstr "Spravovat cloud Metabase"
+msgid "ManagengmKASE Cloud"
+msgstr "Spravovat cloudngmKASE"
 
 #: frontend/src/metabase/visualizations/visualizations/PivotTable/settings.ts:235
 msgid "Show totals"
@@ -18886,7 +18886,7 @@ msgid "Invalid cell format"
 msgstr "Špatný formát buňky"
 
 #: metabase/search/config.clj:10
-msgid "Enable typeahead search in the Metabase navbar?"
+msgid "Enable typeahead search in thengmKASE navbar?"
 msgstr "Povolit vyhledávací našeptávač v navigační liště?"
 
 #: target/classes/metabase/server/request/util.clj
@@ -19284,8 +19284,8 @@ msgstr "Neplatné pole {0} {1}: vracím se na {2}"
 
 #: src/metabase/models/humanization.clj
 #: target/classes/metabase/models/humanization.clj
-msgid "To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces."
-msgstr "Aby byla tabulka lépe čitelná, Metabase nahradí podtržítka a pomlčky za mezery."
+msgid "To make table and field names more human-friendly,ngmKASE will replace dashes and underscores in them with spaces."
+msgstr "Aby byla tabulka lépe čitelná,ngmKASE nahradí podtržítka a pomlčky za mezery."
 
 #: src/metabase/models/humanization.clj
 #: target/classes/metabase/models/humanization.clj
@@ -19298,8 +19298,8 @@ msgid "Setting names in would collide: {0} and {1}"
 msgstr "Názvy nastavení, kde může být kolize: {0} a {1}"
 
 #: metabase/public_settings.clj:81
-msgid "Indicates when Metabase last checked for new versions."
-msgstr "Ukazuje, kdy Metabase naposledy kontrolovala nové verze."
+msgid "Indicates whenngmKASE last checked for new versions."
+msgstr "Ukazuje, kdyngmKASE naposledy kontrolovala nové verze."
 
 #: src/metabase/public_settings.clj target/classes/metabase/public_settings.clj
 msgid "This URL is used for things like creating links in emails, auth redirects,"
@@ -19553,13 +19553,13 @@ msgid "Make all sub-collections {0}, too."
 msgstr "Vytvořte také všechny podsbírky {0}."
 
 #: enterprise/frontend/src/metabase-enterprise/hosting/components/SettingsCloudStoreLink/SettingsCloudStoreLink.tsx:10
-msgid "Manage your Cloud account, including billing preferences and technical settings about this instance in your Metabase Store account."
-msgstr "Spravujte svůj účet Cloud, včetně fakturačních preferencí a technických nastavení této instance ve svém účtu Metabase Store."
+msgid "Manage your Cloud account, including billing preferences and technical settings about this instance in yourngmKASE Store account."
+msgstr "Spravujte svůj účet Cloud, včetně fakturačních preferencí a technických nastavení této instance ve svém účtungmKASE Store."
 
 #: enterprise/frontend/src/metabase-enterprise/hosting/components/SettingsCloudStoreLink/SettingsCloudStoreLink.tsx:12
 #: enterprise/frontend/src/metabase-enterprise/license/components/LicenseAndBillingSettings/LicenseAndBillingSettings.tsx:126
-msgid "Go to the Metabase Store"
-msgstr "Přejít do obchodu Metabase"
+msgid "Go to thengmKASE Store"
+msgstr "Přejít do obchodungmKASE"
 
 #: metabase/driver/presto_jdbc.clj:558
 msgid "Running statement in describe-schema: {0}"
@@ -19681,8 +19681,8 @@ msgid "Ensure users can’t ever see the data from this database regardless of t
 msgstr "Zajistí aby uživatelé nikdy nemohli vidět data z této databáze bez ohledu na jejich oprávnění na úrovni sbírky. Mějte na paměti, že pokud uživatel patří do jiné skupiny, která má přístup k datům, bude mít toto nastavení přednost a přístup uživatele nebude zablokován."
 
 #: frontend/src/metabase/admin/permissions/constants/messages.ts:7
-msgid "Only available in certain Metabase plans."
-msgstr "K dispozici pouze v některých vydáních Metabase."
+msgid "Only available in certainngmKASE plans."
+msgstr "K dispozici pouze v některých vydáníchngmKASE."
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.jsx:60
 msgid "Learn more about permissions"
@@ -19824,8 +19824,8 @@ msgid "Unsubscribe from all subscriptions / alerts"
 msgstr "Odhlásit ze všech odběrů / upozornění"
 
 #: enterprise/frontend/src/metabase-enterprise/caching/components/DatabaseCacheTimeField/DatabaseCacheTimeField.tsx:49
-msgid "How long to keep question results. By default, Metabase will use the value you supply on the {0}, but if this database has other factors that influence the freshness of data, it could make sense to set a custom duration. You can also choose custom durations on individual questions or dashboards to help improve performance."
-msgstr "Jak dlouho uchovávat výsledky otázek. Ve výchozím nastavení, Metabase použije hodnotu, kterou zadáte v {0}, ale pokud má tato databáze další faktory, které ovlivňují čerstvost dat, může mít smysl nastavit vlastní dobu trvání. Vlastní dobu trvání můžete zvolit také u jednotlivých otázek nebo ovládacích panelů, abyste zlepšili výkon."
+msgid "How long to keep question results. By default,ngmKASE will use the value you supply on the {0}, but if this database has other factors that influence the freshness of data, it could make sense to set a custom duration. You can also choose custom durations on individual questions or dashboards to help improve performance."
+msgstr "Jak dlouho uchovávat výsledky otázek. Ve výchozím nastavení,ngmKASE použije hodnotu, kterou zadáte v {0}, ale pokud má tato databáze další faktory, které ovlivňují čerstvost dat, může mít smysl nastavit vlastní dobu trvání. Vlastní dobu trvání můžete zvolit také u jednotlivých otázek nebo ovládacích panelů, abyste zlepšili výkon."
 
 #: enterprise/frontend/src/metabase-enterprise/caching/components/DatabaseCacheTimeField/DatabaseCacheTimeField.tsx:51
 msgid "cache settings page"
@@ -20050,8 +20050,8 @@ msgid "This will delete any dashboard subscriptions or alerts {0} has created, a
 msgstr "Tímto odstraníte všechny vytvořené odběry nebo upozornění, které vytvořil {0} a odeberete ho jako příjemce ze všech ostatních odběrů nebo upozornění."
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/components/UnsubscribeUserForm/UnsubscribeUserForm.jsx:45
-msgid "This does not affect email distribution lists that are managed outside of Metabase."
-msgstr "To se netýká e-mailových distribučních seznamů, které jsou spravovány mimo Metabase."
+msgid "This does not affect email distribution lists that are managed outside ofngmKASE."
+msgstr "To se netýká e-mailových distribučních seznamů, které jsou spravovány mimongmKASE."
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/components/AuditSidebar/AuditSidebar.jsx:36
 #: enterprise/frontend/src/metabase-enterprise/audit_app/pages/AuditUsers.jsx:11
@@ -20102,8 +20102,8 @@ msgid "Not seeing something listed here?"
 msgstr "Nevidíte něco na seznamu?"
 
 #: frontend/src/metabase/account/notifications/components/HelpModal/HelpModal.jsx:29
-msgid "It’s possible you may also receive emails from Metabase if you’re a member of an email distribution list, like “team@mycompany.com” and that list is used as the recipient for an alert or dashboard subscription instead of your individual email."
-msgstr "Je možné, že e-maily z Metabase obdržíte také v případě, že jste členem e-mailového distribučního seznamu, například \"team@mojefirma.cz\", a tento seznam je použit jako příjemce pro odběr upozornění nebo odběru nástěnky namísto vašeho individuálního e-mailu."
+msgid "It’s possible you may also receive emails fromngmKASE if you’re a member of an email distribution list, like “team@mycompany.com” and that list is used as the recipient for an alert or dashboard subscription instead of your individual email."
+msgstr "Je možné, že e-maily zngmKASE obdržíte také v případě, že jste členem e-mailového distribučního seznamu, například \"team@mojefirma.cz\", a tento seznam je použit jako příjemce pro odběr upozornění nebo odběru nástěnky namísto vašeho individuálního e-mailu."
 
 #: frontend/src/metabase/account/notifications/components/HelpModal/HelpModal.jsx:33
 msgid "Hopefully they’ll be able to help you out!"
@@ -20381,8 +20381,8 @@ msgid "Navigation bar color"
 msgstr "Barva navigačního panelu"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/ColorSchemeWidget.jsx:25
-msgid "The top nav bar of Metabase. Defaults to the Primary Color if not set."
-msgstr "Horní navigační panel Metabase. Pokud není nastaven, je výchozí hodnotou Primární barva."
+msgid "The top nav bar ofngmKASE. Defaults to the Primary Color if not set."
+msgstr "Horní navigační panelngmKASE. Pokud není nastaven, je výchozí hodnotou Primární barva."
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/ColorSchemeWidget.jsx:23
 msgid "Accent 1"
@@ -20434,8 +20434,8 @@ msgid "Service account JSON file"
 msgstr "Soubor JSON pro servisní účet"
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:93
-msgid "This JSON file contains the credentials Metabase needs to read and query your dataset."
-msgstr "Tento soubor JSON obsahuje pověření, která Metabase potřebuje ke čtení a dotazování vaší datové sady."
+msgid "This JSON file contains the credentialsngmKASE needs to read and query your dataset."
+msgstr "Tento soubor JSON obsahuje pověření, kterángmKASE potřebuje ke čtení a dotazování vaší datové sady."
 
 #: metabase/driver/common.clj:130
 msgid "Rerun queries for simple explorations"
@@ -20450,12 +20450,12 @@ msgid "Choose when syncs and scans happen"
 msgstr "Zvolte kdy se má synchronizovat a skenovat"
 
 #: metabase/driver/common.clj:141
-msgid "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
-msgstr "Ve výchozím nastavení provádí databáze Metabase lehkou hodinovou synchronizaci a intenzivní denní kontrolu hodnot polí. Pokud máte rozsáhlou databázi, zapněte tuto funkci, abyste mohli provádět změny."
+msgid "By default,ngmKASE does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
+msgstr "Ve výchozím nastavení provádí databázengmKASE lehkou hodinovou synchronizaci a intenzivní denní kontrolu hodnot polí. Pokud máte rozsáhlou databázi, zapněte tuto funkci, abyste mohli provádět změny."
 
 #: metabase/driver/common.clj:183
-msgid "This enables Metabase to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
-msgstr "Díky tomu může Metabase při synchronizaci vyhledávat další hodnoty polí, což umožňuje inteligentnější chování, například vylepšené hranice tříd sloupcových grafů."
+msgid "This enablesngmKASE to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
+msgstr "Díky tomu můžengmKASE při synchronizaci vyhledávat další hodnoty polí, což umožňuje inteligentnější chování, například vylepšené hranice tříd sloupcových grafů."
 
 #: frontend/src/metabase/setup/components/UserForm/UserForm.tsx:83
 msgid "Company or team name"
@@ -20575,8 +20575,8 @@ msgid "Our {0}"
 msgstr "Naše {0}"
 
 #: frontend/src/metabase/databases/components/DatabaseNameField/DatabaseNameField.tsx:18
-msgid "Choose what this data will be called in Metabase."
-msgstr "Zvolte, jak se tato data budou v Metabase nazývat."
+msgid "Choose what this data will be called inngmKASE."
+msgstr "Zvolte, jak se tato data budou vngmKASE nazývat."
 
 #: frontend/src/metabase/admin/settings/selectors.js:640
 #: frontend/src/metabase/containers/DataPicker/constants.tsx:27
@@ -21005,8 +21005,8 @@ msgid "DB {0} had hardcoded dataset-id; changing to an inclusion pattern and upd
 msgstr "DB {0} měla natvrdo zadané dataset-id; měním začleňovací vzor a aktualizuji schéma tabulky"
 
 #: src/metabase/analytics/snowplow.clj
-msgid "Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase."
-msgstr "Jedinečný identifikátor, který se použije v analytice Snowplow k identifikaci této instance Metabase."
+msgid "Unique identifier to be used in Snowplow analytics, to identify this instance ofngmKASE."
+msgstr "Jedinečný identifikátor, který se použije v analytice Snowplow k identifikaci této instancengmKASE."
 
 #: src/metabase/analytics/snowplow.clj
 msgid "This is a public setting since some analytics events are sent prior to initial setup."
@@ -21037,8 +21037,8 @@ msgid "Error sending Snowplow analytics event {0}"
 msgstr "Chyba při odesílání analytické události Snowplow {0}"
 
 #: metabase/analytics/snowplow.clj:78
-msgid "The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
-msgstr "Přibližné časové razítko, kdy byla tato instance Metabase vytvořena, pro zahrnutí do analýzy."
+msgid "The approximate timestamp at which this instance ofngmKASE was created, for inclusion in analytics."
+msgstr "Přibližné časové razítko, kdy byla tato instancengmKASE vytvořena, pro zahrnutí do analýzy."
 
 #: metabase/models/card.clj:769
 msgid "Unverified due to edit"
@@ -21157,8 +21157,8 @@ msgid "In most cases, you should be fine leaving this set to sync hourly."
 msgstr "Ve většině případů by vám nemělo vadit, že je nastavena hodinová synchronizace."
 
 #: src/metabase/driver/common.clj
-msgid "If your database is behind a firewall, you may need to allow connections from our Metabase Cloud IP addresses:"
-msgstr "Pokud je vaše databáze umístěna za firewallem, může být nutné povolit připojení z našich IP adres použitých pro Metabase Cloud:"
+msgid "If your database is behind a firewall, you may need to allow connections from ourngmKASE Cloud IP addresses:"
+msgstr "Pokud je vaše databáze umístěna za firewallem, může být nutné povolit připojení z našich IP adres použitých prongmKASE Cloud:"
 
 #: metabase/driver/common.clj:334
 msgid "Error querying database {0} for current time: {1}"
@@ -21169,8 +21169,8 @@ msgid "Error: multiple values specified for parameter; non-Field Filter paramete
 msgstr "Chyba: u parametru je zadáno více hodnot; parametry jiné než filtr polí mohou mít pouze jednu hodnotu."
 
 #: metabase/driver/h2.clj:96
-msgid "The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
-msgstr "Místní cesta vzhledem k místu, odkud je Metabase spuštěna. Řetězec by neměl obsahovat příponu .mv.db."
+msgid "The local path relative to wherengmKASE is running from. Your string should not include the .mv.db extension."
+msgstr "Místní cesta vzhledem k místu, odkud jengmKASE spuštěna. Řetězec by neměl obsahovat příponu .mv.db."
 
 #: metabase/driver/postgres.clj:138
 msgid "SSL Mode"
@@ -21264,16 +21264,16 @@ msgid "All except..."
 msgstr "Vše kromě..."
 
 #: metabase/driver/util.clj:293
-msgid "Comma separated names of {0} that <strong>should</strong> appear in Metabase"
-msgstr "Názvy {0} oddělené čárkou, které by se <strong>měly</strong> objevit v Metabase"
+msgid "Comma separated names of {0} that <strong>should</strong> appear inngmKASE"
+msgstr "Názvy {0} oddělené čárkou, které by se <strong>měly</strong> objevit vngmKASE"
 
 #: metabase/driver/util.clj:295 metabase/driver/util.clj:302
 msgid "You can use patterns like <strong>auth*</strong> to match multiple {0}"
 msgstr "Můžete použít vzory jako <strong>auth*</strong>, které zahrnou více {0}."
 
 #: metabase/driver/util.clj:300
-msgid "Comma separated names of {0} that <strong>should NOT</strong> appear in Metabase"
-msgstr "Názvy {0} oddělené čárkou, které by se <strong>neměly</strong> objevit v Metabase"
+msgid "Comma separated names of {0} that <strong>should NOT</strong> appear inngmKASE"
+msgstr "Názvy {0} oddělené čárkou, které by se <strong>neměly</strong> objevit vngmKASE"
 
 #: metabase/email/messages.clj:703
 msgid "Your Slack connection stopped working"
@@ -21300,20 +21300,20 @@ msgid "Successfully authenticated Google Sign-In token for: {0} {1}"
 msgstr "Úspěšné ověření tokenu Google Sign-In pro: {0} {1}"
 
 #: src/metabase/integrations/slack.clj
-msgid "Deprecated Slack API token for connecting the Metabase Slack bot."
-msgstr "Ukončený token Slack API pro připojení Slack bota Metabase."
+msgid "Deprecated Slack API token for connecting thengmKASE Slack bot."
+msgstr "Ukončený token Slack API pro připojení Slack botangmKASE."
 
 #: src/metabase/integrations/slack.clj
 msgid "Please use a new Slack app integration instead."
 msgstr "Místo toho použijte novou integraci aplikace Slack."
 
 #: src/metabase/integrations/slack.clj
-msgid "Bot user OAuth token for connecting the Metabase Slack app."
-msgstr "Token OAuth pro uživatele Bot pro připojení aplikace Metabase Slack."
+msgid "Bot user OAuth token for connecting thengmKASE Slack app."
+msgstr "Token OAuth pro uživatele Bot pro připojení aplikacengmKASE Slack."
 
 #: src/metabase/integrations/slack.clj
-msgid "This should be used for all new Slack integrations starting in Metabase v0.42.0."
-msgstr "To by mělo být použito pro všechny nové integrace služby Slack počínaje verzí Metabase v0.42.0."
+msgid "This should be used for all new Slack integrations starting inngmKASE v0.42.0."
+msgstr "To by mělo být použito pro všechny nové integrace služby Slack počínaje verzíngmKASE v0.42.0."
 
 #: src/metabase/integrations/slack.clj
 msgid "Whether the current Slack app token, if set, is valid."
@@ -21324,8 +21324,8 @@ msgid "Set to 'false' if a Slack API request returns an auth error."
 msgstr "Nastavte na hodnotu 'false', pokud se při požadavku na rozhraní API služby Slack vrátí chyba autentizace."
 
 #: metabase/integrations/slack.clj:77
-msgid "The name of the channel to which Metabase files should be initially uploaded"
-msgstr "Název kanálu, do kterého se mají soubory Metabase prvotně nahrát."
+msgid "The name of the channel to whichngmKASE files should be initially uploaded"
+msgstr "Název kanálu, do kterého se mají souboryngmKASE prvotně nahrát."
 
 #: metabase/integrations/slack.clj:119
 msgid "🔒 Your Slack authorization token is invalid or has been revoked. Please update your integration in Admin Settings -> Slack."
@@ -21384,7 +21384,7 @@ msgid "{0} points to non-existent file: {1}"
 msgstr "{0} ukazuje na neexistující soubor: {1}"
 
 #: metabase/models/secret.clj:190
-msgid "{0} (a local file path) cannot be used in Metabase hosted environment"
+msgid "{0} (a local file path) cannot be used inngmKASE hosted environment"
 msgstr "{0} (cestu k lokálnímu souboru) nelze použít v hostovaném prostředí"
 
 #: metabase/models/setting.clj:576
@@ -21396,8 +21396,8 @@ msgid "Site-wide values are not allowed for Setting {0}"
 msgstr "Hodnoty napříč webem nejsou pro Nastavení {0} povoleny"
 
 #: metabase/models/setting.clj:722
-msgid "Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
-msgstr "Nastavení {0} je od Metabase {1} ukončované a v některé z budoucích verzí může být odstraněno."
+msgid "Setting {0} is deprecated as ofngmKASE {1} and may be removed in a future version."
+msgstr "Nastavení {0} je odngmKASE {1} ukončované a v některé z budoucích verzí může být odstraněno."
 
 #: metabase/models/setting.clj:934
 msgid "Setting name ''{0}'' is retired; use a different name instead"
@@ -21409,7 +21409,7 @@ msgstr "Logická hodnota určující, zda se mají analytická data odesílat do
 
 #: metabase/public_settings.clj:378
 msgid "Metabase version for which a notice about usage of deprecated features has been shown."
-msgstr "Verze Metabase, pro kterou bylo zobrazeno upozornění na použití ukončovaných funkcí."
+msgstr "VerzengmKASE, pro kterou bylo zobrazeno upozornění na použití ukončovaných funkcí."
 
 #: metabase/public_settings.clj:529
 msgid "Whether or not to display a message about pinning dashboards. It will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
@@ -21428,12 +21428,12 @@ msgid " although it is used to set the WEEK_START session variable in Snowflake.
 msgstr " ačkoli se používá k nastavení proměnné relace WEEK_START v systému Snowflake."
 
 #: metabase/public_settings.clj:680
-msgid "Error fetching Metabase Cloud gateway IP addresses:"
-msgstr "Chyba při načítání IP adres brány Metabase Cloud:"
+msgid "Error fetchingngmKASE Cloud gateway IP addresses:"
+msgstr "Chyba při načítání IP adres brányngmKASE Cloud:"
 
 #: metabase/public_settings.clj:684
 msgid "Metabase Cloud gateway IP addresses, to configure connections to DBs behind firewalls"
-msgstr "IP adresy brány Metabase Cloud, pro konfiguraci připojení k DB za firewallem."
+msgstr "IP adresy brányngmKASE Cloud, pro konfiguraci připojení k DB za firewallem."
 
 #: src/metabase/public_settings.clj
 msgid "Whether an introductory modal should be shown after the next database connection is added."
@@ -21560,8 +21560,8 @@ msgid "This token doesn't seem to be valid. Double-check it, then contact suppor
 msgstr "Tento token se nezdá být platný. Překontrolujte ho a pokud si myslíte, že by měl být funkční, kontaktujte podporu."
 
 #: frontend/src/metabase/admin/settings/hooks/use-license.ts:8
-msgid "We're having trouble validating your token. Please double-check that your instance can connect to Metabase's servers."
-msgstr "Máme potíže s ověřením vašeho tokenu. Překontrolujte prosím, zda se vaše instance může připojit k serverům Metabase."
+msgid "We're having trouble validating your token. Please double-check that your instance can connect tongmKASE's servers."
+msgstr "Máme potíže s ověřením vašeho tokenu. Překontrolujte prosím, zda se vaše instance může připojit k serverůmngmKASE."
 
 #: frontend/src/metabase-lib/expressions/pratt/compiler.ts:44
 #: frontend/src/metabase-lib/expressions/pratt/compiler.ts:217
@@ -21636,8 +21636,8 @@ msgid "Billing"
 msgstr "Fakturace"
 
 #: enterprise/frontend/src/metabase-enterprise/license/components/LicenseAndBillingSettings/LicenseAndBillingSettings.tsx:119
-msgid "Manage your Cloud account, including billing preferences, in your Metabase Store account."
-msgstr "Spravujte svůj účet Cloud, včetně fakturačních preferencí, ve svém účtu Metabase Store."
+msgid "Manage your Cloud account, including billing preferences, in yourngmKASE Store account."
+msgstr "Spravujte svůj účet Cloud, včetně fakturačních preferencí, ve svém účtungmKASE Store."
 
 #: enterprise/frontend/src/metabase-enterprise/license/components/LicenseAndBillingSettings/LicenseAndBillingSettings.tsx:133
 msgid "To manage your billing preferences, please email {0}"
@@ -21700,8 +21700,8 @@ msgid "Sample Database"
 msgstr "Vzorová databáze"
 
 #: frontend/src/metabase/databases/components/DatabaseSyncModal/DatabaseSyncModal.tsx:34
-msgid "Have a look around your Metabase in the meantime if you want to get a head start."
-msgstr "Pokud chcete získat náskok, porozhlédněte se mezitím ve své Metabase."
+msgid "Have a look around yourngmKASE in the meantime if you want to get a head start."
+msgstr "Pokud chcete získat náskok, porozhlédněte se mezitím ve svéngmKASE."
 
 #: frontend/src/metabase/databases/components/DatabaseSyncModal/DatabaseSyncModal.tsx:38
 msgid "Explore sample data"
@@ -21779,8 +21779,8 @@ msgid "I'll invite a teammate to connect the database"
 msgstr "Pozvu spolupracovníka pro připojení databáze"
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:74
-msgid "In order to help us improve Metabase, we'd like to collect certain data about product usage."
-msgstr "Abychom mohli Metabase vylepšovat, rádi bychom shromažďovali určité údaje o používání produktu."
+msgid "In order to help us improvengmKASE, we'd like to collect certain data about product usage."
+msgstr "Abychom mohlingmKASE vylepšovat, rádi bychom shromažďovali určité údaje o používání produktu."
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:79
 msgid "Here's a full list of what we track and why."
@@ -21885,13 +21885,13 @@ msgid "Your Premium Embedding license is active until {0}."
 msgstr "Vaše licence Premium Embedding je aktivní do {0}."
 
 #: frontend/src/metabase/admin/settings/containers/PremiumEmbeddingLicensePage/PremiumEmbeddingLicensePage.tsx:106
-msgid "Enter the token you bought from the Metabase Store below."
-msgstr "Níže zadejte token, který jste zakoupili v obchodě Metabase."
+msgid "Enter the token you bought from thengmKASE Store below."
+msgstr "Níže zadejte token, který jste zakoupili v obchoděngmKASE."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingCustomizationInfo.tsx:12
-msgid "Looking to remove the “Powered by Metabase” logo, customize colors\n"
+msgid "Looking to remove the “Powered byngmKASE” logo, customize colors\n"
 "and make it your own? {0}"
-msgstr "Hledáte možnost odstranění loga \"Powered by Metabase\", přizpůsobení barev\n"
+msgstr "Hledáte možnost odstranění loga \"Powered byngmKASE\", přizpůsobení barev\n"
 "a možnost vytvořit si vlastní logo? {0}"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackDeleteModal/SlackDeleteModal.tsx:23
@@ -21927,8 +21927,8 @@ msgid "invite a teammate"
 msgstr "pozvat člena týmu"
 
 #: frontend/src/metabase/home/homepage/components/StartSection/StartSection.tsx:117
-msgid "Connect your data to get the most out of Metabase"
-msgstr "Připojte svá data a využijte Metabase na maximum"
+msgid "Connect your data to get the most out ofngmKASE"
+msgstr "Připojte svá data a využijtengmKASE na maximum"
 
 #: frontend/src/metabase/home/homepage/components/StartSection/StartSection.tsx:119
 msgid "If you need help, you can {0} or {1}."
@@ -22042,8 +22042,8 @@ msgid "We recommend you {0}, see the instructions below:"
 msgstr "Doporučujeme vám {0}, viz pokyny níže:"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:59
-msgid "Bring the power of Metabase to your Slack #channels."
-msgstr "Přeneste sílu Metabase do svých #kanálů na Slacku."
+msgid "Bring the power ofngmKASE to your Slack #channels."
+msgstr "Přeneste sílungmKASE do svých #kanálů na Slacku."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:60
 msgid "Follow these steps to connect to Slack:"
@@ -22054,8 +22054,8 @@ msgid "1. Create your Slack App"
 msgstr "1. Vytvořte aplikaci Slack"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:101
-msgid "To create your Metabase integration on Slack you’ll need to set up some things."
-msgstr "Chcete-li vytvořit integraci databáze Metabase ve službě Slack, musíte nastavit několik věcí."
+msgid "To create yourngmKASE integration on Slack you’ll need to set up some things."
+msgstr "Chcete-li vytvořit integraci databázengmKASE ve službě Slack, musíte nastavit několik věcí."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:102
 msgid "First, go to {0}, hit “{1}” and pick “{2}”"
@@ -22074,8 +22074,8 @@ msgid "From an app manifest."
 msgstr "Z app manifestu."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:128
-msgid "2. Copy the Metabase manifest"
-msgstr "2. Zkopírujte manifest Metabase"
+msgid "2. Copy thengmKASE manifest"
+msgstr "2. Zkopírujte manifestngmKASE"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:130
 msgid "Select your workspace and then copy our {0} below and paste it in to create the app. In the following screen, click “{1}” and authorize it."
@@ -22363,12 +22363,12 @@ msgid "Delete {0}?"
 msgstr "Smazat {0}?"
 
 #: frontend/src/metabase/databases/components/DatabaseEngineWarning/DatabaseEngineWarning.tsx:107
-msgid "This is a community-developed driver and not supported by Metabase. "
-msgstr "Jedná se o ovladač vyvinutý komunitou, který není podporován společností Metabase."
+msgid "This is a community-developed driver and not supported byngmKASE. "
+msgstr "Jedná se o ovladač vyvinutý komunitou, který není podporován společnostíngmKASE."
 
 #: frontend/src/metabase/databases/components/DatabaseEngineWarning/DatabaseEngineWarning.tsx:134
-msgid "This is a partner-developed driver. Though Metabase can’t provide support for it, if you need help you can contact the fine folks at "
-msgstr "Jedná se o ovladač vyvinutý partnerem. Ačkoli Metabase nemůže poskytnout podporu, pokud potřebujete pomoc, můžete se obrátit na lidi na adrese"
+msgid "This is a partner-developed driver. ThoughngmKASE can’t provide support for it, if you need help you can contact the fine folks at "
+msgstr "Jedná se o ovladač vyvinutý partnerem. AčkolingmKASE nemůže poskytnout podporu, pokud potřebujete pomoc, můžete se obrátit na lidi na adrese"
 
 #: frontend/src/metabase/components/Toaster/Toaster.tsx:25
 #: frontend/src/metabase/dashboard/containers/DashboardApp/DashboardApp.jsx:176
@@ -22488,7 +22488,7 @@ msgstr "Rád tě vidím, {0}"
 
 #: frontend/src/metabase/home/components/HomeHelpCard/HomeHelpCard.tsx:11
 msgid "Metabase tips"
-msgstr "Tipy pro Metabase"
+msgstr "Tipy prongmKASE"
 
 #: frontend/src/metabase/home/components/HomePopularSection/HomePopularSection.tsx:46
 #: frontend/src/metabase/home/components/HomePopularSection/HomePopularSection.tsx:59
@@ -22516,8 +22516,8 @@ msgid "Pick up where you left off"
 msgstr "Pokračujte tam, kde jste skončili"
 
 #: frontend/src/metabase/home/components/HomeXraySection/HomeXraySection.tsx:69
-msgid "Try out these sample x-rays to see what Metabase can do."
-msgstr "Vyzkoušejte si tyto ukázkové náhledy a zjistěte, co Metabase umí."
+msgid "Try out these sample x-rays to see whatngmKASE can do."
+msgstr "Vyzkoušejte si tyto ukázkové náhledy a zjistěte, congmKASE umí."
 
 #: frontend/src/metabase/home/components/HomeXraySection/HomeXraySection.tsx:73
 msgid "Here are some explorations of the"
@@ -22655,11 +22655,11 @@ msgid "Launch of v2.0"
 msgstr "Uvedení verze 2.0"
 
 #: frontend/src/metabase/timelines/collections/components/TimelineEmptyState/TimelineEmptyState.tsx:69
-msgid "Add events to Metabase to show important milestones, launches, or anything else, right alongside your data."
-msgstr "Přidejte do Metabase události, které zobrazí důležité milníky, spuštění nebo cokoli jiného přímo vedle vašich dat."
+msgid "Add events tongmKASE to show important milestones, launches, or anything else, right alongside your data."
+msgstr "Přidejte dongmKASE události, které zobrazí důležité milníky, spuštění nebo cokoli jiného přímo vedle vašich dat."
 
 #: frontend/src/metabase/timelines/collections/components/TimelineEmptyState/TimelineEmptyState.tsx:70
-msgid "Events in Metabase let you see important milestones, launches, or anything else, right alongside your data."
+msgid "Events inngmKASE let you see important milestones, launches, or anything else, right alongside your data."
 msgstr "Události v Metabázi umožňují zobrazit důležité milníky, spuštění nebo cokoli jiného přímo vedle vašich dat."
 
 #: frontend/src/metabase/timelines/collections/components/TimelineCard/TimelineCard.tsx:50
@@ -22688,20 +22688,20 @@ msgid "Move {0}"
 msgstr "Přesunout {0}"
 
 #: frontend/src/metabase/timelines/questions/components/TimelineEmptyState/TimelineEmptyState.tsx:30
-msgid "Add events to Metabase to show helpful context alongside your data."
-msgstr "Přidáním událostí do Metabase zobrazíte k datům související obsah."
+msgid "Add events tongmKASE to show helpful context alongside your data."
+msgstr "Přidáním událostí dongmKASE zobrazíte k datům související obsah."
 
 #: frontend/src/metabase/timelines/questions/components/TimelineEmptyState/TimelineEmptyState.tsx:31
-msgid "Events in Metabase let you see helpful context alongside your data."
-msgstr "Události v databázi Metabase umožňují vedle dat zobrazit užitečný obsah."
+msgid "Events inngmKASE let you see helpful context alongside your data."
+msgstr "Události v databázingmKASE umožňují vedle dat zobrazit užitečný obsah."
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/MetadataTable/MetadataTable.tsx:33
 msgid "Original schema"
 msgstr "Původní schéma"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:98
-msgid "Click the button below to begin creating your Slack App using the Metabase configuration."
-msgstr "Kliknutím na tlačítko níže můžete začít vytvářet aplikaci Slack pomocí konfigurace Metabase."
+msgid "Click the button below to begin creating your Slack App using thengmKASE configuration."
+msgstr "Kliknutím na tlačítko níže můžete začít vytvářet aplikaci Slack pomocí konfiguracengmKASE."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:99
 msgid "Once created, click “{0}” to authorize it."
@@ -22978,9 +22978,9 @@ msgid "Switch to visualization"
 msgstr "Přepnout na vizualizaci"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget.jsx:139
-msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the\n"
+msgid "Mappings allowngmKASE to automatically add and remove users from groups based on the membership information provided by the\n"
 "directory server. Users are only ever added to or removed from mapped groups."
-msgstr "Mapování umožňuje Metabase automaticky přidávat a odebírat uživatele ze skupin na základě informací o členství poskytnutých adresářovým serverem. Uživatelé jsou obvykle přidáváni do mapovaných skupin nebo z nich odebíráni."
+msgstr "Mapování umožňujengmKASE automaticky přidávat a odebírat uživatele ze skupin na základě informací o členství poskytnutých adresářovým serverem. Uživatelé jsou obvykle přidáváni do mapovaných skupin nebo z nich odebíráni."
 
 #: metabase_enterprise/advanced_config/models/pulse_channel.clj:10
 msgid "Allowed email address domain(s) for new Dashboard Subscriptions and Alerts. To specify multiple domains, separate each domain with a comma, with no space in between (e.g., \"domain1,domain2\"). To allow all domains, leave the field empty. This setting doesn't affect existing subscriptions."
@@ -23378,8 +23378,8 @@ msgid "Saved questions"
 msgstr "Uložené otázky"
 
 #: frontend/src/metabase/admin/settings/selectors.js:641
-msgid "Enabling cache will create tables for your models in a dedicated schema and Metabase will refresh them on a schedule. Questions based on your models will query these tables. {0}."
-msgstr "Zapnutím mezipaměti se vytvoří tabulky pro vaše modely ve vyhrazeném schématu a Metabase je bude podle plánu aktualizovat. Otázky založené na vašich modelech se budou dotazovat na tyto tabulky. {0}."
+msgid "Enabling cache will create tables for your models in a dedicated schema andngmKASE will refresh them on a schedule. Questions based on your models will query these tables. {0}."
+msgstr "Zapnutím mezipaměti se vytvoří tabulky pro vaše modely ve vyhrazeném schématu angmKASE je bude podle plánu aktualizovat. Otázky založené na vašich modelech se budou dotazovat na tyto tabulky. {0}."
 
 #: frontend/src/metabase/admin/settings/selectors.js:439
 msgid "Refresh every"
@@ -23662,8 +23662,8 @@ msgid "Move, archive, and more..."
 msgstr "Přesun, archivace a další..."
 
 #: frontend/src/metabase/sharing/components/SlackChannelField/SlackChannelField.tsx:71
-msgid "In order to send subscriptions and alerts to private Slack channels, you must first add the Metabase bot to them."
-msgstr "Abyste mohli posílat odběry a upozornění do soukromých kanálů služby Slack, musíte do nich nejprve přidat bota Metabase."
+msgid "In order to send subscriptions and alerts to private Slack channels, you must first add thengmKASE bot to them."
+msgstr "Abyste mohli posílat odběry a upozornění do soukromých kanálů služby Slack, musíte do nich nejprve přidat botangmKASE."
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/ColorResetModal/ColorResetModal.tsx:22
 msgid "Are you sure you want to reset to default colors?"
@@ -23773,8 +23773,8 @@ msgid "Display our little friend on the homepage"
 msgstr "Zobrazit našeho malého přítele na domovské stránce"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingCustomizationWidget/EmbeddingCustomizationWidget.tsx:13
-msgid "In order to remove the Metabase logo from embeds, you can always upgrade to {0}"
-msgstr "Chcete-li odstranit logo Metabase z vkládání, můžete vždy upgradovat na {0}."
+msgid "In order to remove thengmKASE logo from embeds, you can always upgrade to {0}"
+msgstr "Chcete-li odstranit logongmKASE z vkládání, můžete vždy upgradovat na {0}."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingCustomizationWidget/EmbeddingCustomizationWidget.tsx:15
 msgid "one of our paid plans."
@@ -23782,11 +23782,11 @@ msgstr "jeden z našich placených tarifů."
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:13
 msgid "embedding the entire metabase app"
-msgstr "vkládání celé Metabase"
+msgstr "vkládání celéngmKASE"
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:23
-msgid "With {0} you can embed the full Metabase app and enable your users to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
-msgstr "Pomocí {0} můžete vložit celou aplikaci Metabase a umožnit uživatelům procházet grafy, procházet kolekce a používat grafický nástroj pro tvorbu dotazů. Můžete také získat prioritní podporu, více nástrojů, které vám pomohou sdílet vaše poznatky s vašimi týmy, a výkonné možnosti, které vám pomohou vytvářet bezproblémové, interaktivní datové zážitky pro vaše zákazníky."
+msgid "With {0} you can embed the fullngmKASE app and enable your users to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
+msgstr "Pomocí {0} můžete vložit celou aplikacingmKASE a umožnit uživatelům procházet grafy, procházet kolekce a používat grafický nástroj pro tvorbu dotazů. Můžete také získat prioritní podporu, více nástrojů, které vám pomohou sdílet vaše poznatky s vašimi týmy, a výkonné možnosti, které vám pomohou vytvářet bezproblémové, interaktivní datové zážitky pro vaše zákazníky."
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:16
 msgid "some of our paid plans,"
@@ -23833,8 +23833,8 @@ msgid "Embedding"
 msgstr "Vkládání"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:24
-msgid "Embed dashboards, questions, or the entire Metabase app into your application. Integrate with your server code to create a secure environment, limited to specific users or organizations."
-msgstr "Vložte do své aplikace ovládací panely, otázky nebo celou aplikaci Metabase. Integrací s kódem vašeho serveru vytvoříte zabezpečené prostředí omezené na konkrétní uživatele nebo organizace."
+msgid "Embed dashboards, questions, or the entirengmKASE app into your application. Integrate with your server code to create a secure environment, limited to specific users or organizations."
+msgstr "Vložte do své aplikace ovládací panely, otázky nebo celou aplikacingmKASE. Integrací s kódem vašeho serveru vytvoříte zabezpečené prostředí omezené na konkrétní uživatele nebo organizace."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:28
 msgid "By enabling embedding you're agreeing to"
@@ -23850,11 +23850,11 @@ msgid "More details"
 msgstr "Další informace"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:43
-msgid "When you embed charts or dashboards from Metabase in your own\n"
+msgid "When you embed charts or dashboards fromngmKASE in your own\n"
 "application, that application isn't subject to the Affero General Public\n"
-"License that covers the rest of Metabase, provided you keep the Metabase\n"
-"logo and the \"Powered by Metabase\" visible on those embeds."
-msgstr "Když vložíte grafy nebo ovládací panely z Metabase do vlastní aplikace, která nepodléhá pravidlům Affero General Public Licence, zahrnující zbytek Metabase, musíte zachovat viditelné logo a nápis \"Powered by Metabase\" v těchto vložených aplikacích."
+"License that covers the rest ofngmKASE, provided you keep thengmKASE\n"
+"logo and the \"Powered byngmKASE\" visible on those embeds."
+msgstr "Když vložíte grafy nebo ovládací panely zngmKASE do vlastní aplikace, která nepodléhá pravidlům Affero General Public Licence, zahrnující zbytekngmKASE, musíte zachovat viditelné logo a nápis \"Powered byngmKASE\" v těchto vložených aplikacích."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:49
 msgid "Your should, however, read the license text linked above as that is the\n"
@@ -23895,8 +23895,8 @@ msgid "1. Click the button below and create your Slack App"
 msgstr "1. Klikněte na tlačítko níže a vytvořte si aplikaci Slack."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:101
-msgid "First, {0} using the Metabase configuration. Once created, click “${ 1 }” to authorize it."
-msgstr "Nejprve, {0} pomocí konfigurace Metabase. Po jejím vytvoření ji autorizujte kliknutím na \"${ 1 }\"."
+msgid "First, {0} using thengmKASE configuration. Once created, click “${ 1 }” to authorize it."
+msgstr "Nejprve, {0} pomocí konfiguracengmKASE. Po jejím vytvoření ji autorizujte kliknutím na \"${ 1 }\"."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:102
 msgid "click the button below to create your Slack App"
@@ -24038,8 +24038,8 @@ msgid "Heavy"
 msgstr "Silný"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppOriginDescription/EmbeddingAppOriginDescription.tsx:8
-msgid "With this Pro/Enterprise feature you can embed the full Metabase app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder. {0}"
-msgstr "Pomocí této Pro/Enterprise funkce můžete vkládat celou aplikaci Metabase. Umožněte uživatelům procházet grafy, procházet kolekce a používat grafický nástroj pro tvorbu dotazů. {0}"
+msgid "With this Pro/Enterprise feature you can embed the fullngmKASE app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder. {0}"
+msgstr "Pomocí této Pro/Enterprise funkce můžete vkládat celou aplikacingmKASE. Umožněte uživatelům procházet grafy, procházet kolekce a používat grafický nástroj pro tvorbu dotazů. {0}"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppOriginDescription/EmbeddingAppOriginDescription.tsx:19
 msgid "Authorized origins"
@@ -24127,8 +24127,8 @@ msgid "Full-app embedding"
 msgstr "Vložení celé aplikace"
 
 #: frontend/src/metabase/admin/settings/selectors.js:481
-msgid "With this Pro/Enterprise feature you can embed the full Metabase app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder."
-msgstr "Pomocí této Pro/Enterprise funkce můžete vkládat celou aplikaci Metabase. Umožněte uživatelům procházet grafy, procházet kolekce a používat grafický nástroj pro tvorbu dotazů."
+msgid "With this Pro/Enterprise feature you can embed the fullngmKASE app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder."
+msgstr "Pomocí této Pro/Enterprise funkce můžete vkládat celou aplikacingmKASE. Umožněte uživatelům procházet grafy, procházet kolekce a používat grafický nástroj pro tvorbu dotazů."
 
 #: frontend/src/metabase/admin/settings/selectors.js:533
 msgid "Standalone Embed Secret Key used to sign JSON Web Tokens for requests to /api/embed endpoints. This lets you create a secure environment limited to specific users or organizations."
@@ -24294,8 +24294,8 @@ msgid "Boolean indicating whether a Snowplow collector is available to receive a
 msgstr "Logická hodnota určující, zda je Snowplow kolektor k dispozici pro příjem analytických událostí. Mělo by být nastaveno pomocí proměnné prostředí v Cypress testech nebo při lokálním vývoji."
 
 #: metabase/analytics/snowplow.clj:28
-msgid "Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase. This is a public setting since some analytics events are sent prior to initial setup."
-msgstr "Jedinečný identifikátor, který se použije v analytice Snowplow pro identifikaci této instance Metabase. Jedná se o veřejné nastavení, protože některé analytické události jsou odesílány před počátečním nastavením."
+msgid "Unique identifier to be used in Snowplow analytics, to identify this instance ofngmKASE. This is a public setting since some analytics events are sent prior to initial setup."
+msgstr "Jedinečný identifikátor, který se použije v analytice Snowplow pro identifikaci této instancengmKASE. Jedná se o veřejné nastavení, protože některé analytické události jsou odesílány před počátečním nastavením."
 
 #: metabase/api/database.clj:708 metabase/driver/util.clj:68
 #: metabase/driver/util.clj:40 metabase/driver/util.clj:56
@@ -24350,12 +24350,12 @@ msgstr "System info:\n"
 " {0}"
 
 #: metabase/driver/common.clj:159
-msgid "Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database. When should Metabase automatically scan and cache field values?"
-msgstr "Metabase může skenovat hodnoty přítomné v jednotlivých polích této databáze a umožnit tak zaškrtávací filtry v ovládacích panelech a otázkách. Tento proces může být poněkud náročný na zdroje, zejména pokud máte velmi rozsáhlou databázi. Kdy má Metabase automaticky skenovat a ukládat do mezipaměti hodnoty polí?"
+msgid "Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database. When shouldngmKASE automatically scan and cache field values?"
+msgstr "Metabase může skenovat hodnoty přítomné v jednotlivých polích této databáze a umožnit tak zaškrtávací filtry v ovládacích panelech a otázkách. Tento proces může být poněkud náročný na zdroje, zejména pokud máte velmi rozsáhlou databázi. Kdy mángmKASE automaticky skenovat a ukládat do mezipaměti hodnoty polí?"
 
 #: metabase/driver/common.clj:220
-msgid "If your database is behind a firewall, you may need to allow connections from our Metabase [Cloud IP addresses](https://www.metabase.com/cloud/docs/ip-addresses-to-whitelist.html):"
-msgstr "Pokud je vaše databáze za firewallem, může být nutné povolit připojení z naší Metabase [Cloud IP adresy](https://www.metabase.com/cloud/docs/ip-addresses-to-whitelist.html):"
+msgid "If your database is behind a firewall, you may need to allow connections from ourngmKASE [Cloud IP addresses](https://www.metabase.com/cloud/docs/ip-addresses-to-whitelist.html):"
+msgstr "Pokud je vaše databáze za firewallem, může být nutné povolit připojení z našíngmKASE [Cloud IP adresy](https://www.metabase.com/cloud/docs/ip-addresses-to-whitelist.html):"
 
 #: metabase/driver/common.clj:177
 msgid "Unfold JSON Columns"
@@ -24476,16 +24476,16 @@ msgid "[{0}] Model cache refresh failed for {1}"
 msgstr "[{0}] Aktualizace mezipaměti modelu se nezdařila pro {1}"
 
 #: metabase/integrations/google.clj:87
-msgid "Google Sign-In token appears to be incorrect. Double check that it matches in Google and Metabase."
-msgstr "Zdá se, že přihlašovací token Google je nesprávný. Překontrolujte, zda se shoduje v databázi Google a Metabase."
+msgid "Google Sign-In token appears to be incorrect. Double check that it matches in Google andngmKASE."
+msgstr "Zdá se, že přihlašovací token Google je nesprávný. Překontrolujte, zda se shoduje v databázi Google angmKASE."
 
 #: metabase/integrations/slack.clj:22
-msgid "Deprecated Slack API token for connecting the Metabase Slack bot. Please use a new Slack app integration instead."
-msgstr "Vyřazený token Slack API pro připojení bota Metabase Slack. Místo toho použijte novou integraci aplikace Slack."
+msgid "Deprecated Slack API token for connecting thengmKASE Slack bot. Please use a new Slack app integration instead."
+msgstr "Vyřazený token Slack API pro připojení botangmKASE Slack. Místo toho použijte novou integraci aplikace Slack."
 
 #: metabase/integrations/slack.clj:31
-msgid "Bot user OAuth token for connecting the Metabase Slack app. This should be used for all new Slack integrations starting in Metabase v0.42.0."
-msgstr "Token OAuth uživatele bota pro připojení aplikace Metabase Slack. Ten by se měl používat pro všechny nové integrace se Slackem počínaje verzí Metabase v0.42.0."
+msgid "Bot user OAuth token for connecting thengmKASE Slack app. This should be used for all new Slack integrations starting inngmKASE v0.42.0."
+msgstr "Token OAuth uživatele bota pro připojení aplikacengmKASE Slack. Ten by se měl používat pro všechny nové integrace se Slackem počínaje verzíngmKASE v0.42.0."
 
 #: metabase/integrations/slack.clj:44
 msgid "Whether the current Slack app token, if set, is valid. Set to 'false' if a Slack API request returns an auth error."
@@ -24532,8 +24532,8 @@ msgid "Can't update type or hash_key for a FieldValues."
 msgstr "Nelze aktualizovat typ nebo hash_key pro pole FieldValues."
 
 #: metabase/models/humanization.clj:77
-msgid "To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces. We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
-msgstr "Aby byly názvy tabulek a polí pro lidi čitelnější, nahradí Metabase pomlčky a podtržítka mezerami. Každé slovo budeme psát velkým písmenem, takže z \"last_visited_at\" se stane \"Last Visited At\"."
+msgid "To make table and field names more human-friendly,ngmKASE will replace dashes and underscores in them with spaces. We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
+msgstr "Aby byly názvy tabulek a polí pro lidi čitelnější, nahradíngmKASE pomlčky a podtržítka mezerami. Každé slovo budeme psát velkým písmenem, takže z \"last_visited_at\" se stane \"Last Visited At\"."
 
 #: metabase/models/params.clj:38
 msgid ":parameters must be a sequence of maps with :id and :type keys"
@@ -24572,8 +24572,8 @@ msgid "Tell us where to find the file for each font weight. You don’t need to 
 msgstr "Řekněte nám, kde najdeme soubor pro každý font. Nemusíte uvést všechny, ale bude to vypadat lépe, když je uvedete."
 
 #: metabase/public_settings.clj:179
-msgid "The default language for all users across the Metabase UI, system emails, pulses, and alerts. Users can individually override this default language from their own account settings."
-msgstr "Výchozí jazyk pro všechny uživatele v uživatelském rozhraní Metabase, systémových e-mailech, impulsech a upozorněních. Uživatelé mohou tento výchozí jazyk individuálně změnit v nastavení svého účtu."
+msgid "The default language for all users across thengmKASE UI, system emails, pulses, and alerts. Users can individually override this default language from their own account settings."
+msgstr "Výchozí jazyk pro všechny uživatele v uživatelském rozhraníngmKASE, systémových e-mailech, impulsech a upozorněních. Uživatelé mohou tento výchozí jazyk individuálně změnit v nastavení svého účtu."
 
 #: metabase/public_settings.clj:693
 msgid "Whether an introductory modal should be shown after the next database connection is added. Defaults to false if any non-default database has already finished syncing for this instance."
@@ -25339,11 +25339,11 @@ msgstr "Název sloupce s datem nebo hodnotou data."
 msgid "Optional. The default is \"ISO\".\n"
 "- ISO: Week 1 starts on the Monday before the first Thursday of January.\n"
 "- US: Week 1 starts on Jan 1. All other weeks start on Sunday.\n"
-"- Instance: Week 1 starts on Jan 1. All other weeks start on the day defined in your Metabase localization settings."
+"- Instance: Week 1 starts on Jan 1. All other weeks start on the day defined in yourngmKASE localization settings."
 msgstr "Volitelně. Výchozí hodnota je \"ISO\".\n"
 "- ISO: 1. týden začíná v pondělí před prvním lednovým čtvrtkem.\n"
 "- US: 1. týden začíná 1. ledna. Všechny ostatní týdny začínají v neděli.\n"
-"- Instance: 1. týden začíná 1. ledna. Všechny ostatní týdny začínají dnem definovaným v nastavení lokalizace Metabase."
+"- Instance: 1. týden začíná 1. ledna. Všechny ostatní týdny začínají dnem definovaným v nastavení lokalizacengmKASE."
 
 #: frontend/src/metabase-lib/expressions/helper-text-strings.ts:838
 msgid "Takes a datetime and returns an integer (1-31) with the number of the day of the month."
@@ -26100,7 +26100,7 @@ msgstr "Požadovaná databáze {0} se změnila z ''{1}'' na ''{2}''."
 
 #: metabase/task.clj:168
 msgid "Metabase task scheduler disabled. Scheduled tasks will not be ran."
-msgstr "Plánovač úloh Metabase je zakázán. Naplánované úlohy nebudou spuštěny."
+msgstr "Plánovač úlohngmKASE je zakázán. Naplánované úlohy nebudou spuštěny."
 
 #: metabase/util/schema.clj:148
 msgid "value must be a map with schema: (\n"
@@ -26113,8 +26113,8 @@ msgid "{0} (optional)"
 msgstr "{0} (volitelné)"
 
 #: metabase_enterprise/advanced_config/file.clj:164
-msgid "Found config file at path {0}; Metabase will be initialized with values from this file"
-msgstr "Nalezen konfigurační soubor v umístění {0}; Metabase bude inicializována hodnotami z tohoto souboru."
+msgid "Found config file at path {0};ngmKASE will be initialized with values from this file"
+msgstr "Nalezen konfigurační soubor v umístění {0};ngmKASE bude inicializována hodnotami z tohoto souboru."
 
 #: metabase_enterprise/advanced_config/file.clj:265
 msgid "Done initializing from file."
@@ -26177,8 +26177,8 @@ msgid "Invalid Collection ID(s). These Collections do not exist: {0}"
 msgstr "Neplatné ID sbírky. Tyto sbírky neexistují: {0}"
 
 #: metabase_enterprise/serialization/cmd.clj:95
-msgid "Loading serialized Metabase files from {0}"
-msgstr "Načítání serializovaných souborů Metabase z {0}"
+msgid "Loading serializedngmKASE files from {0}"
+msgstr "Načítání serializovaných souborůngmKASE z {0}"
 
 #: metabase_enterprise/serialization/v2/entity_ids.clj:68
 msgid "{0} tables have entity_id; expected to resolve the same number of models, but only got {1}"
@@ -26411,7 +26411,7 @@ msgid "Error reducing result rows: {0}"
 msgstr "Chyba při redukci řádků výsledků: {0}"
 
 #: metabase/sample_data.clj:63
-msgid "Sample database could not be extracted to the plugins directory,which may result in slow startup times. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
+msgid "Sample database could not be extracted to the plugins directory,which may result in slow startup times. Please set MB_PLUGINS_DIR to a writable directory and restartngmKASE."
 msgstr "Vzorovou databázi se nepodařilo rozbalit do adresáře plugins,což může mít za následek pomalé spouštění. Nastavte prosím MB_PLUGINS_DIR na adresář, do kterého lze zapisovat, a restartujte Metabázi."
 
 #: metabase_enterprise/advanced_config/file.clj:261
@@ -26471,12 +26471,12 @@ msgid "This group's user membership will no longer be synced with the directory 
 msgstr "Členství uživatelů této skupiny již nebude synchronizováno s adresářovým serverem."
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:62
-msgid "What should happen with the groups themselves in Metabase?"
-msgstr "Co se má stát se samotnými skupinami v Metabase?"
+msgid "What should happen with the groups themselves inngmKASE?"
+msgstr "Co se má stát se samotnými skupinami vngmKASE?"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:63
-msgid "What should happen with the group itself in Metabase?"
-msgstr "Co se má stát se samotnou skupinou v Metabase?"
+msgid "What should happen with the group itself inngmKASE?"
+msgstr "Co se má stát se samotnou skupinou vngmKASE?"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:68
 msgid "Remove this group mapping?"
@@ -26507,8 +26507,8 @@ msgid "Synchronize Group Memberships"
 msgstr "Synchronizovat členství ve skupině"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/GroupMappingsWidget.jsx:118
-msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the directory server. If a group isn‘t mapped, its membership won‘t be synced."
-msgstr "Mapování umožňuje Metabase automaticky přidávat a odebírat uživatele ze skupin na základě informací o členství poskytnutých adresářovým serverem. Pokud skupina není mapována, její členství nebude synchronizováno."
+msgid "Mappings allowngmKASE to automatically add and remove users from groups based on the membership information provided by the directory server. If a group isn‘t mapped, its membership won‘t be synced."
+msgstr "Mapování umožňujengmKASE automaticky přidávat a odebírat uživatele ze skupin na základě informací o členství poskytnutých adresářovým serverem. Pokud skupina není mapována, její členství nebude synchronizováno."
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/GroupMappingsWidget.jsx:123
 msgid "About mappings"
@@ -26671,8 +26671,8 @@ msgid "This card does not support click mappings"
 msgstr "Tato karta nepodporuje mapování kliknutí"
 
 #: frontend/src/metabase/databases/components/DatabaseCacheScheduleField/DatabaseCacheScheduleField.tsx:88
-msgid "When a user adds a new filter to a dashboard or a SQL question, Metabase will scan the field(s) mapped to that filter in order to show the list of selectable values."
-msgstr "Když uživatel přidá nový filtr do nástěnky nebo SQL otázky, Metabase prohledá pole namapovaná na tento filtr, aby se zobrazil seznam dostupných hodnot."
+msgid "When a user adds a new filter to a dashboard or a SQL question,ngmKASE will scan the field(s) mapped to that filter in order to show the list of selectable values."
+msgstr "Když uživatel přidá nový filtr do nástěnky nebo SQL otázky,ngmKASE prohledá pole namapovaná na tento filtr, aby se zobrazil seznam dostupných hodnot."
 
 #: frontend/src/metabase/models/containers/FormModelPicker/FormModelPicker.tsx:25
 msgid "Select a model"
@@ -27252,12 +27252,12 @@ msgid "Error preparing statement: {0}"
 msgstr "Chyba při přípravě výrazu: {0}"
 
 #: metabase/driver/util.clj:331
-msgid "Comma separated names of {0} that should NOT appear in Metabase"
-msgstr "Názvy oddělené čárkou {0} by se NEMĚLY objevit v Metabase"
+msgid "Comma separated names of {0} that should NOT appear inngmKASE"
+msgstr "Názvy oddělené čárkou {0} by se NEMĚLY objevit vngmKASE"
 
 #: metabase/driver/util.clj:324
-msgid "Comma separated names of {0} that should appear in Metabase"
-msgstr "Názvy oddělené čárkou {0} by se můžou objevit v Metabase"
+msgid "Comma separated names of {0} that should appear inngmKASE"
+msgstr "Názvy oddělené čárkou {0} by se můžou objevit vngmKASE"
 
 #: metabase/driver/util.clj:326 metabase/driver/util.clj:333
 msgid "You can use patterns like \"auth*\" to match multiple {0}"
@@ -27358,7 +27358,7 @@ msgid "No current user found"
 msgstr "Nenalezen žádný aktuální uživatel"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/utils.ts:30
-msgid "Open the Metabase drill-through menu"
+msgid "Open thengmKASE drill-through menu"
 msgstr "Otevřete nabídku Metabáze pro vrtání."
 
 #: frontend/src/metabase/query_builder/components/expressions/ExpressionWidget.tsx:88
@@ -27527,14 +27527,14 @@ msgid "Tired of manually managing people and groups?"
 msgstr "Nebaví vás ručně spravovat lidi a skupiny?"
 
 #: frontend/src/metabase/admin/people/components/NudgeToPro.tsx:16
-msgid "Get single-sign on (SSO) via SAML, JWT, or LDAP with Metabase Pro"
-msgstr "Získejte jednotné přihlašování (SSO) prostřednictvím SAML, JWT nebo LDAP s Metabase Pro"
+msgid "Get single-sign on (SSO) via SAML, JWT, or LDAP withngmKASE Pro"
+msgstr "Získejte jednotné přihlašování (SSO) prostřednictvím SAML, JWT nebo LDAP sngmKASE Pro"
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:11
 #: frontend/src/metabase/admin/permissions/components/CollectionPermissionsHelp/CollectionPermissionsHelp.tsx:12
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:22
-msgid "People can be members of multiple groups, and Metabase grants them the most permissive level of access across all of a person's groups."
-msgstr "Lidé mohou být členy více skupin a Metabase jim poskytuje nejpřísnější úroveň přístupu ve všech skupinách dané osoby."
+msgid "People can be members of multiple groups, andngmKASE grants them the most permissive level of access across all of a person's groups."
+msgstr "Lidé mohou být členy více skupin angmKASE jim poskytuje nejpřísnější úroveň přístupu ve všech skupinách dané osoby."
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:37
 msgid "The group can use the query builder to ask questions of any table in the database."
@@ -27549,8 +27549,8 @@ msgid "Impersonated (Pro)"
 msgstr "Zosobněný (Pro)"
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:52
-msgid "Impersonation associates a Metabase group with database-defined roles and their privileges. Metabase queries made by this group will respect the grants given to the database roles. You can use impersonation to give a group access to the native/SQL editor, while restricting the group's access to data based on a specific database role."
-msgstr "Zosobnění spojuje skupinu Metabase s rolemi definovanými v databázi a jejich oprávněními. Dotazy Metabase prováděné touto skupinou budou respektovat oprávnění přidělená databázovým rolím. Pomocí zosobnění můžete skupině poskytnout přístup k nativnímu editoru/SQL a zároveň omezit přístup skupiny k datům na základě konkrétní databázové role."
+msgid "Impersonation associates angmKASE group with database-defined roles and their privileges.ngmKASE queries made by this group will respect the grants given to the database roles. You can use impersonation to give a group access to the native/SQL editor, while restricting the group's access to data based on a specific database role."
+msgstr "Zosobnění spojuje skupinungmKASE s rolemi definovanými v databázi a jejich oprávněními. DotazyngmKASE prováděné touto skupinou budou respektovat oprávnění přidělená databázovým rolím. Pomocí zosobnění můžete skupině poskytnout přístup k nativnímu editoru/SQL a zároveň omezit přístup skupiny k datům na základě konkrétní databázové role."
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:59
 msgid "The group can't use the query builder or drill through existing questions. They also can't see the data in the Browse data section. They can still view questions based on this data, if they have permissions to the relevant collection."
@@ -27633,8 +27633,8 @@ msgid "{0} about collection permissions"
 msgstr "{0} o oprávněních ke kolekci"
 
 #: frontend/src/metabase/collections/components/CollectionHeader/CollectionUploadInfoModal.tsx:26
-msgid "Uploads CSVs to Metabase"
-msgstr "Nahrávání CSV do Metabase"
+msgid "Uploads CSVs tongmKASE"
+msgstr "Nahrávání CSV dongmKASE"
 
 #: frontend/src/metabase/collections/components/CollectionHeader/CollectionUploadInfoModal.tsx:31
 msgid "Team members will be able to upload CSV files and work with them just like any other data source"
@@ -27793,8 +27793,8 @@ msgid "Navigation bar"
 msgstr "Navigační panel"
 
 #: frontend/src/metabase/nav/components/DatabasePromptBanner/DatabasePromptBanner.tsx:32
-msgid "Connect to your database to get the most from Metabase."
-msgstr "Připojte se k databázi a využijte Metabase na maximum."
+msgid "Connect to your database to get the most fromngmKASE."
+msgstr "Připojte se k databázi a využijtengmKASE na maximum."
 
 #: frontend/src/metabase/nav/components/DatabasePromptBanner/DatabasePromptBanner.tsx:39
 msgid "Get help connecting"
@@ -27911,8 +27911,8 @@ msgid "Applications permissions"
 msgstr "Oprávnění aplikací"
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:16
-msgid "Application settings are useful for granting groups access to some, but not all, of Metabase’s administrative features."
-msgstr "Nastavení aplikací je užitečné pro přidělení přístupu skupinám k některým, ale ne ke všem funkcím správy Metabase."
+msgid "Application settings are useful for granting groups access to some, but not all, ofngmKASE’s administrative features."
+msgstr "Nastavení aplikací je užitečné pro přidělení přístupu skupinám k některým, ale ne ke všem funkcím správyngmKASE."
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:18
 msgid "{0} the group can access the Settings tab in the Admin panel."
@@ -28204,8 +28204,8 @@ msgid "Map a user attribute to database roles"
 msgstr "Mapovat atribut uživatele na role v databázi"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationModal/ImpersonationModalView.tsx:77
-msgid "When the person runs a query (including native queries), Metabase will impersonate the privileges of the database role you associate with the user attribute."
-msgstr "Když daná osoba spustí dotaz (včetně nativních dotazů), Metabase jí zosobní oprávnění databázové role, kterou přiřadíte atributu uživatele."
+msgid "When the person runs a query (including native queries),ngmKASE will impersonate the privileges of the database role you associate with the user attribute."
+msgstr "Když daná osoba spustí dotaz (včetně nativních dotazů),ngmKASE jí zosobní oprávnění databázové role, kterou přiřadíte atributu uživatele."
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationModal/ImpersonationModalView.tsx:81
 msgid "Learn More"
@@ -28220,12 +28220,12 @@ msgid "Edit user settings"
 msgstr "Upravit nastavení uživatele"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:19
-msgid "Make sure the main database credential has access to everything different user groups may need access to. It's what Metabase uses to sync table information."
-msgstr "Ujistěte se, že pověření pro hlavní databázi má přístup ke všemu, k čemu mohou různé skupiny uživatelů potřebovat přístup. Metabase jej používá k synchronizaci informací o tabulkách."
+msgid "Make sure the main database credential has access to everything different user groups may need access to. It's whatngmKASE uses to sync table information."
+msgstr "Ujistěte se, že pověření pro hlavní databázi má přístup ke všemu, k čemu mohou různé skupiny uživatelů potřebovat přístup.ngmKASE jej používá k synchronizaci informací o tabulkách."
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:20
-msgid "{0} is the database user Metabase is using to connect to {1}. Make sure that {2} has access to everything in {3} that all Metabase groups may need access to, as that database user account is what Metabase uses to sync table information."
-msgstr "{0} je uživatel databáze Metabase, který se připojuje k {1}. Ujistěte se, že {2} má přístup ke všemu v {3}, k čemu mohou potřebovat přístup všechny skupiny Metabase, protože tento databázový uživatelský účet Metabase používá k synchronizaci informací o tabulkách."
+msgid "{0} is the database userngmKASE is using to connect to {1}. Make sure that {2} has access to everything in {3} that allngmKASE groups may need access to, as that database user account is whatngmKASE uses to sync table information."
+msgstr "{0} je uživatel databázengmKASE, který se připojuje k {1}. Ujistěte se, že {2} má přístup ke všemu v {3}, k čemu mohou potřebovat přístup všechny skupinyngmKASE, protože tento databázový uživatelský účetngmKASE používá k synchronizaci informací o tabulkách."
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:28
 msgid "Edit settings"
@@ -28539,8 +28539,8 @@ msgid "Sorry, the row you''re trying to update doesn''t exist"
 msgstr "Omlouváme se, ale řádek, který se snažíte aktualizovat, neexistuje"
 
 #: metabase/driver/sql_jdbc/execute.clj:284
-msgid "{0} is deprecated in Metabase 0.47.0. Implement {1} instead."
-msgstr "{0} je v Metabase 0.47.0 zastaralý. Raději implementujte {1}."
+msgid "{0} is deprecated inngmKASE 0.47.0. Implement {1} instead."
+msgstr "{0} je vngmKASE 0.47.0 zastaralý. Raději implementujte {1}."
 
 #: metabase/events/view_log.clj:29
 msgid "List of the 10 most recently viewed items for the user."
@@ -29013,8 +29013,8 @@ msgid "Export to {0} complete!"
 msgstr "Export do {0} dokončen!"
 
 #: metabase_enterprise/serialization/cmd.clj:205
-msgid "Exporting Metabase to {0}"
-msgstr "Exportování Metabase do {0}"
+msgid "ExportingngmKASE to {0}"
+msgstr "ExportováníngmKASE do {0}"
 
 #: metabase_enterprise/serialization/v2/load.clj:80
 msgid "Error importing {0}. Continuing..."
@@ -29150,16 +29150,16 @@ msgid "Upload error details"
 msgstr "Podrobnosti o chybě při nahrávání"
 
 #: frontend/src/metabase/home/components/CustomHomePageModal/CustomHomePageModal.tsx:108
-msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard, Metabase will redirect them to the default homepage. You can update or reset the homepage at any time in Admin Settings > Settings > General."
-msgstr "Vyberte si nástěnku, která bude sloužit jako domovská stránka. Pokud lidé nemají oprávnění k zobrazení vybrané nástěnky, Metabase je přesměruje na výchozí domovskou stránku. Domovskou stránku můžete kdykoli aktualizovat nebo resetovat v Nastavení správce > Nastavení > Obecné."
+msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard,ngmKASE will redirect them to the default homepage. You can update or reset the homepage at any time in Admin Settings > Settings > General."
+msgstr "Vyberte si nástěnku, která bude sloužit jako domovská stránka. Pokud lidé nemají oprávnění k zobrazení vybrané nástěnky,ngmKASE je přesměruje na výchozí domovskou stránku. Domovskou stránku můžete kdykoli aktualizovat nebo resetovat v Nastavení správce > Nastavení > Obecné."
 
 #: frontend/src/metabase/redux/uploads.ts:68
 msgid "You cannot upload files larger than {0}mb"
 msgstr "Nelze nahrávat soubory větší než {0}mb"
 
 #: metabase/public_settings.clj:104
-msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard, Metabase will redirect them to the default homepage."
-msgstr "Vyberte si nástěnku, která bude sloužit jako domovská stránka. Pokud lidé nemají oprávnění k zobrazení vybrané nástěnky, Metabase je přesměruje na výchozí domovskou stránku."
+msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard,ngmKASE will redirect them to the default homepage."
+msgstr "Vyberte si nástěnku, která bude sloužit jako domovská stránka. Pokud lidé nemají oprávnění k zobrazení vybrané nástěnky,ngmKASE je přesměruje na výchozí domovskou stránku."
 
 #: metabase/public_settings.clj:355
 msgid "{0} will cache all saved questions with an average query execution time longer than this many seconds:"
@@ -29280,12 +29280,12 @@ msgid "Interactive embedding"
 msgstr "Interaktivní vkládání"
 
 #: frontend/src/metabase/admin/settings/selectors.js:507
-msgid "With this Pro/Enterprise feature, you can let your customers query, visualize, and drill-down on their data with the full functionality of Metabase in your app or website, complete with your branding. Set permissions with SSO, down to the row- or column-level, so people only see what they need to."
-msgstr "Díky této funkci Pro/Enterprise můžete svým zákazníkům umožnit dotazování, vizualizaci a prohlubování dat pomocí všech funkcí Metabase ve vaší aplikaci nebo na webových stránkách, a to s vaší značkou. Nastavte oprávnění pomocí SSO až na úroveň řádků nebo sloupců, aby lidé viděli jen to, co potřebují."
+msgid "With this Pro/Enterprise feature, you can let your customers query, visualize, and drill-down on their data with the full functionality ofngmKASE in your app or website, complete with your branding. Set permissions with SSO, down to the row- or column-level, so people only see what they need to."
+msgstr "Díky této funkci Pro/Enterprise můžete svým zákazníkům umožnit dotazování, vizualizaci a prohlubování dat pomocí všech funkcíngmKASE ve vaší aplikaci nebo na webových stránkách, a to s vaší značkou. Nastavte oprávnění pomocí SSO až na úroveň řádků nebo sloupců, aby lidé viděli jen to, co potřebují."
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:14
-msgid "With {0} you can embed the full Metabase app to allow people to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
-msgstr "Pomocí {0} můžete vložit celou aplikaci Metabase a umožnit lidem procházet grafy, procházet kolekce a používat grafický nástroj pro tvorbu dotazů. Můžete také získat přednostní podporu, více nástrojů, které vám pomohou sdílet vaše poznatky s týmy, a výkonné možnosti, které vám pomohou vytvářet bezproblémové interaktivní datové zážitky pro vaše zákazníky."
+msgid "With {0} you can embed the fullngmKASE app to allow people to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
+msgstr "Pomocí {0} můžete vložit celou aplikacingmKASE a umožnit lidem procházet grafy, procházet kolekce a používat grafický nástroj pro tvorbu dotazů. Můžete také získat přednostní podporu, více nástrojů, které vám pomohou sdílet vaše poznatky s týmy, a výkonné možnosti, které vám pomohou vytvářet bezproblémové interaktivní datové zážitky pro vaše zákazníky."
 
 #: metabase/analytics/prometheus.clj:210
 msgid "Number of emails sent."
@@ -29780,8 +29780,8 @@ msgid "Strict (not recommended)"
 msgstr "Přísný (nedoporučuje se)"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:47
-msgid "Never allows cookies to be sent on a cross-site request. Warning: this will prevent users from following external links to Metabase."
-msgstr "Nikdy nepovoluje odesílání souborů cookie při požadavku na jinou stránku. Upozornění: To zabrání uživatelům sledovat externí odkazy na Metabase."
+msgid "Never allows cookies to be sent on a cross-site request. Warning: this will prevent users from following external links tongmKASE."
+msgstr "Nikdy nepovoluje odesílání souborů cookie při požadavku na jinou stránku. Upozornění: To zabrání uživatelům sledovat externí odkazy nangmKASE."
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:52
 msgid "Allows all cross-site requests. Incompatible with most Safari and iOS-based browsers."
@@ -29917,8 +29917,8 @@ msgid "Cake"
 msgstr "Koláč"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/components/OpenInMetabase.jsx:9
-msgid "Open in Metabase"
-msgstr "Otevřít v Metabase"
+msgid "Open inngmKASE"
+msgstr "Otevřít vngmKASE"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/containers/AuditApp.jsx:35
 msgid "This Audit section has been upgraded to the\n"
@@ -29930,7 +29930,7 @@ msgstr "Tato sekce auditu byla aktualizována na\n"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/containers/AuditApp.jsx:42
 msgid "Metabase Analytics Collection"
-msgstr "Analytická sbírka Metabase"
+msgstr "Analytická sbírkangmKASE"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/containers/AuditApp.jsx:48
 msgid "It's now easier to explore and to give others\n"
@@ -29989,8 +29989,8 @@ msgid "SameSite cookie setting"
 msgstr "Nastavení cookie SameSite"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppSameSiteCookieDescription/EmbeddingAppSameSiteCookieDescription.tsx:32
-msgid "Determines whether or not cookies are allowed to be sent on cross-site requests. You’ll likely need to change this to None if your embedding application is hosted under a different domain than Metabase. Otherwise, leave it set to Lax, as it's more secure."
-msgstr "Určuje, zda je povoleno odesílat soubory cookie při požadavcích na křížové propojení stránek. Pokud je vaše vkládaná aplikace hostována pod jinou doménou než Metabase, budete pravděpodobně muset tuto hodnotu změnit na None. V opačném případě ponechte hodnotu Lax, protože je bezpečnější."
+msgid "Determines whether or not cookies are allowed to be sent on cross-site requests. You’ll likely need to change this to None if your embedding application is hosted under a different domain thanngmKASE. Otherwise, leave it set to Lax, as it's more secure."
+msgstr "Určuje, zda je povoleno odesílat soubory cookie při požadavcích na křížové propojení stránek. Pokud je vaše vkládaná aplikace hostována pod jinou doménou nežngmKASE, budete pravděpodobně muset tuto hodnotu změnit na None. V opačném případě ponechte hodnotu Lax, protože je bezpečnější."
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppSameSiteCookieDescription/EmbeddingAppSameSiteCookieDescription.tsx:33
 msgid "If you set this to None, you'll have to use HTTPS (unless you're just embedding locally), or browsers will reject the request. {0}"

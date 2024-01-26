@@ -103,7 +103,7 @@ const MetadataTableSettings = ({
         <MetadataSection>
           <MetadataSectionHeader
             title={t`Cached field values`}
-            description={t`Metabase can scan the values in this table to enable checkbox filters in dashboards and questions.`}
+            description={t`ngmKase can scan the values in this table to enable checkbox filters in dashboards and questions.`}
           />
           <ActionButton
             className="Button mr2"

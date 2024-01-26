@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: Metabase\n"
+"Project-Id-Version:ngmKASE\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -52,7 +52,7 @@ msgid "Save"
 msgstr "保存"
 
 #: frontend/src/metabase/admin/databases/components/DatabaseSchedulingForm.jsx:122
-msgid "To do some of its magic, Metabase needs to scan your database. We will also rescan it periodically to keep the metadata up-to-date. You can control when the periodic rescans happen below."
+msgid "To do some of its magic,ngmKASE needs to scan your database. We will also rescan it periodically to keep the metadata up-to-date. You can control when the periodic rescans happen below."
 msgstr "Metabaseは効率的に機能するために、登録されているデータベースをスキャンします。また、メタデータを最新に保つために再スキャンを実行します。以下から再スキャンの頻度を設定することができます。"
 
 #: metabase/driver/common.clj:148
@@ -82,7 +82,7 @@ msgid "Metabase can scan the values present in each\n"
 msgstr "Metabaseはこのデータベースの各フィールドの値をスキャンして、ダッシュボードや質問でのチェックボックスフィルター機能を有効にすることができます。 データベースが非常に大きい場合は、リソースに多少負荷のかかる処理となります。"
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:167
-msgid "When should Metabase automatically scan and cache field values?"
+msgid "When shouldngmKASE automatically scan and cache field values?"
 msgstr "フィールド値をキャッシュするための自動スキャンをいつ実行するようにしますか?"
 
 #: frontend/src/metabase/databases/components/DatabaseCacheScheduleField/DatabaseCacheScheduleField.tsx:72
@@ -94,7 +94,7 @@ msgid "Only when adding a new filter widget"
 msgstr "新しいフィルターウィジェットを追加したときのみ行う"
 
 #: frontend/src/metabase/admin/databases/components/widgets/CacheFieldValuesScheduleWidget.jsx:55
-msgid "When a user adds a new filter to a dashboard or a SQL question, Metabase will\n"
+msgid "When a user adds a new filter to a dashboard or a SQL question,ngmKASE will\n"
 "scan the field(s) mapped to that filter in order to show the list of selectable values."
 msgstr "ユーザーがダッシュボードまたは質問に新しいフィルターを追加すると、Metabaseはそのフィルターにマップされたフィールドをスキャンし、選択可能な値一覧を表示できるようにします。"
 
@@ -676,7 +676,7 @@ msgid "{0} – Field Settings"
 msgstr "{0} - フィールド設定"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:145
-msgid "Where this field will appear throughout Metabase"
+msgid "Where this field will appear throughoutngmKASE"
 msgstr "Metabase上でフィールドが表示される箇所"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:274
@@ -971,16 +971,16 @@ msgstr "このユーザーを管理者にする"
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:31
 msgid "All users belong to the {0} group and can't be removed from it. Setting permissions for this group is a great way to\n"
-"make sure you know what new Metabase users will be able to see."
+"make sure you know what newngmKASE users will be able to see."
 msgstr "全てのユーザーは{0}グループに属しており、そのグループから削除することはできません。 このグループの権限を設定することで、新しいMetabaseユーザーの閲覧可能範囲を確認することができます。"
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:40
-msgid "This is a special group whose members can see everything in the Metabase instance, and who can access and make changes to the\n"
+msgid "This is a special group whose members can see everything in thengmKASE instance, and who can access and make changes to the\n"
 "settings in the Admin Panel, including changing permissions! So, add people to this group with care."
 msgstr "これはメンバーがMetabaseインスタンス内の全データを参照できるだけでなく、権限の変更などを含む管理者パネルの設定ができる特別なグループです。このグループにメンバーを追加する場合は、十分にご注意ください。"
 
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:44
-msgid "To make sure you don't get locked out of Metabase, there always has to be at least one user in this group."
+msgid "To make sure you don't get locked out ofngmKASE, there always has to be at least one user in this group."
 msgstr "Metabaseからロックアウトされないため、このグループには最低1ユーザーの登録が必要です"
 
 #: frontend/src/metabase/admin/people/components/GroupsListing.jsx:222
@@ -1359,15 +1359,15 @@ msgid "Sorry, an error occurred."
 msgstr "申し訳ありません、エラーが発生しました"
 
 #: frontend/src/metabase/admin/permissions/constants/messages.ts:3
-msgid "Administrators always have the highest level of access to everything in Metabase."
+msgid "Administrators always have the highest level of access to everything inngmKASE."
 msgstr "管理者にはMetabaseの全データへのアクセス権限があります"
 
 #: frontend/src/metabase/admin/permissions/selectors.js:70
-msgid "Every Metabase user belongs to the All Users group. If you want to limit or restrict a group's access to something, make sure the All Users group has an equal or lower level of access."
+msgid "EveryngmKASE user belongs to the All Users group. If you want to limit or restrict a group's access to something, make sure the All Users group has an equal or lower level of access."
 msgstr "全てのMetabaseユーザーは、All Users グループに属します。 グループへのアクセスを制限またはブロックする場合は、All Users グループのアクセスレベルが同等かそれ以下であることをご確認ください。"
 
 #: frontend/src/metabase/admin/permissions/selectors.js:72
-msgid "MetaBot is Metabase's Slack bot. You can choose what it has access to here."
+msgid "MetaBot isngmKASE's Slack bot. You can choose what it has access to here."
 msgstr "MetaBotはMetabaseのSlackボットです。 ここにアクセスできるものを選択できます。"
 
 #: frontend/src/metabase/admin/permissions/selectors/confirmations.ts:59
@@ -1493,7 +1493,7 @@ msgstr "Googleを利用してサインインする"
 
 #: frontend/src/metabase/admin/settings/auth/components/GoogleAuthForm/GoogleAuthForm.tsx:65
 #: frontend/src/metabase/admin/settings/auth/containers/GoogleAuthCard/GoogleAuthCard.tsx:17
-msgid "Allows users with existing Metabase accounts to login with a Google account that matches their email address in addition to their Metabase username and password."
+msgid "Allows users with existingngmKASE accounts to login with a Google account that matches their email address in addition to theirngmKASE username and password."
 msgstr "Metabaseアカウント保有者に、Metabaseユーザーネームとパスワード以外に、登録されたメールアドレスと一致するGoogleアカウントでログインすることを許可する"
 
 #: frontend/src/metabase/components/ChannelSetupMessage/ChannelSetupMessage.jsx:32
@@ -1506,7 +1506,7 @@ msgid "LDAP"
 msgstr "LDAP"
 
 #: frontend/src/metabase/admin/settings/auth/containers/LdapAuthCard/LdapAuthCard.tsx:12
-msgid "Allows users within your LDAP directory to log in to Metabase with their LDAP credentials, and allows automatic mapping of LDAP groups to Metabase groups."
+msgid "Allows users within your LDAP directory to log in tongmKASE with their LDAP credentials, and allows automatic mapping of LDAP groups tongmKASE groups."
 msgstr "LDAPディレクトリ内のユーザーに対し、LDAP資格情報によるMetabaseへのログインを許可し、LDAPグループをMetabaseグループに自動的にマッピングできるようにする。"
 
 #: frontend/src/metabase/admin/settings/components/SettingsBatchForm.jsx:21
@@ -1583,7 +1583,7 @@ msgid "Getting set up"
 msgstr "開始する"
 
 #: frontend/src/metabase/admin/settings/setup/components/SetupCheckList/SetupCheckList.jsx:124
-msgid "A few things you can do to get the most out of Metabase."
+msgid "A few things you can do to get the most out ofngmKASE."
 msgstr "Metabaseを有効活用するためにできること"
 
 #: frontend/src/metabase/admin/settings/setup/components/SetupCheckList/SetupCheckList.jsx:133
@@ -1595,7 +1595,7 @@ msgid "Google Sign-In"
 msgstr "Googleサインイン"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:123
-msgid "To allow users to sign in with Google you'll need to give Metabase a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}"
+msgid "To allow users to sign in with Google you'll need to givengmKASE a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}"
 msgstr "ユーザーがGoogleでログインできるようにするには、MetabaseにGoogle DevelopersコンソールアプリケーションクライアントIDを指定する必要があります。 キーの作成方法の確認は非常に簡単です。{0}"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:140
@@ -1615,11 +1615,11 @@ msgid "Create a Slack Bot User for MetaBot"
 msgstr "MetaBotのSlack Botユーザーを作成する"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:255
-msgid "Once you're there, give it a name and click {0}. Then copy and paste the Bot API Token into the field below. Once you are done, create a \"metabase_files\" channel in Slack. Metabase needs this to upload graphs."
+msgid "Once you're there, give it a name and click {0}. Then copy and paste the Bot API Token into the field below. Once you are done, create a \"metabase_files\" channel in Slack.ngmKASE needs this to upload graphs."
 msgstr "名前を付けて{0}をクリックします。 ボットAPIトークンをコピーし、下のフィールドに貼り付けます。 完了したら、Slackで \"metabase_files\"チャンネルを作成します。 これはMetabaseでグラフをアップロードするために必要な作業です。"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm/VersionUpdateNotice/VersionUpdateNotice.jsx:56
-msgid "You're running Metabase {0} which is the latest and greatest!"
+msgid "You're runningngmKASE {0} which is the latest and greatest!"
 msgstr "お使いのMetabase {0}は最新です"
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm.jsx:100
@@ -1748,8 +1748,8 @@ msgid "By enabling embedding you're agreeing to the embedding license located at
 msgstr "埋め込みを有効にすると、␣にある埋め込みライセンスに同意します。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese.jsx:23
-msgid "In plain English, when you embed charts or dashboards from Metabase in your own application, that application isn't subject to the Affero General Public License that covers the rest of Metabase, provided you keep the Metabase logo and the \"Powered by Metabase\" visible on those embeds. You should, however, read the license text linked above as that is the actual license that you will be agreeing to by enabling this feature."
-msgstr "Metabaseから独自のアプリケーションにチャートやダッシュボードを埋め込む場合、Metabaseのロゴと「Powered by Metabase」が埋め込みの中でも表示させている限り、そのアプリケーションはMetabaseの残りの部分をカバーするAffero General Public Licenseには拘束されません。ただし、この機能を有効にした場合に同意したことになる実際のライセンスですから、上記リンク先のライセンステキストを必ずお読みください。"
+msgid "In plain English, when you embed charts or dashboards fromngmKASE in your own application, that application isn't subject to the Affero General Public License that covers the rest ofngmKASE, provided you keep thengmKASE logo and the \"Powered byngmKASE\" visible on those embeds. You should, however, read the license text linked above as that is the actual license that you will be agreeing to by enabling this feature."
+msgstr "Metabaseから独自のアプリケーションにチャートやダッシュボードを埋め込む場合、Metabaseのロゴと「Powered byngmKASE」が埋め込みの中でも表示させている限り、そのアプリケーションはMetabaseの残りの部分をカバーするAffero General Public Licenseには拘束されません。ただし、この機能を有効にした場合に同意したことになる実際のライセンスですから、上記リンク先のライセンステキストを必ずお読みください。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:68
 msgid "Enable"
@@ -1760,12 +1760,12 @@ msgid "Premium embedding enabled"
 msgstr "プレミアム埋め込みが有効化された"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:30
-msgid "Enter the token you bought from the Metabase Store"
+msgid "Enter the token you bought from thengmKASE Store"
 msgstr "Metabase Storeから購入したトークンを入力する"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:57
-msgid "Premium embedding lets you disable \"Powered by Metabase\" on your embedded dashboards and questions."
-msgstr "プレミアム埋め込みを利用すると、埋め込みされたダッシュボードや質問の「Powered by Metabase」という表示を無効化することができます"
+msgid "Premium embedding lets you disable \"Powered byngmKASE\" on your embedded dashboards and questions."
+msgstr "プレミアム埋め込みを利用すると、埋め込みされたダッシュボードや質問の「Powered byngmKASE」という表示を無効化することができます"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLevel.jsx:64
 msgid "Buy a token"
@@ -1788,7 +1788,7 @@ msgid "Create a mapping"
 msgstr "マッピングを作成する"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget.jsx:145
-msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the\n"
+msgid "Mappings allowngmKASE to automatically add and remove users from groups based on the membership information provided by the\n"
 "directory server. Membership to the Admin group can be granted through mappings, but will not be automatically removed as a\n"
 "failsafe measure."
 msgstr "マッピングをすると、ディレクトリサーバーから提供される利用者情報に基づいて、グループからユーザーを自動的に追加または削除することができます。管理者グループへのメンバーシップはマッピングを介して付与できますが、フェイルセーフ対策として自動的に削除されることはありません。"
@@ -2095,7 +2095,7 @@ msgid "Embedding in other Applications"
 msgstr "他アプリケーションに埋め込む"
 
 #: frontend/src/metabase/admin/settings/selectors.js:332
-msgid "Enable Embedding Metabase in other Applications"
+msgid "Enable EmbeddingngmKASE in other Applications"
 msgstr "他アプリケーションへのMetabaseの埋め込みを有効化する"
 
 #: frontend/src/metabase/admin/settings/selectors.js:532
@@ -2156,11 +2156,11 @@ msgid "Back to login"
 msgstr "ログイン画面に戻る"
 
 #: frontend/src/metabase/auth/components/GoogleNoAccount.jsx:15
-msgid "No Metabase account exists for this Google account."
+msgid "NongmKASE account exists for this Google account."
 msgstr "このGoogleアカウントを利用したMetabaseアカウントは存在しません"
 
 #: metabase/integrations/google.clj:26
-msgid "You'll need an administrator to create a Metabase account before you can use Google to log in."
+msgid "You'll need an administrator to create angmKASE account before you can use Google to log in."
 msgstr "Googleを利用してログインするには、管理者からMetabaseアカウントを作成してもらう必要があります"
 
 #: frontend/src/metabase/auth/components/AuthProviderButton.jsx:24
@@ -2176,7 +2176,7 @@ msgid "Forgot password"
 msgstr "パスワードをお忘れの場合"
 
 #: frontend/src/metabase/auth/components/ForgotPasswordForm/ForgotPasswordForm.tsx:51
-msgid "The email you use for your Metabase account"
+msgid "The email you use for yourngmKASE account"
 msgstr "Metabaseアカウントのメールアドレス"
 
 #: frontend/src/metabase/auth/components/ForgotPasswordForm/ForgotPasswordForm.tsx:55
@@ -2188,7 +2188,7 @@ msgid "Check your email for instructions on how to reset your password."
 msgstr "パスワードのリセット方法についてはメールをご確認ください"
 
 #: frontend/src/metabase/auth/components/Login/Login.tsx:30
-msgid "Sign in to Metabase"
+msgid "Sign in tongmKASE"
 msgstr "Metabaseにサインインする"
 
 #: frontend/src/metabase/auth/containers/LoginApp.jsx:165
@@ -2494,11 +2494,11 @@ msgid "Some database installations can only be accessed by connecting through an
 msgstr "一部のデータベースインストールは、SSHホストを介して接続することによってのみアクセスできます。VPNが利用できない場合、このオプションを使用することでセキュリティーレベルを高めることができますが、この機能を有効にすると直接接続するよりも動作が遅くなりことがあります。"
 
 #: frontend/src/metabase/entities/databases/forms.js:349
-msgid "This is a large database, so let me choose when Metabase syncs and scans"
+msgid "This is a large database, so let me choose whenngmKASE syncs and scans"
 msgstr "データベースが大きいため、Metabaseの同期とスキャンのタイミングを選択します"
 
 #: frontend/src/metabase/components/DatabaseDetailsForm.jsx:296
-msgid "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values.\n"
+msgid "By default,ngmKASE does a lightweight hourly sync and an intensive daily scan of field values.\n"
 "If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
 msgstr "Metabaseはフィールド値に対し1時間毎のクイックスキャンと毎日のフルスキャンがデフォルトで設定されています。データベースが大きい場合はこの設定を有効にし、いつどのようにフィールド値のスキャンをするか確認することをお勧めします。"
 
@@ -2524,7 +2524,7 @@ msgid "with Google Drive permissions"
 msgstr "Googleドライブ権限で"
 
 #: frontend/src/metabase/entities/databases/forms.js:248
-msgid "To use Metabase with this data you must enable API access in the Google Developers Console."
+msgid "To usengmKASE with this data you must enable API access in the Google Developers Console."
 msgstr "このデータでMetabaseを利用するには、Google Developers ConsoleのAPIアクセスを有効化する必要があります"
 
 #: frontend/src/metabase/entities/databases/forms.js:249
@@ -2814,7 +2814,7 @@ msgid "Subscribe"
 msgstr "購読する"
 
 #: frontend/src/metabase/setup/components/NewsletterForm/NewsletterForm.tsx:71
-msgid "You're subscribed. Thanks for using Metabase!"
+msgid "You're subscribed. Thanks for usingngmKASE!"
 msgstr "購読の登録がされました。Metabaseをご利用いただきありがとうございます!"
 
 #: frontend/src/metabase/containers/ErrorPages.tsx:35
@@ -2912,7 +2912,7 @@ msgid "Calendar Day"
 msgstr "カレンダー日"
 
 #: frontend/src/metabase/components/SchedulePicker/SchedulePicker.tsx:235
-msgid "your Metabase timezone"
+msgid "yourngmKASE timezone"
 msgstr "Metabaseのタイムゾーン"
 
 #: frontend/src/metabase/components/SearchHeader.jsx:21
@@ -4410,7 +4410,7 @@ msgid "Help"
 msgstr "ヘルプ"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:75
-msgid "About Metabase"
+msgid "AboutngmKASE"
 msgstr "Metabaseについて"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:81
@@ -4757,7 +4757,7 @@ msgid "Public link"
 msgstr "リンクを公開する"
 
 #: frontend/src/metabase/public/components/widgets/SharingPane.tsx:119
-msgid "Share this {0} with people who don't have a Metabase account using the URL below:"
+msgid "Share this {0} with people who don't have angmKASE account using the URL below:"
 msgstr "Metabaseアカウントを保有していない方に下記URLを利用して{0}を共有する:"
 
 #: frontend/src/metabase/public/components/widgets/SharingPane.tsx:148
@@ -4979,7 +4979,7 @@ msgid "Help everyone on your team stay in sync with your data."
 msgstr "チームが常にあなたのデータと同期されるよう心がけましょう"
 
 #: frontend/src/metabase/pulse/components/WhatsAPulse.jsx:31
-msgid "Pulses let you send data from Metabase to email or Slack on the schedule of your choice."
+msgid "Pulses let you send data fromngmKASE to email or Slack on the schedule of your choice."
 msgstr "Metabaseのデータをご自身で設定した予定通りにメールまたはSlackで送信することができます"
 
 #: frontend/src/metabase/visualizations/click-actions/components/TimeseriesFilterWidget.jsx:71
@@ -6408,7 +6408,7 @@ msgid "Contact {0}"
 msgstr "{0}に問い合わせる"
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuideEditForm.jsx:253
-msgid "Help new Metabase users find their way around."
+msgid "Help newngmKASE users find their way around."
 msgstr "新しいユーザーをヘルプする"
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuideEditForm.jsx:256
@@ -6623,7 +6623,7 @@ msgid "Connecting to {0}"
 msgstr "{0}に接続中"
 
 #: frontend/src/metabase/setup/components/DatabaseConnectionStep.jsx:132
-msgid "You’ll need some info about your database, like the username and password. If you don’t have that right now, Metabase also comes with a sample dataset you can get started with."
+msgid "You’ll need some info about your database, like the username and password. If you don’t have that right now,ngmKASE also comes with a sample dataset you can get started with."
 msgstr "ユーザー名やパスワード等データベースに関する情報が必要です。"
 
 #: frontend/src/metabase/databases/components/DatabaseForm/DatabaseForm.tsx:205
@@ -6647,7 +6647,7 @@ msgid "We won't collect any usage events"
 msgstr "Usage eventに関する情報は収集いたしません"
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:90
-msgid "In order to help us improve Metabase, we'd like to collect certain data about usage through Google Analytics."
+msgid "In order to help us improvengmKASE, we'd like to collect certain data about usage through Google Analytics."
 msgstr "Metabaseサービスを向上させるため、Google Analyticsを通じてデータ使用に関する情報を収集いたします"
 
 #: frontend/src/metabase/setup/components/PreferencesStep.jsx:95
@@ -6655,7 +6655,7 @@ msgid "Here's a full list of everything we track and why."
 msgstr "収集する情報とその理由についてはこちらをご確認ください"
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:89
-msgid "Allow Metabase to anonymously collect usage events"
+msgid "AllowngmKASE to anonymously collect usage events"
 msgstr "Metabaseが匿名の情報収集をすることに同意する"
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:94
@@ -6688,7 +6688,7 @@ msgid "is just a click away."
 msgstr "クリックするだけ"
 
 #: frontend/src/metabase/setup/components/WelcomePage/WelcomePage.tsx:39
-msgid "Welcome to Metabase"
+msgid "Welcome tongmKASE"
 msgstr "Metabaseへようこそ"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:132
@@ -6704,7 +6704,7 @@ msgid "You're all set up!"
 msgstr "準備ができました!"
 
 #: frontend/src/metabase/setup/components/CompletedStep/CompletedStep.tsx:31
-msgid "Take me to Metabase"
+msgid "Take me tongmKASE"
 msgstr "Metabaseを使い始める"
 
 #: frontend/src/metabase/setup/components/UserStep/UserStep.tsx:70
@@ -6781,7 +6781,7 @@ msgid "We’ll show you some interesting explorations of your data in\n"
 msgstr "わずか数分であなたのデータに関する興味深い探索結果を提示します。"
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:69
-msgid "This seems to be taking a while. In the meantime, you can check out one of these example explorations to see what Metabase can do for you."
+msgid "This seems to be taking a while. In the meantime, you can check out one of these example explorations to see whatngmKASE can do for you."
 msgstr "しばらく時間がかかります。その間、これらの探索結果のサンプルを見てMetabaseで何ができるか知ることができます。"
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:83
@@ -7920,7 +7920,7 @@ msgid "Email is not verified."
 msgstr "メールが確認されていません"
 
 #: src/metabase/integrations/google.clj
-msgid "You''ll need an administrator to create a Metabase account before you can use Google to log in."
+msgid "You''ll need an administrator to create angmKASE account before you can use Google to log in."
 msgstr "Googleを利用してログインするには、事前に管理者がMetabaseアカウントを作成する必要があります"
 
 #: target/classes/metabase/integrations/google.clj
@@ -7988,7 +7988,7 @@ msgstr "{0}に保存された質問が多数ありますか?整理するのに�
 
 #. This is the very first log message that will get printed.
 #. It's here because this is one of the very first namespaces that gets loaded, and the first that has access to the logger
-#. It shows up a solid 10-15 seconds before the "Starting Metabase in STANDALONE mode" message because so many other namespaces need to get loaded
+#. It shows up a solid 10-15 seconds before the "StartingngmKASE in STANDALONE mode" message because so many other namespaces need to get loaded
 #: frontend/src/metabase/admin/settings/components/SettingsSlackForm.jsx:224
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:97
 #: frontend/src/metabase/public/components/EmbedFrame/LogoBadge.tsx:16
@@ -8385,7 +8385,7 @@ msgid "FAIL [[[{0}]]]"
 msgstr "失敗 [[[{0}]]]"
 
 #: metabase/core.clj:70
-msgid "Please use the following URL to setup your Metabase installation:"
+msgid "Please use the following URL to setup yourngmKASE installation:"
 msgstr "Metabaseインストールを設定するには次のURLを使用してください:"
 
 #: metabase/core.clj:84
@@ -8397,7 +8397,7 @@ msgid "Metabase Shutdown COMPLETE"
 msgstr "Metabaseのシャットダウンが完了しました"
 
 #: metabase/core.clj:100
-msgid "Starting Metabase version {0} ..."
+msgid "StartingngmKASE version {0} ..."
 msgstr "Metabaseバージョン{0}を起動中..."
 
 #: src/metabase/core.clj
@@ -8406,7 +8406,7 @@ msgstr "システムタイムゾーンは\"{0}\"です..."
 
 #. startup database.  validates connection & runs any necessary migrations
 #: metabase/core.clj:110
-msgid "Setting up and migrating Metabase DB. Please sit tight, this may take a minute..."
+msgid "Setting up and migratingngmKASE DB. Please sit tight, this may take a minute..."
 msgstr "Metabase DBのセットアップとマイグレーション中。これには時間がかかることがあります。"
 
 #: metabase/core.clj:125
@@ -8426,7 +8426,7 @@ msgid "Shutting Down Embedded Jetty Webserver"
 msgstr "埋め込みJetty Webserverをシャットダウン中"
 
 #: metabase/core.clj:161
-msgid "Starting Metabase in STANDALONE mode"
+msgid "StartingngmKASE in STANDALONE mode"
 msgstr "MetabaseをSTANDALONEモードで起動中"
 
 #: metabase/core.clj:171
@@ -8591,7 +8591,7 @@ msgstr "metabase.driver.FixedHiveDriverが正常にJDBCに登録されました�
 #. CONFIG
 #. TODO - smtp-port should be switched to type :integer
 #: src/metabase/email.clj target/classes/metabase/email.clj
-msgid "Email address you want to use as the sender of Metabase."
+msgid "Email address you want to use as the sender ofngmKASE."
 msgstr "Metabaseの送信者として使用したいメールアドレス"
 
 #: metabase/email.clj:57
@@ -8684,7 +8684,7 @@ msgstr "グループの検索ベース。LDAPディレクトリが\"memberOf”�
 
 #. Should be in the form: {"cn=Some Group,dc=...": [1, 2, 3]} where keys are LDAP groups and values are lists of MB groups IDs
 #: metabase/integrations/ldap.clj:93
-msgid "JSON containing LDAP to Metabase group mappings."
+msgid "JSON containing LDAP tongmKASE group mappings."
 msgstr "LDAPとMetabaseのグループマッピングを含むJSON"
 
 #. Define a setting which captures our Slack api token
@@ -9051,11 +9051,11 @@ msgid "Loading plugin {0}... "
 msgstr "プラグイン{0}を読込中... "
 
 #: src/metabase/plugins.clj
-msgid "It looks like you have some external dependencies in your Metabase plugins directory."
+msgid "It looks like you have some external dependencies in yourngmKASE plugins directory."
 msgstr "Metabaseプラグインディレクトリに、外部依存関係があるようです。"
 
 #: src/metabase/plugins.clj
-msgid "With Java 9 or higher, Metabase cannot automatically add them to your classpath."
+msgid "With Java 9 or higher,ngmKASE cannot automatically add them to your classpath."
 msgstr "Java 9以降では、Metabaseはクラスパスに自動的に追加できません。"
 
 #: src/metabase/plugins.clj
@@ -9063,31 +9063,31 @@ msgid "Instead, you should include them at launch with the -cp option. For examp
 msgstr "代わりに、起動時に-cpオプションを使用して含める必要があります。 例:"
 
 #: src/metabase/plugins.clj
-msgid "See https://metabase.com/docs/latest/operations-guide/start.html#java-versions for more details."
-msgstr "詳しくは、 https://metabase.com/docs/latest/operations-guide/start.html#java-versions を見てください"
+msgid "See https://data.engeem.com.com/docs/latest/operations-guide/start.html#java-versions for more details."
+msgstr "詳しくは、 https://data.engeem.com.com/docs/latest/operations-guide/start.html#java-versions を見てください"
 
 #: src/metabase/plugins.clj
-msgid "(If you're already running Metabase this way, you can ignore this message.)"
+msgid "(If you're already runningngmKASE this way, you can ignore this message.)"
 msgstr "(すでにこの方法でMetabaseを実行している場合は、このメッセージを無視してください。)"
 
 #: metabase/public_settings.clj:68
-msgid "Identify when new versions of Metabase are available."
+msgid "Identify when new versions ofngmKASE are available."
 msgstr "Metabaseの新しいバージョンがいつ入手可能かを確認する"
 
 #: metabase/public_settings.clj:74
-msgid "Information about available versions of Metabase."
+msgid "Information about available versions ofngmKASE."
 msgstr "Metabaseの利用可能なバージョンに関する情報"
 
 #: metabase/public_settings.clj:77
-msgid "The name used for this instance of Metabase."
+msgid "The name used for this instance ofngmKASE."
 msgstr "このMetabaseのインスタンスの名前"
 
 #: src/metabase/public_settings.clj
-msgid "The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\"."
+msgid "The base URL of thisngmKASE instance, e.g. \"http://metabase.my-company.com\"."
 msgstr "このMetabaseインスタンスのベースURL、例: \"http://metabase.my-company.com\""
 
 #: src/metabase/public_settings.clj
-msgid "The default language for this Metabase instance."
+msgid "The default language for thisngmKASE instance."
 msgstr "このMetabaseインスタンスのデフォルトの言語です。"
 
 #: src/metabase/public_settings.clj
@@ -9099,7 +9099,7 @@ msgid "The email address users should be referred to if they encounter a problem
 msgstr "問題が発生した場合に、ユーザーが参照すべきメールアドレス"
 
 #: metabase/public_settings.clj:195
-msgid "Enable the collection of anonymous usage data in order to help Metabase improve."
+msgid "Enable the collection of anonymous usage data in order to helpngmKASE improve."
 msgstr "Metabaseのサービス向上のため、匿名の使用状況データの収集を許可する。"
 
 #: metabase/public_settings.clj:258
@@ -9342,9 +9342,9 @@ msgstr "ジョブが既に存在します:"
 
 #. This is the very first log message that will get printed.  It's here because this is one of the very first
 #. namespaces that gets loaded, and the first that has access to the logger It shows up a solid 10-15 seconds before
-#. the "Starting Metabase in STANDALONE mode" message because so many other namespaces need to get loaded
+#. the "StartingngmKASE in STANDALONE mode" message because so many other namespaces need to get loaded
 #: src/metabase/util.clj
-msgid "Loading Metabase..."
+msgid "LoadingngmKASE..."
 msgstr "Metabaseを読込中..."
 
 #: src/metabase/util/date.clj
@@ -9368,11 +9368,11 @@ msgid "MB_ENCRYPTION_SECRET_KEY must be at least 16 characters."
 msgstr "MB_ENCRYPTION_SECRET_KEYは16文字以上にしてください。"
 
 #: metabase/util/encryption.clj:44
-msgid "Saved credentials encryption is ENABLED for this Metabase instance."
+msgid "Saved credentials encryption is ENABLED for thisngmKASE instance."
 msgstr "このMetabaseインスタンスに対して、保存された資格情報の暗号化が有効になっています。"
 
 #: metabase/util/encryption.clj:45
-msgid "Saved credentials encryption is DISABLED for this Metabase instance."
+msgid "Saved credentials encryption is DISABLED for thisngmKASE instance."
 msgstr "保存された資格情報は、このMetabase Instanceでは無効化されています"
 
 #: src/metabase/util/encryption.clj
@@ -10012,7 +10012,7 @@ msgid "Troubleshooting logs"
 msgstr "トラブルシューティングログ"
 
 #: frontend/src/metabase/admin/tasks/containers/TasksApp.jsx:47
-msgid "Trying to get to the bottom of something? This section shows logs of Metabase's background tasks, which can help shed light on what's going on."
+msgid "Trying to get to the bottom of something? This section shows logs ofngmKASE's background tasks, which can help shed light on what's going on."
 msgstr "何かの原因究明をしようとしていますか?このセクションではMetabaseのバックグラウンドタスクのログを表示しています。これを見れば何が起こっているかを知る助けになるでしょう。"
 
 #: frontend/src/metabase/admin/tasks/containers/TasksApp.jsx:66
@@ -11890,15 +11890,15 @@ msgid "We’d love your feedback."
 msgstr "フィードバックは大歓迎です"
 
 #: metabase/email/messages.clj:106
-msgid "It looks like Metabase wasn’t quite a match for you."
+msgid "It looks likengmKASE wasn’t quite a match for you."
 msgstr "Metabaseはあなたに合わなかったようです。"
 
 #: metabase/email/messages.clj:108
-msgid "Would you mind taking a fast 5 question survey to help the Metabase team understand why and make things better in the future?"
+msgid "Would you mind taking a fast 5 question survey to help thengmKASE team understand why and make things better in the future?"
 msgstr "Metabaseチームがその理由を理解し、将来的に物事を改善するのを助けるために、5問の高速アンケートに回答していただけますか"
 
 #: metabase/email/messages.clj:286
-msgid "We hope you''ve been enjoying Metabase."
+msgid "We hope you''ve been enjoyingngmKASE."
 msgstr "Metabaseを楽しんでくださいね"
 
 #: metabase/email/messages.clj:113
@@ -11906,11 +11906,11 @@ msgid "Would you mind taking a fast 6 question survey to tell us how it’s goin
 msgstr "どのような感じだったか私たちが知るため簡単な6つの質問に答えてくれませんか?"
 
 #: src/metabase/email/messages.clj
-msgid "{0} created a Metabase account"
+msgid "{0} created angmKASE account"
 msgstr "{0} はMetabaseアカウントを作成しました"
 
 #: src/metabase/email/messages.clj
-msgid "{0} accepted their Metabase invite"
+msgid "{0} accepted theirngmKASE invite"
 msgstr "{0} はMetabaseへの招待を受付けました"
 
 #: src/metabase/email/messages.clj
@@ -11922,8 +11922,8 @@ msgid "[Metabase] Notification"
 msgstr "[Metabase] 通知"
 
 #: src/metabase/email/messages.clj
-msgid "[Metabase] Help make Metabase better."
-msgstr "[Metabase] Metabaseの改善にご協力ください"
+msgid "[Metabase] Help makengmKASE better."
+msgstr "[Metabase]ngmKASEの改善にご協力ください"
 
 #: src/metabase/email/messages.clj
 msgid "[Metabase] Tell us how things are going."
@@ -12220,7 +12220,7 @@ msgid "You may need to add `?sslmode=require` to your application DB connection 
 msgstr "アプリケーションのDB接続文字列に `?sslmode=require`を追加する必要がある場合があります。"
 
 #: target/classes/metabase/db/env.clj
-msgid "If Metabase fails to launch, please add it and try again."
+msgid "IfngmKASE fails to launch, please add it and try again."
 msgstr "Metabaseが起動に失敗したときは、これを加えて再試行をお願いします。"
 
 #: target/classes/metabase/db/env.clj
@@ -12228,7 +12228,7 @@ msgid "See https://github.com/metabase/metabase/issues/8908 for more details."
 msgstr "詳細については、 https://github.com/metabase/metabase/issues/8908 を参照してください。"
 
 #: src/metabase/db.clj
-msgid "WARNING: Using Metabase with an H2 application database is not recomended for production deployments."
+msgid "WARNING: UsingngmKASE with an H2 application database is not recomended for production deployments."
 msgstr "警告: 本番環境で、MetabaseをH2アプリケーションデータベースと共に使用することはお勧めできません。"
 
 #: target/classes/metabase/db/env.clj
@@ -12240,11 +12240,11 @@ msgid "If you decide to continue to use H2, please be sure to back up the databa
 msgstr "H2の使用を継続する場合は、データベースファイルを定期的にバックアップしてください。"
 
 #: src/metabase/db.clj
-msgid "See https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
-msgstr "詳細については、 https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres を参照してください。"
+msgid "See https://data.engeem.com.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
+msgstr "詳細については、 https://data.engeem.com.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres を参照してください。"
 
 #: metabase/db/setup.clj:110
-msgid "Unable to connect to Metabase {0} DB."
+msgid "Unable to connect tongmKASE {0} DB."
 msgstr "Metabase {0} DBに接続できません。"
 
 #: target/classes/metabase/db/data_migrations.clj
@@ -12364,11 +12364,11 @@ msgid "Metabase cannot use the plugins directory {0}"
 msgstr "Metabaseはプラグインディレクトリ {0} を使用できません"
 
 #: metabase/plugins.clj:43
-msgid "Please make sure the directory exists and that Metabase has permission to write to it."
+msgid "Please make sure the directory exists and thatngmKASE has permission to write to it."
 msgstr "ディレクトリが存在するか、Metabaseに書き込み権限があるか確認してください。"
 
 #: metabase/plugins.clj:44
-msgid "You can change the directory Metabase uses for modules by setting the environment variable MB_PLUGINS_DIR."
+msgid "You can change the directoryngmKASE uses for modules by setting the environment variable MB_PLUGINS_DIR."
 msgstr "環境変数 MB_PLUGINS_DIR を設定することにより、Metabaseがモジュールに使用するディレクトリを変更できます。"
 
 #: metabase/plugins.clj:45
@@ -12376,11 +12376,11 @@ msgid "Falling back to a temporary directory for now."
 msgstr "今のところ一時ディレクトリにフォールバックしています。"
 
 #: metabase/plugins.clj:50
-msgid "Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
+msgid "Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restartngmKASE."
 msgstr "Metabaseは一時ディレクトリに書き込めません。 MB_PLUGINS_DIR を書き込み可能なディレクトリに設定し、Metabaseを再起動してください。"
 
 #: src/metabase/plugins.clj
-msgid "spark-deps.jar is no longer needed by Metabase 1.0+. You can delete it from the plugins directory."
+msgid "spark-deps.jar is no longer needed byngmKASE 1.0+. You can delete it from the plugins directory."
 msgstr "spark-deeps.jarはMetabase 1.0以降では必要ありません。プラグインディレクトリから削除して構いません。"
 
 #: metabase/plugins.clj:168
@@ -12412,7 +12412,7 @@ msgid "Added URL {0} to classpath"
 msgstr "URL {0} をクラスパスに追加しました"
 
 #: metabase/plugins/dependencies.clj:29
-msgid "Plugin {0} declares a dependency that Metabase does not understand: {1}"
+msgid "Plugin {0} declares a dependency thatngmKASE does not understand: {1}"
 msgstr "プラグイン{0}はMetabaseが理解できない依存を宣言しています: {1}"
 
 #: metabase/plugins/dependencies.clj:30
@@ -12484,7 +12484,7 @@ msgstr "プラグインを初期化できません: driver-nameプロパティ�
 msgid "Warning: plugin manifest for {0} does not include connection properties"
 msgstr "警告: {0}へのプラグインマニフェストに接続プロパティがありません"
 
-#. finally, register the Metabase driver
+#. finally, register thengmKASE driver
 #: metabase/plugins/lazy_loaded_driver.clj:94
 msgid "Registering lazy loading driver {0}..."
 msgstr "遅延ロードドライバー {0} の登録中です..."
@@ -12632,7 +12632,7 @@ msgid "Task history cleanup successful, no rows were deleted"
 msgstr "タスク履歴の削除は成功しました。削除された行はありませんでした。"
 
 #: metabase/task/upgrade_checks.clj:31
-msgid "Checking for new Metabase version info."
+msgid "Checking for newngmKASE version info."
 msgstr "新しいバージョンのMetabaseの確認"
 
 #: src/metabase/task/upgrade_checks.clj
@@ -12980,7 +12980,7 @@ msgid "Make sure you set a 'Content-Type: application/json' header."
 msgstr "Content-Type: application/jsonのヘッダを設定したか確認してください"
 
 #: metabase/server/middleware/misc.clj:50
-msgid "Setting Metabase site URL to {0}"
+msgid "SettingngmKASE site URL to {0}"
 msgstr "MetabaseのサイトURLを{0}に設定しています"
 
 #: metabase/models/database.clj:83
@@ -13086,7 +13086,7 @@ msgid "Automatically run queries when doing simple filtering and summarizing"
 msgstr "簡単なフィルタリングと要約を行うときに自動的にクエリを実行する"
 
 #: frontend/src/metabase/components/DatabaseDetailsForm.jsx:320
-msgid "When this is on Metabase will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
+msgid "When this is onngmKASE will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
 msgstr "この設定がオンになっていると、Metabaseは、ユーザーがテーブルやグラフを表示する際に、集約ボタンやフィルターボタンを使用して簡単な探索を行うと、自動的にクエリを実行します。このデータベースのクエリが遅い場合は、この設定をオフにできます。この設定は、ドリルダウンやSQLクエリには影響しません。"
 
 #: frontend/src/metabase/containers/Overworld.jsx:313
@@ -13447,7 +13447,7 @@ msgid "Metabase can only transfer data from H2 to Postgres or MySQL/MariaDB."
 msgstr "MetabaseはH2からPostgresまたはMySQL/MariaDBへのデータ移行のみをサポートしています。"
 
 #: target/classes/metabase/db/env.clj
-msgid "WARNING: Using Metabase with an H2 application database is not recommended for production deployments."
+msgid "WARNING: UsingngmKASE with an H2 application database is not recommended for production deployments."
 msgstr "警告: 本番環境で、MetabaseをH2アプリケーションデータベースと共に使用することはお勧めできません。"
 
 #: src/metabase/db.clj
@@ -13509,7 +13509,7 @@ msgid "Error saving task history"
 msgstr "タスク履歴を保存するのに失敗しました"
 
 #: metabase/plugins.clj:117
-msgid "spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
+msgid "spark-deps.jar is no longer needed byngmKASE 0.32.0+. You can delete it from the plugins directory."
 msgstr "spark-deps.jarはMetabase 0.32.0以降では必要ありません。プラグインディレクトリから削除して構いません。"
 
 #: src/metabase/plugins/classloader.clj
@@ -13542,7 +13542,7 @@ msgid "We were unable to display this Pulse."
 msgstr "このパルスを表示することができませんでした。"
 
 #: metabase/pulse/render/body.clj:1058
-msgid "Please view this card in Metabase."
+msgid "Please view this card inngmKASE."
 msgstr "このカードをMetabaseでご覧ください。"
 
 #: metabase/pulse/render/body.clj:53
@@ -13739,8 +13739,8 @@ msgid "Failed to fetch Field {0}: Field does not exist, or belongs to a differen
 msgstr "フィールド{0}のフェッチに失敗しました: フィールドが存在しないか、フィールドが異なるデータベースに属しています。"
 
 #: metabase/server/routes/index.clj:74
-msgid "Failed to load template ''{0}''. Did you remember to build the Metabase frontend?"
-msgstr "テンプレート ''{0}''の読み込みに失敗しました。 Metabaseフロントエンドをビルドすることを覚えていましたか?"
+msgid "Failed to load template ''{0}''. Did you remember to build thengmKASE frontend?"
+msgstr "テンプレート ''{0}''の読み込みに失敗しました。ngmKASEフロントエンドをビルドすることを覚えていましたか?"
 
 #: target/classes/metabase/sample_data.clj
 msgid "Sample dataset DB file ''{0}'' cannot be found."
@@ -13797,7 +13797,7 @@ msgid "Pick the columns you want to include"
 msgstr "含めたい列を選ぶ"
 
 #: frontend/src/metabase/entities/databases/forms.js:343
-msgid "When this is on, Metabase will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
+msgid "When this is on,ngmKASE will automatically run queries when users do simple explorations with the Summarize and Filter buttons when viewing a table or chart. You can turn this off if querying this database is slow. This setting doesn’t affect drill-throughs or SQL queries."
 msgstr "この設定がオンになっていると、Metabaseは、ユーザーがテーブルやグラフを表示する際に、集約ボタンやフィルターボタンを使用して簡単な探索を行うと、自動的にクエリを実行します。このデータベースのクエリが遅い場合は、この設定をオフにできます。この設定は、ドリルダウンやSQLクエリには影響しません。"
 
 #: frontend/src/metabase/query_builder/components/notebook/steps/JoinStep/JoinStrategyPicker/JoinStrategyPicker.tsx:51
@@ -13840,11 +13840,11 @@ msgid "Diagnostic Info"
 msgstr "診断情報"
 
 #: frontend/src/metabase/admin/tasks/components/Logs/Logs.jsx:108
-msgid "Select Metabase process:"
+msgid "SelectngmKASE process:"
 msgstr "Metabaseプロセスを選択："
 
 #: frontend/src/metabase/admin/tasks/components/Logs/Logs.jsx:118
-msgid "All Metabase processes"
+msgid "AllngmKASE processes"
 msgstr "全てのMetabaseのプロセス"
 
 #: frontend/src/metabase/lib/auth.js:18
@@ -13864,7 +13864,7 @@ msgid "Using this option requires that provided host is a FQDN.  If connecting t
 msgstr "このオプションを使うには与えられたホスト名がFQDNである必要があります。Atlasクラスタに接続する場合、このオプションを有効にする必要があるでしょう。もしもこれが意味するところが分からない場合は、無効のままにしてください。"
 
 #: frontend/src/metabase/entities/databases/forms.js:350
-msgid "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
+msgid "By default,ngmKASE does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, we recommend turning this on and reviewing when and how often the field value scans happen."
 msgstr "デフォルトでMetabaseはフィールド値を毎時の軽量なバッチと日次の重いスキャンで同期しています。大きなデータベースと接続する場合はこの機能をONとし、いつどのくらいの頻度でフィールド値がスキャンされるのかを確認することをオススメします。"
 
 #: frontend/src/metabase/home/homepage/components/XraySection/XraySection.tsx:45
@@ -14282,7 +14282,7 @@ msgid "OK"
 msgstr "OK"
 
 #: frontend/src/metabase/admin/settings/auth/components/GoogleAuthForm/GoogleAuthForm.tsx:68
-msgid "To allow users to sign in with Google you'll need to give Metabase a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
+msgid "To allow users to sign in with Google you'll need to givengmKASE a Google Developers console application client ID. It only takes a few steps and instructions on how to create a key can be found {0}."
 msgstr "ユーザにGoogleアカウントでサインインすることを許可するためには、MetabaseにGoogle Developers ConsoleのClient IDを教える必要があります。これは数ステップででき、どのようにキーを生成するかは{0}で知ることができます。"
 
 #: frontend/src/metabase/admin/settings/components/SettingsSingleSignOnForm.jsx:134
@@ -14326,11 +14326,11 @@ msgid "Includes a troubleshooting guide"
 msgstr "トラブルシューティングガイドを含みます"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:114
-msgid "Post on the Metabase support forum"
+msgid "Post on thengmKASE support forum"
 msgstr "Metabaseのサポートフォーラムにポストする"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:115
-msgid "A community forum for all things Metabase"
+msgid "A community forum for all thingsngmKASE"
 msgstr "Metabaseに関するすべてのコミュニティフォーラム"
 
 #: frontend/src/metabase/admin/tasks/components/Help/Help.tsx:121
@@ -14938,7 +14938,7 @@ msgid "must be {0} characters or less"
 msgstr "{0}文字以下でなければならない"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:121
-msgid "Thanks for using Metabase!"
+msgid "Thanks for usingngmKASE!"
 msgstr "Metabaseを使ってくれてありがとう!"
 
 #: frontend/src/metabase/public/components/EmbedFrame/LogoBadge.tsx:26
@@ -15093,7 +15093,7 @@ msgstr "GoogleのAuth Tokenが誤っているようです。"
 
 #: src/metabase/integrations/google.clj
 #: target/classes/metabase/integrations/google.clj
-msgid "Double check that it matches in Google and Metabase."
+msgid "Double check that it matches in Google andngmKASE."
 msgstr "それがGoogleとMetabaseで一致するかを再確認してください。"
 
 #: metabase/api/table.clj:341
@@ -15109,7 +15109,7 @@ msgid "Database Upgrade Required"
 msgstr "データベースのアップグレードが必要です"
 
 #: metabase/db/setup.clj:46
-msgid "NOTICE: Your database requires updates to work with this version of Metabase."
+msgid "NOTICE: Your database requires updates to work with this version ofngmKASE."
 msgstr "注意：このバージョンのMetabaseで利用するためにはあなたのデータベースをアップデートする必要があります。"
 
 #: metabase/db/setup.clj:48
@@ -15152,11 +15152,11 @@ msgid "The sub-query from referenced question #{0} failed with the following err
 msgstr "参照されている質問＃{0}のサブクエリが次のエラーで失敗しました：{1}"
 
 #: metabase/driver/mysql.clj:120
-msgid "WARNING: Metabase only officially supports MySQL {0}/MariaDB {1} and above."
+msgid "WARNING:ngmKASE only officially supports MySQL {0}/MariaDB {1} and above."
 msgstr "警告：MetabaseはMySQL {0}とMaria DB {1}、またはそれ以降のバージョンのみを公式でサポートしています。"
 
 #: metabase/driver/mysql.clj:124
-msgid "All Metabase features may not work properly when using an unsupported version."
+msgid "AllngmKASE features may not work properly when using an unsupported version."
 msgstr "サポートされていないバージョンを使う場合、Metabaseの全ての機能が正しく動かない可能性があります。"
 
 #: target/classes/metabase/driver/sql/parameters/substitute.clj
@@ -15583,7 +15583,7 @@ msgid "What's your preferred language?"
 msgstr "あなたの好みの言語は何ですか?"
 
 #: frontend/src/metabase/setup/components/LanguageStep/LanguageStep.tsx:68
-msgid "This language will be used throughout Metabase and will be the default for new users."
+msgid "This language will be used throughoutngmKASE and will be the default for new users."
 msgstr "この言語はMetabase全体で使用され、新しいユーザーのデフォルト設定になります。"
 
 #: frontend/src/metabase/visualizations/components/PinMap.jsx:141
@@ -15735,7 +15735,7 @@ msgid "Error fetching value of Setting"
 msgstr "設定値の取得中にエラーが発生しました"
 
 #: src/metabase/public_settings.clj
-msgid "The language that should be used for Metabase's UI, system emails, pulses, and alerts."
+msgid "The language that should be used forngmKASE's UI, system emails, pulses, and alerts."
 msgstr "Metabase'sのUI、システムメール、パルス、アラートに使用する言語。"
 
 #: src/metabase/public_settings.clj
@@ -15755,7 +15755,7 @@ msgid "Cannot redirect requests to HTTPS unless `site-url` is HTTPS."
 msgstr "`site-urlがHTTPSでない限り、リクエストをHTTPSにリダイレクトできません。"
 
 #: metabase/pulse/render/style.clj:112
-msgid "Error registering fonts: Metabase will not be able to send Pulses."
+msgid "Error registering fonts:ngmKASE will not be able to send Pulses."
 msgstr "フォントの登録エラー：Metabaseはパルスを送信できません。"
 
 #: metabase/pulse/render/style.clj:114
@@ -15891,7 +15891,7 @@ msgid "Configure your identity provider (IdP)"
 msgstr "認証情報プロバイダ(IdP)を設定してください"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:92
-msgid "Your identity provider will need the following info about Metabase."
+msgid "Your identity provider will need the following info aboutngmKASE."
 msgstr "あなたの設定した認証情報プロバイダはMetabaseについての以下の情報を要求します"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:99
@@ -15925,7 +15925,7 @@ msgid "User's last name attribute"
 msgstr "ユーザの姓"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:126
-msgid "Tell Metabase about your identity provider"
+msgid "TellngmKASE about your identity provider"
 msgstr "Metabaseにあなたの利用する認証情報プロバイダを教えてください"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:127
@@ -15974,7 +15974,7 @@ msgid "Synchronize group membership with your SSO"
 msgstr "SSOとグループメンバー情報を同期する"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:176
-msgid "To enable this, you'll need to create mappings to tell Metabase which group(s) your users should\n"
+msgid "To enable this, you'll need to create mappings to tellngmKASE which group(s) your users should\n"
 "be added to based on the SSO group they're in."
 msgstr "これを有効にするためには、ユーザが所属するSSOグループに基づきどのグループに追加されるべきなのかをMetabaseに伝えるためのマッピングを作る必要があります。"
 
@@ -15996,7 +15996,7 @@ msgid "Note:"
 msgstr "注意："
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm.jsx:186
-msgid "If you change any of the settings of an existing SAML active setup, then you will need to restart Metabase for them to take effect."
+msgid "If you change any of the settings of an existing SAML active setup, then you will need to restartngmKASE for them to take effect."
 msgstr "既存の有効なSAMLの設定を変更する場合、設定を有効化するためにMetabaseを再起動する必要があります。"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/containers/SamlAuthCard/SamlAuthCard.tsx:12
@@ -16048,11 +16048,11 @@ msgid "String used by the JWT signing key"
 msgstr "JWT 署名鍵で使用される文字列"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:27
-msgid "Embedding the entire Metabase app"
+msgid "Embedding the entirengmKASE app"
 msgstr "Metabaseアプリ全体を埋め込んでいます"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:16
-msgid "If you want to embed all of Metabase, enter the origins of the websites or web apps where you want to allow embedding in an iframe, separated by a space. Here are the {0} for what can be entered."
+msgid "If you want to embed all ofngmKASE, enter the origins of the websites or web apps where you want to allow embedding in an iframe, separated by a space. Here are the {0} for what can be entered."
 msgstr "Metabaseの全てを埋め込みたい場合は、埋め込みを許可したいWebサイトやWebアプリの出典をスペースで区切ってiframeに入力します。ここでは、入力できるものの{0}を示しています。"
 
 #: enterprise/frontend/src/metabase-enterprise/sandboxes/components/EditSandboxingModal/EditSandboxingModal.tsx:115
@@ -16178,7 +16178,7 @@ msgid "We're having trouble validating your token"
 msgstr "トークン検証時に問題が発生しています"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:89
-msgid "Please double-check that your instance can connect to Metabase's servers"
+msgid "Please double-check that your instance can connect tongmKASE's servers"
 msgstr "あなたのインスタンスからMetabaseサーバへ接続できるかを再確認してください"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:94
@@ -16186,11 +16186,11 @@ msgid "Get help"
 msgstr "ヘルプを得る"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:101
-msgid "Get even more out of Metabase with the Enterprise Edition"
-msgstr "Enterprise Edition で Metabase をさらに活用する"
+msgid "Get even more out ofngmKASE with the Enterprise Edition"
+msgstr "Enterprise Edition でngmKASE をさらに活用する"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:103
-msgid "All the tools you need to quickly and easily provide reports for your customers, or to help you run and monitor Metabase in a large organization"
+msgid "All the tools you need to quickly and easily provide reports for your customers, or to help you run and monitorngmKASE in a large organization"
 msgstr "顧客に素早く簡単にレポートを提供したり、大規模な組織でMetabaseを実行して監視するために必要なすべてのツールが用意されています。"
 
 #: enterprise/frontend/src/metabase-enterprise/store/containers/StoreAccount.jsx:115
@@ -16290,7 +16290,7 @@ msgid "White labeling"
 msgstr "ホワイトラベリング"
 
 #: enterprise/frontend/src/metabase-enterprise/store/lib/features.js:17
-msgid "Match Metabase to your brand with custom colors, your own logo and more."
+msgid "MatchngmKASE to your brand with custom colors, your own logo and more."
 msgstr "Metabaseをカスタマイズされた色、ロゴなどのあなたのブランドに合わせる。"
 
 #: enterprise/frontend/src/metabase-enterprise/store/lib/features.js:26
@@ -16390,7 +16390,7 @@ msgid "at"
 msgstr "に"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/utils.ts:29
-msgid "Open the Metabase actions menu"
+msgid "Open thengmKASE actions menu"
 msgstr "Metabaseアクションメニューを開く"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/TableClickBehaviorView/TableClickBehaviorView.tsx:29
@@ -17078,8 +17078,8 @@ msgid "Send it to Slack"
 msgstr "Slackに送信"
 
 #: frontend/src/metabase/sharing/components/NewPulseSidebar.tsx:104
-msgid "Pick a channel and a schedule, and Metabase will do the rest."
-msgstr "チャネルとスケジュールを選択すると、残りは Metabase が行います。"
+msgid "Pick a channel and a schedule, andngmKASE will do the rest."
+msgstr "チャネルとスケジュールを選択すると、残りはngmKASE が行います。"
 
 #: frontend/src/metabase/sharing/components/AddEditSidebar/AddEditEmailSidebar.jsx:51
 msgid "Email this dashboard"
@@ -17136,7 +17136,7 @@ msgid "Invalid Slack token."
 msgstr "無効なSlackトークン。"
 
 #: metabase/cmd.clj:51
-msgid "The ''{0}'' command is only available in Metabase Enterprise Edition."
+msgid "The ''{0}'' command is only available inngmKASE Enterprise Edition."
 msgstr "''{0}''コマンドは商用版Metabaseでのみで利用可能です"
 
 #: metabase/core.clj:50
@@ -17144,7 +17144,7 @@ msgid "Metabase Enterprise Edition extensions are PRESENT."
 msgstr "Metabase Enterprise Editionの拡張機能はPRESENTです。"
 
 #: metabase/core.clj:52
-msgid "Usage of Metabase Enterprise Edition features are subject to the Metabase Commercial License."
+msgid "Usage ofngmKASE Enterprise Edition features are subject to thengmKASE Commercial License."
 msgstr "Metabase Enterprise Editionの機能の利用はMetabase Commercial Licenseに従います。"
 
 #: metabase/core.clj:54
@@ -17307,7 +17307,7 @@ msgid "login attribute keys must be a keyword or string"
 msgstr "ログイン属性のキーはキーワードか文字列でなければなりません。"
 
 #: src/metabase/public_settings.clj target/classes/metabase/public_settings.clj
-msgid "The default language for all users across the Metabase UI, system emails, pulses, and alerts."
+msgid "The default language for all users across thengmKASE UI, system emails, pulses, and alerts."
 msgstr "Metabase UI、システムメール、パルス、アラート全てにわたって全ユーザに適用されるデフォルト言語。"
 
 #: src/metabase/public_settings.clj target/classes/metabase/public_settings.clj
@@ -17319,8 +17319,8 @@ msgid "Default page to show the user"
 msgstr "ユーザに見せるデフォルトページ"
 
 #: metabase/public_settings.clj:238
-msgid "Allow this origin to embed the full Metabase application"
-msgstr "このオリジンが完全な Metabase アプリケーションを埋め込むことを許可する"
+msgid "Allow this origin to embed the fullngmKASE application"
+msgstr "このオリジンが完全なngmKASE アプリケーションを埋め込むことを許可する"
 
 #: metabase/public_settings.clj:343
 msgid "Values greater than {0} ({1}) are not allowed."
@@ -17331,7 +17331,7 @@ msgid "This will replace the word \"Metabase\" wherever it appears."
 msgstr "これにより、\"Metabase\"という単語が表示される場所が置き換えられます。"
 
 #: metabase/public_settings.clj:337
-msgid "These are the primary colors used in charts and throughout Metabase. You might need to refresh your browser to see your changes take effect."
+msgid "These are the primary colors used in charts and throughoutngmKASE. You might need to refresh your browser to see your changes take effect."
 msgstr "これらがMetabase全体とチャートで用いられる主な色です。変更が適用されたことを確認するにはブラウザを更新する必要がある場合があります。"
 
 #: metabase/public_settings.clj:433
@@ -17463,7 +17463,7 @@ msgid "Include User ID and query hash in queries"
 msgstr "ユーザーIDとクエリハッシュをクエリに含める"
 
 #: frontend/src/metabase/entities/databases/forms.js:24
-msgid "When on, Metabase User ID and query hash get appended to queries on this database, which can be useful for auditing and debugging. However, this causes each query to look distinct, preventing BigQuery from returning cached results, which may increase your costs."
+msgid "When on,ngmKASE User ID and query hash get appended to queries on this database, which can be useful for auditing and debugging. However, this causes each query to look distinct, preventing BigQuery from returning cached results, which may increase your costs."
 msgstr "有効にするとデータベース上のクエリにMetabase User IDとクエリハッシュが付加され、監査やデバッグに役立ちます。しかし、各クエリが別個に見えるようになり、BigQueryがキャッシュされた結果を返すことができなくなるため、コストが増加する可能性があります。"
 
 #: metabase/driver/common.clj:182
@@ -17471,7 +17471,7 @@ msgid "Periodically refingerprint tables"
 msgstr "定期的にテーブルのフィンガープリントを再作成する"
 
 #: frontend/src/metabase/entities/databases/forms.js:357
-msgid "When syncing with this database, Metabase will scan a subset of values of fields to gather statistics that enable things like improved binning behavior in charts, and to generally make your Metabase instance smarter."
+msgid "When syncing with this database,ngmKASE will scan a subset of values of fields to gather statistics that enable things like improved binning behavior in charts, and to generally make yourngmKASE instance smarter."
 msgstr "このデータベースとの同期時に、メタベースはフィールドの値のサブセットをスキャンして、チャート内のビニング動作の改善など、メタベースインスタンスをよりスマートにするのに役立つ統計情報を収集します。"
 
 #: frontend/src/metabase/lib/core.js:251
@@ -17737,7 +17737,7 @@ msgid "invalid context seed value"
 msgstr "無効なコンテキストシード値"
 
 #: metabase_enterprise/serialization/cmd.clj:59
-msgid "Dump was produced using a different version of Metabase. Things may break!"
+msgid "Dump was produced using a different version ofngmKASE. Things may break!"
 msgstr "ダンプはMetabaseの異なるバージョンで作成されています。壊れている可能性があります。"
 
 #: enterprise/backend/src/metabase_enterprise/serialization/cmd.clj
@@ -17900,7 +17900,7 @@ msgid "Password for opening the keystore"
 msgstr "キーストアを開くためのパスワード"
 
 #: metabase_enterprise/sso/integrations/sso_settings.clj:63
-msgid "Alias for the key that Metabase should use for signing SAML requests"
+msgid "Alias for the key thatngmKASE should use for signing SAML requests"
 msgstr "MetabaseがSAMLリクエストの署名に使用するキーのエイリアス。"
 
 #: metabase_enterprise/sso/integrations/sso_settings.clj:85
@@ -17925,7 +17925,7 @@ msgstr "グループ同期用の SAML 属性"
 
 #. Should be in the form: {"groupName": [1, 2, 3]} where keys are SAML groups and values are lists of MB groups IDs
 #: metabase_enterprise/sso/integrations/sso_settings.clj:89
-msgid "JSON containing SAML to Metabase group mappings."
+msgid "JSON containing SAML tongmKASE group mappings."
 msgstr "SAMLからMetabaseグループへのマッピングを含むJSON。"
 
 #: metabase_enterprise/sso/integrations/sso_settings.clj:102
@@ -17962,7 +17962,7 @@ msgstr "JWTとのグループメンバーシップ同期を有効にします。
 
 #. Should be in the form: {"groupName": [1, 2, 3]} where keys are JWT groups and values are lists of MB groups IDs
 #: metabase_enterprise/sso/integrations/sso_settings.clj:144
-msgid "JSON containing JWT to Metabase group mappings."
+msgid "JSON containing JWT tongmKASE group mappings."
 msgstr "JWTからMetabaseグループへのマッピングを含むJSON。"
 
 #: metabase/integrations/common.clj:62
@@ -18441,11 +18441,11 @@ msgstr "アップグレードのお世話をしてもらいたいと思いませ
 
 #: frontend/src/metabase/admin/settings/components/SettingsUpdatesForm/VersionUpdateNotice/VersionUpdateNotice.jsx:126
 #: frontend/src/metabase/admin/settings/components/widgets/MarginHostingCTA.jsx:16
-msgid "Migrate to Metabase Cloud."
+msgid "Migrate tongmKASE Cloud."
 msgstr "Metabase Cloudに移行します。"
 
 #: frontend/src/metabase/nav/components/ProfileLink.jsx:50
-msgid "Manage Metabase Cloud"
+msgid "ManagengmKASE Cloud"
 msgstr "Metabase Cloudの管理"
 
 #: frontend/src/metabase/visualizations/visualizations/PivotTable/settings.ts:235
@@ -18816,7 +18816,7 @@ msgid "Invalid cell format"
 msgstr "無効なセル形式"
 
 #: metabase/search/config.clj:10
-msgid "Enable typeahead search in the Metabase navbar?"
+msgid "Enable typeahead search in thengmKASE navbar?"
 msgstr "ナビゲーションバーでの検索サジェストを有効にしますか?"
 
 #: target/classes/metabase/server/request/util.clj
@@ -19211,7 +19211,7 @@ msgstr "無効なフィールド {0} {1}: {2}にフォールバックする。"
 
 #: src/metabase/models/humanization.clj
 #: target/classes/metabase/models/humanization.clj
-msgid "To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces."
+msgid "To make table and field names more human-friendly,ngmKASE will replace dashes and underscores in them with spaces."
 msgstr "テーブルやフィールドの名前を人間に読みやすい形にするため、Metabaseは名前の中のダッシュやアンダーバーを空白に置換します"
 
 #: src/metabase/models/humanization.clj
@@ -19225,7 +19225,7 @@ msgid "Setting names in would collide: {0} and {1}"
 msgstr "設定名が重複します: {0} と {1}"
 
 #: metabase/public_settings.clj:81
-msgid "Indicates when Metabase last checked for new versions."
+msgid "Indicates whenngmKASE last checked for new versions."
 msgstr "Metabaseが最後に新しいバージョンをチェックした時期を示します。"
 
 #: src/metabase/public_settings.clj target/classes/metabase/public_settings.clj
@@ -19480,12 +19480,12 @@ msgid "Make all sub-collections {0}, too."
 msgstr "すべてのサブコレクションも{0}にします。"
 
 #: enterprise/frontend/src/metabase-enterprise/hosting/components/SettingsCloudStoreLink/SettingsCloudStoreLink.tsx:10
-msgid "Manage your Cloud account, including billing preferences and technical settings about this instance in your Metabase Store account."
+msgid "Manage your Cloud account, including billing preferences and technical settings about this instance in yourngmKASE Store account."
 msgstr "クラウドアカウントの管理(課金設定やMetabase Storeアカウントの本インスタンスに関する技術的な設定など)。"
 
 #: enterprise/frontend/src/metabase-enterprise/hosting/components/SettingsCloudStoreLink/SettingsCloudStoreLink.tsx:12
 #: enterprise/frontend/src/metabase-enterprise/license/components/LicenseAndBillingSettings/LicenseAndBillingSettings.tsx:126
-msgid "Go to the Metabase Store"
+msgid "Go to thengmKASE Store"
 msgstr "メタベース・ストアへのアクセス"
 
 #: metabase/driver/presto_jdbc.clj:558
@@ -19608,7 +19608,7 @@ msgid "Ensure users can’t ever see the data from this database regardless of t
 msgstr "コレクションレベルでの権限に関わらず、ユーザーがこのデータベースのデータを絶対に見ることができないようにします。ユーザーがデータへのアクセス権を持つ別のグループに属している場合は、その設定が優先され、ユーザーのアクセスはブロックされないことに留意してください。"
 
 #: frontend/src/metabase/admin/permissions/constants/messages.ts:7
-msgid "Only available in certain Metabase plans."
+msgid "Only available in certainngmKASE plans."
 msgstr "特定のMetabaseプランでのみ利用可能です。"
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.jsx:60
@@ -19746,7 +19746,7 @@ msgid "Unsubscribe from all subscriptions / alerts"
 msgstr "すべての購読/アラートの購読停止"
 
 #: enterprise/frontend/src/metabase-enterprise/caching/components/DatabaseCacheTimeField/DatabaseCacheTimeField.tsx:49
-msgid "How long to keep question results. By default, Metabase will use the value you supply on the {0}, but if this database has other factors that influence the freshness of data, it could make sense to set a custom duration. You can also choose custom durations on individual questions or dashboards to help improve performance."
+msgid "How long to keep question results. By default,ngmKASE will use the value you supply on the {0}, but if this database has other factors that influence the freshness of data, it could make sense to set a custom duration. You can also choose custom durations on individual questions or dashboards to help improve performance."
 msgstr "質問結果をどのくらいの期間保存するか設定します。Metabaseはデフォルトでは{0}で指定した値を使用しますが、対象のデータベースにデータの鮮度に影響を与える他の要因がある場合、カスタム期間を設定する意味があるかもしれません。また、パフォーマンスを向上させるために、個々の質問やダッシュボードでカスタム期間を選択することもできます。"
 
 #: enterprise/frontend/src/metabase-enterprise/caching/components/DatabaseCacheTimeField/DatabaseCacheTimeField.tsx:51
@@ -19972,7 +19972,7 @@ msgid "This will delete any dashboard subscriptions or alerts {0} has created, a
 msgstr "これにより、{0}が作成したダッシュボードのサブスクリプションやアラートが削除され、他のサブスクリプションやアラートの受信者としても削除されます。"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/components/UnsubscribeUserForm/UnsubscribeUserForm.jsx:45
-msgid "This does not affect email distribution lists that are managed outside of Metabase."
+msgid "This does not affect email distribution lists that are managed outside ofngmKASE."
 msgstr "Metabaseの外で管理されているメール配信リストには影響しません。"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/components/AuditSidebar/AuditSidebar.jsx:36
@@ -20024,7 +20024,7 @@ msgid "Not seeing something listed here?"
 msgstr "ここに掲載されていないものはありますか?"
 
 #: frontend/src/metabase/account/notifications/components/HelpModal/HelpModal.jsx:29
-msgid "It’s possible you may also receive emails from Metabase if you’re a member of an email distribution list, like “team@mycompany.com” and that list is used as the recipient for an alert or dashboard subscription instead of your individual email."
+msgid "It’s possible you may also receive emails fromngmKASE if you’re a member of an email distribution list, like “team@mycompany.com” and that list is used as the recipient for an alert or dashboard subscription instead of your individual email."
 msgstr "また、「team@mycompany.com」のようなメール配信リストのメンバーで、そのリストがアラートやダッシュボードの購読先として使用されている場合、個別のメールではなくMetabaseからのメールが届く可能性があります。"
 
 #: frontend/src/metabase/account/notifications/components/HelpModal/HelpModal.jsx:33
@@ -20301,7 +20301,7 @@ msgid "Navigation bar color"
 msgstr "ナビゲーションバーの色"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/ColorSchemeWidget.jsx:25
-msgid "The top nav bar of Metabase. Defaults to the Primary Color if not set."
+msgid "The top nav bar ofngmKASE. Defaults to the Primary Color if not set."
 msgstr "Metabaseの最上部のナビゲーションバーです。設定がない場合はプライマリカラーになります。"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/ColorSchemeWidget.jsx:23
@@ -20354,7 +20354,7 @@ msgid "Service account JSON file"
 msgstr "サービスアカウントのJSONファイル"
 
 #: frontend/src/metabase/entities/databases/big-query-fields.js:93
-msgid "This JSON file contains the credentials Metabase needs to read and query your dataset."
+msgid "This JSON file contains the credentialsngmKASE needs to read and query your dataset."
 msgstr "このJSONファイルには、Metabaseがデータセットを読み込んで照会するために必要な認証情報が含まれています。"
 
 #: metabase/driver/common.clj:130
@@ -20370,11 +20370,11 @@ msgid "Choose when syncs and scans happen"
 msgstr "同期とスキャンがいつ走るかを選んで下さい"
 
 #: metabase/driver/common.clj:141
-msgid "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
+msgid "By default,ngmKASE does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
 msgstr "デフォルトでは、Metabaseはフィールド値について毎時の軽量な同期と日次の重い同期を行います。大きなデータベースを扱う場合、設定変更のためにオンに変えてください。"
 
 #: metabase/driver/common.clj:183
-msgid "This enables Metabase to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
+msgid "This enablesngmKASE to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
 msgstr "これにより、Metabaseは同期中に追加のフィールド値をスキャンすることができ、棒グラフの自動ビンディングの改善など、よりスマートな動作が可能になります。"
 
 #: frontend/src/metabase/setup/components/UserForm/UserForm.tsx:83
@@ -20493,7 +20493,7 @@ msgid "Our {0}"
 msgstr "私たちの{0}。"
 
 #: frontend/src/metabase/databases/components/DatabaseNameField/DatabaseNameField.tsx:18
-msgid "Choose what this data will be called in Metabase."
+msgid "Choose what this data will be called inngmKASE."
 msgstr "このデータのMetabaseでの名称を選択します。"
 
 #: frontend/src/metabase/admin/settings/selectors.js:640
@@ -20921,7 +20921,7 @@ msgid "DB {0} had hardcoded dataset-id; changing to an inclusion pattern and upd
 msgstr "DB {0} ではデータセット ID がハードコードされていたため、包含パターンに変更し、テーブルスキーマを更新しました。"
 
 #: src/metabase/analytics/snowplow.clj
-msgid "Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase."
+msgid "Unique identifier to be used in Snowplow analytics, to identify this instance ofngmKASE."
 msgstr "Metabaseのインスタンスを識別するために、Snowplowの分析で使用される固有の識別子。"
 
 #: src/metabase/analytics/snowplow.clj
@@ -20953,7 +20953,7 @@ msgid "Error sending Snowplow analytics event {0}"
 msgstr "Snowplow分析イベント{0}の送信エラー"
 
 #: metabase/analytics/snowplow.clj:78
-msgid "The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
+msgid "The approximate timestamp at which this instance ofngmKASE was created, for inclusion in analytics."
 msgstr "分析に含めるため、このMetabaseインスタンスが作成されたおおよそのタイムスタンプ。"
 
 #: metabase/models/card.clj:769
@@ -21073,7 +21073,7 @@ msgid "In most cases, you should be fine leaving this set to sync hourly."
 msgstr "ほとんどの場合、毎時の同期のままで問題ありません。"
 
 #: src/metabase/driver/common.clj
-msgid "If your database is behind a firewall, you may need to allow connections from our Metabase Cloud IP addresses:"
+msgid "If your database is behind a firewall, you may need to allow connections from ourngmKASE Cloud IP addresses:"
 msgstr "データベースがファイアウォールの内側にある場合、以下のMetabase CloudのIPアドレスからの接続を許可する必要がある可能性があります："
 
 #: metabase/driver/common.clj:334
@@ -21085,7 +21085,7 @@ msgid "Error: multiple values specified for parameter; non-Field Filter paramete
 msgstr "エラー：パラメータに複数の値が指定されました。フィールドフィルタ以外のパラメータは、1つの値しか持つことができません。"
 
 #: metabase/driver/h2.clj:96
-msgid "The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
+msgid "The local path relative to wherengmKASE is running from. Your string should not include the .mv.db extension."
 msgstr "Metabaseが動いている場所からのローカルの相対パスです。入力に.mv.dbの拡張子は不要です。"
 
 #: metabase/driver/postgres.clj:138
@@ -21180,7 +21180,7 @@ msgid "All except..."
 msgstr "All except..."
 
 #: metabase/driver/util.clj:293
-msgid "Comma separated names of {0} that <strong>should</strong> appear in Metabase"
+msgid "Comma separated names of {0} that <strong>should</strong> appear inngmKASE"
 msgstr "コンマで区切られた{0}の名前で、メタベースに<strong>should</strong>表示されるもの。"
 
 #: metabase/driver/util.clj:295 metabase/driver/util.clj:302
@@ -21188,7 +21188,7 @@ msgid "You can use patterns like <strong>auth*</strong> to match multiple {0}"
 msgstr "<strong>auth*</strong>のようなパターンを使って、複数の{0}にマッチさせることができます。"
 
 #: metabase/driver/util.clj:300
-msgid "Comma separated names of {0} that <strong>should NOT</strong> appear in Metabase"
+msgid "Comma separated names of {0} that <strong>should NOT</strong> appear inngmKASE"
 msgstr "コンマで区切られた{0}の名前で、メタベースに<strong>should not</strong>表示されるもの。"
 
 #: metabase/email/messages.clj:703
@@ -21216,7 +21216,7 @@ msgid "Successfully authenticated Google Sign-In token for: {0} {1}"
 msgstr "Googleサインイン・トークンの認証に成功しました。{0} {1}"
 
 #: src/metabase/integrations/slack.clj
-msgid "Deprecated Slack API token for connecting the Metabase Slack bot."
+msgid "Deprecated Slack API token for connecting thengmKASE Slack bot."
 msgstr "MetabaseのSlackボットに接続するための、非推奨のSlack APIトークンです。"
 
 #: src/metabase/integrations/slack.clj
@@ -21224,11 +21224,11 @@ msgid "Please use a new Slack app integration instead."
 msgstr "代わりに新しいSlackアプリの統合をご利用ください。"
 
 #: src/metabase/integrations/slack.clj
-msgid "Bot user OAuth token for connecting the Metabase Slack app."
+msgid "Bot user OAuth token for connecting thengmKASE Slack app."
 msgstr "Metabase Slackアプリに接続するためのボットユーザーOAuthトークンです。"
 
 #: src/metabase/integrations/slack.clj
-msgid "This should be used for all new Slack integrations starting in Metabase v0.42.0."
+msgid "This should be used for all new Slack integrations starting inngmKASE v0.42.0."
 msgstr "これはMetabase v0.42.0以降のすべての新しいSlack統合に使用する必要があります。"
 
 #: src/metabase/integrations/slack.clj
@@ -21240,7 +21240,7 @@ msgid "Set to 'false' if a Slack API request returns an auth error."
 msgstr "Slack APIリクエストがauthエラーを返した場合、「false」に設定します。"
 
 #: metabase/integrations/slack.clj:77
-msgid "The name of the channel to which Metabase files should be initially uploaded"
+msgid "The name of the channel to whichngmKASE files should be initially uploaded"
 msgstr "Metabaseファイルを最初にアップロードするチャネルの名前"
 
 #: metabase/integrations/slack.clj:119
@@ -21300,7 +21300,7 @@ msgid "{0} points to non-existent file: {1}"
 msgstr "{0} は存在しないファイルを指しています：{1}"
 
 #: metabase/models/secret.clj:190
-msgid "{0} (a local file path) cannot be used in Metabase hosted environment"
+msgid "{0} (a local file path) cannot be used inngmKASE hosted environment"
 msgstr "{0}(ローカルファイルのパス)は、Metabaseホスト環境では使用できません。"
 
 #: metabase/models/setting.clj:576
@@ -21312,7 +21312,7 @@ msgid "Site-wide values are not allowed for Setting {0}"
 msgstr "設定{0}にはサイトワイドな値は使用できません。"
 
 #: metabase/models/setting.clj:722
-msgid "Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
+msgid "Setting {0} is deprecated as ofngmKASE {1} and may be removed in a future version."
 msgstr "{0}の設定は、Metabase {1}では非推奨となっており、将来のバージョンでは削除される可能性があります。"
 
 #: metabase/models/setting.clj:934
@@ -21344,7 +21344,7 @@ msgid " although it is used to set the WEEK_START session variable in Snowflake.
 msgstr "しかし、SnowflakeではWEEK_STARTセッション変数の設定に使用されています。"
 
 #: metabase/public_settings.clj:680
-msgid "Error fetching Metabase Cloud gateway IP addresses:"
+msgid "Error fetchingngmKASE Cloud gateway IP addresses:"
 msgstr "Metabase CloudのゲートウェイIPアドレスの取得エラー。"
 
 #: metabase/public_settings.clj:684
@@ -21476,7 +21476,7 @@ msgid "This token doesn't seem to be valid. Double-check it, then contact suppor
 msgstr "このトークンは有効ではないようです。再度確認して、有効であると思われる場合はサポートに連絡してください。"
 
 #: frontend/src/metabase/admin/settings/hooks/use-license.ts:8
-msgid "We're having trouble validating your token. Please double-check that your instance can connect to Metabase's servers."
+msgid "We're having trouble validating your token. Please double-check that your instance can connect tongmKASE's servers."
 msgstr "トークンの検証に問題があります。お使いのインスタンスがMetabaseのサーバーに接続できることを再確認してください。"
 
 #: frontend/src/metabase-lib/expressions/pratt/compiler.ts:44
@@ -21553,7 +21553,7 @@ msgid "Billing"
 msgstr "ビリング"
 
 #: enterprise/frontend/src/metabase-enterprise/license/components/LicenseAndBillingSettings/LicenseAndBillingSettings.tsx:119
-msgid "Manage your Cloud account, including billing preferences, in your Metabase Store account."
+msgid "Manage your Cloud account, including billing preferences, in yourngmKASE Store account."
 msgstr "Metabase Storeのアカウントで、課金設定などのクラウドアカウントの管理ができます。"
 
 #: enterprise/frontend/src/metabase-enterprise/license/components/LicenseAndBillingSettings/LicenseAndBillingSettings.tsx:133
@@ -21615,7 +21615,7 @@ msgid "Sample Database"
 msgstr "サンプルデータベース"
 
 #: frontend/src/metabase/databases/components/DatabaseSyncModal/DatabaseSyncModal.tsx:34
-msgid "Have a look around your Metabase in the meantime if you want to get a head start."
+msgid "Have a look around yourngmKASE in the meantime if you want to get a head start."
 msgstr "Metabaseの基本的な操作や機能を覚えておくと、本格的にデータ分析を始める際にスムーズに進めることができます。"
 
 #: frontend/src/metabase/databases/components/DatabaseSyncModal/DatabaseSyncModal.tsx:38
@@ -21694,7 +21694,7 @@ msgid "I'll invite a teammate to connect the database"
 msgstr "チームメイトを誘ってデータベースに接続する"
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:74
-msgid "In order to help us improve Metabase, we'd like to collect certain data about product usage."
+msgid "In order to help us improvengmKASE, we'd like to collect certain data about product usage."
 msgstr "Metabaseの改善に役立てるために、製品の使用状況に関する特定のデータを収集したいと考えています。"
 
 #: frontend/src/metabase/setup/components/PreferencesStep/PreferencesStep.tsx:79
@@ -21800,13 +21800,13 @@ msgid "Your Premium Embedding license is active until {0}."
 msgstr "Premium Embeddingのライセンスは{0}まで有効です。"
 
 #: frontend/src/metabase/admin/settings/containers/PremiumEmbeddingLicensePage/PremiumEmbeddingLicensePage.tsx:106
-msgid "Enter the token you bought from the Metabase Store below."
+msgid "Enter the token you bought from thengmKASE Store below."
 msgstr "Metabase Storeで購入したトークンを下記に入力してください。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingCustomizationInfo.tsx:12
-msgid "Looking to remove the “Powered by Metabase” logo, customize colors\n"
+msgid "Looking to remove the “Powered byngmKASE” logo, customize colors\n"
 "and make it your own? {0}"
-msgstr "Powered by Metabase \"のロゴを削除し、カラーをカスタマイズして\n"
+msgstr "Powered byngmKASE \"のロゴを削除し、カラーをカスタマイズして\n"
 "自分のものにしてみませんか?{0}"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackDeleteModal/SlackDeleteModal.tsx:23
@@ -21842,7 +21842,7 @@ msgid "invite a teammate"
 msgstr "チームメイトを誘う"
 
 #: frontend/src/metabase/home/homepage/components/StartSection/StartSection.tsx:117
-msgid "Connect your data to get the most out of Metabase"
+msgid "Connect your data to get the most out ofngmKASE"
 msgstr "Metabaseを最大限に活用するためにデータを接続する"
 
 #: frontend/src/metabase/home/homepage/components/StartSection/StartSection.tsx:119
@@ -21957,7 +21957,7 @@ msgid "We recommend you {0}, see the instructions below:"
 msgstr "{0}をお勧めします。以下の説明をご覧ください:"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:59
-msgid "Bring the power of Metabase to your Slack #channels."
+msgid "Bring the power ofngmKASE to your Slack #channels."
 msgstr "MetabaseのパワーをあなたのSlack #channelsにもたらします。"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:60
@@ -21969,7 +21969,7 @@ msgid "1. Create your Slack App"
 msgstr "1.Slackアプリの作成"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:101
-msgid "To create your Metabase integration on Slack you’ll need to set up some things."
+msgid "To create yourngmKASE integration on Slack you’ll need to set up some things."
 msgstr "SlackでMetabaseの統合を行うためには、いくつかの設定が必要になります。"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:102
@@ -21989,7 +21989,7 @@ msgid "From an app manifest."
 msgstr "アプリのマニフェストから"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:128
-msgid "2. Copy the Metabase manifest"
+msgid "2. Copy thengmKASE manifest"
 msgstr "2.メタベースのマニフェストをコピーする"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:130
@@ -22278,11 +22278,11 @@ msgid "Delete {0}?"
 msgstr "{0}を削除しますか?"
 
 #: frontend/src/metabase/databases/components/DatabaseEngineWarning/DatabaseEngineWarning.tsx:107
-msgid "This is a community-developed driver and not supported by Metabase. "
+msgid "This is a community-developed driver and not supported byngmKASE. "
 msgstr "このドライバはコミュニティで開発されたもので、Metabaseではサポートされていません。 "
 
 #: frontend/src/metabase/databases/components/DatabaseEngineWarning/DatabaseEngineWarning.tsx:134
-msgid "This is a partner-developed driver. Though Metabase can’t provide support for it, if you need help you can contact the fine folks at "
+msgid "This is a partner-developed driver. ThoughngmKASE can’t provide support for it, if you need help you can contact the fine folks at "
 msgstr "このドライバはパートナーによって開発されたものです。Metabaseではサポートできませんが、必要であれば、以下の会社に連絡してください。 "
 
 #: frontend/src/metabase/components/Toaster/Toaster.tsx:25
@@ -22431,7 +22431,7 @@ msgid "Pick up where you left off"
 msgstr "最近使用したアイテム"
 
 #: frontend/src/metabase/home/components/HomeXraySection/HomeXraySection.tsx:69
-msgid "Try out these sample x-rays to see what Metabase can do."
+msgid "Try out these sample x-rays to see whatngmKASE can do."
 msgstr "Metabaseの機能を確認するためのサンプル自動探査(X-ray)をご覧ください。"
 
 #: frontend/src/metabase/home/components/HomeXraySection/HomeXraySection.tsx:73
@@ -22570,11 +22570,11 @@ msgid "Launch of v2.0"
 msgstr "v2.0発売のお知らせ"
 
 #: frontend/src/metabase/timelines/collections/components/TimelineEmptyState/TimelineEmptyState.tsx:69
-msgid "Add events to Metabase to show important milestones, launches, or anything else, right alongside your data."
+msgid "Add events tongmKASE to show important milestones, launches, or anything else, right alongside your data."
 msgstr "Metabaseにイベントを追加すれば、データと一緒に重要な出来事やリリースなどを表示できます。"
 
 #: frontend/src/metabase/timelines/collections/components/TimelineEmptyState/TimelineEmptyState.tsx:70
-msgid "Events in Metabase let you see important milestones, launches, or anything else, right alongside your data."
+msgid "Events inngmKASE let you see important milestones, launches, or anything else, right alongside your data."
 msgstr "Metabaseのイベントを利用すると、データと一緒に重要な出来事やニュースを把握できます。"
 
 #: frontend/src/metabase/timelines/collections/components/TimelineCard/TimelineCard.tsx:50
@@ -22601,11 +22601,11 @@ msgid "Move {0}"
 msgstr "{0}を移動"
 
 #: frontend/src/metabase/timelines/questions/components/TimelineEmptyState/TimelineEmptyState.tsx:30
-msgid "Add events to Metabase to show helpful context alongside your data."
+msgid "Add events tongmKASE to show helpful context alongside your data."
 msgstr "Metabaseにイベントを追加して、データと共に役立つコンテキストを表示します。"
 
 #: frontend/src/metabase/timelines/questions/components/TimelineEmptyState/TimelineEmptyState.tsx:31
-msgid "Events in Metabase let you see helpful context alongside your data."
+msgid "Events inngmKASE let you see helpful context alongside your data."
 msgstr "Metabaseのイベントは、データの意味を理解するのに役立ちます。"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/MetadataTable/MetadataTable.tsx:33
@@ -22613,7 +22613,7 @@ msgid "Original schema"
 msgstr "オリジナルスキーマ"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:98
-msgid "Click the button below to begin creating your Slack App using the Metabase configuration."
+msgid "Click the button below to begin creating your Slack App using thengmKASE configuration."
 msgstr "以下のボタンをクリックして、Metabaseの設定を使ったSlack Appの作成を開始します。"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:99
@@ -22877,7 +22877,7 @@ msgid "Switch to visualization"
 msgstr "ビジュアライゼーションに切り替える"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget.jsx:139
-msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the\n"
+msgid "Mappings allowngmKASE to automatically add and remove users from groups based on the membership information provided by the\n"
 "directory server. Users are only ever added to or removed from mapped groups."
 msgstr "マッピングを使用すると、Metabaseはディレクトリサーバーから提供されるメンバーシップ情報に基づいて、自動的にユーザーをグループに追加したり削除したりすることができます。\n"
 "グループへのユーザーの追加と削除を自動的に行います。ユーザーはマッピングされたグループにのみ追加され、グループから削除されます。"
@@ -23246,7 +23246,7 @@ msgid "Saved questions"
 msgstr "保存された質問"
 
 #: frontend/src/metabase/admin/settings/selectors.js:641
-msgid "Enabling cache will create tables for your models in a dedicated schema and Metabase will refresh them on a schedule. Questions based on your models will query these tables. {0}."
+msgid "Enabling cache will create tables for your models in a dedicated schema andngmKASE will refresh them on a schedule. Questions based on your models will query these tables. {0}."
 msgstr "キャッシュを有効にすると、専用のスキーマにモデル用のテーブルが作成され、Metabaseがスケジュールに従ってそれらをリフレッシュします。モデルに基づく質問は、これらのテーブルにクエリを発行します。{0}."
 
 #: frontend/src/metabase/admin/settings/selectors.js:439
@@ -23530,7 +23530,7 @@ msgid "Move, archive, and more..."
 msgstr "移動、アーカイブなど..."
 
 #: frontend/src/metabase/sharing/components/SlackChannelField/SlackChannelField.tsx:71
-msgid "In order to send subscriptions and alerts to private Slack channels, you must first add the Metabase bot to them."
+msgid "In order to send subscriptions and alerts to private Slack channels, you must first add thengmKASE bot to them."
 msgstr "サブスクリプションとアラートをプライベートSlackチャネルに送信するには、最初にMetabaseボットをそれらに追加する必要があります。"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/ColorResetModal/ColorResetModal.tsx:22
@@ -23641,7 +23641,7 @@ msgid "Display our little friend on the homepage"
 msgstr "ホームページに私たちの小さな友達を表示します"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingCustomizationWidget/EmbeddingCustomizationWidget.tsx:13
-msgid "In order to remove the Metabase logo from embeds, you can always upgrade to {0}"
+msgid "In order to remove thengmKASE logo from embeds, you can always upgrade to {0}"
 msgstr "埋め込みからメタベースのロゴを削除するために、いつでも{0}にアップグレードできます"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingCustomizationWidget/EmbeddingCustomizationWidget.tsx:15
@@ -23653,7 +23653,7 @@ msgid "embedding the entire metabase app"
 msgstr "メタベースアプリ全体を埋め込む"
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:23
-msgid "With {0} you can embed the full Metabase app and enable your users to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
+msgid "With {0} you can embed the fullngmKASE app and enable your users to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
 msgstr "{0}を使用すると、完全なMetabaseアプリを埋め込み、ユーザーがグラフにドリルスルーしたり、コレクションを参照したり、グラフィカルクエリビルダーを使用したりできるようになります。また、優先サポート、チームと洞察を共有するのに役立つツール、顧客向けのシームレスでインタラクティブなデータエクスペリエンスを作成するのに役立つ強力なオプションを利用できます。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:16
@@ -23701,7 +23701,7 @@ msgid "Embedding"
 msgstr "埋め込み"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:24
-msgid "Embed dashboards, questions, or the entire Metabase app into your application. Integrate with your server code to create a secure environment, limited to specific users or organizations."
+msgid "Embed dashboards, questions, or the entirengmKASE app into your application. Integrate with your server code to create a secure environment, limited to specific users or organizations."
 msgstr "ダッシュボード、質問、またはMetabaseアプリ全体をアプリケーションに埋め込みます。サーバーコードと統合して、特定のユーザーまたは組織に限定された安全な環境を作成します。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:28
@@ -23718,10 +23718,10 @@ msgid "More details"
 msgstr "詳細"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingLegalese/EmbeddingLegalese.tsx:43
-msgid "When you embed charts or dashboards from Metabase in your own\n"
+msgid "When you embed charts or dashboards fromngmKASE in your own\n"
 "application, that application isn't subject to the Affero General Public\n"
-"License that covers the rest of Metabase, provided you keep the Metabase\n"
-"logo and the \"Powered by Metabase\" visible on those embeds."
+"License that covers the rest ofngmKASE, provided you keep thengmKASE\n"
+"logo and the \"Powered byngmKASE\" visible on those embeds."
 msgstr "Metabaseのチャートまたはダッシュボードを独自に埋め込む場合\n"
 "アプリケーション、そのアプリケーションはAfferoGeneralPublicの対象ではありません\n"
 "Metabaseを保持している場合、Metabaseの残りの部分をカバーするライセンス\n"
@@ -23767,7 +23767,7 @@ msgid "1. Click the button below and create your Slack App"
 msgstr "1.下のボタンをクリックして、Slackアプリを作成します"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:101
-msgid "First, {0} using the Metabase configuration. Once created, click “${ 1 }” to authorize it."
+msgid "First, {0} using thengmKASE configuration. Once created, click “${ 1 }” to authorize it."
 msgstr "まず、メタベース構成を使用した{0}。作成したら、「${1}」をクリックして承認します。"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:102
@@ -23911,7 +23911,7 @@ msgid "Heavy"
 msgstr "重い"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppOriginDescription/EmbeddingAppOriginDescription.tsx:8
-msgid "With this Pro/Enterprise feature you can embed the full Metabase app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder. {0}"
+msgid "With this Pro/Enterprise feature you can embed the fullngmKASE app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder. {0}"
 msgstr "このPro/Enterprise機能を使用すると、完全なMetabaseアプリを埋め込むことができます。ユーザーがグラフにドリルスルーしたり、コレクションを参照したり、グラフィカルクエリビルダーを使用したりできるようにします。 {0}"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppOriginDescription/EmbeddingAppOriginDescription.tsx:19
@@ -24000,7 +24000,7 @@ msgid "Full-app embedding"
 msgstr "フルアプリの埋め込み"
 
 #: frontend/src/metabase/admin/settings/selectors.js:481
-msgid "With this Pro/Enterprise feature you can embed the full Metabase app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder."
+msgid "With this Pro/Enterprise feature you can embed the fullngmKASE app. Enable your users to drill-through to charts, browse collections, and use the graphical query builder."
 msgstr "このPro/Enterprise機能を使用すると、完全なMetabaseアプリを埋め込むことができます。ユーザーがグラフにドリルスルーしたり、コレクションを参照したり、グラフィカルクエリビルダーを使用したりできるようにします。"
 
 #: frontend/src/metabase/admin/settings/selectors.js:533
@@ -24167,7 +24167,7 @@ msgid "Boolean indicating whether a Snowplow collector is available to receive a
 msgstr "Snowplowコレクターが分析イベントの受信に使用できるかどうかを示すブール値。サイプレステストまたはローカル開発中に環境変数を介して設定する必要があります。"
 
 #: metabase/analytics/snowplow.clj:28
-msgid "Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase. This is a public setting since some analytics events are sent prior to initial setup."
+msgid "Unique identifier to be used in Snowplow analytics, to identify this instance ofngmKASE. This is a public setting since some analytics events are sent prior to initial setup."
 msgstr "メタベースのこのインスタンスを識別するために、Snowplow分析で使用される一意の識別子。一部の分析イベントは初期設定の前に送信されるため、これはパブリック設定です。"
 
 #: metabase/api/database.clj:708 metabase/driver/util.clj:68
@@ -24223,11 +24223,11 @@ msgstr "システム情報：\n"
 " {0}"
 
 #: metabase/driver/common.clj:159
-msgid "Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database. When should Metabase automatically scan and cache field values?"
-msgstr "Metabaseは、このデータベースの各フィールドに存在する値をスキャンして、ダッシュボードと質問のチェックボックスフィルターを有効にすることができます。これは、特にデータベースが非常に大きい場合は、リソースを大量に消費するプロセスになる可能性があります。 Metabaseはいつフィールド値を自動的にスキャンしてキャッシュする必要がありますか?"
+msgid "Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database. When shouldngmKASE automatically scan and cache field values?"
+msgstr "Metabaseは、このデータベースの各フィールドに存在する値をスキャンして、ダッシュボードと質問のチェックボックスフィルターを有効にすることができます。これは、特にデータベースが非常に大きい場合は、リソースを大量に消費するプロセスになる可能性があります。ngmKASEはいつフィールド値を自動的にスキャンしてキャッシュする必要がありますか?"
 
 #: metabase/driver/common.clj:220
-msgid "If your database is behind a firewall, you may need to allow connections from our Metabase [Cloud IP addresses](https://www.metabase.com/cloud/docs/ip-addresses-to-whitelist.html):"
+msgid "If your database is behind a firewall, you may need to allow connections from ourngmKASE [Cloud IP addresses](https://www.metabase.com/cloud/docs/ip-addresses-to-whitelist.html):"
 msgstr "データベースがファイアウォールの背後にある場合は、メタベース[クラウドIPアドレス](https://www.metabase.com/cloud/docs/ip-addresses-to-whitelist.html)からの接続を許可する必要がある場合があります。"
 
 #: metabase/driver/common.clj:177
@@ -24349,15 +24349,15 @@ msgid "[{0}] Model cache refresh failed for {1}"
 msgstr "[{0}]{1}のモデルキャッシュの更新に失敗しました"
 
 #: metabase/integrations/google.clj:87
-msgid "Google Sign-In token appears to be incorrect. Double check that it matches in Google and Metabase."
+msgid "Google Sign-In token appears to be incorrect. Double check that it matches in Google andngmKASE."
 msgstr "Googleログイントークンが正しくないようです。 GoogleとMetabaseで一致することを再確認してください。"
 
 #: metabase/integrations/slack.clj:22
-msgid "Deprecated Slack API token for connecting the Metabase Slack bot. Please use a new Slack app integration instead."
+msgid "Deprecated Slack API token for connecting thengmKASE Slack bot. Please use a new Slack app integration instead."
 msgstr "MetabaseSlackボットを接続するための非推奨のSlackAPIトークン。代わりに、新しいSlackアプリ統合を使用してください。"
 
 #: metabase/integrations/slack.clj:31
-msgid "Bot user OAuth token for connecting the Metabase Slack app. This should be used for all new Slack integrations starting in Metabase v0.42.0."
+msgid "Bot user OAuth token for connecting thengmKASE Slack app. This should be used for all new Slack integrations starting inngmKASE v0.42.0."
 msgstr "MetabaseSlackアプリに接続するためのボットユーザーのOAuthトークン。これは、Metabasev0.42.0以降のすべての新しいSlack統合に使用する必要があります。"
 
 #: metabase/integrations/slack.clj:44
@@ -24405,7 +24405,7 @@ msgid "Can't update type or hash_key for a FieldValues."
 msgstr "FieldValuesのtypeまたはhash_keyを更新できません。"
 
 #: metabase/models/humanization.clj:77
-msgid "To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces. We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
+msgid "To make table and field names more human-friendly,ngmKASE will replace dashes and underscores in them with spaces. We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
 msgstr "テーブル名とフィールド名をより人間にわかりやすくするために、Metabaseはそれらのダッシュとアンダースコアをスペースに置き換えます。各単語を大文字にするので、「last_visited_at」は「LastVisitedAt」になります。"
 
 #: metabase/models/params.clj:38
@@ -24445,7 +24445,7 @@ msgid "Tell us where to find the file for each font weight. You don’t need to 
 msgstr "各フォントの太さのファイルの場所を教えてください。すべてを含める必要はありませんが、含めると見栄えが良くなります。"
 
 #: metabase/public_settings.clj:179
-msgid "The default language for all users across the Metabase UI, system emails, pulses, and alerts. Users can individually override this default language from their own account settings."
+msgid "The default language for all users across thengmKASE UI, system emails, pulses, and alerts. Users can individually override this default language from their own account settings."
 msgstr "Metabase UI、システムの電子メール、パルス、およびアラート全体のすべてのユーザーのデフォルト言語。ユーザーは、自分のアカウント設定からこのデフォルト言語を個別に上書きできます。"
 
 #: metabase/public_settings.clj:693
@@ -25210,7 +25210,7 @@ msgstr "日付または日時の値を持つカラムの名前です。"
 msgid "Optional. The default is \"ISO\".\n"
 "- ISO: Week 1 starts on the Monday before the first Thursday of January.\n"
 "- US: Week 1 starts on Jan 1. All other weeks start on Sunday.\n"
-"- Instance: Week 1 starts on Jan 1. All other weeks start on the day defined in your Metabase localization settings."
+"- Instance: Week 1 starts on Jan 1. All other weeks start on the day defined in yourngmKASE localization settings."
 msgstr "オプションです。デフォルトは \"ISO \"です。\n"
 "- ISO: 第1週は1月の第1木曜日の前の月曜日から始まります。\n"
 "- US。第1週は1月1日に始まり、他の週はすべて日曜日から始まります。\n"
@@ -25984,7 +25984,7 @@ msgid "{0} (optional)"
 msgstr "{0} (オプション)"
 
 #: metabase_enterprise/advanced_config/file.clj:164
-msgid "Found config file at path {0}; Metabase will be initialized with values from this file"
+msgid "Found config file at path {0};ngmKASE will be initialized with values from this file"
 msgstr "パス {0} に設定ファイルを見つけました。"
 
 #: metabase_enterprise/advanced_config/file.clj:265
@@ -26048,7 +26048,7 @@ msgid "Invalid Collection ID(s). These Collections do not exist: {0}"
 msgstr "無効なコレクションID(複数可)です。これらのコレクションは存在しません。{0}"
 
 #: metabase_enterprise/serialization/cmd.clj:95
-msgid "Loading serialized Metabase files from {0}"
+msgid "Loading serializedngmKASE files from {0}"
 msgstr "{0}からシリアライズされたMetabaseファイルをロードする。"
 
 #: metabase_enterprise/serialization/v2/entity_ids.clj:68
@@ -26282,7 +26282,7 @@ msgid "Error reducing result rows: {0}"
 msgstr "結果行の削減エラーです。{0}"
 
 #: metabase/sample_data.clj:63
-msgid "Sample database could not be extracted to the plugins directory,which may result in slow startup times. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
+msgid "Sample database could not be extracted to the plugins directory,which may result in slow startup times. Please set MB_PLUGINS_DIR to a writable directory and restartngmKASE."
 msgstr "サンプルデータベースをpluginsディレクトリに展開できなかったため、起動に時間がかかる場合があります。MB_PLUGINS_DIRを書き込み可能なディレクトリに設定し、Metabaseを再起動させてください。"
 
 #: metabase_enterprise/advanced_config/file.clj:261
@@ -26342,11 +26342,11 @@ msgid "This group's user membership will no longer be synced with the directory 
 msgstr "このグループのユーザーメンバーシップは、今後ディレクトリサーバーと同期されなくなります。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:62
-msgid "What should happen with the groups themselves in Metabase?"
+msgid "What should happen with the groups themselves inngmKASE?"
 msgstr "Metabaseのグループそのものはどうすればいいのでしょうか?"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:63
-msgid "What should happen with the group itself in Metabase?"
+msgid "What should happen with the group itself inngmKASE?"
 msgstr "Metabaseのグループ自体はどうすればいいのでしょうか?"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/DeleteGroupMappingModal/DeleteGroupMappingModal.tsx:68
@@ -26378,7 +26378,7 @@ msgid "Synchronize Group Memberships"
 msgstr "グループのメンバーシップを同期させる"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/GroupMappingsWidget.jsx:118
-msgid "Mappings allow Metabase to automatically add and remove users from groups based on the membership information provided by the directory server. If a group isn‘t mapped, its membership won‘t be synced."
+msgid "Mappings allowngmKASE to automatically add and remove users from groups based on the membership information provided by the directory server. If a group isn‘t mapped, its membership won‘t be synced."
 msgstr "マッピングによって、Metabaseはディレクトリサーバから提供されるメンバーシップ情報に基づいて、自動的にユーザーをグループに追加したり削除したりすることができます。グループがマッピングされていない場合、そのメンバーシップは同期されません。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/GroupMappingsWidget/GroupMappingsWidget.jsx:123
@@ -26542,7 +26542,7 @@ msgid "This card does not support click mappings"
 msgstr "このカードはクリックマッピングに対応していません"
 
 #: frontend/src/metabase/databases/components/DatabaseCacheScheduleField/DatabaseCacheScheduleField.tsx:88
-msgid "When a user adds a new filter to a dashboard or a SQL question, Metabase will scan the field(s) mapped to that filter in order to show the list of selectable values."
+msgid "When a user adds a new filter to a dashboard or a SQL question,ngmKASE will scan the field(s) mapped to that filter in order to show the list of selectable values."
 msgstr "ユーザーがダッシュボードやSQLの質問に新しいフィルタを追加すると、Metabaseは選択可能な値のリストを表示するために、そのフィルタにマップされたフィールドをスキャンします。"
 
 #: frontend/src/metabase/models/containers/FormModelPicker/FormModelPicker.tsx:25
@@ -27113,11 +27113,11 @@ msgid "Error preparing statement: {0}"
 msgstr "ステートメントを準備する際にエラーが発生しました。{0}"
 
 #: metabase/driver/util.clj:331
-msgid "Comma separated names of {0} that should NOT appear in Metabase"
+msgid "Comma separated names of {0} that should NOT appear inngmKASE"
 msgstr "Metabaseに表示してはいけない{0}のカンマ区切りの名前。"
 
 #: metabase/driver/util.clj:324
-msgid "Comma separated names of {0} that should appear in Metabase"
+msgid "Comma separated names of {0} that should appear inngmKASE"
 msgstr "Metabaseに表示される{0}のカンマ区切りの名前。"
 
 #: metabase/driver/util.clj:326 metabase/driver/util.clj:333
@@ -27219,7 +27219,7 @@ msgid "No current user found"
 msgstr "現在のユーザーが見つからない"
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/utils.ts:30
-msgid "Open the Metabase drill-through menu"
+msgid "Open thengmKASE drill-through menu"
 msgstr "Metabaseのドリルスルー・メニューを開く"
 
 #: frontend/src/metabase/query_builder/components/expressions/ExpressionWidget.tsx:88
@@ -27388,13 +27388,13 @@ msgid "Tired of manually managing people and groups?"
 msgstr "手作業で人やグループを管理するのにうんざりしていませんか?"
 
 #: frontend/src/metabase/admin/people/components/NudgeToPro.tsx:16
-msgid "Get single-sign on (SSO) via SAML, JWT, or LDAP with Metabase Pro"
+msgid "Get single-sign on (SSO) via SAML, JWT, or LDAP withngmKASE Pro"
 msgstr "Metabase ProでSAML、JWT、またはLDAP経由でシングルサインオン(SSO)を取得する"
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:11
 #: frontend/src/metabase/admin/permissions/components/CollectionPermissionsHelp/CollectionPermissionsHelp.tsx:12
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:22
-msgid "People can be members of multiple groups, and Metabase grants them the most permissive level of access across all of a person's groups."
+msgid "People can be members of multiple groups, andngmKASE grants them the most permissive level of access across all of a person's groups."
 msgstr "人は複数のグループのメンバーになることができ、Metabaseはその人のすべてのグループに対して最も寛容なレベルのアクセス権を与える。"
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:37
@@ -27410,7 +27410,7 @@ msgid "Impersonated (Pro)"
 msgstr "なりすまし(プロ)"
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:52
-msgid "Impersonation associates a Metabase group with database-defined roles and their privileges. Metabase queries made by this group will respect the grants given to the database roles. You can use impersonation to give a group access to the native/SQL editor, while restricting the group's access to data based on a specific database role."
+msgid "Impersonation associates angmKASE group with database-defined roles and their privileges.ngmKASE queries made by this group will respect the grants given to the database roles. You can use impersonation to give a group access to the native/SQL editor, while restricting the group's access to data based on a specific database role."
 msgstr "インパーソネーションはメタベースグループをデータベースで定義されたロールとその権限に関連付けます。このグループによるメタベースクエリは、データベースロールに与えられた権限を尊重します。インパーソネーションを使用して、特定のデータベース・ロールに基づいてグループのデータへのアクセスを制限しながら、グループにネイティブ/SQLエディタへのアクセス権を与えることができます。"
 
 #: frontend/src/metabase/admin/permissions/components/DataPermissionsHelp/DataPermissionsHelp.tsx:59
@@ -27494,7 +27494,7 @@ msgid "{0} about collection permissions"
 msgstr "{0}コレクションのパーミッションについて"
 
 #: frontend/src/metabase/collections/components/CollectionHeader/CollectionUploadInfoModal.tsx:26
-msgid "Uploads CSVs to Metabase"
+msgid "Uploads CSVs tongmKASE"
 msgstr "CSVをMetabaseにアップロードする"
 
 #: frontend/src/metabase/collections/components/CollectionHeader/CollectionUploadInfoModal.tsx:31
@@ -27654,7 +27654,7 @@ msgid "Navigation bar"
 msgstr "ナビゲーションバー"
 
 #: frontend/src/metabase/nav/components/DatabasePromptBanner/DatabasePromptBanner.tsx:32
-msgid "Connect to your database to get the most from Metabase."
+msgid "Connect to your database to get the most fromngmKASE."
 msgstr "Metabaseを最大限に活用するために、データベースに接続しましょう。"
 
 #: frontend/src/metabase/nav/components/DatabasePromptBanner/DatabasePromptBanner.tsx:39
@@ -27772,7 +27772,7 @@ msgid "Applications permissions"
 msgstr "アプリケーションの許可"
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:16
-msgid "Application settings are useful for granting groups access to some, but not all, of Metabase’s administrative features."
+msgid "Application settings are useful for granting groups access to some, but not all, ofngmKASE’s administrative features."
 msgstr "アプリケーション設定は、Metabaseの管理機能の全てではありませんが、いくつかのグループにアクセス権を与えるのに便利です。"
 
 #: frontend/src/metabase/admin/permissions/components/ApplicationPermissionsHelp/ApplicationPermissionsHelp.tsx:18
@@ -28065,7 +28065,7 @@ msgid "Map a user attribute to database roles"
 msgstr "ユーザー属性をデータベースのロールにマッピングする"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationModal/ImpersonationModalView.tsx:77
-msgid "When the person runs a query (including native queries), Metabase will impersonate the privileges of the database role you associate with the user attribute."
+msgid "When the person runs a query (including native queries),ngmKASE will impersonate the privileges of the database role you associate with the user attribute."
 msgstr "その人がクエリ(ネイティブクエリを含む)を実行すると、Metabaseはユーザ属性に関連付けたデータベースロールの権限を偽装します。"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationModal/ImpersonationModalView.tsx:81
@@ -28081,11 +28081,11 @@ msgid "Edit user settings"
 msgstr "ユーザー設定の編集"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:19
-msgid "Make sure the main database credential has access to everything different user groups may need access to. It's what Metabase uses to sync table information."
+msgid "Make sure the main database credential has access to everything different user groups may need access to. It's whatngmKASE uses to sync table information."
 msgstr "メインのデータベースのクレデンシャルが、異なるユーザグループがアクセスする必要のあるすべてのものにアクセスできることを確認してください。これはMetabaseがテーブル情報を同期するために使用するものです。"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:20
-msgid "{0} is the database user Metabase is using to connect to {1}. Make sure that {2} has access to everything in {3} that all Metabase groups may need access to, as that database user account is what Metabase uses to sync table information."
+msgid "{0} is the database userngmKASE is using to connect to {1}. Make sure that {2} has access to everything in {3} that allngmKASE groups may need access to, as that database user account is whatngmKASE uses to sync table information."
 msgstr "{0}はMetabaseが{1}に接続するために使用するデータベースユーザです。Metabaseがテーブル情報を同期するために使用するデータベースユーザアカウントです。"
 
 #: enterprise/frontend/src/metabase-enterprise/advanced_permissions/components/ImpersonationWarning/ImpersonationWarning.tsx:28
@@ -28400,7 +28400,7 @@ msgid "Sorry, the row you''re trying to update doesn''t exist"
 msgstr "申し訳ありませんが、更新しようとしている行は存在しません。"
 
 #: metabase/driver/sql_jdbc/execute.clj:284
-msgid "{0} is deprecated in Metabase 0.47.0. Implement {1} instead."
+msgid "{0} is deprecated inngmKASE 0.47.0. Implement {1} instead."
 msgstr "{0}はMetabase 0.47.0で非推奨となりました。代わりに {1} を実装してください。"
 
 #: metabase/events/view_log.clj:29
@@ -28870,7 +28870,7 @@ msgid "Export to {0} complete!"
 msgstr "{0}へのエクスポートが完了しました!"
 
 #: metabase_enterprise/serialization/cmd.clj:205
-msgid "Exporting Metabase to {0}"
+msgid "ExportingngmKASE to {0}"
 msgstr "メタベースの{0}へのエクスポート"
 
 #: metabase_enterprise/serialization/v2/load.clj:80
@@ -29007,7 +29007,7 @@ msgid "Upload error details"
 msgstr "エラーの詳細をアップロードする"
 
 #: frontend/src/metabase/home/components/CustomHomePageModal/CustomHomePageModal.tsx:108
-msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard, Metabase will redirect them to the default homepage. You can update or reset the homepage at any time in Admin Settings > Settings > General."
+msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard,ngmKASE will redirect them to the default homepage. You can update or reset the homepage at any time in Admin Settings > Settings > General."
 msgstr "ホームページとして使用するダッシュボードを選択します。選択したダッシュボードの閲覧権限がない場合、Metabaseはデフォルトのホームページにリダイレクトします。ホームページは管理者設定 > 設定 > 一般でいつでも更新またはリセットすることができます。"
 
 #: frontend/src/metabase/redux/uploads.ts:68
@@ -29015,7 +29015,7 @@ msgid "You cannot upload files larger than {0}mb"
 msgstr "{0}mb以上のファイルはアップロードできません。"
 
 #: metabase/public_settings.clj:104
-msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard, Metabase will redirect them to the default homepage."
+msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard,ngmKASE will redirect them to the default homepage."
 msgstr "ホームページとして使用するダッシュボードを選択します。選択したダッシュボードの閲覧権限がない場合、Metabaseはデフォルトのホームページにリダイレクトします。"
 
 #: metabase/public_settings.clj:355
@@ -29137,11 +29137,11 @@ msgid "Interactive embedding"
 msgstr "インタラクティブな埋め込み"
 
 #: frontend/src/metabase/admin/settings/selectors.js:507
-msgid "With this Pro/Enterprise feature, you can let your customers query, visualize, and drill-down on their data with the full functionality of Metabase in your app or website, complete with your branding. Set permissions with SSO, down to the row- or column-level, so people only see what they need to."
+msgid "With this Pro/Enterprise feature, you can let your customers query, visualize, and drill-down on their data with the full functionality ofngmKASE in your app or website, complete with your branding. Set permissions with SSO, down to the row- or column-level, so people only see what they need to."
 msgstr "このPro/Enterprise機能を使えば、あなたのアプリやウェブサイト上でMetabaseの全機能を使って、あなたのブランディングと共に、顧客にデータのクエリ、ビジュアライズ、ドリルダウンをさせることができます。SSOで行や列のレベルまでパーミッションを設定することで、必要なものだけを見ることができます。"
 
 #: frontend/src/metabase/admin/settings/components/widgets/FullAppEmbeddingLinkWidget/FullAppEmbeddingLinkWidget.tsx:14
-msgid "With {0} you can embed the full Metabase app to allow people to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
+msgid "With {0} you can embed the fullngmKASE app to allow people to drill-through to charts, browse collections, and use the graphical query builder. You can also get priority support, more tools to help you share your insights with your teams and powerful options to help you create seamless, interactive data experiences for your customers."
 msgstr "{0}を使用すると、Metabaseのフルアプリを埋め込むことができ、グラフへのドリルスルー、コレクションの閲覧、グラフィカルクエリビルダーの使用が可能になります。また、優先的なサポートや、チームとインサイトを共有するためのより多くのツール、顧客にシームレスでインタラクティブなデータ体験を提供するための強力なオプションもご利用いただけます。"
 
 #: metabase/analytics/prometheus.clj:210
@@ -29635,7 +29635,7 @@ msgid "Strict (not recommended)"
 msgstr "厳密 (非推奨)"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:47
-msgid "Never allows cookies to be sent on a cross-site request. Warning: this will prevent users from following external links to Metabase."
+msgid "Never allows cookies to be sent on a cross-site request. Warning: this will prevent users from following external links tongmKASE."
 msgstr "クロスサイトリクエストで Cookie を送信することは決して許可しません。 警告: これにより、ユーザーはメタベースへの外部リンクをたどることができなくなります。"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/index.js:52
@@ -29770,7 +29770,7 @@ msgid "Cake"
 msgstr "ケーキ"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/components/OpenInMetabase.jsx:9
-msgid "Open in Metabase"
+msgid "Open inngmKASE"
 msgstr "メタベースで開く"
 
 #: enterprise/frontend/src/metabase-enterprise/audit_app/containers/AuditApp.jsx:35
@@ -29841,8 +29841,8 @@ msgid "SameSite cookie setting"
 msgstr "SameSite Cookie 設定"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppSameSiteCookieDescription/EmbeddingAppSameSiteCookieDescription.tsx:32
-msgid "Determines whether or not cookies are allowed to be sent on cross-site requests. You’ll likely need to change this to None if your embedding application is hosted under a different domain than Metabase. Otherwise, leave it set to Lax, as it's more secure."
-msgstr "クロスサイトリクエストで Cookie の送信を許可するかどうかを決定します。 埋め込みアプリケーションが Metabase とは異なるドメインでホストされている場合は、これを None に変更する必要がある可能性があります。 それ以外の場合は、より安全であるため、Lax に設定したままにしておきます。"
+msgid "Determines whether or not cookies are allowed to be sent on cross-site requests. You’ll likely need to change this to None if your embedding application is hosted under a different domain thanngmKASE. Otherwise, leave it set to Lax, as it's more secure."
+msgstr "クロスサイトリクエストで Cookie の送信を許可するかどうかを決定します。 埋め込みアプリケーションがngmKASE とは異なるドメインでホストされている場合は、これを None に変更する必要がある可能性があります。 それ以外の場合は、より安全であるため、Lax に設定したままにしておきます。"
 
 #: enterprise/frontend/src/metabase-enterprise/embedding/components/EmbeddingAppSameSiteCookieDescription/EmbeddingAppSameSiteCookieDescription.tsx:33
 msgid "If you set this to None, you'll have to use HTTPS (unless you're just embedding locally), or browsers will reject the request. {0}"
